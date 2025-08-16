@@ -1,0 +1,57 @@
+{
+	icon: "touhou_little_maid:maid_backpack_small"
+	id: "3EF45D673646EC8D"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 0
+					GunFireMode: "SEMI"
+					GunId: "qkl:clf10"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 0
+					GunFireMode: "SEMI"
+					GunId: "qkl:cbr9"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 0
+					GunFireMode: "SEMI"
+					GunId: "qkl:1871"
+					HasBulletInBarrel: 0b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 0
+					GunFireMode: "SEMI"
+					GunId: "tacz:springfield1873"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+	]
+	title: "除虫补给包"
+}

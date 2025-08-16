@@ -1,0 +1,19 @@
+{
+  "block.mbd2.stepper": "光刻机",
+  "gui.mbd2.stepper": "光刻机",
+  "block.mbd2.proxy_part_block": "光刻机",
+  "block.mbd2.stepper_fluid_input_port": "光刻机流体输入端口",
+  "block.mbd2.stepper_energy_input_port": "光刻机能量输入端口",
+  "block.mbd2.t1_investigate": "调查桌",
+  "block.mbd2.t2_investigate": "调查终端",
+  "block.mbd2.t3_investigate": "高级调查终端",
+  "block.mbd2.t1_research": "研究桌",
+  "block.mbd2.t2_research": "研究终端",
+  "block.mbd2.t3_research": "高级研究终端",
+  "mbd2.t1_investigate_recipe": "调查样本",
+  "mbd2.t2_investigate_recipe": "调查样本",
+  "mbd2.t3_investigate_recipe": "调查样本",
+  "mbd2.t1_research_recipe": "研究物品",
+  "mbd2.t2_research_recipe": "研究物品",
+  "mbd2.t3_research_recipe": "研究物品"
+}

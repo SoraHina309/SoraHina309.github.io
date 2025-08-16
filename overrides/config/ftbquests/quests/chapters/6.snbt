@@ -1,0 +1,561 @@
+{
+	autofocus_id: "2F637F5559A63C6A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6"
+	group: "7EAD463EC4676C73"
+	icon: "create:steam_engine"
+	id: "689C73B58769801F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2EFADCAE81BE6D6F"]
+			description: ["篝火和基础燃烧炉的热量明显不足以支撑庞大蒸汽机的满功率运作，你想到了地狱里的烈焰人，如果有办法给它请过来，说不定功率会大幅提升"]
+			hide_until_deps_complete: true
+			id: "5A81AF9401FEA8E4"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show blazeburner_ethics"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "7DB9884D318F48A5"
+					silent: true
+					title: "调度员信息..."
+					type: "command"
+				}
+				{
+					id: "2F77061F735BFC5C"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "6A3C017BF9257BA7"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F637F5559A63C6A"]
+			description: ["你效仿牛顿，发明了蒸汽机，通过将蒸汽引擎安装在液体储罐上再在其底部加上热源，便可源源不断的产生大量应力，一个蒸汽机可以连接很多个引擎，但是其应力取决于底部的发热量并且总量恒定"]
+			hide_until_deps_complete: true
+			id: "2EFADCAE81BE6D6F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 蒸汽机安装在液体储罐上再在其底部加上热源，便可源源不断的产生大量应力。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "21ADC1031EA32D29"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "26703F5E2681CDF3"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "3CC7CF6CC86957F0"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A81AF9401FEA8E4"]
+			description: ["简单的燃料显然不能让燃烧室超级燃烧太久，烈焰人的口味总是那么独特，你得做点好的给它吃"]
+			hide_until_deps_complete: true
+			id: "3341FDBC26A9D29E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 简单的燃料显然不能让燃烧室超级燃烧太久，烈焰人的口味总是那么独特，你得做点好的给它吃。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "178D679A6FBD3441"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "27A5724EC7EEF019"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "58C808783E3FC885"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1CCDDBF469FB7D62"]
+			description: ["经过千锤百炼你终于获得了第一块钢锭，它将伴随你走完整个科技复兴之路"]
+			hide_until_deps_complete: true
+			icon: "mekanism:ingot_steel"
+			id: "2CF4E261BE85AB91"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 经过千锤百炼你终于获得了第一块钢锭，它将伴随你走完整个科技复兴之路。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "0DE082A516695671"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "72DD7C509A7389FE"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "1E913A4289C185AB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			title: "钢锭"
+			x: 27.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["184ACF49905525BD"]
+			description: ["一块生铁锭，你可以把碳和铁放在工作盆里加热捶打，取出来之后便是半成品钢，你需要按照顺序用锟压机敲打16次，即可形成一块完美的钢"]
+			hide_until_deps_complete: true
+			id: "1CCDDBF469FB7D62"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 用锟压机敲打生铁锭16次，即可形成一块完美的钢。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "13F77BFDAD1A5963"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "52BD602851F28362"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "04507B83BE088E0F"
+				item: "fallout:pig_iron_ingot"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A81AF9401FEA8E4"]
+			description: ["有些时候，简单的一次捶打并不能将物品制作成你想要的样子"]
+			hide_until_deps_complete: true
+			id: "184ACF49905525BD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 有些时候，简单的一次捶打并不能将物品制作成你想要的样子。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "7008E26FCF5E791A"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "62CBE8408D967EEF"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "0F08C69F88B9B21F"
+				title: "精密加工"
+				type: "checkmark"
+			}]
+			title: "精密加工"
+			x: 23.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1463ACB0B65E7A0F"]
+			description: ["机械手可以利用应力帮你完成简单的放置/攻击/使用动作"]
+			hide_until_deps_complete: true
+			id: "551BD79CD8C602AB"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 机械手可以利用应力帮你完成简单的放置/攻击/使用动作。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "1907DAFAB9844ECF"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "748549CE93985707"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "7ACF8C77E834AF7E"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2EFADCAE81BE6D6F"]
+			hide_until_deps_complete: true
+			id: "1463ACB0B65E7A0F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "122F03109C1487EA"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "1B19E68413AB92F5"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "068630BE844427F2"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["551BD79CD8C602AB"]
+			description: ["动力合成器是一种可以让你实现大型配方制作的合成台，通过连接好每个合成器来制作大型合成台"]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "4FE872D3197C8491"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 动力合成器是一种可以让你实现大型配方制作的合成台，通过连接好每个合成器来制作大型合成台。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "18D536C6D2D9E3D2"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "3E1C4F3760991262"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "450FAD0793A5D032"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4FE872D3197C8491"]
+			description: ["粉碎轮可以帮你碾碎任何物品，碎石，粉碎矿物，甚至是给生物降维"]
+			hide_until_deps_complete: true
+			id: "45554F121915D58E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 粉碎轮可以帮你碾碎任何物品，碎石，粉碎矿物，甚至是给生物降维。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "3978D41AE07DB82A"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "79EEC6F081571212"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "6C72F054438CC40D"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["184ACF49905525BD"]
+			description: ["你发现磁铁在不断旋转的过程中，铜线中产生了些许电流，无毛猴发现了电"]
+			hide_until_deps_complete: true
+			id: "19CEBE446C34ADA4"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 交流电发电机可以把应力转化成电力。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "526CE90D5B81924E"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "274C04C37AB26391"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "2544CC224FCAD3F6"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19CEBE446C34ADA4"]
+			description: ["你发明了最基础的蓄电池，利用它将你的电储存起来，你可以将它摆放成类似于储罐的规格"]
+			hide_until_deps_complete: true
+			id: "3B01B6A0982AE613"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 利用蓄电池将你的电储存起来。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "1C510CF770A80F22"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "5D4D35E39AA49A2E"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "0E76D8AD009DD522"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3B01B6A0982AE613"]
+			description: ["当你的发电量达到一定程度后，你发现强电流可以加工一些特殊物品"]
+			hide_until_deps_complete: true
+			id: "1923ADF558774AE4"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 强电流可以加工一些特殊物品。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "5FEE4526EA21BFA2"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "71799410836ED289"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "5BEBCCB7029DE3D7"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3B01B6A0982AE613"]
+			description: ["利用产生的电力来反过来产生应力，当然，你可以控制应力的大小"]
+			hide_until_deps_complete: true
+			id: "0329D5EE4FA01D13"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 电动马达利用电力来产生应力，当然，你可以控制应力的大小。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "302225B4763DA67C"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "45B692225B421B69"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "1F8F84F0804FB2E0"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 28.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19CEBE446C34ADA4"]
+			description: ["电力需要借由连接器和导线流通"]
+			hide_until_deps_complete: true
+			id: "672026C56888874A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 电力需要借由连接器和导线流通。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "4D3153D4FB576A99"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "38389F77E4481702"
+					type: "xp"
+					xp: 2
+				}
+			]
+			tasks: [{
+				id: "4E350ECB036354D6"
+				item: "createaddition:connector"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F82510E3B4EE62F"]
+			description: [
+				"&bTECA蒸汽时代任务已开启"
+				"科研任务：&6高效燃烧器"
+				"科技增援等级：&e蒸汽时代"
+				"科研经费补贴：&6基础"
+			]
+			hide_dependency_lines: false
+			icon: "ftbquests:book"
+			id: "2F637F5559A63C6A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show teca_steam_stage"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "mekanism:energy_tablet"
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "1000000"
+								}]
+							}
+						}
+					}
+					id: "4620E24E2CC65CE2"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					count: 48
+					id: "3706D369D1525F25"
+					item: "fallout:steam"
+					only_one: true
+					type: "item"
+				}
+				{
+					id: "696C2D8CC3CD85AA"
+					type: "xp"
+					xp: 2
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "40ECBF4D82EB087B"
+				title: "&bTECA蒸汽时代任务已开启"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A81AF9401FEA8E4"]
+			description: ["干得漂亮！&bTECA&f不会忘记你的贡献。这是你们的&632x蒸汽研究点&f奖励"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "fallout:steam"
+			id: "4E964E2B9924A3F9"
+			rewards: [
+				{
+					count: 32
+					id: "55A2C52AB76EBDDB"
+					item: "fallout:steam"
+					only_one: true
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show teca_reward_ethics_limited"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "49D8293A9692F671"
+					silent: true
+					title: "调度员信息"
+					type: "command"
+				}
+				{
+					id: "7A74023B2D559F44"
+					type: "xp"
+					xp: 2
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "63C0CE171208E21F"
+				item: { Count: 5, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			title: "&bTECA烈焰人任务"
+			x: 21.75d
+			y: -0.75d
+		}
+	]
+	title: "&6蒸汽时代"
+}

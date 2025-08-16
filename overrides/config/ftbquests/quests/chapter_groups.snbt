@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "46C788249080A5A0", title: "&b序章" }
+		{ id: "5AEC04CE2B55D87F", title: "&a新手上路" }
+		{ id: "5BC95A684743E876", title: "&e重要功能" }
+		{ id: "7EAD463EC4676C73", title: "&bTECA任务中心" }
+		{ id: "26ECC210722E17B2", title: "&3AGIRT任务中心" }
+		{ id: "59DFC4C99E69DB7C", title: "&6异界生活录" }
+		{ id: "322CE16C03558B65", title: "&d终&5章" }
+	]
+}

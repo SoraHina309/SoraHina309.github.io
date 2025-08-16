@@ -1,0 +1,869 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "59DFC4C99E69DB7C"
+	icon: "alexscaves:immortal_embryo"
+	id: "1B1655EBB46F36CE"
+	images: [{
+		height: 5.0d
+		image: "touhou_little_maid:textures/gui/altar_icon.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: -5.5d
+		y: 6.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"本整合包增加了&6驯养革新&r模组和一些可驯服的&b冠军生物&r"
+				"&7你可以通过给生物附魔珠附上宠物专属的附魔来大幅增强你的宠物&r"
+			]
+			icon: "domesticationinnovation:collar_tag"
+			id: "19FBD6A53F4B9DD4"
+			tasks: [{
+				id: "560A69DAA10AF384"
+				title: "&3我的超级伙伴在哪里"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19FBD6A53F4B9DD4"]
+			id: "5D481F84BD6CEB08"
+			tasks: [{
+				id: "07D95051504ED174"
+				title: "&aT1吉祥物"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19FBD6A53F4B9DD4"]
+			id: "12CE7CF1AD34319C"
+			tasks: [{
+				id: "10B90F921DC65A36"
+				title: "&bT2中规中矩"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19FBD6A53F4B9DD4"]
+			id: "686A3814074BD53C"
+			tasks: [{
+				id: "118F9D2D04D26497"
+				title: "&dT4可堪一用"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19FBD6A53F4B9DD4"]
+			id: "46D16071415B564A"
+			tasks: [{
+				id: "04C6EAFC6CF9C83A"
+				title: "&6T4数值很高"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: [
+				"要想要驯服&e兔子&r你需要想办法对其喂食&e干草捆&r"
+				"如果你觉得兔子太弱了可以喂&4阴恶胡萝卜&r使其变为&c杀手兔&r"
+			]
+			icon: "minecraft:hay_block"
+			id: "7F4BA8EA84BC9705"
+			tasks: [{
+				id: "56CA12EE7949F10E"
+				title: "&e关于兔子的驯服"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["要想要驯服&e狼&r你需要对其喂食&e骨头&r"]
+			icon: "minecraft:bone"
+			id: "258A0362B75F8AF2"
+			tasks: [{
+				id: "2C0B171BB5112474"
+				title: "&e关于狼的驯服"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["要想要驯服&e猫&r你需要潜行靠近对其喂食&e生鱼&r"]
+			icon: "minecraft:cod"
+			id: "4661C4276F49D700"
+			tasks: [{
+				id: "5E08883D9BE5429B"
+				title: "&e关于猫的驯服"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["要想要驯服&e狐狸&r，你需要使用&c甜浆果&r让两只狐狸繁殖。这样即可获得驯服的&e小狐狸&r。"]
+			icon: "minecraft:sweet_berries"
+			id: "4E11B69F29A083B1"
+			tasks: [{
+				id: "12E75CB63FD5898F"
+				title: "&e关于狐狸的驯服"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["要想要驯服&2青蛙&r你需要对其喂食&c蜘蛛眼&r"]
+			icon: "minecraft:spider_eye"
+			id: "59944DC92047E388"
+			tasks: [{
+				id: "1ED4F02AE3FAC25A"
+				title: "&e关于青蛙的驯服"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["不要用桶带着&e美西螈&r了！对其喂食&e鱼&r即可驯服"]
+			icon: "minecraft:axolotl_bucket"
+			id: "335C6C78F53B4FD0"
+			tasks: [{
+				id: "7A592D47051A1A53"
+				title: "&e关于美西螈的驯服"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: [
+				"要想要驯服&e卷尾猴&r你需要对其喂食&e香蕉&r"
+				"&7卷尾猴可以站在玩家肩上，就像鹦鹉一样&r"
+			]
+			icon: "alexsmobs:banana"
+			id: "40E9A1B8D2C5BF93"
+			tasks: [{
+				id: "7B19140690296C6B"
+				title: "&e关于卷尾猴的驯服"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["要想驯服&e浣熊&r，你需要在&b水边&r向他们&a按Q&r丢出&e鸡蛋&r"]
+			icon: "minecraft:egg"
+			id: "27D08578AB97C33D"
+			tasks: [{
+				id: "1DFAA55E690EA39C"
+				title: "&e关于僵尸毁灭工程的驯服"
+				type: "checkmark"
+			}]
+			title: "&e关于浣熊的驯服"
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12CE7CF1AD34319C"]
+			description: [
+				"要想要驯服&3诡异蟾蜍&r你需要对其喂食&4绯红孑孓&r"
+				"&7这种蟾蜍是是昆虫克星&r"
+			]
+			icon: "friendsandfoes:warped_beehive"
+			id: "0253E185C97FFF18"
+			tasks: [{
+				id: "5845B3C24DFA3EFC"
+				title: "&e关于诡异蟾蜍的驯服"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: [
+				"要想要驯服&b白头海雕&r你需要对其喂食&e鱼油&r"
+				"且装备&6猎鹰手套&r后可以指挥&b白头海雕&r进行狩猎"
+				"&7戴上猎鹰兜帽的猎鹰会更强&r"
+			]
+			icon: "immersivepetroleum:crudeoil_bucket"
+			id: "4C8F849DFCF8D816"
+			tasks: [{
+				id: "6F1F4E23251516A6"
+				title: "&e关于白头海雕的驯服"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["要想要驯服&a鹦鹉&r你需要对其喂食&2&l种子&r而不是&c曲奇&r！"]
+			icon: "minecraft:wheat_seeds"
+			id: "3FBE88A78E772F20"
+			tasks: [{
+				id: "55456BE342BE91F2"
+				title: "&e关于鹦鹉的驯服"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: [
+				"要想要驯服&9林鸱&r你需要对其喂食&c龙虾尾&r"
+				"且装备&6猎鹰手套&r后可以指挥&9林鸱&r进行狩猎"
+			]
+			icon: "minecraft:feather"
+			id: "5508E4BB29DCDBD2"
+			tasks: [{
+				id: "46ED602B68A186BD"
+				title: "&e关于林鸱的驯服"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: [
+				"要想要驯服&e蜜袋鼯&r你需要对其喂食&c甜浆果&r"
+				"&7成年的蜜袋鼯可以站在玩家肩上帮助玩家缓降&r"
+			]
+			icon: "minecraft:honeycomb"
+			id: "7BCA985177473058"
+			tasks: [{
+				id: "6B477E635BFF476C"
+				title: "&e关于蜜袋鼯的驯服"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["要想要驯服&b雨蛙&r你需要对其喂食&4蛆&r"]
+			icon: "minecraft:ochre_froglight"
+			id: "3E40C391128D77D3"
+			tasks: [{
+				id: "22D7E5A74A1DBD1F"
+				title: "&e关于雨蛙的驯服"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["要想要驯服&6弹涂鱼&r你需要对其喂食&c龙虾尾&r"]
+			icon: "minecraft:packed_mud"
+			id: "0391B1757762BD03"
+			tasks: [{
+				id: "35529C514020A223"
+				title: "&e关于弹涂鱼的驯服"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: [
+				"要想要驯服&6渡鸦&r你需要对其喂食&2种子&r"
+				"&7渡鸦可以站在玩家肩上，就像鹦鹉一样&r"
+			]
+			icon: "minecraft:wheat_seeds"
+			id: "6844D2BC961EC9F1"
+			tasks: [{
+				id: "67A8A2C79F68F69D"
+				title: "&e关于渡鸦的驯服"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["要想要驯服&c拟态章鱼&r你需要对其喂食&c龙虾尾&r"]
+			icon: "alexsmobs:lobster_bucket"
+			id: "2DB5002B4FA4A8F6"
+			tasks: [{
+				id: "4E2FA343C18AC79D"
+				title: "&e关于拟态章鱼的驯服"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: [
+				"要想要驯服&d花飘飘&r你需要对其喂食&e花&r&c且不能重复&r"
+				"&7不过他可以用骨粉繁殖&r"
+			]
+			icon: "minecraft:spore_blossom"
+			id: "0D83DA73C786F85D"
+			tasks: [{
+				id: "27653250DF4D2F89"
+				title: "&e关于花飘飘的驯服"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["要想要驯服&e凯门鳄&r，你需要使用&b鲇鱼肉&r让两只凯门鳄繁殖出蛋。孵化后即可获得驯服的&e凯门鳄&r。"]
+			icon: "alexsmobs:caiman_egg"
+			id: "181411C60D31296C"
+			tasks: [{
+				id: "7B12FAD5AA309588"
+				title: "&e关于凯门鳄的驯服"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12CE7CF1AD34319C"]
+			description: ["要想要驯服&e鳄鱼&r，你需要使用&6腐肉&r让两只鳄鱼繁殖出蛋。孵化后即可获得驯服的&e鳄鱼&r。"]
+			icon: "alexsmobs:crocodile_egg"
+			id: "4A08AEAEA432CFFD"
+			tasks: [{
+				id: "261A2FFBA03A52BC"
+				title: "&e关于鳄鱼的驯服"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12CE7CF1AD34319C"]
+			description: ["要想要驯服&2科莫多巨蜥&r你需要对其喂食&6腐肉&r"]
+			icon: "alexsmobs:komodo_spit"
+			id: "3D4421546402701D"
+			tasks: [{
+				id: "29E799F7A665E233"
+				title: "&e关于科莫多巨蜥的驯服"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["686A3814074BD53C"]
+			description: ["要想要驯服&e犀牛&r你需要对其喂食&e小麦&r"]
+			icon: "minecraft:wheat"
+			id: "61A980F00F32937B"
+			tasks: [{
+				id: "428CBBD788B8546A"
+				title: "&e关于Rhion的驯服"
+				type: "checkmark"
+			}]
+			title: "&e关于犀牛的驯服"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12CE7CF1AD34319C"]
+			description: [
+				"要想要驯服&e袋鼠&r你需要对其喂食&6胡萝卜"
+				"&7驯服的袋鼠可以穿戴头盔和剑，就连幼崽也可以&r"
+			]
+			icon: "alexsmobs:kangaroo_burger"
+			id: "0E6BFFA8CB710EA5"
+			tasks: [{
+				id: "1708EB227C2013D4"
+				title: "&e关于袋鼠的驯服"
+				type: "checkmark"
+			}]
+			title: "&e关于袋鼠的驯服"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["686A3814074BD53C"]
+			description: [
+				"要想要驯服&e普通大象&r你需要对其喂食&e金合欢花&r"
+				"&7无需上鞍"
+				"&7长牙象大象需要在其幼年时喂食金合欢花驯服"
+			]
+			icon: "alexsmobs:acacia_blossom"
+			id: "6B9A53102C0ADED2"
+			tasks: [{
+				id: "71687CA582E69D4E"
+				title: "&e关于大象的驯服"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["686A3814074BD53C"]
+			description: [
+				"要想要驯服&6灰熊&r你需要对其投掷&e蜂蜜&r后再喂食&c鲑鱼&r"
+				"&7无需上鞍"
+			]
+			icon: "minecraft:honey_bottle"
+			id: "23D7FCB8ECE01D96"
+			tasks: [{
+				id: "537DA1CB79020C0E"
+				title: "&e关于灰熊的驯服"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12CE7CF1AD34319C"]
+			description: ["要想要驯服&c螳螂虾&r你需要对其喂食&6热带鱼&r"]
+			icon: "alexsmobs:shrimp_fried_rice"
+			id: "27D2429807E867ED"
+			tasks: [{
+				id: "0B50705E71A09CA1"
+				title: "&e关于螳螂虾的驯服"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12CE7CF1AD34319C"]
+			description: [
+				"要想要驯服&e大猩猩&r你需要对其喂食&e香蕉&r"
+				"&7但你只能让大猩猩游荡和坐下，它并不会跟着你&r"
+			]
+			icon: "alexsmobs:banana"
+			id: "4CA83A55A8A81E25"
+			tasks: [{
+				id: "3C887AC71DFBBE42"
+				title: "&e关于大猩猩的驯服"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: [
+				"要想要驯服&6马&r你需要骑在它身上"
+				"&7需要上鞍才可控制。喂食小麦能提高驯服成功率，金胡萝卜可以让驯服的马繁殖。"
+				"&7喂食烂苹果会让马变成僵尸马，喂食在林地府邸找到的阴恶胡萝卜会让马变成骷髅马&r"
+			]
+			icon: "minecraft:golden_carrot"
+			id: "49663B90824E2A73"
+			tasks: [{
+				id: "5B0D7CF87ECA89CD"
+				title: "&e关于马的驯服"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["你无法驯服&c猪&r，但你可以给&c猪&r上鞍使用&6胡萝卜钓竿&r进行&6骑乘&r"]
+			icon: {
+				Count: 1
+				id: "minecraft:carrot_on_a_stick"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "336C1F589DFE75C3"
+			tasks: [{
+				id: "494D5C538BB0ED5A"
+				title: "&e关于猪的驯服"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["你无法驯服&c炽足兽&r，但你可以给&c炽足兽&r上鞍使用&3诡异菌钓竿&r进行&6骑乘&r"]
+			icon: {
+				Count: 1
+				id: "minecraft:warped_fungus_on_a_stick"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E5D8AAF2B2CA8F9"
+			tasks: [{
+				id: "1447273D4898428B"
+				title: "&e关于炽足兽的驯服"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["12CE7CF1AD34319C"]
+			description: [
+				"你无法驯服&c炽岩&r，但你可以给&c炽焰&r安装&9跨座晶石鞍&r和&9跨座晶石头盔&r进行&6骑乘&r"
+				"&7跨座晶石鞍有四个位置。炽岩不怕水但外壳会变成黑曜石外壳&r"
+			]
+			icon: "alexsmobs:straddle_saddle"
+			id: "7EC22A2D031D8DB0"
+			tasks: [{
+				id: "73FC972FED97AD9B"
+				title: "&e关于炽岩的驯服"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12CE7CF1AD34319C"]
+			description: [
+				"要想要驯服&9阔鼻迅猛&r，你需要在箱子中放入&c恐龙肉块&r，等到其开箱食用后昏迷。喂食&a幽静沙拉&r即可驯服。"
+				"&7繁殖需要喂食恐龙肉块，蛋需要挖掉重放才能孵化&r"
+			]
+			icon: "alexscaves:vallumraptor_egg"
+			id: "10FB81F834DCA70F"
+			tasks: [{
+				id: "58031E965470F8B6"
+				title: "&e关于阔鼻迅猛龙的驯服"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12CE7CF1AD34319C"]
+			description: [
+				"你无法驯服&b遗迹恐手龙&r，但你可以给&b洞穴恐手龙&r喂食&e原始汤&r让它帮你推倒树"
+				"&7繁殖需要喂食星树果，蛋需要挖掉重放才能孵化&r"
+			]
+			icon: "alexscaves:relicheirus_egg"
+			id: "282CFB59209F174C"
+			tasks: [{
+				id: "6405BEF2CBBF04BC"
+				title: "&e关于遗迹恐手龙的驯服"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["686A3814074BD53C"]
+			description: [
+				"你无法驯服&6擎天龙&r，但你可以给&b洞穴恐手龙&r喂食&a幽静沙拉&r短暂骑乘"
+				"并且可以&6按G使用他的特殊能力&r破坏周围的方块&7 无需上鞍 繁殖需要喂食星树果，蛋需要挖掉重放才能孵化&r"
+			]
+			icon: "alexscaves:atlatitan_egg"
+			id: "6DFC021EB02E3F17"
+			tasks: [{
+				id: "69126F054C398A66"
+				title: "&e关于擎天龙的驯服"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["686A3814074BD53C"]
+			description: [
+				"要想要驯服&e地底翼龙&r，你需要给它们喂食&e生鳕鱼&r繁殖获得蛋，或者从原始洞穴高处获得蛋。进行孵化才可驯服。"
+				"&7蛋需要挖掉重放才能孵化。&m用生物附魔珠对其附魔迅速行者能够让你获得一只喷气式翼龙&r"
+			]
+			icon: "alexscaves:subterranodon_egg"
+			id: "523ADF96FCC058B8"
+			tasks: [{
+				id: "6615DA16C5BAC5C5"
+				title: "&e关于地底翼龙的驯服"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12CE7CF1AD34319C"]
+			description: [
+				"要想要驯服&3海马&r你需要对其喂食&2海带或海绵&r"
+				"&7海马会给骑乘者提供水下呼吸&r"
+			]
+			icon: "iceandfire:hippocampus_fin"
+			id: "48F3F828895FA2AC"
+			tasks: [{
+				id: "0DDBD2BE68CB2359"
+				title: "&e关于海马的驯服"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["686A3814074BD53C"]
+			description: [
+				"要想要驯服&6撼地龙&r，你需要手持&6原始大棒&r打晕后喂食&a幽静沙拉&r才可驯服。&7按G能大吼大叫让身边的生物乱跑"
+				"&7无需上鞍。繁殖需要喂食恐龙肉骨，蛋需要挖掉重放才能孵化。"
+			]
+			icon: "alexscaves:tremorsaurus_egg"
+			id: "1BBFD85A6FA0C090"
+			tasks: [{
+				id: "54F018C62F24F169"
+				title: "&e关于撼地龙的驯服"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: ["你无法驯服&6骆驼&r，但你可以直接坐上去上鞍&6骑乘&r"]
+			icon: "minecraft:cactus"
+			id: "3362EA00C8D45C0E"
+			tasks: [{
+				id: "6389D956DA7DEB4A"
+				title: "&e关于骆驼的驯服"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: [
+				"要想要驯服&e羊驼&r你需要骑在它身上，&c但他不能被上鞍&r"
+				"&7羊驼会互相跟随，干草块可以让驯服的羊驼繁殖。"
+			]
+			icon: "minecraft:blue_carpet"
+			id: "40C5B0E52B89541A"
+			tasks: [{
+				id: "1BF7A9545F3A0299"
+				title: "&e关于羊驼的驯服"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5D481F84BD6CEB08"]
+			description: [
+				"你无法驯服&b快乐恶魂&r，但放上&e挽具&r后即可&6骑乘&r。你甚至可以站在快乐恶魂上面！"
+				"&7需要泡发在灵魂沙峡谷骨架生成的干枯恶魂才可获得快乐恶魂&r"
+			]
+			icon: "dried_ghast:dried_ghast"
+			id: "5EF85C0CEC52B84C"
+			tasks: [{
+				id: "4D1EBDB9243A7EB7"
+				title: "&e关于快乐恶魂的驯服"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["46D16071415B564A"]
+			description: [
+				"要想要驯服&e飞龙&r，你需要杀死地底的&6四级母龙&r获得蛋才可驯服。"
+				"&c火龙蛋需放置在火中孵化&r，&b冰龙蛋需放置在水中孵化&r，&d电龙蛋需放置在雨中孵化&r。"
+				"&7翅膀有花纹的飞龙的雄性，需要给一公一母喂食对应的花汤驯服。"
+				"&7&m当然野生的龙也可以，哪怕不是地底的四级龙。"
+			]
+			icon: "iceandfire:dragonegg_red"
+			id: "4090DE0342570995"
+			tasks: [{
+				id: "1E14A804BACD0AA0"
+				title: "&e关于飞龙的驯服"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["46D16071415B564A"]
+			description: [
+				"要想要获得并驯服&e撼地斯拉&r，你需要挖掘原始洞穴的琥珀制作&4灾厄触媒&r，将其丢入火山中召唤&4暝煌龙&r将其杀死获得&4板块碎片&r。"
+				"随后前往&9深海陷洞窟猎杀碎船兽&r，获取&b永恒胚胎&r。随后将两者与撼地龙蛋合成，制成撼地斯拉蛋。对蛋使用核爆将其孵化后，喂食废料桶驯服。"
+				"&c（注意！由于未知原因点燃核弹会崩溃，请使用核爆苦力怕或/summon alexscaves:nuclear_explosion孵化）&r"
+				"&7废料桶可以通过用金属桶装下核能高炉中的核废料获得，也可以在毒化洞穴发现。&r"
+			]
+			icon: "alexscaves:tremorzilla_egg"
+			id: "1C619264839A1876"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @s [{\"text\":\"<相位仪>注意！由于未知原因点燃核弹会崩溃，请使用核爆苦力怕或/summon alexscaves:nuclear_explosion孵化\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				elevate_perms: true
+				id: "05B97B98333AEB4C"
+				silent: true
+				title: "提示"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4BF48CCC4F1BC42A"
+				title: "&e关于撼地斯拉的驯服"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19FBD6A53F4B9DD4"]
+			description: ["&e最重要的伙伴就是跟你一起玩的朋友。请善待他们！&r"]
+			icon: "minecraft:player_head"
+			id: "33B38925A277DCA1"
+			tasks: [{
+				id: "3C8FE19FBE4FFB94"
+				title: "&e最重要的伙伴"
+				type: "checkmark"
+			}]
+			title: "&e最重要的伙伴"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19FBD6A53F4B9DD4"]
+			description: [
+				"这些&c可爱的小家伙&r们，能够帮你&4打怪&r，&a收菜&r，甚至是&d帮忙干活和下棋&r。"
+				"&c&m至于他们是不是从某幻想乡来的，这不重要&r"
+			]
+			icon: "touhou_little_maid:maid_spawn_egg"
+			id: "31BBFAB8673C822F"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @s [{\"text\":\"<相位仪>如果你觉得女仆很吵，可以右键女仆调整其音量和说话频率\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				elevate_perms: true
+				id: "52F6A2583C9541ED"
+				silent: true
+				title: "提示"
+				type: "command"
+			}]
+			tasks: [{
+				id: "59644A5799FEBC8F"
+				title: "&c幻想乡的帮手"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["31BBFAB8673C822F"]
+			description: [
+				"&7你在这里发现了一个破旧的木盒"
+				"&7里面似乎能塞入硬币....&r"
+			]
+			icon: "minecraft:jukebox"
+			id: "58025D9E232A59AC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show reimu"
+					elevate_perms: true
+					id: "30FE7EE7297AEF8E"
+					silent: true
+					title: "对话"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "1A53625CBB6EDA7B"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:hakurei_gohei"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:smite"
+									lvl: 10
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1
+								}
+								{
+									id: "touhou_little_maid:enders_ender"
+									lvl: 1
+								}
+								{
+									id: "touhou_little_maid:impeding"
+									lvl: 1
+								}
+								{
+									id: "touhou_little_maid:speedy"
+									lvl: 1
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3
+								}
+							]
+							display: {
+								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"dark_gray\",\"text\":\"上面似乎蕴含着某人的穷酸味....\"}],\"text\":\"\"}"]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"破旧的御币\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 250L
+				id: "0BAB3C3F03C16648"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "&c往里面塞钱"
+				type: "item"
+			}]
+			title: "&7神秘的破盒子"
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["31BBFAB8673C822F"]
+			id: "1A504B1582DC09F5"
+			rewards: [{
+				id: "5293953DD10F253B"
+				item: {
+					Count: 1
+					id: "fallout:onion"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FA50EDDB21CC398"
+				title: "&bMIKU.？"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+	]
+	title: "&3意外之喜"
+}

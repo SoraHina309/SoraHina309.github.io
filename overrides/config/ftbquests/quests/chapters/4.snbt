@@ -1,0 +1,2372 @@
+{
+	autofocus_id: "7282310FA4563930"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4"
+	group: "59DFC4C99E69DB7C"
+	icon: {
+		Count: 1
+		id: "farmersdelight:iron_knife"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5ABD0B1026073768"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B6EC7BF338A1E99"]
+			description: [
+				"本整合包添加了&2农夫乐事&r这款著名的烹饪mod。"
+				"跟&e森罗物语&r比偏向&c西式烹饪&r"
+				"&e←模组食品图鉴&6→模组物品介绍"
+			]
+			id: "7282310FA4563930"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "3255CC49D44FD026"
+				title: "&2农夫乐事"
+				type: "checkmark"
+			}]
+			x: 24.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["2FDB00B70372E3D8"]
+			description: ["在农夫乐事中你需要将锅放置在&6炉灶&r或&6篝火&r上才能进行&a烹饪&r"]
+			id: "5FB05EB5E09D5522"
+			tasks: [{
+				id: "48970B6B6542F166"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "&6关于炉灶"
+			x: 28.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["7282310FA4563930"]
+			description: [
+				"你可以用&a农夫乐事&r自带的&e小刀&r&a右键砧板进行切菜&r"
+				"甚至对&a草&r进行破坏获得草杆"
+				"草杆可以用于制作&6堆肥，绳子与拴绳。&r"
+			]
+			id: "2FDB00B70372E3D8"
+			tasks: [
+				{
+					id: "29B7BEBC2E720DE6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+					title: "获得一把小刀"
+					type: "item"
+				}
+				{
+					id: "548F7C5A3E66205C"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "&c收割现在开始！"
+			x: 26.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["2FDB00B70372E3D8"]
+			description: [
+				"&2农夫乐事&r添加了多种&a野生作物&r，用于给玩家提供&e作物种子&r"
+				"（&2卷心菜&r，&6胡萝卜&r，&e马铃薯&r，&d洋葱&r，&e水稻&r，&4甜菜&r，&c番茄&c）"
+			]
+			id: "07F784E0A9249BB0"
+			tasks: [{
+				block: "farmersdelight:wild_crops"
+				block_type: 1
+				checkItem: false
+				id: "3AC9BA839570AB8A"
+				title: "采集一种野生作物"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			x: 26.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["2FDB00B70372E3D8"]
+			description: ["&2农夫乐事&r增加了&a卷心菜&r，一种普通的&2蔬菜&r"]
+			id: "3B89E5AF526AF66D"
+			tasks: [{
+				id: "39D7349659FEEEA3"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["2FDB00B70372E3D8"]
+			description: [
+				"&2农夫乐事&r增加了&c番茄&r，一种多汁的&c果实&r"
+				"&7&m秦始皇:该物品已跟森罗物语的同种物品合并&r"
+			]
+			id: "7FDB7A7494E66665"
+			tasks: [{
+				id: "3FEB3735ACC31E50"
+				item: "kaleidoscope_cookery:tomato"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["2FDB00B70372E3D8"]
+			description: [
+				"&2农夫乐事&r增加了&e水稻&r，一种&e主粮"
+				"&7&m秦始皇:该物品已跟森罗物语的同种物品合并&r"
+			]
+			id: "4AEF45E21B4240A7"
+			tasks: [{
+				id: "77CBC69E2C21E41D"
+				item: "kaleidoscope_cookery:rice"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["2FDB00B70372E3D8"]
+			description: ["&2农夫乐事&r增加了&d洋葱&r，一种让人哭哭的&2蔬菜&r"]
+			id: "4D487C0B2E1035A4"
+			tasks: [{
+				id: "359170047FAFFA15"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["1A6E62B881816C12"]
+			description: ["一种地板"]
+			id: "488AE785A00DE306"
+			tasks: [{
+				id: "790CC76A7D9078C6"
+				item: "farmersdelight:tatami"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["5FB05EB5E09D5522"]
+			description: ["&2农夫乐事&r有两种需要放在&6篝火或炉灶&r上的锅，&6煎锅&r是无限耐久的&6烟熏炉&r。&e煮锅&r是一种&a自动烹饪机器&r"]
+			id: "5D52BC5E681C063A"
+			tasks: [
+				{
+					id: "44D30A70F9EAD208"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "638FC3BEFE088E60"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+			]
+			x: 30.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["5D52BC5E681C063A"]
+			description: ["你可以手持&2农夫乐事&r的&e小刀&r击杀名字带猪的生物获得&c火腿&r。"]
+			id: "5BBFEA2EDE65CCA8"
+			tasks: [{
+				id: "331A5DD784458B26"
+				item: "farmersdelight:ham"
+				type: "item"
+			}]
+			title: "&c无中生有"
+			x: 30.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5FB05EB5E09D5522"]
+			id: "4B158A113689BE6B"
+			tasks: [{
+				id: "7E66E2D70A176609"
+				item: "farmersrespite:kettle"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["4AEF45E21B4240A7"]
+			description: ["你可以把农夫乐事的&e大米，作物&r合成为方块当作&a装饰兼储存方式&r。"]
+			icon: "farmersdelight:rice_bag"
+			id: "7C5C1B0C7F64FEC0"
+			tasks: [{
+				id: "073EE4590CA49148"
+				title: "&e浪漫储存"
+				type: "checkmark"
+			}]
+			x: 26.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["7282310FA4563930"]
+			description: ["每做过一种食物会获得&a调查点奖励&r"]
+			id: "5375F3C5F26B2612"
+			tasks: [{
+				id: "1A4CA0B3C562491D"
+				title: "菜品图鉴"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7282310FA4563930"]
+			description: ["每做过一种食物会获得&a调查点奖励&r"]
+			id: "215B3E3A703A6D9A"
+			tasks: [{
+				id: "58B71C8469FAFAC4"
+				title: "原始菜品图鉴"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 40.5d
+		}
+		{
+			dependencies: ["7282310FA4563930"]
+			description: ["每做过一种食物会获得&a调查点奖励&r"]
+			id: "16EAE4C8CFA153D7"
+			tasks: [{
+				id: "55B50676F7DBD428"
+				title: "炖汤图鉴"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7282310FA4563930"]
+			description: ["每做过一种食物会获得&a调查点奖励&r"]
+			id: "3ABB78209C2B45C4"
+			tasks: [{
+				id: "13C731E77C5CF729"
+				title: "大餐图鉴"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: 33.0d
+		}
+		{
+			dependencies: ["7282310FA4563930"]
+			description: ["每做过一种茶饮会获得&a调查点奖励&r"]
+			id: "6F1B62421BBF0812"
+			tasks: [{
+				id: "71ACD0954931B088"
+				title: "茶饮图鉴"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7282310FA4563930"]
+			description: ["每做过一种食物会获得&a调查点奖励&r"]
+			id: "15E6C83B8B4E6359"
+			tasks: [{
+				id: "21AF153633623AE9"
+				title: "甜品图鉴"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "1E3F3A3FF4F2792A"
+			rewards: [{
+				count: 5
+				id: "2C932E145672FA33"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "211FA1F7A70FD8E5"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "670D591396A170AB"
+			rewards: [{
+				count: 5
+				id: "7AF3EB22359D851C"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "685748B6FAC39E91"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "2F5AB499496ACAA3"
+			rewards: [{
+				count: 5
+				id: "59BC382A1A69FA61"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DFB3F60F1D8B4D3"
+				item: "minecraft:pumpkin_pie"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "1CE66E7FC7D6B000"
+			rewards: [{
+				count: 5
+				id: "3D1387D358FFE963"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53E0D0DE550B50C4"
+				item: "farmersdelight:sweet_berry_cheesecake"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "4377BBA9CA6E3135"
+			rewards: [{
+				count: 5
+				id: "566C80D8B8A62BCE"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7644E4BE1B3EDC2A"
+				item: "farmersdelight:chocolate_pie"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "79732DDD2F3670F9"
+			rewards: [{
+				count: 5
+				id: "10FB13705F1B5FAB"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "651A96ECE36A1E24"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "54012452EC527B95"
+			rewards: [{
+				count: 5
+				id: "2E08869A181B927F"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F855C1E9731E150"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "04A507535F52FA36"
+			rewards: [{
+				count: 5
+				id: "0A72275917A25CEA"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A76C0DEC42F4749"
+				item: "createaddition:chocolate_cake"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "6757B6D97D198A0E"
+			rewards: [{
+				count: 5
+				id: "630C14D83E35035F"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E8085E859495071"
+				item: "createaddition:honey_cake"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "7A3820F4BC24C49C"
+			rewards: [{
+				count: 5
+				id: "30C66BC22E515FA0"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A44524D1B476411"
+				item: "farmersrespite:coffee_cake"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "70E3F7958AD247E3"
+			rewards: [{
+				count: 5
+				id: "67EF5DFDA9586CA8"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "379A4F50F338A3FB"
+				item: "farmersdelight:glow_berry_custard"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "3E565909EA52A09B"
+			rewards: [{
+				count: 5
+				id: "382E7E409BB6AB40"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "078342799F59FA58"
+				item: "farmersdelight:melon_popsicle"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "048A069A3928F60C"
+			rewards: [{
+				count: 5
+				id: "0D3EFF28D21749C8"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E8C071AA2E2B6DE"
+				item: "farmersrespite:rose_hip_pie"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			description: ["&c&l啊噗鲁派！&r"]
+			id: "2574ABD39BEB0158"
+			rewards: [
+				{
+					id: "4BEA3F1CAAD81FA6"
+					item: {
+						Count: 1
+						id: "minecraft:apple"
+						tag: {
+							AttributeModifiers: [{
+								Amount: 1.0d
+								AttributeName: "tacz_fire_control_extension:aim_cone_angle"
+								Operation: 1
+								Slot: "offhand"
+								UUID: [I;
+									111280423
+									-542422644
+									-2050794942
+									-37743964
+								]
+							}]
+							Enchantments: [{
+								id: "domesticationinnovation:charisma"
+								lvl: 0
+							}]
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"red\",\"text\":\"雷繆乐\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "545E94EBEDCEF90F"
+					item: "fallout:adaptation"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6929E726BDC8E437"
+				item: "farmersdelight:apple_pie"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "7A7BAD0362D8B45D"
+			rewards: [{
+				count: 5
+				id: "581F68666DC66679"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0399EDEA8E53C1A5"
+				item: "legendarysurvivaloverhaul:purified_water_bottle"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "397202763A258EF5"
+			rewards: [{
+				count: 5
+				id: "43B73CFDDB6280D4"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AD0905727B96B3B"
+				item: "farmersdelight:milk_bottle"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "5F68666025E885E7"
+			rewards: [{
+				count: 5
+				id: "164FF79FA0CF335A"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7635FE32B683F114"
+				item: "farmersrespite:green_tea"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "5C19BEDB681B0EEB"
+			rewards: [{
+				count: 5
+				id: "6CBF8813C16D69A0"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "580B46FE72076151"
+				item: "farmersrespite:yellow_tea"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "0A23D97D209141C1"
+			rewards: [{
+				count: 5
+				id: "7059C66296376E71"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "653D71E631C8B859"
+				item: "farmersrespite:black_tea"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "5B83B4D2DFDC5546"
+			rewards: [{
+				count: 5
+				id: "6896807C36D56362"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16FACCC7753C7861"
+				item: "farmersrespite:rose_hip_tea"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "545983B7EDA3FD58"
+			rewards: [{
+				count: 5
+				id: "57325F9A5FEF311C"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0ABD8AA8B90980C5"
+				item: "farmersrespite:coffee"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "75A11F75E8ACA6CD"
+			rewards: [{
+				count: 5
+				id: "294FC8B6608F8647"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1974B74C928AF7BD"
+				item: "farmersrespite:purulent_tea"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "436005BFADBB2EFE"
+			rewards: [{
+				count: 5
+				id: "7A8CE6E363F1A4E5"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D3A7C913CEF99A7"
+				item: "farmersrespite:gamblers_tea"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "539DC236EB0C7871"
+			rewards: [{
+				count: 5
+				id: "18693C0081E3221A"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FFA36F3BC9CA413"
+				item: "legendarysurvivaloverhaul:apple_juice"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "30CA23A843776529"
+			rewards: [{
+				count: 5
+				id: "3D95DB428C04B886"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DEBD2782077A59C"
+				item: "legendarysurvivaloverhaul:melon_juice"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "1D39A4604A8992E6"
+			rewards: [{
+				count: 5
+				id: "101C1114BC898B68"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02E372434AE2D43F"
+				item: "farmersrespite:dandelion_tea"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "4065A720D4146250"
+			rewards: [{
+				count: 5
+				id: "559F9ED73A7EE76C"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60DF65AF94673AF5"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "32C52CB036BEC6FC"
+			rewards: [{
+				count: 5
+				id: "7AC3F7E4F9FE51BC"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F3BD006AB87903B"
+				item: "legendarysurvivaloverhaul:cactus_juice"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "60E2EDAC19BEABF8"
+			rewards: [{
+				count: 5
+				id: "616023601F78FBBD"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AEA7747F338503B"
+				item: "legendarysurvivaloverhaul:golden_apple_juice"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "4CAD6E96F1C4C116"
+			rewards: [{
+				count: 5
+				id: "6B64969B039149F8"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12ADFD5EC2F36E4D"
+				item: "legendarysurvivaloverhaul:carrot_juice"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "2EB1A5764CC2D84F"
+			rewards: [{
+				count: 5
+				id: "43D41DEF3D61E0B5"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C47783D64288B76"
+				item: "legendarysurvivaloverhaul:glistering_melon_juice"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "535556FE56C9B28D"
+			rewards: [{
+				count: 5
+				id: "75578F59C88CB042"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E8B7EDCA75F94BE"
+				item: "legendarysurvivaloverhaul:pumpkin_juice"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "0CA883B097470AC6"
+			rewards: [{
+				count: 5
+				id: "7CD5A5044BB500F4"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C835236952E735C"
+				item: "legendarysurvivaloverhaul:golden_carrot_juice"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "4540ED78C1A69304"
+			rewards: [{
+				count: 5
+				id: "27215A6338D01DFF"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AFBF62702F48916"
+				item: "legendarysurvivaloverhaul:beetroot_juice"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "2E1E499BCE671F82"
+			rewards: [{
+				count: 5
+				id: "2FF18B1B06475D85"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DD8E91C2105CCD0"
+				item: "legendarysurvivaloverhaul:chorus_fruit_juice"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7282310FA4563930"]
+			description: ["每做过一种食物会获得&a调查点奖励&r"]
+			id: "7DA65A63A5FF1C12"
+			tasks: [{
+				id: "6BCF6A4CEE219A7B"
+				title: "生冷食品图鉴"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["7DA65A63A5FF1C12"]
+			id: "5AA160993C341E22"
+			rewards: [{
+				count: 5
+				id: "3FE807D78C1BD7F3"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "769C5F0AEC16FC95"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["7DA65A63A5FF1C12"]
+			id: "6BE3479137D70CC8"
+			rewards: [{
+				count: 5
+				id: "653EFF35AB1427D5"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51B6502F33188571"
+				item: "farmersdelight:cod_roll"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["7DA65A63A5FF1C12"]
+			id: "254482FC672CF551"
+			rewards: [{
+				count: 5
+				id: "03B546FF2E7ECFD4"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A7FCA4753C0037E"
+				item: "farmersdelight:salmon_roll"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["7DA65A63A5FF1C12"]
+			id: "78B2A7055696144F"
+			rewards: [{
+				count: 5
+				id: "4B5258EB5A1F98CA"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D829EE1D5CCCE7C"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["7DA65A63A5FF1C12"]
+			id: "27D570C5D9650F0B"
+			rewards: [{
+				count: 5
+				id: "4CD6BA736A7B417F"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BA7CE1439194EA2"
+				item: "farmersdelight:kelp_roll_slice"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["7DA65A63A5FF1C12"]
+			id: "70F58F6A9578325F"
+			rewards: [{
+				count: 5
+				id: "67DEF53EF0E4A26B"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53F3D084C6EFEBE3"
+				item: "farmersdelight:kelp_roll_slice"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "044345344B75EDE6"
+			rewards: [{
+				count: 5
+				id: "11F6BF397A31188F"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44CFF0BBA87D1820"
+				item: "farmersdelight:stuffed_potato"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "25D42FF584D0B764"
+			rewards: [{
+				count: 5
+				id: "6726F4D7D1FD3FF1"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "482B894B68692033"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "7EBEC016CC76BA20"
+			rewards: [{
+				count: 5
+				id: "25B1CCB476A2F5FD"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "607ABE4C5BFC9F7D"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "6A82AA49BB626ABB"
+			rewards: [{
+				count: 5
+				id: "24C7A58BA980ED87"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41C02CFE3713A347"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "3BAE49C5729B3F66"
+			rewards: [{
+				count: 5
+				id: "2A04B215DC1ABDEA"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "041E2C0444670406"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "07AC2FB3050DD549"
+			rewards: [{
+				count: 5
+				id: "7AA726A8B8CC4475"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AC4E8FE7193E81E"
+				item: "farmersdelight:chicken_sandwich"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "46D86A4B37D27224"
+			rewards: [{
+				count: 5
+				id: "3D0C6B80FC679EE3"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F21A6507B9827ED"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "2E8C77C43EF32917"
+			rewards: [{
+				count: 5
+				id: "796313C84A767230"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "212B4EF80B551433"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "51C5B69545DD840F"
+			rewards: [{
+				count: 5
+				id: "33C1FF217529F57B"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7028D48841BBE2FD"
+				item: "farmersdelight:bacon_and_eggs"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "26B69C0630588510"
+			rewards: [{
+				count: 5
+				id: "30020A3801D3A5F9"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13A1A427C5D28054"
+				item: "farmersdelight:grilled_salmon"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "54BA01B144F42F3F"
+			rewards: [{
+				count: 5
+				id: "7E78768A0EBC72E4"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72BAB3126B988E3C"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "131BE276367D2D86"
+			rewards: [{
+				count: 5
+				id: "76C5E607A184FC01"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D8BA9706A0E8261"
+				item: "farmersdelight:dog_food"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "098DADF7D014C6DB"
+			rewards: [{
+				count: 5
+				id: "5A508E94B82465FE"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73358E99FD6DAB0F"
+				item: "farmersdelight:horse_feed"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "54315805456B54AB"
+			rewards: [{
+				count: 5
+				id: "611639F5FDF7704B"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33D6EC3E0FC64503"
+				item: "farmersdelight:ratatouille"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "0166A6E522601570"
+			rewards: [{
+				count: 5
+				id: "3E452E3195C2E8E0"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1241C7F8E5368471"
+				item: "farmersdelight:roasted_mutton_chops"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "5E3E3B16C90A7319"
+			rewards: [{
+				count: 5
+				id: "33AC4398B6BB75DB"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F5E68A3D48691CA"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "4C490F97A54EDAFD"
+			rewards: [{
+				count: 5
+				id: "143D148570B655A2"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "398512B5CE2D593D"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "0DE2C9FAA80BCFB5"
+			rewards: [{
+				count: 5
+				id: "258384A52C58D12F"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32C103520E6E6E0C"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "2CD928C06888B98A"
+			rewards: [{
+				count: 5
+				id: "51BE6537E17ADA81"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38A9E0E017C2ED62"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["16EAE4C8CFA153D7"]
+			id: "5468420F57C8D6A7"
+			rewards: [{
+				count: 5
+				id: "2D525E08EBA433D7"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AEF418A1CF26EF9"
+				item: "minecraft:mushroom_stew"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["16EAE4C8CFA153D7"]
+			id: "5FDE60E3017CD4E3"
+			rewards: [{
+				count: 5
+				id: "22FDEE9EF3AC85BD"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12D8479A29287260"
+				item: "minecraft:beetroot_soup"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["16EAE4C8CFA153D7"]
+			id: "57F798F6835B786C"
+			rewards: [{
+				count: 5
+				id: "721C11F8EF70CF18"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60991CDDF0B2D1D0"
+				item: "minecraft:rabbit_stew"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["16EAE4C8CFA153D7"]
+			id: "120960B0966734CC"
+			rewards: [{
+				count: 5
+				id: "7BAA6E169AF1D504"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AE53D376F293D30"
+				item: "farmersdelight:bone_broth"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["16EAE4C8CFA153D7"]
+			id: "01AA4470E4C26571"
+			rewards: [{
+				count: 5
+				id: "579D2F1AA3041DE2"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AB8AA9B93BFEB47"
+				item: "farmersdelight:pumpkin_soup"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["16EAE4C8CFA153D7"]
+			id: "3C6606F22A8F7878"
+			rewards: [{
+				count: 5
+				id: "789B51CCB654AC48"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C13D26672830C64"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["16EAE4C8CFA153D7"]
+			id: "0E209C2FFC366676"
+			rewards: [{
+				count: 5
+				id: "4EDD3A88F49AF8D4"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26B14164CF855B43"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["16EAE4C8CFA153D7"]
+			id: "3757554DE63B16A5"
+			rewards: [{
+				count: 5
+				id: "1A21A420896C5218"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4069BC6005577715"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["16EAE4C8CFA153D7"]
+			id: "1C2AA7C428A262E0"
+			rewards: [{
+				count: 5
+				id: "5081ABB5CFF5B8FE"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BEE23EB4C5D161F"
+				item: "farmersdelight:fish_stew"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["16EAE4C8CFA153D7"]
+			id: "154185BA05675735"
+			rewards: [{
+				count: 5
+				id: "25132085546ACDD7"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09106819F0821AF0"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["16EAE4C8CFA153D7"]
+			id: "6CABF6BF40E6D171"
+			rewards: [{
+				count: 5
+				id: "118585CDF487449F"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "510B8FF01C6785C3"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "5D8D774812EA3B84"
+			rewards: [{
+				count: 5
+				id: "3E172BFC2BC0E77B"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77C574CBF7BA7CE3"
+				item: "supplementaries:pancake"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["5FB05EB5E09D5522"]
+			description: ["&a农夫乐事&r增加了这些画风很原版的容器"]
+			icon: "farmersdelight:oak_cabinet"
+			id: "1A6E62B881816C12"
+			tasks: [
+				{
+					id: "29AC4122E448F74B"
+					item: "farmersdelight:oak_cabinet"
+					type: "item"
+				}
+				{
+					id: "02D4A2E92BEEE165"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+			]
+			x: 28.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "0C60A66EC7E3ED8C"
+			rewards: [{
+				count: 5
+				id: "5CD608B58EE7D978"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E414D6B53282C60"
+				item: "farmersrespite:green_tea_cookie"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "65F8FE6647B934F3"
+			rewards: [{
+				count: 5
+				id: "3B6A1652409A5A66"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E20C9F36EC79FBF"
+				item: "farmersrespite:nether_wart_sourdough"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "02B8CB6F77CD68EA"
+			rewards: [{
+				count: 5
+				id: "7417BC4577274CE5"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7665E08A2CC4122C"
+				item: "farmersrespite:blazing_chili"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "7124B3AEA71F7962"
+			rewards: [{
+				count: 5
+				id: "1342196477C9F171"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "087C79D4EA6D6DF1"
+				item: "farmersrespite:tea_curry"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5375F3C5F26B2612"]
+			id: "3738E8D2F971E11E"
+			rewards: [{
+				count: 5
+				id: "2DAE1539DCFE945F"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7917BCCCD618705B"
+				item: "farmersrespite:black_cod"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["3ABB78209C2B45C4"]
+			id: "0AEBEFAE49244252"
+			rewards: [{
+				count: 10
+				id: "26FF46557CF5C9DD"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B69CB627E4A036D"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 31.0d
+		}
+		{
+			dependencies: ["3ABB78209C2B45C4"]
+			id: "3D14B381A7457445"
+			rewards: [{
+				count: 10
+				id: "15FFC2DC67E8B536"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06A93DF16B44D9F6"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 35.0d
+		}
+		{
+			dependencies: ["3ABB78209C2B45C4"]
+			id: "40BF3FFAA3C4ECBA"
+			rewards: [{
+				count: 10
+				id: "0E4935ADA1091310"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10A9E96A296C512E"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["3ABB78209C2B45C4"]
+			id: "6C6547D61F0BDF5E"
+			rewards: [{
+				count: 10
+				id: "16C488B40A0CAEE2"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D2F83C4D8D3333B"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["3ABB78209C2B45C4"]
+			id: "2986B614BB10165D"
+			rewards: [{
+				count: 10
+				id: "648EEFDF77699AA9"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60875B97847BA59A"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 33.0d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "44FC0491916A83D9"
+			rewards: [{
+				count: 10
+				id: "5BD2FCD92FE864D1"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "614A820E0549424B"
+				item: "alexscaves:dinosaur_nugget"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 38.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "6E4E368C814E2625"
+			rewards: [{
+				count: 10
+				id: "5729185DDAF6D5BE"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CAFCB22ED776702"
+				item: "alexscaves:primordial_soup"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 38.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "67C5C12FCE801299"
+			rewards: [{
+				count: 10
+				id: "6C322AF647521F39"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B34E27B1DE976D7"
+				item: "alexscaves:seething_stew"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 39.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "29DB4D44F07F71AD"
+			rewards: [{
+				count: 10
+				id: "673687C0DFB4C540"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B261D7C998733BE"
+				item: "alexscaves:serene_salad"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 38.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "1D7C0575C9BFD8D8"
+			rewards: [{
+				count: 10
+				id: "1D0040E41E59462D"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54F42D3B75E7871D"
+				item: "cavedelight:pinenut_pie"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "5D381E96ED2339B3"
+			rewards: [{
+				count: 10
+				id: "48796B59949CFF6A"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62CC8FBC43FF0D03"
+				item: "cavedelight:tectonic_cheesecake"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "2D8483C6BEC33511"
+			rewards: [{
+				count: 10
+				id: "48E3721505808E54"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3588BDF1A7B2A9D2"
+				item: "cavedelight:roasted_grottoceratops"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 40.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "4135987FCC66291B"
+			rewards: [{
+				count: 10
+				id: "542F77DF19FFB258"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "643C38E166FA998E"
+				item: "cavedelight:boiled_trilocaris"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 38.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "60B55E7D8255A3A2"
+			rewards: [{
+				count: 10
+				id: "474A52C6B5D483A8"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "776C9CE362FC9805"
+				item: "cavedelight:lux_and_ham_sandwich"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "7A4F93191A38E0F8"
+			rewards: [{
+				count: 10
+				id: "0EFDA387125823A2"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37FD37E7F1B9C7F2"
+				item: "cavedelight:pine_and_sap_sandwich"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "33F3F46393B57712"
+			rewards: [{
+				count: 10
+				id: "776B4EA8F362B039"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A54CE622C897151"
+				item: "cavedelight:prehistoric_egg_rice"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "5411512F7775DDBE"
+			rewards: [{
+				count: 10
+				id: "4CE93118045CA012"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21547D2E24A929F9"
+				item: "cavedelight:shish_kebab"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "33AEA1DF7EB13E4E"
+			rewards: [{
+				count: 10
+				id: "6E30EB8491ABDE50"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E5105B07FFED614"
+				item: "cavedelight:trilocaris_noodles"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "36CD4C582BE8A43C"
+			rewards: [{
+				count: 10
+				id: "04E0912A451352AE"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01B158B447C16823"
+				item: "cavedelight:star_cookie"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 40.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "2946CBA47386FB24"
+			rewards: [{
+				count: 10
+				id: "5EC6AD359E9CF240"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BBD547DFBFBFD12"
+				item: "cavedelight:tectonic_pasta"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "08FD5229C77888A3"
+			rewards: [{
+				count: 10
+				id: "0A6214572EEDA45E"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C333A102232584D"
+				item: "cavedelight:trilocaris_roll"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 38.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "39D988F8A1B4B9F6"
+			rewards: [{
+				count: 10
+				id: "77D76DDB0FDD0957"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53CC8798220A749C"
+				item: "cavedelight:stuffed_trilo_tails"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 39.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "0256A6F83325B058"
+			rewards: [{
+				count: 10
+				id: "0C4FD179F4D9F6F4"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CCD03729C6F97F1"
+				item: "cavedelight:volcanic_chop"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 39.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "23C4E10BE80F643F"
+			rewards: [{
+				count: 10
+				id: "1C7C72AE4C31F982"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E43163AA5734F75"
+				item: "cavedelight:roasted_dino_chop"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 38.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "208B74479B56A281"
+			rewards: [{
+				count: 10
+				id: "2790F4D0B1C42A36"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "489342E892DF2341"
+				item: "cavedelight:dino_chop_pasta"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 42.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "6D827AA59F33E25C"
+			rewards: [{
+				count: 10
+				id: "1C0BAB2320ACF95F"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FBDF23C0FD5C912"
+				item: "cavedelight:fiddlehead_tea"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 43.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "7F9D8FABF00F101A"
+			rewards: [{
+				count: 10
+				id: "7C6F8AD1E09120E3"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60479097E4617E78"
+				item: "cavedelight:flytrap_taco"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 43.5d
+		}
+		{
+			dependencies: ["215B3E3A703A6D9A"]
+			id: "40AF018FE549CCC9"
+			rewards: [{
+				count: 10
+				id: "0FE8CA22FBDA3CCE"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30A2EBE96C0C6AEB"
+				item: "cavedelight:dino_cut_rice"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 43.5d
+		}
+		{
+			dependencies: ["6F1B62421BBF0812"]
+			id: "3C32A4BAB2D4CA59"
+			tasks: [{
+				id: "285A2D9262F6EE80"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "03A3D247223F026D"
+			rewards: [{
+				count: 5
+				id: "3E4FAEBFB2F2C5A3"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0112A58AD2B21322"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "44F1572296CF4C17"
+			rewards: [{
+				count: 5
+				id: "2A4BDB81FC29E125"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E592A50C24AA3E4"
+				item: "create:bar_of_chocolate"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "69ADDE49B7EA9E17"
+			rewards: [{
+				count: 5
+				id: "4039C0AF2E6F9049"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10C4C6230EB3AAF2"
+				item: "create:sweet_roll"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "75CCB397C92C9585"
+			rewards: [{
+				count: 5
+				id: "6C56DB4CEB78D936"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3637F2696770C4DA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "alexscaves:gelatins"
+					}
+				}
+				title: "Any #alexscaves:gelatins"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "6AB51092B2239BFA"
+			rewards: [{
+				count: 5
+				id: "543E57DE07757DE3"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FB5DD32EF663249"
+				item: "alexscaves:hot_chocolate_bottle"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "3EFADB1144775EFB"
+			rewards: [{
+				count: 5
+				id: "42D4F739AEAB86E0"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CC1F171EBCD1961"
+				item: "alexscaves:caramel"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "083534E979893372"
+			rewards: [{
+				count: 5
+				id: "164FAAED733FA0BF"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69C4EE631805450A"
+				item: "alexscaves:caramel_apple"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "6AA1244172E56CEF"
+			rewards: [{
+				count: 5
+				id: "5312A005BADDF35A"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17BE5DF20284DB53"
+				item: "alexscaves:sweetberry_ice_cream_scoop"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "318EDCB268FC3065"
+			rewards: [{
+				count: 5
+				id: "6735AED21B23E1F4"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DAB1942B3F25941"
+				item: "alexscaves:chocolate_ice_cream_scoop"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "094AECBB04980D0E"
+			rewards: [{
+				count: 5
+				id: "263C87FFC5D30D15"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21B653A8AC32F6AD"
+				item: "alexscaves:vanilla_ice_cream_scoop"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "555DC848CA50CD73"
+			rewards: [{
+				count: 5
+				id: "73776CFDA6060545"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35856463F4F71627"
+				item: "alexscaves:gingerbread_crumbs"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["15E6C83B8B4E6359"]
+			id: "6FB82956B7467E0F"
+			rewards: [{
+				count: 5
+				id: "46DCF2BA6C53A1FD"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BB4885F409F784A"
+				item: "alexscaves:sundae"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 36.0d
+		}
+	]
+	title: "&2农田之乐"
+}

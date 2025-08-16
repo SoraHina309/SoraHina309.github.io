@@ -1,0 +1,1181 @@
+{
+	autofocus_id: "4B6EC7BF338A1E99"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "416F3E9619EA5739"
+	group: "46C788249080A5A0"
+	hide_quest_details_until_startable: true
+	icon: "fallout:dimensional_shard"
+	id: "416F3E9619EA5739"
+	images: [
+		{
+			color: 13750737
+			height: 1.2d
+			image: "geckolib:block/default_box_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "geckolib:block/default_box_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "geckolib:block/default_box_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "geckolib:block/default_box_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "geckolib:block/default_box_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "geckolib:block/default_box_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "geckolib:block/default_box_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/brass_casing"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "geckolib:block/default_box_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/tunnel/brass_tunnel_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "geckolib:block/default_box_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/brass_casing"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/brass_casing"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/brass_casing"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/brass_casing"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/brass_casing"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/brass_casing"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/brass_casing"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/brass_casing"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/brass_casing"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/brass_casing"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/brass_casing"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/tunnel/brass_tunnel_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/tunnel/brass_tunnel_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/tunnel/brass_tunnel_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			color: 16711539
+			height: 1.2d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/tunnel/brass_tunnel_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/tunnel/brass_tunnel_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/tunnel/brass_tunnel_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/tunnel/brass_tunnel_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			color: 16711539
+			height: 1.2d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			color: 16711539
+			height: 1.2d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			color: 16711539
+			height: 1.2d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			color: 16711539
+			height: 1.2d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			color: 16711539
+			height: 1.2d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			color: 13445935
+			height: 1.2d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			color: 11740457
+			height: 1.2d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			color: 15305297
+			height: 1.2d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			color: 15305297
+			height: 1.2d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			color: 15305297
+			height: 1.2d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			color: 8854559
+			height: 1.2d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/exposed_copper"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/exposed_copper"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/exposed_copper"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/exposed_copper"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/exposed_copper"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/exposed_copper"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/exposed_copper"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/exposed_copper"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/exposed_copper"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/exposed_copper"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "trials:block/copper_bulb_lit_exposed"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/exposed_copper"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/exposed_copper"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/exposed_copper"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 9.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&b本整合包,是作者在闲暇之时跟他的朋友&b联合开发而成。目前是α版本。"
+				"&b目前已经实现科技树系统,冒险/科技分支。"
+				"&b在开始游戏之前请先拉人入队"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:book"
+				tag: {
+					display: {
+						Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"aqua\",\"text\":\"被设计用来跨世界交流的实验型个人终端\"}],\"text\":\"\"}"]
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"aqua\",\"text\":\"多相仪\"}],\"text\":\"\"}"
+					}
+				}
+			}
+			id: "4B6EC7BF338A1E99"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/tellraw @s [{\"text\":\"<相位仪> \",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"欢迎来到\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"相位逆转\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"insertion\":\"相位逆转\"},{\"text\":\"整合包,本机是负责提示和引导的跨纬度通信终端。\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "22D018A0C8E45550"
+					silent: true
+					title: "提示信息"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "7D2BD656A40DFBF4"
+					item: {
+						Count: 1
+						id: "ftbquests:book"
+						tag: {
+							display: {
+								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"aqua\",\"text\":\"被设计用来跨世界交流的实验型个人终端\"}],\"text\":\"\"}"]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"aqua\",\"text\":\"相位仪\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "08B446E271803885"
+				title: "&b开始游戏"
+				type: "checkmark"
+			}]
+			title: "&b开始介绍"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B6EC7BF338A1E99"]
+			description: [
+				"&6如果你想要把所有虫子踹死。你应该戴上这个会让蚊子离你远点。让节肢动物不容易发现你的袋子。"
+				"&c当然，别忘了这根棍子 "
+			]
+			icon: {
+				Count: 1
+				id: "fallout:radioactive_warding_bag"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "60F285F17963600C"
+			incompatible: ["5ECE86343EFDED99"]
+			rewards: [
+				{
+					id: "26273759A7F2E17B"
+					item: {
+						Count: 1
+						id: "fallout:radioactive_warding_bag"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "256AE9E22DE4701C"
+					item: {
+						Count: 1
+						id: "minecraft:stick"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:bane_of_arthropods"
+								lvl: 20
+							}]
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"gold\",\"text\":\"灭虫棍\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "63FA113323C773C4"
+				title: "&6我是最优质的除虫战士"
+				type: "checkmark"
+			}]
+			title: "&6假设你想要踹死虫子"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["596B4BF4C60C4BA6"]
+			description: [
+				"解析已完成，你可以通过&b相位仪&f跟当地居民交流了"
+				"不过你仍然需要搜寻干扰源相关的情报。"
+				"也许可以尝试询问那些被你借走东西的“&6倒霉蛋&f”们？"
+			]
+			icon: "irons_spellbooks:furled_map"
+			id: "02CBC4775E45FE66"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show phase_translator_ready"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "5063E08D78AAB0BA"
+				silent: true
+				team_reward: true
+				title: "对话"
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				elapsedTime: 1200L
+				icon: {
+					Count: 1
+					id: "ftbquests:book"
+					tag: {
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"aqua\",\"text\":\"被设计用来跨世界交流的实验型个人终端\"}],\"text\":\"\"}"]
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"aqua\",\"text\":\"多相仪\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				id: "40CE9B3A0111DDCD"
+				title: "解析当地语言"
+				type: "questsadditions:time"
+			}]
+			title: "寻觅干扰源"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7479C4D91D5B069C"]
+			description: [
+				"你已成功找到了干扰源。不过我们给&c母世界&f带来的&a惊喜&f着实太过震撼"
+				"因此趁&c母世界&f联络我们之前，开始在这个世界站稳脚跟吧"
+			]
+			id: "44F590985652DC26"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show resonance"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "647423E1774989CF"
+					silent: true
+					team_reward: true
+					title: "聊天栏"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamerule disableRaids false"
+					elevate_perms: true
+					id: "7C0EC72C6493461F"
+					silent: true
+					team_reward: true
+					title: "哈机密"
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:echo_shard"
+				id: "53BA443F03865E21"
+				ignore_dimension: false
+				position: [I;
+					330
+					-60
+					-202
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				title: "干扰源"
+				type: "location"
+			}]
+			title: "清除干扰源"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["18E843397D4868C6"]
+			description: [
+				"这名奸商&c潦草的死了&f，不过你还是获得了&3干扰源&f相关的情报。"
+				"前提是你得从袭击中活下来"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "76C8AE969F8E865A"
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show predator"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "6708D484DB30E560"
+					silent: true
+					team_reward: true
+					title: "提示信息"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/effect give @e[name=\"可疑商人\",type=minecraft:wandering_trader,limit=1,sort=nearest] minecraft:slowness 10 9 true"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "387F7BE67E91C259"
+					silent: true
+					title: "奸商站立"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "11C6CD2C5BACCA29"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							display: {
+								Lore: [
+									"{\"italic\":false,\"color\":\"gray\",\"text\":\"目录上写着诸如稀有花朵、鸸鹋蛋、海龟蛋这些跟干扰源无关的物品。\"}"
+									"{\"italic\":false,\"color\":\"gray\",\"text\":\"唯可能与干扰源有关的，一处名为\",\"extra\":[{\"color\":\"dark_aqua\",\"text\":\"回音之地\"},{\"color\":\"gray\",\"text\":\"的地方，上面用模糊的文字写着\"},{\"color\":\"dark_aqua\",\"text\":\" 330，-60 262\"}]}"
+								]
+								Name: "{\"italic\":false,\"text\":\"商人的交易目录\"}"
+							}
+						}
+					}
+					match_nbt: true
+					title: "突袭"
+					type: "item"
+				}
+				{
+					icon: "minecraft:emerald"
+					id: "4DCCCAE2C76CA585"
+					observe_type: 5
+					timer: 0L
+					title: "与可疑商人交谈"
+					to_observe: "minecraft:wandering_trader"
+					type: "observation"
+				}
+			]
+			title: "掠夺者"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0E690178B022D53B"]
+			description: [
+				"据村民所说那位商人会在你观察&b钟&f五秒后出现。"
+				"这是一个匪夷所思的怪癖，&c但你别无他法。"
+			]
+			icon: "minecraft:bell"
+			id: "18E843397D4868C6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show profiteer"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "710931FD065DE8FB"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute positioned ^ ^ ^1 run summon minecraft:wandering_trader ~ ~ ~ {CustomName:'{\"italic\":false,\"color\":\"dark_purple\",\"text\":\"可疑商人\"}',PersistenceRequired:1b,Invulnerable:0b,ActiveEffects:[{Id:11b,Amplifier:4b,Duration:199980,ShowParticles:0b}],Offers:{Recipes:[{buy:{id:\"minecraft:emerald_block\",Count:1b},sell:{id:\"minecraft:paper\",Count:1b,tag:{display:{Name:'{\"italic\":false,\"text\":\"商人的交易目录\"}',Lore:['{\"italic\":false,\"color\":\"gray\",\"text\":\"目录上写着诸如稀有花朵、鸸鹋蛋、海龟蛋这些跟干扰源无关的物品。\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"唯可能与干扰源有关的，一处名为\",\"extra\":[{\"color\":\"dark_aqua\",\"text\":\"回音之地\"},{\"color\":\"gray\",\"text\":\"的地方，上面用模糊的文字写着\"},{\"color\":\"dark_aqua\",\"text\":\" 330，-60 262\"}]}']}}},maxUses:9999,rewardExp:false}]}}"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "07EAF9DD842D56D7"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/effect give @e[name=\"可疑商人\",type=minecraft:wandering_trader,limit=1,sort=nearest] minecraft:slowness 10 9 true"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "45698B0DD25FE8C9"
+					silent: true
+					title: "奸商站立"
+					type: "command"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:bell"
+				id: "36813F63D1AB5ABD"
+				observe_type: 0
+				timer: 100L
+				title: "观察钟"
+				to_observe: "minecraft:bell"
+				type: "observation"
+			}]
+			title: "奇怪的要求"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["402C72245D8F18C9"]
+			description: [
+				"不管怎样你都得寻找一个当地智慧生物了解情况"
+				"希望你能听得懂这些大鼻子的语言"
+			]
+			id: "596B4BF4C60C4BA6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/dialog show villager_encounter"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "1EFEEF8C6DA8FFFE"
+					silent: true
+					team_reward: true
+					title: "聊天栏"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @a at @s anchored eyes run effect give @e[limit=1,sort=nearest,distance=..10,type=!player] minecraft:slowness 20 9 true"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "10A31ACE1E7F2CDD"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+			]
+			tasks: [{
+				icon: "artifacts:villager_hat"
+				id: "22459728A8E3A536"
+				observe_type: 5
+				timer: 0L
+				title: "与村民交谈"
+				to_observe: "minecraft:villager"
+				type: "observation"
+			}]
+			title: "第一次接触"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B6EC7BF338A1E99"]
+			description: [""]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "402C72245D8F18C9"
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show startup_intro"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "59CEE31737B8E407"
+				silent: true
+				team_reward: true
+				title: "对话"
+				type: "command"
+			}]
+			secret: true
+			tasks: [{
+				elapsedTime: 5L
+				id: "2B8CE0AE72C1C25E"
+				type: "questsadditions:time"
+			}]
+			title: "系统自检"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["02CBC4775E45FE66"]
+			description: [
+				"看样子那位蓝袍商人。似乎过于情有独&e钟&f了"
+				"不过毕竟他是大鼻子嘛，有些怪癖倒也正常"
+			]
+			icon: "minecraft:emerald"
+			id: "0E690178B022D53B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show villager_exchange"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "0CC759F3E5D811D5"
+					silent: true
+					team_reward: true
+					title: "聊天栏"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @a at @s anchored eyes run effect give @e[limit=1,sort=nearest,distance=..10,type=!player] minecraft:slowness 20 9 true"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "400E9AF11B176467"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:emerald"
+				id: "647B1D46CC6EEBAA"
+				observe_type: 5
+				timer: 0L
+				title: "与村民交谈"
+				to_observe: "minecraft:villager"
+				type: "observation"
+			}]
+			title: "可疑的情报商人"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76C8AE969F8E865A"]
+			description: [
+				"虽然刚刚击退袭击，但我们急需查明&3干扰源&f相关的情报"
+				"因为在没有&c母世界&f的帮助下发展科技着实不易（无法开启科技树）"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:white_banner"
+				tag: {
+					BlockEntityTag: {
+						Patterns: [
+							{
+								Color: 9
+								Pattern: "mr"
+							}
+							{
+								Color: 8
+								Pattern: "bs"
+							}
+							{
+								Color: 7
+								Pattern: "cs"
+							}
+							{
+								Color: 8
+								Pattern: "bo"
+							}
+							{
+								Color: 15
+								Pattern: "ms"
+							}
+							{
+								Color: 8
+								Pattern: "hh"
+							}
+							{
+								Color: 8
+								Pattern: "mc"
+							}
+							{
+								Color: 15
+								Pattern: "bo"
+							}
+						]
+						id: "minecraft:banner"
+					}
+					HideFlags: 32
+					display: {
+						Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+					}
+				}
+			}
+			id: "7479C4D91D5B069C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show hero"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "599E7EA949689824"
+					silent: true
+					team_reward: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamerule disableRaids true"
+					elevate_perms: true
+					id: "1E47F7778A7D66E4"
+					silent: true
+					team_reward: true
+					title: "终结"
+					type: "command"
+				}
+			]
+			tasks: [{
+				elapsedTime: 120L
+				id: "75875A87952FF521"
+				type: "questsadditions:time"
+			}]
+			title: "在袭击中挺过去"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["44F590985652DC26"]
+			description: [
+				"终于……&c母世界&f传来了回信。安理会正式授予我们&6异界开拓者&f的称号"
+				"尽管&c母世界&f现在开放了数据库（可以解锁科技了）"
+				"但建议选择加入某个部门以获得更多支持。目前有两个选择："
+				"&bTECA&f - 我们的老东家，专注&d异界科技&f研究，能快速建立工业体系，后期获得危险科技的建造许可"
+				"&3AGIRT&f - 传送门事故后崛起的新势力，提供军火支持，专精&d超自然力量&f与&d超凡生物&f研究，可制造超凡装备"
+				"&7（在任务面板确认选择，这将决定发展路线：科技or冒险）"
+			]
+			icon: "supplementaries:globe"
+			id: "45675270F9748982"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show faction_choice_intro"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "28DAF5ED2B48900E"
+				silent: true
+				team_reward: true
+				title: "聊天栏"
+				type: "command"
+			}]
+			shape: "circle"
+			size: 2.5d
+			tasks: [{
+				id: "01E6230BA7F2A0A4"
+				type: "checkmark"
+			}]
+			title: "地球的回信"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["45675270F9748982"]
+			description: ["&b科技是进步的基石！&r"]
+			icon: "mekanism:pellet_antimatter"
+			id: "27BFE747AA405D0E"
+			incompatible: ["18FA870556B3BEEA"]
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "fallout:ssd"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2D380BD1B41F28DA"
+				title: "&b开启TECA面板"
+				type: "custom"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "18E76CF5EB8AE55D"
+				title: "&b加入TECA"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["45675270F9748982"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "citadel:icon_item"
+				tag: {
+					IconLocation: "alexscaves:textures/misc/advancement/icon/toxic_caves.png"
+				}
+			}
+			id: "18FA870556B3BEEA"
+			incompatible: ["27BFE747AA405D0E"]
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2BDC39F5D7269743"
+				title: "&3开启AGIRT面板"
+				type: "custom"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1518307498BAE999"
+				title: "&3加入AGIRT"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4B6EC7BF338A1E99"]
+			description: [
+				"&c如果你真的很害怕虫子，那是时候让他们消失了"
+				"&7（开启选项后，只要你在线虫子永远不会生成）&r"
+			]
+			icon: "graveyard:leaning_skeleton"
+			id: "5ECE86343EFDED99"
+			incompatible: ["60F285F17963600C"]
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "minecraft:writable_book"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3B9C81BAAB1E6851"
+				ignore_reward_blocking: true
+				stage: "nobug"
+				title: "&c夜神月:昆虫"
+				type: "gamestage"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3265189642D66AFF"
+				title: "&c不！！！我害怕！！！"
+				type: "checkmark"
+			}]
+			title: "&c假设你看到虫子就趋势"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "&b重建联系"
+}

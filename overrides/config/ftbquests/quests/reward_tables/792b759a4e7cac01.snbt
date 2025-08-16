@@ -1,0 +1,12 @@
+{
+	icon: "royalvariations:spiritual_crown"
+	id: "792B759A4E7CAC01"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "fallout:champion_fragment" }
+		{ item: "legendarysurvivaloverhaul:heart_fragment" }
+		{ item: "minecraft:golden_apple" }
+	]
+	title: "冠军猎人"
+}

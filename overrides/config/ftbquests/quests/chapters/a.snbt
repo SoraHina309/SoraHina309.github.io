@@ -1,0 +1,1732 @@
+{
+	autofocus_id: "164D6240E23BFF29"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a"
+	group: "7EAD463EC4676C73"
+	icon: {
+		Count: 1
+		id: "mekanismtools:steel_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "66D600695D29215F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["164D6240E23BFF29"]
+			description: ["你挖到了第一个&a安山岩&r，这将是你振兴科技的第一步"]
+			id: "4DA76549B2A742BC"
+			rewards: [
+				{
+					id: "4ECE0E96310A70DF"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "63DAD73AD29B26DC"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 你挖到了第一个安山岩，这将是你振兴科技的第一步。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "7C185F866A97D513"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "00D469593D031E0F"
+					type: "xp"
+					xp: 1
+				}
+			]
+			subtitle: "开采一个安山岩"
+			tasks: [{
+				id: "404C366B3E8E5EB9"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "万物起源"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"520E81352A3E02E7"
+				"4DA76549B2A742BC"
+			]
+			description: ["你制作了第一个&a齿轮&r，它们可以被用来传递动能"]
+			hide_until_deps_complete: true
+			icon: "create:cogwheel"
+			id: "693BE6533A44BB99"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 你制作了第一个齿轮，它们可以被用来传递动能。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "5DFBD4C1CBD429EA"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "4883CCFC026A37B2"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [
+				{
+					id: "117F8A56D71E5738"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "0B533C71394ADD3D"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "能量传递"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"693BE6533A44BB99"
+				"32A397BB5DC3EED9"
+			]
+			description: ["手动摇杆让你恼火不已，你得想个办法让它自动转起来，当然，势能可以做到这一点"]
+			hide_until_deps_complete: true
+			id: "4B4242180DDF7C02"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 手动摇杆让你恼火不已，你得想个办法让它自动转起来，当然，势能可以做到这一点。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "7CC3F8734A0E815C"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "2C2E06234707C734"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "609CDE958A61DE3F"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B4242180DDF7C02"]
+			description: ["当然，一个小水车已经不能满足你的野心了，那就做个大的"]
+			hide_until_deps_complete: true
+			id: "35BACE69BDA904AB"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 当然，一个小水车已经不能满足你的野心了，那就做个大的。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "7CFBF251597E013F"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "246735C8597D9835"
+					type: "xp"
+					xp: 1
+				}
+			]
+			subtitle: "一个大型水车！"
+			tasks: [{
+				id: "198B47D103E890F2"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "水车进阶"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6F472D3C81755BD5"
+				"693BE6533A44BB99"
+			]
+			description: ["通过将红石运用在链式传动箱上，你获得了控制应力开关的方法"]
+			hide_until_deps_complete: true
+			icon: "create:encased_chain_drive"
+			id: "4CE69B9146279896"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 通过将红石运用在链式传动箱上，你获得了控制应力开关的方法。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "3A9E34295D612DCF"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "725D64F9CA24C9DF"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "0516E1AA7DD34EE6"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CE69B9146279896"]
+			description: ["通过前面的红石实验的启发，你找到了一种可以控制链动传送器上转速的方法"]
+			hide_until_deps_visible: true
+			id: "3B277D0C53B0FDCA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 通过前面的红石实验的启发，你找到了一种可以控制链动传送器上转速的方法。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "4494CD3BF580B228"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "19948E3725F900A6"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "0F75C0D36AD8B28C"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["20E1F37020BBBC88"]
+			description: ["流水产生应力过于缓慢，你决定转换思路，寻找一个更强大的应力源"]
+			hide_until_deps_complete: true
+			id: "336FF00A3146300D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 流水产生应力过于缓慢，你决定转换思路，寻找一个更强大的应力源。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "1AEE464A9FC75D65"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "2222F3EA5D84F2FB"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "0E2515CA66C320E6"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "风车"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["164D6240E23BFF29"]
+			description: ["日常中随处可见的水（如果不在沙漠），它说不定蕴含着不可小觑的能量"]
+			id: "32A397BB5DC3EED9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 日常中随处可见的水（如果不在沙漠），它说不定蕴含着不可小觑的能量。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "322207E6B1DD5124"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "674E7203BA3BC254"
+					type: "xp"
+					xp: 1
+				}
+			]
+			secret: true
+			tasks: [{
+				icon: "minecraft:water_bucket"
+				id: "4593B36D71CCEBED"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:water"
+				type: "observation"
+			}]
+			title: "势能"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["336FF00A3146300D"]
+			description: ["这些风帆是风车最重要的部分，只要搭好框架，然后把羊毛复盖在上面就可以了"]
+			hide_until_deps_complete: true
+			icon: "create:white_sail"
+			id: "2952C9759FDD9A7D"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 这些风帆是风车最重要的部分，只要搭好框架，然后把羊毛覆盖在上面就可以了。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "4D9EF189C33B7B3C"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "093D1D3B1FBB6F19"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [
+				{
+					id: "71965DFD7D7D692B"
+					item: "create:sail_frame"
+					type: "item"
+				}
+				{
+					id: "4315361195F871B0"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wool"
+						}
+					}
+					title: "Any #minecraft:wool"
+					type: "item"
+				}
+			]
+			title: "风帆"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["164D6240E23BFF29"]
+			description: ["你发现黏液球具有非常良好的黏性，你想到它能够用来做黏性活塞，说不定你能连接的方块不止一个..."]
+			hide_until_deps_complete: true
+			id: "145B80C4C8863A07"
+			rewards: [
+				{
+					command: "/tellraw @s [{\"text\":\"<相位仪> 你发现黏液球具有非常良好的黏性，你想到它能够用来做黏性活塞，说不定你能连接的方块不止一个...。\",\"color\":\"aqua\"}]"
+					id: "223667429267DA87"
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "56A6F5E38801FEA9"
+					type: "xp"
+					xp: 1
+				}
+			]
+			secret: true
+			tasks: [{
+				id: "71A2C864EC6CF867"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["693BE6533A44BB99"]
+			description: ["用你的安山合金做一个耐热耐砸的工作盆吧！有了这个，你就可以对一些物品进行加工了"]
+			hide_until_deps_complete: true
+			id: "20E1F37020BBBC88"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show teca_research_reward"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "104A3551E0EE81AB"
+					silent: true
+					title: "调度员信息"
+					type: "command"
+				}
+				{
+					id: "3D99E96827277DF4"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "3315145A2A896AFD"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63F3B458599D6309"]
+			description: ["对物品加工之后，你不能每次都用手从盆里面把东西抠出来，是时候让它自己掉出来了。"]
+			hide_until_deps_complete: true
+			id: "04C0BB870A84D028"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 对物品加工之后，你不能每次都用手从盆里面把东西抠出来，是时候让它自己掉出来了。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "7E8E16DEE23994D0"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "7791952D7C840136"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "738C5B846300543A"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["20E1F37020BBBC88"]
+			description: ["工作盆除了可以处理固体，它还能通过搅拌机处理一些配方"]
+			hide_until_deps_complete: true
+			id: "673DC5CAB1347036"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 工作盆除了可以处理固体，它还能通过搅拌机处理一些配方。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "317F28587B4BA4C4"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "1C109A53A0B554DC"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "4E2BA5FE257D8039"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"673DC5CAB1347036"
+				"749BC914596DCC87"
+			]
+			description: ["是时候扩大你的生产规模了，有大量的机器在产出，你可以用传送带将它们都运出来"]
+			hide_until_deps_complete: true
+			id: "61A43BFC37AF7B81"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 传送带可以批量运送大量物品。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "6C769EDCC8300234"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "14ABAF9B6BE710D8"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "2C8218E6A4CC8C2F"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["673DC5CAB1347036"]
+			description: ["当然，液体不可能被放置在置物台或者传送带上，你需要一个容器去盛放它们。"]
+			hide_until_deps_complete: true
+			id: "2A4FC54AF0EA3286"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 分液池可以临时储存液体。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "50126756C564A00F"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "26F19BB652121163"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "19D7560AE908DF1C"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["20E1F37020BBBC88"]
+			description: ["在有了铁之后，你得想办法去进一步加工他们，例如说将它们锤成块和板..."]
+			hide_until_deps_complete: true
+			id: "63F3B458599D6309"
+			rewards: [
+				{
+					command: "/tellraw @s [{\"text\":\"<相位仪> 在有了铁之后，你得想办法去进一步加工他们，例如说将它们锤成块和板...。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "3F8F69D954264B4F"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "0D12A73714547758"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "767E5C881A2D59F2"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04C0BB870A84D028"]
+			description: ["弹射置物台可以将放置在上面的物品弹飞"]
+			hide_until_deps_complete: true
+			id: "5E52DAA548DCE694"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 弹射置物台可以将放置在上面的物品弹飞。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "335D72682EF1EB51"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "34242D662332B76B"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "58487783E360FFCF"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2A4FC54AF0EA3286"]
+			description: ["液体不能一直放在分液池里，你也无法从中舀出，你得将它们用管道导出来"]
+			hide_until_deps_complete: true
+			icon: "create:fluid_pipe"
+			id: "47FE812FE5C89DFD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 管道可以传输流体，不过你还是需要一个泵。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "3A94E436C4F13BB3"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "7150BEDAEB689B07"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "1DEF41D360FA77CF"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["336FF00A3146300D"]
+			description: ["熔炉烧矿太慢了，你想到一种利用岩浆热量处理矿石而不会将其烧毁的方法：通过在鼓风机前方放置对应方块/流体，进行批量烟熏/熔炼/洗涤/缠魂。"]
+			hide_until_deps_complete: true
+			id: "4CF6FA8E41F6F1CC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 鼓风机可以通过在前方放置对应方块/流体，进行批量烟熏/熔炼/洗涤/缠魂。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "77AD294A0645B52D"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "11D2F472EFF323E4"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "0E76188938A897D8"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CF6FA8E41F6F1CC"]
+			description: ["你偶然间发现石头落到两个齿轮中间被挤压碾碎，变成了沙砾，你觉得可以用这个特性来制作一个石磨来处理原石或是食物。"]
+			hide_until_deps_complete: true
+			id: "6329BC67166CCF10"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 石磨可以用来处理原石或食物。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "31AF9AE335E713AA"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "7FE1F6AB777C80A2"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "6C47D6EB8D947179"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47FE812FE5C89DFD"]
+			description: ["为了存储加工或者抽取出来的液体，你制造出了一种液体储罐，它可以根据你的需求改变规模，当流体储罐被摆成底面正方形为1*1、2*2、3*3的长方体时，会自动合并成一个大储罐。"]
+			hide_until_deps_complete: true
+			id: "35E029333246B962"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 流体储罐被摆成底面正方形为1*1、2*2、3*3的长方体时，会自动合并成一个大储罐。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "2E2EE2959D3BD684"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "17F458CAD5000E72"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "45E3C515403F3FDB"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"47FE812FE5C89DFD"
+				"774A076398BC39E8"
+			]
+			description: ["当你需要大量的液体时，一个水桶显然不是最好的解决方法，你利用应力制造了一个抽水泵，它可以朝你的管道系统中源源不断的输送液体 tips：你可以在泵体上看到液体的流动方向"]
+			hide_until_deps_complete: true
+			id: "60F366A84E724EA7"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 抽水泵接受应力后可以源源不断的输送液,可在泵体上观察液体的流动方向。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "2CD75386D2B6F2FF"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "540CE25C9BFF7CE0"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "209998035A5F40A3"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["60F366A84E724EA7"]
+			description: [
+				"岩浆和水作为工业配方中的常客，你发现怎么舀都不够，所以你决定做一对软管滑轮源源不断的抽取外界的液体源并存放在家里"
+				"tips：曾经有一个科学家发现当造出一个足够大的液体源池时，软管滑轮抽了很久也没抽干它，研究笔记无从考究，但是10000格应该够了吧"
+			]
+			hide_until_deps_complete: true
+			id: "1C4D92401625B029"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 软管滑轮能够高效的抽取流体。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "22205DE9248D7D2C"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "0DBA8FD02F8DF1BA"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "59B41A7DC4A79CA9"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2A4FC54AF0EA3286"]
+			description: ["是时候灌满你的玻璃瓶了，当然不是用炼药锅，注液器可以自动用自身所处管道系统的的液体填充其正下方的液体容器 tips：你可以在它头上看到里面有没有液体"]
+			hide_until_deps_complete: true
+			id: "774A076398BC39E8"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 注液器可以自动用自身所处管道系统的液体填充其正下方的液体容器。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "0EEF124D72B1F932"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "5C704CE29C69D948"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "40255F74571C539B"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61A43BFC37AF7B81"]
+			description: ["现在，你学会了用漏斗对箱子进行了自动化处理，不同于原版漏斗的是，它们可以横向进出箱子并且可以直接连接传送带！"]
+			hide_until_deps_complete: true
+			id: "0058B5DBFF53527A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 机械动力漏斗可以横向进出箱子并且可直连传送带。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "788890A8DF0E519B"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "19174802E663D1D4"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "6360E909BD2BC742"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0058B5DBFF53527A"
+				"5AF4A9290908F6E2"
+			]
+			description: ["黄铜漏斗最多可以一次性输入一组物品，同时还具有过滤功能，将想要过滤的物品放到它的额头上即可"]
+			hide_until_deps_complete: true
+			id: "5E40F095AD6949F2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 黄铜漏斗最多可以一次性输入一组物品，同时还具有过滤功能。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "4AF7CE23C458EE83"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "09344F1E6DD7D81B"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "379A62D87422A151"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["63E7CD60B225AE15"]
+			description: ["你发现了一种能够提高红石传导效率的合金，你只需要把铜和锌按1：1的比例放进工作盆，对它进行些许加热，再用搅拌器搅拌片刻，你就可以得到黄铜"]
+			hide_until_deps_complete: true
+			id: "5AF4A9290908F6E2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 铜和锌按1：1的比例放进工作盆进行加热混合搅拌即可获得黄铜。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "41413BCFA4620044"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "1FC478AB9AD692DC"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "496D26F64259F23E"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5AF4A9290908F6E2"]
+			description: ["黄铜的发现激起了你对合金的好奇心，你把铜和锡按照3：1的比例加热搅拌后得到了一种强度很高的合金，这些合金很适合用来制作护甲和武器"]
+			hide_until_deps_complete: true
+			id: "4EB7F0B06E317B0C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 铜和锡按3：1的比例放进工作盆进行加热混合搅拌即可获得青铜。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "30E7282B58DC87A3"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "3A63E0D2FF57B153"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "5EA1CFB8AC98B994"
+				item: "mekanism:ingot_bronze"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18A27BEC32198807"]
+			description: ["通过将合金手动安装到去皮原木上可以制得机壳，机壳可以用来制作机械或是装饰"]
+			hide_until_deps_complete: true
+			id: "0E5A933A6BB1B78A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 通过将合金手动安装到去皮原木上可以制得机壳，机壳可以用来制作机械或是装饰。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "382E69910F659A0C"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "17E456B5AE63A247"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "452330DB07DD41F5"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5AF4A9290908F6E2"]
+			description: ["将黄铜安装在去皮原木上象征着智能时代的到来，大量的红石以及自动化部件需要用到黄铜机壳"]
+			hide_until_deps_complete: true
+			id: "59E7089D22DEF56D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 将黄铜安装在去皮原木上象征着智能时代的到来，大量的红石以及自动化部件需要用到黄铜机壳。\",\"color\":\"aqua\""
+					elevate_perms: true
+					id: "7767DA3B95E2DB50"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "2F5636E84309311C"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "75543ABFB5C3CC64"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["63E7CD60B225AE15"]
+			description: ["铜锭也可以像安山合金那样被安装在去皮原木上，这种防水建材可用于制作流体处理装置"]
+			hide_until_deps_complete: true
+			id: "691356CF093295E8"
+			rewards: [
+				{
+					command: "/tellraw @s [{\"text\":\"<相位仪> 铜锭也可以像安山合金那样被安装在去皮原木上，这种防水建材可用于制作流体处理装置。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "28218F9197E781DC"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "61018BB79230759B"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "0A86A8F38C5781E9"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["60F366A84E724EA7"]
+			description: ["利用阀门可以很好的控制管道内的液体流动状态，毕竟你也不想在做管道维修的时候漏岩浆出来吧"]
+			hide_until_deps_complete: true
+			icon: "create:copper_valve_handle"
+			id: "152C881921F3B198"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 阀门可以很好的控制管道内的液体流动状态。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "2BB8AC848A448D6C"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "62A26CFF3FED0580"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [
+				{
+					id: "27696BB0AC7AAF92"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+				{
+					id: "54916E27222DF14D"
+					item: "create:copper_valve_handle"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["18A27BEC32198807"]
+			description: ["通过在地表及浅层地下的探索，你发现了铜锭"]
+			hide_until_deps_complete: true
+			id: "63E7CD60B225AE15"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 通过在地表及浅层地下的探索，你发现了铜锭。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "285359D051A4C247"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "691DA85FD4FCA94E"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "0197C0494A1ADD80"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4DA76549B2A742BC"]
+			description: ["用铁粒与安山岩混合就可以做出安山合金，这是一种泛用性很高的合金"]
+			hide_until_deps_complete: true
+			id: "18A27BEC32198807"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 用铁粒与安山岩混合就可以做出安山合金，这是一种泛用性很高的合金。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "068D1B77B46F9F9E"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "337DEBB9CB0EB28A"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "4FB14F8776F36F5E"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63F3B458599D6309"]
+			description: ["通过把锭送往轧机可以自动产出2根对应的棍，将板放进去可以自动产出4根对应的线"]
+			hide_until_deps_complete: true
+			id: "445EF2DE08E5DCA5"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 通过把锭送往轧机可以自动产出2根对应的棍，将板放进去可以自动产出4根对应的线。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "485F5FBE246A482E"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "43051249A166F108"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "190391F1924391DA"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["164D6240E23BFF29"]
+			description: ["你也许不知道为什么干海带可以做什么，但它的结实程度是你绝对想象不到的"]
+			id: "749BC914596DCC87"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 你也许不知道干海带可以做什么，但它的结实程度是你绝对想象不到的。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "6BDA2735AFD46880"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "0EA84283D5F46AE3"
+					type: "xp"
+					xp: 1
+				}
+			]
+			secret: true
+			tasks: [{
+				id: "115ECF4476C75AB5"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["145B80C4C8863A07"]
+			description: ["强力胶可以将多个方块连接在一起，以便于用一个应力源驱动更大的结构"]
+			hide_until_deps_complete: true
+			id: "39F1A0D6EB17DE12"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 强力胶可以将多个方块连接在一起，以便于用一个应力源驱动更大的结构。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "4D4F4FEC7E3816AF"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "18639EDE5F0CEE66"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "0195F58442F27513"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["486126554144FA00"]
+			description: ["你对自动化的渴望已经不满足于家里的生产，于是你转头设计了一种可以由应力或动态结构驱动的钻头，用于开采和清理障碍"]
+			hide_until_deps_complete: true
+			id: "5E47CD49530955D4"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 这种基于应力驱动的钻头，放置在动态结构上可以用于开采和清理障碍。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "60B1E0D033B7DA3B"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "2B3B31831F96E944"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "4E6B10526FD75072"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3DB1C94856797E13"]
+			description: ["你已经懒得连树也不想砍了！将锯片连接在动态结构上，用应力去砍伐长在它前方的一整颗树"]
+			hide_until_deps_complete: true
+			id: "486126554144FA00"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 这个动力锯既可以加工木材也可以安放在动态结构上，用应力去砍伐长在它前方的一整颗树。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "0F23B02B55BA11A1"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "297AF6460C486C6B"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "5F868D858DC3A5E1"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5E52DAA548DCE694"]
+			description: ["农业自动化也成为了你的目标，你一直苦于作物的收割和再播种，每次回家看到满满的农田就头疼，所以你决定做一个自动收割机，这种收割机安装在动态结构之后，可以自动收割其经过的的作物，并将其生长阶段重置为初始，若连接结构上有容器，作物将会自动存进容器中"]
+			hide_until_deps_complete: true
+			id: "3DB1C94856797E13"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 这种收割机安装在动态结构之后，可以自动收割其经过的作物，并将其生长阶段重置为初始，若连接结构上有容器，作物将会自动存进容器中。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "07F76534213DA812"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "6EBB0539D664FD68"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "79308CD67A984919"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["486126554144FA00"]
+			description: ["利用动力犁，你在种植作物的时候可以便利的用动态结构开垦荒地"]
+			hide_until_deps_complete: true
+			id: "02A6D043A5F66295"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 利用动力犁，你在种植作物的时候可以便利地用动态结构开垦荒地\",\"color\":\"aqua\""
+					elevate_perms: true
+					id: "7457701FD01F7AE1"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "4CBB636BAC2FE22F"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "4C3FA4DA49E6F44F"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0058B5DBFF53527A"]
+			description: ["有时从机器或者箱子里掉出的物品会四处散落，你用铁板做了一个类似烟囱的装置，用来控制物品掉落的位置，同时，你也可以在溜槽底部添加一个鼓风机，侧面添加一个漏斗输入，以达到向上运输物品（类似抽油烟机）。"]
+			hide_until_deps_complete: true
+			id: "72BB622456234650"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 溜槽可以简单快捷的向下传输物品。如添加鼓风机则可以向上传输。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "3682108C247A7D20"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "48FE8F946E7AC4CB"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "68EC6EB284B3DC49"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72BB622456234650"]
+			description: ["智能溜槽可以对溜槽设置过滤项和数量，也可以使用红石控制其开关"]
+			hide_until_deps_complete: true
+			id: "71DE38193DAE3F1E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 智能溜槽可以对溜槽设置过滤项和数量，也可以使用红石控制其开关。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "21A22AF88C1FB4E2"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "403E8ADDF8A9E82A"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "507407C60AB0E9A5"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4DA76549B2A742BC"]
+			description: ["如果你想随时随地看到应力量，那么工程师护目镜将会是个很棒的选择"]
+			hide_until_deps_complete: true
+			id: "5D086E001FAE353B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 如果你想随时随地看到应力量，那么工程师护目镜将会是个很棒的选择。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "2B0D19DEE7BBF4DE"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "2DBCD3088EA5E43C"
+					type: "xp"
+					xp: 1
+				}
+			]
+			secret: true
+			tasks: [{
+				id: "5281BEF6A3F7047E"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E40F095AD6949F2"]
+			description: ["用石英和红石混合之后就可以制成玫瑰晶体，经由砂纸打磨便可成为磨制玫瑰石英"]
+			hide_until_deps_complete: true
+			id: "38A8D94F7A821C6C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 用石英和红石混合之后就可以制成玫瑰晶体，经由砂纸打磨便可成为磨制玫瑰石英。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "077F2F4C2EE78155"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "28007BC997C94696"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "1E66F8EDE53D9530"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38A8D94F7A821C6C"]
+			description: ["通过将沙子和纸结合，你做出了砂纸，这种纸可以用来将不规则的晶体打磨光滑"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "create:sand_paper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0F82510E3B4EE62F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 通过将沙子和纸结合，你做出了砂纸，这种纸可以用来将不规则的晶体打磨光滑。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "2B56BB0CEA368879"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "064C9F5A9C58CA5D"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "2A1894FEA5D789CF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:sandpaper"
+					}
+				}
+				title: "Any #create:sandpaper"
+				type: "item"
+			}]
+			title: "砂纸"
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38A8D94F7A821C6C"]
+			description: ["通过将玫瑰石英安置在铁板上就可以做成电子管，这将是复杂机械的起源"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "16173B544D7F1438"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 通过将玫瑰石英安置在铁板上就可以做成电子管。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "617442A8454F1DF3"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "446AC2154072828C"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "5DB467DD7D9EC389"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B277D0C53B0FDCA"]
+			description: ["你用红石记录下了一段机械的运行，利用可编程齿轮箱你可以让机械按照你预设好的方式运作"]
+			hide_until_deps_complete: true
+			id: "74615E45068AFA4E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 你用红石记录下了一段机械的运行，利用可编程齿轮箱你可以让机械按照你预设好的方式运作。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "0A63964DE310E2D0"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "35848412994C151E"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "5B241FCB6A0541B9"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["35E029333246B962"]
+			description: ["智能流体管道可以自动分流液体，你也可以给它设置过滤器"]
+			hide_until_deps_complete: true
+			id: "20D975297EB601B0"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 智能流体管道可以自动分流液体，你也可以给它设置过滤器。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "4AA0B08D33DA2E80"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "6C1A7D3FD3F057FF"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "652A7D6132158BDA"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E47CD49530955D4"]
+			description: ["利用动力压路机你可以清除铁轨上的障碍物"]
+			hide_until_deps_complete: true
+			id: "434C1FCDDDE3ED92"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 利用动力压路机你可以用动态结构清除铁轨上的障碍物。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "4AA564EF080703B6"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "3DED92BF702E6C46"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "23B19E849561FB2F"
+				item: "create:mechanical_roller"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5AF4A9290908F6E2"]
+			description: ["要想让基础燃烧炉的火焰达到冶炼合金的温度。你需要使用一个转速至少达到16的鼓风机对基础燃烧炉进行鼓风。这将会大幅增加燃料消耗"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "38A362163A208FA6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 基础燃烧炉的火焰可以通过鼓风机对其鼓风达到能够冶炼合金的温度。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "2D49D8F495DEB4FB"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "18A9388D87709D80"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "741189278BB0A355"
+				item: "createlowheated:basic_burner"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"27BFE747AA405D0E"
+				"3CA987FA51E8C0B2"
+			]
+			description: [
+				"&bTECA任务界面已开放"
+				"科研任务：&7目前暂无 "
+				"科技增援等级：&a文艺复兴"
+				"科研经费补贴：&6基础"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "164D6240E23BFF29"
+			rewards: [
+				{
+					auto: "enabled"
+					count: 48
+					id: "47FE070E5D209AFB"
+					item: "fallout:steam"
+					only_one: true
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show teca_steam_stage"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "mekanism:energy_tablet"
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "1000000"
+								}]
+							}
+						}
+					}
+					id: "63B016839C825C3E"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					id: "2FEAB15C8F30583D"
+					type: "xp"
+					xp: 1
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1934B341143CA0F4"
+				title: "&bTECA面板已开启"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20E1F37020BBBC88"]
+			description: ["干得漂亮！&bTECA&f和全人类不会忘记你的贡献。这是你们的&632x蒸汽研究点&f奖励"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "fallout:steam"
+			id: "1F0A2CAB991AB0EB"
+			rewards: [
+				{
+					count: 32
+					id: "0FF7813FF89471AD"
+					item: "fallout:steam"
+					only_one: true
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show teca_reward_complete"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "6DE71649B9B31879"
+					silent: true
+					title: "调度员信息"
+					type: "command"
+				}
+				{
+					id: "0A48CD85E8B610BC"
+					type: "xp"
+					xp: 1
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "370EDF842EB61A4C"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "&bTECA安山合金任务"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["693BE6533A44BB99"]
+			description: ["机械动力的动力轴承/风车/列车/矿车/起重机都属于动态结构"]
+			id: "75451098AB3D036D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 机械动力的动力轴承/风车/列车/矿车/起重机都属于动态结构。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "16597B05D56A7F91"
+					silent: true
+					title: "提示"
+					type: "command"
+				}
+				{
+					id: "3E2F650F3580A60A"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				id: "3308CFB3DD895DF0"
+				title: "关于动态结构"
+				type: "checkmark"
+			}]
+			title: "关于动态结构"
+			x: 4.5d
+			y: -1.0d
+		}
+	]
+	title: "&a文艺复兴"
+}

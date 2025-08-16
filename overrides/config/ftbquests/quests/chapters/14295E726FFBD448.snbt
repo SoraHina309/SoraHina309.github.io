@@ -1,0 +1,2248 @@
+{
+	autofocus_id: "30F0F9542D6676A5"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "14295E726FFBD448"
+	group: "26ECC210722E17B2"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "tacz:attachment"
+		tag: {
+			AttachmentId: "cyber_armorer:mod_blood"
+		}
+	}
+	id: "14295E726FFBD448"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["18FA870556B3BEEA"]
+			description: [
+				"&3AGIRT任务界面已开放"
+				"调查任务：&c了解当地生物"
+				"认证等级：&a初级干员"
+				"军备补贴：&7极少"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "ftbquests:book"
+			id: "30F0F9542D6676A5"
+			rewards: [
+				{
+					auto: "enabled"
+					count: 16
+					id: "49BE38C133F10564"
+					item: "fallout:primordial"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_entry"
+					elevate_perms: true
+					id: "772D3F2CF207A73E"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+			]
+			tasks: [{
+				elapsedTime: 1L
+				id: "2CBBEE74D5D1A7E6"
+				type: "questsadditions:time"
+			}]
+			title: "&3AGIRT面板已开启"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30F0F9542D6676A5"]
+			description: [
+				"&3AGIRT调查任务已开启"
+				"干员们，如今你们身处异界着实不易，但&3AGIRT&f需要获得当地生物的情报。"
+				"尤其是哪些令人作呕，完全无法交流的&4\"怪物\""
+				"请多多狩猎这些怪物。这对人类未来殖民异界有重大帮助"
+			]
+			id: "1C0C0495A6736416"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_entry1"
+				elevate_perms: true
+				id: "0CECDA30D40C7119"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			tasks: [{
+				id: "1C69061A9BD3BD26"
+				title: "&3听听AGIRT要说什么"
+				type: "checkmark"
+			}]
+			title: "&6异界歧途"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2849D616BCFFB37E"]
+			id: "6B3F4D9E3633697D"
+			tasks: [{
+				id: "3E4B793E44A96EFB"
+				stat: "minecraft:mob_kills"
+				title: "击杀一千头异界生物"
+				type: "stat"
+				value: 1000
+			}]
+			title: "久经沙场"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3459864BD25F25B8"]
+			description: [
+				"在双足飞龙中&c火龙&r大部分吐息可以用&6抗火药水&r抵御。但要小心！"
+				"龙族都有强悍的身躯和威力恐怖的吐息。与永不停息的食欲跟贪欲"
+				"对付巨龙唯有躲避其攻击的同时用压倒性的火力将其击毙"
+			]
+			icon: "iceandfire:fire_dragon_heart"
+			id: "00BD5DD06F1CC521"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61EC52346109BD92"
+				table_id: 4633225098365434905L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				id: "3E74853D3EF71373"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3459864BD25F25B8"]
+			description: [
+				"在双足飞龙中&b冰龙&r是最弱的，但是也只是跟其他飞龙对比。"
+				"龙族都有强悍的身躯和威力恐怖的吐息。与永不停息的食欲跟贪欲"
+				"对付巨龙唯有躲避其攻击的同时用压倒性的火力将其击毙"
+			]
+			icon: "iceandfire:ice_dragon_heart"
+			id: "247130AB5CAF5434"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45F2BF78101D4481"
+				table_id: 6993678545429753116L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				id: "403ED1A68FE1ABDA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.23979591836734926d
+			y: -5.183673469387752d
+		}
+		{
+			dependencies: ["3459864BD25F25B8"]
+			description: [
+				"在双足飞龙中&d电龙&r的吐息是最为&c恐怖&r的！"
+				"龙族都有强悍的身躯和威力恐怖的吐息。与永不停息的食欲跟贪欲"
+				"对付巨龙唯有躲避其攻击的同时用压倒性的火力将其击毙"
+			]
+			icon: "iceandfire:lightning_dragon_heart"
+			id: "6B92E2DF5B59585F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E2E957993B143F1"
+				table_id: 5742267721962409249L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				id: "5E69830A5611BF82"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"18FA870556B3BEEA"
+				"3F2DC8919B219807"
+			]
+			description: [
+				"我们提交的生物情报让&3AGIRT&f很满意。"
+				"因此他们给我们发送了一些除虫用具。"
+				"并告知我们。最好接下来提供更强大生物的情报或当地生物的情报"
+				"这会让&3AGIRT&f的计划更加顺利的推进。并且我们也会获得相应的报酬"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "ftbquests:book"
+			id: "2849D616BCFFB37E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "651E673207391E64"
+					table_id: 4536353422542564493L
+					type: "choice"
+				}
+				{
+					count: 64
+					id: "24B38DB97C744A52"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "qkl:16mm"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_entry2"
+					elevate_perms: true
+					id: "4AE7D51390D992FE"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4622AAC75A8B2457"
+				stat: "minecraft:mob_kills"
+				title: "杀死一百只异界生物"
+				type: "stat"
+				value: 100
+			}]
+			title: "&3AGIRT的信息"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2849D616BCFFB37E"]
+			description: [
+				"这个世界存在着诸多强大的超凡生物。因此当地居民撰写了很多关于这些异兽的手稿。"
+				"我们必须获得这些手稿并整理成册。希望&3AGIRT&f老能对这些生物的数据感到满意"
+			]
+			icon: "iceandfire:bestiary"
+			id: "6D54E67BA178F92A"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_entry3"
+				elevate_perms: true
+				id: "4A1C73BACB9F0F1D"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "44BE4F3A9D65BB17"
+					item: "iceandfire:manuscript"
+					type: "item"
+				}
+				{
+					id: "2F4B904643BF8DA7"
+					item: "iceandfire:bestiary"
+					type: "item"
+				}
+			]
+			title: "&6超凡生物调查"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2849D616BCFFB37E"]
+			description: [
+				"这个世界存在着诸多智慧生物和古代遗迹，因此我们需要深入调查他们的文化"
+				"尤其是刌民,&3AGIRT&f对他们很感兴趣"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:seek_goat_horn"
+				}
+			}
+			id: "2A9FD032E8D047D6"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_entry5"
+				elevate_perms: true
+				id: "7CBAE4C41047D915"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1C74904D4EF33C55"
+				item: "trials:ominous_bottle"
+				type: "item"
+			}]
+			title: "&c异界人文"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B019F7D05268F8B"]
+			description: [
+				"这种遇到太阳会石化的食人生成在洞穴里，他们的战力强悍。"
+				"但是庞大的体型并不适合在山洞里频繁移动。利用这点好好的狩猎他们吧"
+			]
+			icon: "iceandfire:troll_skull"
+			id: "46D489CF82C3A1A9"
+			rewards: [{
+				auto: "enabled"
+				count: 24
+				id: "5DA1276F9180A37E"
+				item: "fallout:primordial"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:troll"
+				id: "5D4E086C80CD7D85"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3459864BD25F25B8"]
+			description: [
+				"独眼巨人往往出现在海边的圆型巢穴，偶尔会前往草原放牧"
+				"独眼巨人近战的踢击和撕咬非常致命。如果被其束缚请立刻按&aSHIFT&f键挣脱"
+				"不过虽然巨人独眼能够抵挡枪械和爆炸物不受伤，但是用弓箭可以射瞎其巨眼"
+				"建议射瞎眼睛后，使用武器将其击杀"
+			]
+			icon: "iceandfire:cyclops_skull"
+			id: "71BABE2CADFEE006"
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "053B725E009BB969"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B019F7D05268F8B"]
+			description: [
+				"海蟒是一种退化了四肢的海洋爬行动物，能够用灵活的机动性和气泡高效的捕食猎物"
+				"速度极快能追得上小舟并快速将其倾覆，猎杀落水的人员"
+				"但是速度和结实的肉体不可兼得，利用枪械可以轻易的猎杀这些脆弱的大型生物"
+			]
+			icon: "iceandfire:seaserpent_skull"
+			id: "48E7993F40115263"
+			rewards: [{
+				auto: "enabled"
+				count: 24
+				id: "034155C025705BED"
+				item: "fallout:primordial"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				id: "6A7A54B694CA60CD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.2602040816326578d
+			y: -3.234693877551024d
+		}
+		{
+			dependencies: [
+				"08C5C074521A8301"
+				"46D489CF82C3A1A9"
+				"48E7993F40115263"
+				"41D7A51945375FA9"
+				"4223662E58797E5C"
+				"34EB745710680084"
+			]
+			description: [
+				"从现在开始，我们要想方设法狩猎生态位顶点的生物。"
+				"这将会非常艰难。但成功后我们可以用这些生物的遗骸，来制作武器盔甲。"
+				"希望这能让&3AGIRT&f那群人彻底满意"
+			]
+			hide_dependency_lines: true
+			id: "3459864BD25F25B8"
+			min_required_dependencies: 4
+			rewards: [
+				{
+					count: 2
+					id: "56770F783CE27026"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07923CEB92C84864"
+					item: "irons_spellbooks:greater_oakskin_elixir"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "098BAA2532BF6991"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_turtle_master"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0E1562412D5015B6"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_entry4"
+					elevate_perms: true
+					id: "3BEFAA8A2596DD1A"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "6C95849BCB5B1EA4"
+					item: {
+						Count: 1
+						id: "superbwarfare:c4_bomb"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5E41CC006062C6B8"
+					item: {
+						Count: 1
+						id: "superbwarfare:c4_bomb"
+						tag: {
+							Control: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55624BD2C162B53B"
+					item: {
+						Count: 1
+						id: "superbwarfare:detonator"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "681055CACA6F0EA0"
+				title: "食物链的顶点"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D54E67BA178F92A"]
+			dependency_requirement: "one_completed"
+			description: [
+				"看样子这些手稿让&3AGIRT&f很激动"
+				"不过目前确实不应该狩猎过于强大的生物"
+				"我们应该发展一些基础科技，再慢慢完成上头给我们的任务"
+			]
+			id: "1B019F7D05268F8B"
+			tasks: [{
+				id: "74D6C80B899EBE8B"
+				type: "checkmark"
+			}]
+			title: "狩猎开始"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C0C0495A6736416"]
+			id: "3F2DC8919B219807"
+			tasks: [{
+				id: "0D3072FD5C42FD47"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 100
+			}]
+			title: "击杀一百头怪物"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B019F7D05268F8B"]
+			description: [
+				"这种在沼泽出没的鸟类,能够像连弩一样射出锋利的金属羽毛"
+				"不要与其纠缠太久，猎杀后立刻撤离。"
+			]
+			icon: "iceandfire:stymphalian_skull"
+			id: "34EB745710680084"
+			tasks: [{
+				entity: "iceandfire:stymphalian_bird"
+				id: "0F919781696303FF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B019F7D05268F8B"]
+			description: [
+				"这种俊美的生物经常在高山和沙漠出现。且可以被兔子脚驯服"
+				"也许一只活着的骏鹰会让&3AGIRT&f更加满意？"
+			]
+			icon: "iceandfire:hippogryph_skull"
+			id: "07DCF3C0D7C093BC"
+			tasks: [{
+				id: "012193A7A5140A1D"
+				type: "checkmark"
+			}]
+			title: "关于骏鹰"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1B019F7D05268F8B"]
+			description: [
+				"这种外形很糟糕的蠕虫生活在沙漠。"
+				"建议在水边对付他们，这些生物离开了沙子便如鱼离开了水。"
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:deathworm_gauntlet_yellow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "08C5C074521A8301"
+			tasks: [{
+				entity: "iceandfire:deathworm"
+				id: "564D9BEFF9B014AD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3459864BD25F25B8"]
+			description: [
+				"霜冻巨兽是一种居住在冰刺之地的巨型灵长目动物"
+				"其口中含有蕴含超凡之力的冰晶。能够吹出能够冻结目标的寒冰之风"
+				"但是该生物攻击距离较短，在远处对它发起攻击将其轻易击败吧！"
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5ED7275144BD6170"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "7246BE947ED2B70E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["07DCF3C0D7C093BC"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "41D7A51945375FA9"
+			incompatible: ["4223662E58797E5C"]
+			tasks: [{
+				entity: "iceandfire:hippogryph"
+				id: "0FA419E4461D68D3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07DCF3C0D7C093BC"]
+			description: [""]
+			icon: "minecraft:rabbit_foot"
+			id: "4223662E58797E5C"
+			incompatible: ["41D7A51945375FA9"]
+			rewards: [{
+				auto: "enabled"
+				count: 24
+				id: "34B07DEEFBF8605F"
+				item: "fallout:primordial"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippogryph"
+				criterion: ""
+				id: "66FA890321411CD5"
+				type: "advancement"
+			}]
+			title: "驯服一头骏鹰"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5ED7275144BD6170"
+				"71BABE2CADFEE006"
+				"00BD5DD06F1CC521"
+				"6B92E2DF5B59585F"
+				"247130AB5CAF5434"
+				"48A49AF801D3C5EA"
+				"175EEFC1664B1C67"
+				"4EF62704BB03570A"
+				"21CA6396E64B713D"
+				"6B3F4D9E3633697D"
+				"0A105630C35A9000"
+			]
+			description: [
+				"我们的努力让&3AGIRT&r的工作有了进展"
+				"现在他们总算向我们详细说明了后续计划。"
+			]
+			hide_dependency_lines: true
+			icon: "fallout:champion_fragment"
+			id: "4A786E3B7A9F6BBF"
+			min_required_dependencies: 3
+			rewards: [
+				{
+					auto: "enabled"
+					id: "7AAFF9F245993214"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "BURST"
+							GunId: "tacz:m16a4"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 128
+					id: "19A91C6947E13B71"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "cyber_armorer:bullet_rifle"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion"
+					elevate_perms: true
+					id: "0224FB512E4BCDE1"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					count: 24
+					id: "371E68DAB5B213D0"
+					item: "fallout:adaptation"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E90333F3AE4C064"
+				title: "&3听听AGIRT要说什么"
+				type: "checkmark"
+			}]
+			title: "&3冠军计划"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"08C5C074521A8301"
+				"46D489CF82C3A1A9"
+				"48E7993F40115263"
+				"4223662E58797E5C"
+				"34EB745710680084"
+			]
+			description: [
+				"&3AGIRTf&f给我们发来了他们大客户的神秘委托。"
+				"好像是叫什么&e「K先生」&f"
+			]
+			hide_dependency_lines: true
+			icon: "supplementaries:cage"
+			id: "1254032756718AD3"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_entryz"
+				id: "13BF15B925D08C7F"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0C0AC3BC00904501"
+				type: "checkmark"
+			}]
+			title: "&e神秘的K先生"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69B2B4EDA6E09240"]
+			description: [""]
+			id: "667F8E48B8A23757"
+			rewards: [
+				{
+					id: "168E1F3F943F247F"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "create_armorer:shotgun_pump_bearing"
+							HasBulletInBarrel: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "696539C351017096"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "cyber_armorer:bullet_buckshot"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_entryz1"
+					elevate_perms: true
+					id: "51FFB63CC06EDB1B"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					count: 24
+					id: "518F8035853D392C"
+					item: "fallout:primordial"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "7CC13A79D11C8356"
+				item: {
+					Count: 1
+					id: "supplementaries:sack"
+					tag: {
+						BlockEntityTag: {
+							CustomName: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_aqua\",\"text\":\"内有塞壬的麻袋\"}],\"text\":\"\"}"
+							ForgeCaps: { }
+						}
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_aqua\",\"text\":\"内有塞壬的麻袋\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "&3疯狂的AGIRT大客户"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A9FD032E8D047D6"]
+			id: "380488FF19DC0423"
+			tasks: [{
+				id: "0073FBE66A87937C"
+				title: "刌民调查开始"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"667F8E48B8A23757"
+				"1B019F7D05268F8B"
+			]
+			description: [
+				"这回那位&e「K先生」&f绕过&3agirt&r亲自给我们发来了委托"
+				"似乎这位的行为引起了&3agirt&r的不满，不过他的报酬属实不错。"
+				"建议继续接取这位委托人的任务，也许他真的有些特殊物资"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "iceandfire:pixie_jar_empty"
+			id: "255D2E3CA532B707"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_entryz2"
+				elevate_perms: true
+				id: "552B989B2FFADFCA"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0877EB4A732866D0"
+				title: "&3z先生的委托"
+				type: "checkmark"
+			}]
+			title: "&ek先生的委托"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D01D8A27498E3A8"]
+			description: [
+				"幕府将军是刌民中的精英头目"
+				"具有高防御的和较高的血量，抵挡箭矢和近战的能力被大幅增强"
+				"机动性极高！建议使用枪械对付。"
+			]
+			icon: {
+				Count: 1
+				id: "illager_additions:master_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "104E3B3D2A90F606"
+			tasks: [{
+				entity: "illager_additions:shogun"
+				id: "4F678640C9DB20F5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["380488FF19DC0423"]
+			description: [
+				"灾厄武士是刌民中的精英士兵"
+				"具有极高的机动性和格挡箭矢和近战的能力"
+				"血量中等，建议使用枪械对付。"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "illager_additions:katana"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D01D8A27498E3A8"
+			tasks: [{
+				entity: "illager_additions:new_samurai"
+				id: "17E899F551292F22"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["380488FF19DC0423"]
+			description: [
+				"灾厄牛仔是刌民中的精英头目"
+				"具有较高的机动性和威力强劲的左轮"
+				"血量中等，建议使用远程武器对付。"
+			]
+			icon: {
+				Count: 1
+				id: "illager_additions:cowboy_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "61EC4EE09E9E65FC"
+			tasks: [{
+				entity: "illager_additions:cowboy"
+				id: "2760EBE3CC0B0671"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C7DAB9FE8D21B42"]
+			description: [
+				"厄难法师是刌民中的精英法师"
+				"能够用腐化信标释放威力强大的激光"
+				"血量中等，建议使用远程武器优先击杀。"
+			]
+			icon: {
+				Count: 1
+				id: "illager_additions:beamloger_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6DC96A8B5388EB56"
+			tasks: [{
+				entity: "illager_additions:beamloger"
+				id: "342F86D6F9E6999E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"104E3B3D2A90F606"
+				"0D01D8A27498E3A8"
+				"30CA5DC87630C174"
+				"61EC4EE09E9E65FC"
+				"6DC96A8B5388EB56"
+				"18E51198AE333AFC"
+				"77883895CC935DD5"
+				"7C509A59983998F5"
+				"03E7E32644E09019"
+				"3C7DAB9FE8D21B42"
+				"43D5A78531C5B112"
+			]
+			hide_dependency_lines: true
+			icon: "ftbquests:book"
+			id: "754EF546DEDB23CC"
+			min_required_dependencies: 7
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_entry6"
+				elevate_perms: true
+				id: "3B18D5F467624262"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3CDFFBF50AE76B29"
+				title: "&3试炼密室之谜"
+				type: "checkmark"
+			}]
+			title: "&3试炼密室之谜"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["380488FF19DC0423"]
+			dependency_requirement: "one_completed"
+			description: [
+				"灾厄卫兵是刌民中的精英士兵"
+				"具有较快的速度和中等的血量"
+				"建议使用枪械或重型冷兵器对付。"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "illager_additions:spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "30CA5DC87630C174"
+			tasks: [{
+				entity: "illager_additions:new_samurai"
+				id: "2EC2A40B170BAA28"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["255D2E3CA532B707"]
+			description: [""]
+			id: "5C986181E8858D5B"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "4A571A658D0439E1"
+					item: {
+						Count: 1
+						id: "fallout:wildcat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_entryz3"
+					elevate_perms: true
+					id: "38C0CF5AE63D4D81"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					count: 24
+					id: "08A9369FBD062E21"
+					item: "fallout:primordial"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "12B7993E10DA0A44"
+					item: "iceandfire:pixie_jar_0"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "20FBB21A3049E35B"
+					item: "iceandfire:pixie_jar_1"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4DC7706F74F89F71"
+					item: "iceandfire:pixie_jar_2"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5B10D9F37D4B7ACA"
+					item: "iceandfire:pixie_jar_3"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0B58033AFE29D410"
+					item: "iceandfire:pixie_jar_4"
+					type: "item"
+				}
+			]
+			title: "&6z先生的神秘小道具"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A9FD032E8D047D6"]
+			id: "791B72EDAAB7CE43"
+			tasks: [{
+				id: "76A4C2C5C7FDCC40"
+				title: "乌姆纳塔调查开始"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["380488FF19DC0423"]
+			description: [
+				"皇家守卫是刌民中的精英士兵"
+				"具有较高的的防御力和中等的血量，"
+				"建议使用枪械和重型武器对付。"
+			]
+			icon: {
+				Count: 1
+				id: "dungeonsmobs:royal_guard_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "18E51198AE333AFC"
+			tasks: [{
+				entity: "dungeonsmobs:royal_guard"
+				id: "7E69ECEFD0BB3577"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["18E51198AE333AFC"]
+			description: [
+				"皇家卫兵结合了灾厄卫兵战斗方式的精英头目"
+				"具有较高的的防御力和较高的血量，和恐怖的近战伤害"
+				"建议使用远程武器对付！"
+			]
+			icon: {
+				Count: 1
+				id: "illager_additions:royal_guard_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77883895CC935DD5"
+			tasks: [{
+				entity: "illager_additions:royal_guard_spearman"
+				id: "310F118E60B09464"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["380488FF19DC0423"]
+			dependency_requirement: "one_completed"
+			description: [
+				"呼啸傀儡是刌民中的通用型号战争傀儡"
+				"具有较快的速度和较高的血量与防御力。"
+				"但其攻速较慢，建议灵活对付。"
+			]
+			hide_dependent_lines: true
+			icon: "dungeonsmobs:squall_golem_spawn_egg"
+			id: "7C509A59983998F5"
+			tasks: [{
+				entity: "dungeonsmobs:squall_golem"
+				id: "212A2E7EBA83E115"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["380488FF19DC0423"]
+			dependency_requirement: "one_completed"
+			description: [
+				"劫掠兽是刌民中的怪兽坐骑"
+				"具有较快的速度和较高的血量与防御力。"
+				"但其攻速较慢，建议灵活对付。"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:ravager_spawn_egg"
+			id: "03E7E32644E09019"
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "1E32B36A1B2FDD06"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["380488FF19DC0423"]
+			description: [
+				"唤魔者是刌民中的法师"
+				"能够召唤能够穿墙骚扰的恼鬼和在近距离释放尖牙，"
+				"建议使用优先击杀。"
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "3C7DAB9FE8D21B42"
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "2F920051BEAE9B5B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["380488FF19DC0423"]
+			dependency_requirement: "one_completed"
+			description: [
+				"幻术是刌民中的精英弓手"
+				"能够分身和释放失明,血量中等"
+				"建议使用自动武器击杀。"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "43D5A78531C5B112"
+			tasks: [{
+				entity: "minecraft:illusioner"
+				id: "56BDEF9CE12FBC75"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["380488FF19DC0423"]
+			dependency_requirement: "one_completed"
+			description: [
+				"灾厄卫兵是刌民中的精英士兵"
+				"具有较快的速度和中等的血量"
+				"建议使用枪械或重型冷兵器对付。"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "illager_additions:spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7F46E9B10E11347F"
+			tasks: [{
+				entity: "illager_additions:new_samurai"
+				id: "5C7A7F92C90B85A2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["791B72EDAAB7CE43"]
+			dependency_requirement: "one_completed"
+			description: ["想要开始调查&6乌姆纳塔&r，我们首先要想办法获得&a面具&r。干掉他们便是最便捷的方式"]
+			id: "7374EC6D57F77A5F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_entry7"
+					elevate_perms: true
+					id: "31A6126F45F2BC6E"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪>想要开始调查乌姆纳塔，我们首先要想办法获得面具\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					elevate_perms: true
+					id: "5752AC66C9D01BD2"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "689948958A1262D9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "umvuthana:mask"
+					}
+				}
+				title: "获取一个乌姆塔纳面具"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1254032756718AD3"]
+			description: [
+				"那位&e「K先生」&f想要一头活着的&3塞壬&r。因此我们得想办法将其捕捉"
+				"麻袋便是一个极好的捕获方式。虽然这个过程可能会有点不太绅士....."
+			]
+			hide_dependency_lines: true
+			icon: "iceandfire:shiny_scales"
+			id: "69B2B4EDA6E09240"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "5BD9588E7A38E020"
+					item: {
+						Count: 1
+						id: "supplementaries:sack"
+						tag: {
+							BlockEntityTag: {
+								CustomName: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_aqua\",\"text\":\"内有塞壬的麻袋\"}],\"text\":\"\"}"
+								ForgeCaps: { }
+							}
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_aqua\",\"text\":\"内有塞壬的麻袋\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					only_one: true
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/clear @s supplementaries:sack 1"
+					elevate_perms: true
+					id: "78CD40BCC228BEF0"
+					silent: true
+					title: "能量守恒"
+					type: "command"
+				}
+			]
+			tasks: [{
+				checkItem: true
+				entity: "iceandfire:siren"
+				icon: "supplementaries:sack"
+				id: "5395DDD42C8F50A3"
+				item: "supplementaries:sack"
+				nbt: { }
+				title: "手持麻袋击败一头塞壬"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "&3塞壬捕捉计划..."
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7374EC6D57F77A5F"]
+			description: [
+				"是时候尝试通过佩戴&a面具&r混入&6乌姆纳塔村庄&r了"
+				"总感觉那位&e傻大个酋长&r很好相处"
+			]
+			icon: "mowziesmobs:sol_visage"
+			id: "233EFE075B0FB300"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_umvuth_intro"
+				elevate_perms: true
+				id: "3993A6DC2A07F7E4"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			tasks: [
+				{
+					advancement: "mowziesmobs:sneak_grove"
+					criterion: ""
+					id: "2CD23015143DAA91"
+					type: "advancement"
+				}
+				{
+					icon: "minecraft:gold_ingot"
+					id: "02822E923F4879B1"
+					observe_type: 5
+					timer: 0L
+					title: "&e跟大鸟对话"
+					to_observe: "mowziesmobs:umvuthi"
+					type: "observation"
+				}
+			]
+			title: "&e啊！伟大的巴拉尔克酋长"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["233EFE075B0FB300"]
+			description: [
+				"最终我们还是干掉了那头&e傲慢的大鸟&r"
+				"索性&e乌姆纳塔酋长&r的研究样本保存完好"
+				"希望&3AGIRT&r对交流失败没有什么意见......"
+			]
+			icon: {
+				Count: 1
+				id: "fallout:copper_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77F0210D3E5F8D7D"
+			incompatible: [
+				"71986C770580E8A7"
+				"6EBEF8E143DD8B36"
+			]
+			rewards: [{
+				auto: "enabled"
+				command: "/advancement grant @s only mowziesmobs:kill_umvuthi"
+				elevate_perms: true
+				id: "0CF8A6140DB73999"
+				silent: true
+				title: "赞美太阳！"
+				type: "command"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "6E7D029EF4583D92"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e落日"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["233EFE075B0FB300"]
+			dependency_requirement: "one_completed"
+			description: [
+				"我们完成了调查&e乌姆纳塔和巴拉尔克酋长任务!"
+				"是时候把情报和之前获得的样本移交给&3AGIRT&r了"
+			]
+			icon: "mowziesmobs:grant_suns_blessing"
+			id: "21DA1C826FF5FB1B"
+			secret: true
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				id: "550E547AB37F2945"
+				type: "advancement"
+			}]
+			title: "&e赞美太阳"
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["233EFE075B0FB300"]
+			description: [
+				"那位&e酋长&r狮子大开口，竟需要我们向他提交&e7个金块&r才能换取情报"
+				"不过&3AGIRT&r大概率对太阳神之力很感兴趣。因此我们最好与其交易。也许可以借此拿到更多的&3AGIRT&r补贴"
+			]
+			icon: "minecraft:gold_block"
+			id: "71986C770580E8A7"
+			incompatible: [
+				"77F0210D3E5F8D7D"
+				"6EBEF8E143DD8B36"
+			]
+			rewards: [{
+				auto: "enabled"
+				command: "/execute at @s run dialog show agirt_umvuth_trade"
+				elevate_perms: true
+				id: "0AFFCC785745D3E3"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:suns_blessing"
+				criterion: ""
+				id: "16410816484A2EE4"
+				title: "&e跟太阳鸟交易"
+				type: "advancement"
+			}]
+			title: "&e贪婪的大鸟"
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21DA1C826FF5FB1B"]
+			description: [""]
+			id: "6EBEF8E143DD8B36"
+			incompatible: ["21CA6396E64B713D"]
+			tasks: [{
+				elapsedTime: 1L
+				id: "1EA48D78E0FACD83"
+				title: "交易计时器"
+				type: "questsadditions:time"
+			}]
+			title: "交易成功"
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"21DA1C826FF5FB1B"
+				"6EBEF8E143DD8B36"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:writable_book"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4EF62704BB03570A"
+			incompatible: [
+				"71986C770580E8A7"
+				"77F0210D3E5F8D7D"
+			]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_barako1"
+					elevate_perms: true
+					id: "2BCD0A206A88DE16"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					count: 16
+					id: "5EF5DC9200810D47"
+					item: "fallout:adaptation"
+					type: "item"
+				}
+			]
+			tasks: [{
+				elapsedTime: 1L
+				id: "265A54848540DB6C"
+				title: "&3AGIRT的回应"
+				type: "questsadditions:time"
+			}]
+			title: "&3AGIRT对酋长的回应"
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"71986C770580E8A7"
+				"21DA1C826FF5FB1B"
+			]
+			icon: "fallout:primordial"
+			id: "21CA6396E64B713D"
+			incompatible: [
+				"77F0210D3E5F8D7D"
+				"6EBEF8E143DD8B36"
+			]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_barako2"
+					elevate_perms: true
+					id: "307AA3F0D0DD836D"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					count: 32
+					id: "600FCF527D64CF66"
+					item: "fallout:adaptation"
+					type: "item"
+				}
+			]
+			tasks: [{
+				elapsedTime: 1L
+				id: "333190BF15808A3A"
+				title: "&3AGIRT的回应"
+				type: "questsadditions:time"
+			}]
+			title: "&3AGIRT对获得太阳之力的回应"
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"21DA1C826FF5FB1B"
+				"77F0210D3E5F8D7D"
+			]
+			icon: "minecraft:cooked_chicken"
+			id: "175EEFC1664B1C67"
+			incompatible: ["71986C770580E8A7"]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_barako3"
+					elevate_perms: true
+					id: "17725107B3AF1208"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					count: 32
+					id: "6507CFB8BAF8E673"
+					item: "fallout:primordial"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "5C81E49B9CBCCAF0"
+					item: {
+						Count: 1
+						id: "minecraft:cooked_chicken"
+						tag: {
+							Enchantments: [{
+								id: "alexscaves:solar"
+								lvl: 1
+							}]
+							display: {
+								Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"strikethrough\":true,\"color\":\"dark_gray\",\"text\":\"并非烤鸡\"}],\"text\":\"\"}"]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"gold\",\"text\":\"太阳神风味烤鸡\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				elapsedTime: 1L
+				id: "3F9287028714231F"
+				title: "&3AGIRT的回应"
+				type: "questsadditions:time"
+			}]
+			title: "&3AGIRT对干掉酋长的回应"
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["375B243A4697357F"]
+			description: [
+				"在靠近试炼刷怪笼后，通过饮用不详之瓶获得的不祥预兆被转换为了&3试炼之兆&r！"
+				"并且出现了与众不同的怪物。也许击败这些怪物后，可以获得&3解锁特殊宝库的钥匙。"
+			]
+			icon: "trials:trial_spawner"
+			id: "518697AB15027ED5"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @s [{\"text\":\"<相位仪>在获得不详预兆后靠近试炼刷怪笼后刷怪笼刷出了与众不同的怪物！\\n<相位仪>也许击败这些怪物后会获得特殊宝库的钥匙。\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				elevate_perms: true
+				id: "4FAD4C5D5392D02D"
+				silent: true
+				title: "命令"
+				type: "command"
+			}]
+			tasks: [{
+				icon: "trials:trial_spawner"
+				id: "4B5257A7DAE14F35"
+				observe_type: 0
+				timer: 0L
+				title: "&3再次观察试炼刷怪笼"
+				to_observe: "trials:trial_spawner"
+				type: "observation"
+			}]
+			title: "&3再次观察试炼刷怪笼"
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["440781B5D88154B0"]
+			description: [
+				"最终我们通过多种方式在试炼宝库获得了&6试炼之钥&r"
+				"是时候试试这些钥匙能否打开那些神秘的&6试炼宝库了...."
+			]
+			id: "17FACDA9515D9A8C"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @s [{\"text\":\"<相位仪>是时候看看试炼之钥能否打开那些神秘的试炼宝库了\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				elevate_perms: true
+				id: "497D2E39760726DF"
+				silent: true
+				title: "命令"
+				type: "command"
+			}]
+			tasks: [{
+				id: "16C67E2D93B58ECE"
+				item: "trials:trial_key"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6FCCE50F194C2EED"]
+			description: ["这种&3试炼宝库&r似乎不太一样，内在似乎蕴含着一股&c不详之瓶&r的气息........"]
+			id: "67D21268D418BD14"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @s [{\"text\":\"<相位仪>这种试炼宝库似乎不太一样，内在似乎蕴含着一股不详之瓶的气息........\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				elevate_perms: true
+				id: "0597F7DA26CE964F"
+				silent: true
+				title: "命令"
+				type: "command"
+			}]
+			tasks: [{
+				icon: "trials:trial_vault_ominous"
+				id: "07686593CC3FCB03"
+				observe_type: 0
+				timer: 0L
+				title: "&3观察不详试炼宝库"
+				to_observe: "trials:trials_vault"
+				type: "observation"
+			}]
+			title: "&3不详试炼宝库"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["39951A8399BADFFA"]
+			description: ["在靠近&e试炼刷怪笼&r后出现了怪物，&c也许击败这些怪物会获得一些什么？&r"]
+			icon: "trials:trial_spawner"
+			id: "440781B5D88154B0"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @s [{\"text\":\"<相位仪>在靠近试炼刷怪笼后出现了怪物，也许击败这些怪物会获得一些什么？\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				elevate_perms: true
+				id: "5148B292F19BBE09"
+				silent: true
+				title: "命令"
+				type: "command"
+			}]
+			tasks: [{
+				icon: "trials:trial_spawner"
+				id: "05029B4C82327D16"
+				observe_type: 0
+				timer: 0L
+				title: "&6观察试炼刷怪笼"
+				to_observe: "trials:trial_spawner"
+				type: "observation"
+			}]
+			title: "&6神秘的刷怪笼"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["754EF546DEDB23CC"]
+			description: [
+				"侦测到目标建筑物存在大量远古设备。建议全副武装进入其中进行探索"
+				"建议留意类似&e刷怪笼&r的设备和&e上锁的密闭容器&r。"
+			]
+			icon: "minecraft:copper_block"
+			id: "39951A8399BADFFA"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @s [{\"text\":\"<相位仪>侦测到目标建筑物存在大量远古设备。建议全副武装进入其中进行探索\\n<相位仪>留意类似刷怪笼的设备和上锁的密闭容器。\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				elevate_perms: true
+				id: "1FE16C8D6BB4241F"
+				silent: true
+				title: "命令"
+				type: "command"
+			}]
+			tasks: [{
+				id: "02BAD06647D7E3A1"
+				structure: "trials:trials_chambers"
+				title: "&6发现试炼密室"
+				type: "structure"
+			}]
+			title: "&e初入密室"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["39951A8399BADFFA"]
+			description: [
+				"&7旋风人&r是一种&c免疫远程&r。浑身由&7暴风&r组成的人型生物。"
+				"其掉落的&7风棒&r似乎可以用来制作一些超凡物品"
+			]
+			id: "2697AB373D83FB72"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @s [{\"text\":\"<相位仪>旋风人掉落的风棒似乎能制作一些超凡物品\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				elevate_perms: true
+				id: "3328A4648A1BD77E"
+				silent: true
+				title: "命令"
+				type: "command"
+			}]
+			tasks: [{
+				id: "696A911F84C5E590"
+				item: "trials:wind_charge"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["39951A8399BADFFA"]
+			description: [
+				"这种设备叫做&6试炼宝库&r，正上方有钥匙孔。"
+				"也许可以用&6某种钥匙&r将其解锁........"
+			]
+			id: "6FCCE50F194C2EED"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @s [{\"text\":\"<相位仪>这种设备叫做试炼宝库，正上方有钥匙孔。也许可以用某种钥匙将其解锁........\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				elevate_perms: true
+				id: "626A9EAE3307F530"
+				silent: true
+				title: "命令"
+				type: "command"
+			}]
+			tasks: [{
+				icon: "trials:trial_vault"
+				id: "0D9741ED197022B8"
+				observe_type: 0
+				timer: 0L
+				title: "&6观察试炼宝库"
+				to_observe: "trials:trial_vault"
+				type: "observation"
+			}]
+			title: "&6试炼宝库"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67D21268D418BD14"]
+			description: [
+				"既然试炼密室有充足的&c不详之瓶&r，也许喝下&c不详之瓶&r。"
+				"就是解开那些&3特殊宝库&r和此地秘密的正确途径"
+			]
+			icon: "trials:ominous_bottle"
+			id: "375B243A4697357F"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @s [{\"text\":\"<相位仪>也许喝下不详之瓶。就是解开那些特殊宝库和此地秘密的正确途径\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				elevate_perms: true
+				id: "29DEC8EC67DFC121"
+				silent: true
+				title: "命令"
+				type: "command"
+			}]
+			tasks: [{
+				elapsedTime: 1L
+				id: "588F51226C5C4F7E"
+				type: "questsadditions:time"
+			}]
+			title: "&3解开谜团之法"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"17FACDA9515D9A8C"
+				"518697AB15027ED5"
+			]
+			description: ["是时候拿&3不详试炼之钥&r打开那些&3不详试炼宝库了!"]
+			id: "0CB9742F1E8EABE3"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @s [{\"text\":\"<相位仪>是时候拿不详试炼之钥打开那些不详试炼宝库了!\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				elevate_perms: true
+				id: "4C2C2072CB3D4FEB"
+				silent: true
+				title: "命令"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6A4EDF34F6B963D9"
+				item: "trials:trial_key_ominous"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0CB9742F1E8EABE3"]
+			description: [
+				"你可以用这个沉重金属块制造一柄趁手的锤子"
+				"（建议对其附加风爆附魔后使用）"
+			]
+			id: "2B942BA96541C8EC"
+			rewards: [{
+				auto: "invisible"
+				command: "/tellraw @s [{\"text\":\"<相位仪>你可以用这个沉重金属块制造一柄趁手的锤子\\n<相位仪>（建议对其附加风爆附魔后使用）\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+				elevate_perms: true
+				id: "2C46168F4DAD47A6"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			tasks: [{
+				id: "74C11CB6E34EEC89"
+				item: "trials:heavy_core"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0CB9742F1E8EABE3"
+				"17FACDA9515D9A8C"
+				"518697AB15027ED5"
+				"375B243A4697357F"
+				"440781B5D88154B0"
+				"2B942BA96541C8EC"
+				"6FCCE50F194C2EED"
+				"67D21268D418BD14"
+				"2697AB373D83FB72"
+				"39951A8399BADFFA"
+			]
+			description: [
+				"我们对试炼密室的调查总算告一段落了。是时候把这些又臭又长的东西发给&3AGIRT&r了!"
+				"愿我们能获得合理的报酬"
+			]
+			hide_dependency_lines: true
+			icon: "ftbquests:book"
+			id: "48A49AF801D3C5EA"
+			min_required_dependencies: 7
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_entry8"
+					elevate_perms: true
+					id: "1EE828BD8E36AB21"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					count: 48
+					id: "5569409973A324DB"
+					item: "fallout:adaptation"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6221CD609D4AB1D0"
+				title: "&3试炼密室之谜"
+				type: "checkmark"
+			}]
+			title: "&3向AGIRT发送调查报告"
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"175EEFC1664B1C67"
+				"4EF62704BB03570A"
+				"21CA6396E64B713D"
+			]
+			description: ["&2似乎有什么东西在寻找你"]
+			hide_dependency_lines: true
+			icon: "ftbquests:book"
+			id: "732EC819A3677055"
+			min_required_dependencies: 7
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_earthrend"
+					elevate_perms: true
+					id: "45A119F9065EA16F"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at @s run locate structure mowziesmobs:monastery"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:earthquake"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					id: "7F96CCCF2EDC2FA9"
+					silent: true
+					title: "&2修行之所的坐标以发送在聊天栏"
+					type: "command"
+				}
+			]
+			tasks: [{
+				elapsedTime: 1200L
+				id: "0246B9C360D8F0F0"
+				title: "&2似乎有什么东西在寻找你"
+				type: "questsadditions:time"
+			}]
+			title: "&2地卜师的邀请"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["732EC819A3677055"]
+			dependency_requirement: "one_completed"
+			description: [""]
+			hide_dependent_lines: true
+			icon: "mowziesmobs:bluff_rod"
+			id: "456F1059987CC9DE"
+			incompatible: ["0A105630C35A9000"]
+			invisible: true
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_earthrend_fail"
+				elevate_perms: true
+				id: "6963794828DA9BDE"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			tasks: [
+				{
+					entity: "mowziesmobs:sculptor"
+					id: "253A5ADD34768BB1"
+					title: "&4杀死通臂大师"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "308DFD482BD1761B"
+					structure: "mowziesmobs:monastery"
+					title: "&2找到通臂大师的居所"
+					type: "structure"
+				}
+			]
+			title: "&4山岩崩裂"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["732EC819A3677055"]
+			dependency_requirement: "one_completed"
+			description: ["按照聊天栏坐标前往&2通臂大师&r的居所"]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:earthrend_gauntlet"
+				tag: {
+					Damage: 0
+					GeckoLibID: 1L
+				}
+			}
+			id: "0A105630C35A9000"
+			incompatible: ["456F1059987CC9DE"]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_earthrend_complete"
+					elevate_perms: true
+					id: "602C60D21FE1486D"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					count: 32
+					id: "499C13F10111503E"
+					item: "fallout:adaptation"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "mowziesmobs:sculptor_challenge"
+					criterion: ""
+					id: "6A3777BDFE93F5E8"
+					title: "&2完成通臂大师的挑战"
+					type: "advancement"
+				}
+				{
+					id: "4F5E13AF9B1D5E6B"
+					structure: "mowziesmobs:monastery"
+					title: "&2找到通臂大师的居所"
+					type: "structure"
+				}
+			]
+			title: "&2地卜师的安息"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"53AFF1001EE20AB4"
+				"0A105630C35A9000"
+			]
+			hide_dependency_lines: false
+			id: "68DA7442D1A5420E"
+			incompatible: ["2DF2D1DEB1F8C198"]
+			tasks: [{
+				elapsedTime: 1600L
+				id: "408E7A69661AF168"
+				title: "&4过期将无法升级手套"
+				type: "questsadditions:time"
+			}]
+			title: "&4升级机会宽限"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A105630C35A9000"]
+			dependency_requirement: "one_completed"
+			description: ["花费一定时间升级你的&2大地护手&r"]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "mowziesmobs:earthrend_gauntlet"
+				tag: {
+					Damage: 0
+					GeckoLibID: 1L
+				}
+			}
+			id: "2DF2D1DEB1F8C198"
+			incompatible: ["68DA7442D1A5420E"]
+			rewards: [{
+				auto: "enabled"
+				id: "1EFD7A181E27DC43"
+				item: {
+					Count: 1
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 25.0d
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-871939597
+									1934115179
+									-1820908447
+									-1146767901
+								]
+							}
+							{
+								Amount: 250.0d
+								AttributeName: "irons_spellbooks:max_mana"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									1200424286
+									1912291626
+									-2018286515
+									1112636325
+								]
+							}
+							{
+								Amount: 0.4d
+								AttributeName: "irons_spellbooks:nature_spell_power"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									-807678015
+									302534442
+									-1562560861
+									512173348
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3
+						}]
+						GeckoLibID: 3L
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:earthquake"
+								index: 0
+								level: 10
+								locked: 0b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "53AFF1001EE20AB4"
+					item: {
+						Count: 1
+						id: "mowziesmobs:earthrend_gauntlet"
+						tag: {
+							Damage: 0
+							GeckoLibID: 1L
+						}
+					}
+					title: "&2提交大地手套"
+					type: "item"
+				}
+				{
+					elapsedTime: 1200L
+					id: "3418867B33A895AD"
+					title: "&2升级时间"
+					type: "questsadditions:time"
+				}
+			]
+			title: "&3手套升级服务"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3459864BD25F25B8"]
+			description: [
+				"&5凋零&r是一种可以通过四块灵魂沙和三个凋零骷髅头召唤的飞行boss"
+				"它也会在&5专家难度下的亡灵袭击&r中出现，建议使用远程攻击手段对付"
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "2D8377E791AD4282"
+			rewards: [{
+				count: 64
+				id: "7DE0EE0E661960DC"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "525FF7C6F3642177"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3459864BD25F25B8"]
+			description: [
+				"&5末影龙&r是居住在附属位面&d末地&r的四足飞龙"
+				"要想要杀死它你需要获得&312颗末影之眼&r后"
+				"前往末地要塞激活传送门进入末地"
+			]
+			icon: "minecraft:dragon_head"
+			id: "71D6FA63BCD6B13B"
+			rewards: [{
+				count: 64
+				id: "18315F9A303DFF26"
+				item: "fallout:assimilation"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "4CCA9247E490559D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+	]
+	title: "&a异界歧途"
+}

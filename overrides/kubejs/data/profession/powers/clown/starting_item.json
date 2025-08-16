@@ -1,0 +1,14 @@
+{
+  "type": "origins:starting_equipment",
+  "keep_nbt": true,
+  "stacks": [
+    {
+      "item": "fallout:jokey_1",
+      "count": 1
+    },
+        {
+      "item": "fallout:joker_hammer",
+      "count": 1
+    }
+  ]
+}

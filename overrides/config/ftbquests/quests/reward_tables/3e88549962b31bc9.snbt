@@ -1,0 +1,12 @@
+{
+	icon: "superbwarfare:medium_rocket_ap"
+	id: "3E88549962B31BC9"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 3, item: "superbwarfare:medium_rocket_ap" }
+		{ count: 3, item: "superbwarfare:medium_rocket_he" }
+		{ count: 3, item: "superbwarfare:medium_rocket_cm" }
+	]
+	title: "中口径火箭弹"
+}

@@ -1,0 +1,620 @@
+{
+  "farmersdelight:baked_cod_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersdelight:beef_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersdelight:chicken_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "farmersdelight:fish_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersdelight:glow_berry_custard": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -1,
+      "duration": 2400
+    }
+  ],
+  "farmersdelight:hot_cocoa": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 3600
+    }
+  ],
+  "farmersrespite:strong_hot_cocoa": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 3600
+    }
+  ],
+  "farmersdelight:melon_popsicle": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 2400
+    }
+  ],
+  "farmersdelight:nether_salad": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersdelight:squid_ink_pasta": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "legendarysurvivaloverhaul:glistering_melon_juice": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -2,
+      "duration": 3600
+    }
+  ],
+  "legendarysurvivaloverhaul:melon_juice": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -1,
+      "duration": 1200
+    }
+  ],
+  "minecraft:melon_slice": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -1,
+      "duration": 1200
+    }
+  ],
+  "minecraft:mushroom_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "minecraft:rabbit_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 1200
+    }
+  ],
+  "minecraft:suspicious_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "farmersdelight:noodle_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "farmersdelight:bone_broth": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "farmersrespite:black_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:coffee": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:dandelion_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:gamblers_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:green_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:long_apple_cider": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:long_black_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:long_coffee": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:long_dandelion_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:long_gamblers_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:long_green_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:long_purulent_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:long_rose_hip_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:long_yellow_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:purulent_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:rose_hip_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:strong_apple_cider": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:strong_black_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:strong_coffee": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:strong_gamblers_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:strong_green_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:strong_melon_juice": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:strong_purulent_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:strong_rose_hip_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:strong_yellow_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersrespite:yellow_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "alexscaves:primordial_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "alexscaves:trilocaris_noodles": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "cavedelight:volcanic_chop": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 3,
+      "duration": 2400
+    }
+  ],
+  "alexscaves:seething_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 3,
+      "duration": 2400
+    }
+  ],
+  "cavedelight:fiddlehead_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "cavedelight:tectonic_pasta": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 3,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:scramble_egg_with_tomatoes_rice_bowl": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:stir_fried_beef_offal_rice_bowl": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:braised_beef_rice_bowl": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:stir_fried_pork_with_peppers_rice_bowl": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:sweet_and_sour_pork_rice_bowl": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:fish_flavored_shredded_pork_rice_bowl": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:braised_fish_rice_bowl": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:spicy_chicken_rice_bowl": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:suspicious_stir_fry_rice_bowl": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:spicy_chicken": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 3600
+    }
+  ],
+  "kaleidoscope_cookery:fish_flavored_shredded_pork": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "kaleidoscope_cookery:stir_fried_beef_offal": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "kaleidoscope_cookery:stir_fried_pork_with_peppers": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "kaleidoscope_cookery:fondant_pie": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 3600
+    }
+  ],
+  "kaleidoscope_cookery:stargazy_pie": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 3600
+    }
+  ],
+    "kaleidoscope_cookery:yakitori": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 3600
+    }
+  ],
+      "kaleidoscope_cookery:braised_beef_with_potatoes": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 3600
+    }
+  ],
+  "kaleidoscope_cookery:cold_style_sashimi": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:frost_lamb_chop": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:pork_bone_soup": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "kaleidoscope_cookery:seafood_miso_soup": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "kaleidoscope_cookery:pufferfish_soup": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "kaleidoscope_cookery:fearsome_thick_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:lamb_and_radish_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:wild_mushroom_rabbit_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:tomato_beef_brisket_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:borscht": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:beef_meatball_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "kaleidoscope_cookery:chicken_and_mushroom_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ]
+}

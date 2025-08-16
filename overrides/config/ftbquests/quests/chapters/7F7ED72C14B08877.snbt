@@ -1,0 +1,2501 @@
+{
+	autofocus_id: "2C173C49B70D85E6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7F7ED72C14B08877"
+	group: "7EAD463EC4676C73"
+	icon: "immersiveengineering:wirecoil_copper"
+	id: "7F7ED72C14B08877"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C173C49B70D85E6"]
+			description: ["请务必做一本工程师手册，它会给你更多指引，当你需要建造多方块结构的时候记得检查这本手册（仅限ie模组）"]
+			hide_until_deps_complete: true
+			id: "0982091D49A5C5D9"
+			rewards: [
+				{
+					id: "76CA2A521C45AB75"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 23
+							}
+						}
+						id: "immersiveengineering:toolbox"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 当你需要详细了解沉浸工程的时候记得制作并且查看工程师手册。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "71892F6E6336F672"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "4AA0F7D34114A73E"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "0D07E39DE773A73C"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "09AFE3AB107680AF"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0982091D49A5C5D9"]
+			description: ["焦炉可以生产杂酚油和燃烧值更高的燃料，杂酚油是防腐木的原料"]
+			hide_until_deps_complete: true
+			id: "36FB0042B572C539"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 焦炉可以通过干馏煤炭生产用于炼钢的焦煤和制作防腐木的杂酚油。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "54BAB73F9A8F05D7"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "71FF28C4CF9CCCE8"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "4A77B94BB3C9628E"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:main/mb_cokeoven"
+				criterion: ""
+				id: "4DAFE800EE7C5AFA"
+				type: "advancement"
+			}]
+			title: "焦炉"
+			x: 36.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75F41FE08B65E390"]
+			description: ["合金窑是一种类似焦炉的结构，将两种金属放进去，添加燃料，便可制成合金"]
+			hide_until_deps_complete: true
+			id: "03FABC47E8C23D50"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "合金窑是一种类似焦炉的结构，将两种金属放进去，添加燃料，便可制成合金"
+					elevate_perms: true
+					id: "2CAAADE1A764F036"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "2354CA0915D004FD"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "380BD5D9A77394AE"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "2A43E508E1D1C549"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			x: 43.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2CF4E261BE85AB91"
+				"36FB0042B572C539"
+			]
+			description: ["太好了，杂酚油的提炼标志着工业时代的开始"]
+			hide_until_deps_complete: true
+			id: "2BEC85370EC6B094"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 太好了，杂酚油的提炼标志着工业时代的开始。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "36FC238801D7D8E7"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "38CDF582BB136F1C"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "15CEE3C11A681C97"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "5E20195F466A2C8A"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			x: 36.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"03FABC47E8C23D50"
+				"2BEC85370EC6B094"
+			]
+			description: ["镍铜合金，就是所谓的康铜锭，强度比铜锭更高，可以用于做武器"]
+			hide_until_deps_complete: true
+			id: "28B4D236A125FDE0"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 镍铜合金，就是所谓的康铜锭，强度比铜锭更高，可用于制作新的物品。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "30310ADCFEA048F4"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "0EECBDEC030FD6C3"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "213242CFD7367F60"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "2D392320F56656A1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/constantan"
+					}
+				}
+				title: "Any #forge:ingots/constantan"
+				type: "item"
+			}]
+			title: "康铜锭"
+			x: 43.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["03FABC47E8C23D50"]
+			description: ["高炉的制成标志着你制钢不再需要反复捶打生铁锭，直接用铁烧成钢锭，就是效率有点低"]
+			hide_until_deps_complete: true
+			id: "4918ED7ABC639D07"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 高炉的制成标志着你制钢不再需要反复捶打生铁锭，直接用铁烧成钢锭，就是效率有点低。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "4EA7B86E392D410D"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "349386FA94132ADC"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "1721884915D52AED"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:main/mb_blastfurnace"
+				criterion: ""
+				id: "3977E4B86F502F16"
+				type: "advancement"
+			}]
+			title: "土高炉"
+			x: 50.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"76042FCE57BF86CC"
+				"4918ED7ABC639D07"
+			]
+			description: ["改良高炉可更快的速度烧制钢锭，甚至可以用高炉预热器进一步提高效率."]
+			hide_until_deps_complete: true
+			icon: "immersiveengineering:advanced_blast_furnace"
+			id: "006982EF73DBCA57"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 改良高炉可更快的速度烧制钢锭，甚至可以用高炉预热器进一步提高效率。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "73F135FE075D8B1F"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "3695B4F82A8A73AB"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "1B3ADE6632516E12"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
+				criterion: ""
+				id: "2C1F625DAD93DECD"
+				type: "advancement"
+			}]
+			title: "改良高炉"
+			x: 50.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0982091D49A5C5D9"]
+			description: ["这种传送带可以吸附物品，带动生物，但是要注意，站在传送带上会吸走传送带上的物品"]
+			hide_until_deps_complete: true
+			id: "6D20A0F4B7B1564B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 这种传送带可以吸附物品，带动生物，但是要注意，站在传送带上会吸走传送带上的物品。这点并不如机械动力传送带。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "6F26104424C4CC21"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "6704ECF560E6F5C7"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "232EED2F77E3778E"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "0271149AD5CA77B8"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6D20A0F4B7B1564B"]
+			hide_until_deps_complete: true
+			id: "7F4B6A3ABFAEBD57"
+			rewards: [
+				{
+					id: "2D76E4048CE02211"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "6064608E926309D1"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "0D7530373A01DC23"
+				item: "immersiveengineering:conveyor_vertical"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D20A0F4B7B1564B"]
+			hide_until_deps_complete: true
+			id: "74008C627E98AC1E"
+			rewards: [
+				{
+					id: "017C7BF022E2B24C"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "4C4F691B83D7F4A5"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "5639EDD80CAAC4B7"
+				item: "immersiveengineering:conveyor_dropper"
+				type: "item"
+			}]
+			x: 37.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F4B6A3ABFAEBD57"]
+			hide_until_deps_complete: true
+			id: "1415FE63F64A604D"
+			rewards: [
+				{
+					id: "6EC7FA5AAC353C20"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "66A4E2E97ABCFD3C"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "6D1ADC6E84987DCB"
+				item: "immersiveengineering:conveyor_splitter"
+				type: "item"
+			}]
+			x: 37.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["74008C627E98AC1E"]
+			hide_until_deps_complete: true
+			id: "2BF0425EB14AA119"
+			rewards: [
+				{
+					id: "7C224884D15154F4"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "5B4B1D5885776CAE"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "564D1322DCFF4964"
+				item: "immersiveengineering:conveyor_extract"
+				type: "item"
+			}]
+			x: 39.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F4B6A3ABFAEBD57"]
+			hide_until_deps_complete: true
+			id: "6F381C55EB6AC70E"
+			rewards: [
+				{
+					id: "2611B1F8F37DE6F0"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "1C6C7E1B69219826"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "5ABE61869505E30D"
+				item: "immersiveengineering:conveyor_redstone"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0982091D49A5C5D9"]
+			description: ["钢的硬度足以制成庞大的机械结构，将其做成工业级脚手架完全没问题"]
+			hide_until_deps_complete: true
+			id: "1D2ABA917ECFB494"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 钢的硬度足以制成庞大的机械结构，将其做成工业级脚手架完全没问题。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "562CCDB09A2E86D9"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "74E77AE62DF615E0"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "4C4DEEDA362DB241"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "4F305F8F71DC8AC1"
+				item: "immersiveengineering:steel_scaffolding_standard"
+				type: "item"
+			}]
+			x: 40.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28B4D236A125FDE0"]
+			dependency_requirement: "one_completed"
+			description: ["用金锭和银锭制作的富贵合金，琥珀金，造价昂贵，比黄金耐久，效率比银高，可用做导电材料"]
+			hide_until_deps_complete: true
+			id: "76042FCE57BF86CC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 用金锭和银锭制作的富贵合金，琥珀金，造价昂贵，比黄金耐久，效率比银高，可用做导电材料。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "56B4B2BB5C5C21D2"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "361090F7D89AAE2D"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "5EFE448CDFC9FF03"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "34BAD65E81EFFD10"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/electrum"
+					}
+				}
+				title: "Any #forge:ingots/electrum"
+				type: "item"
+			}]
+			title: "琥珀金锭"
+			x: 45.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28B4D236A125FDE0"]
+			hide_until_deps_complete: true
+			id: "6E84BBC6E97B1D0A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/say Hi, @p!"
+					elevate_perms: true
+					id: "1E62A011019A653B"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "46134C5898F0DB4A"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "7C62592E0B19B804"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "3D1F2089821D72A1"
+				item: "immersiveengineering:insulating_glass"
+				type: "item"
+			}]
+			x: 43.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1D2ABA917ECFB494"]
+			description: ["最基础的工程单位"]
+			hide_until_deps_complete: true
+			id: "55089D899F5C30AB"
+			rewards: [
+				{
+					id: "2E620388823B6C5B"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "646074C35DC9147F"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "7D48987A003D083D"
+				item: "immersiveengineering:light_engineering"
+				type: "item"
+			}]
+			x: 40.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55089D899F5C30AB"]
+			description: ["大型机器的工程单位"]
+			hide_until_deps_complete: true
+			id: "43A185896D526104"
+			rewards: [
+				{
+					id: "0FE6C2BFBDDB77E5"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "6E9DD061E0D02FE5"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "0A7FFB5170B6B8D0"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			x: 40.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["55089D899F5C30AB"]
+			description: ["标志着智能控制的工程单位"]
+			hide_until_deps_complete: true
+			id: "4BE6B0166199E22F"
+			rewards: [
+				{
+					id: "4C216CCAB419A3FB"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "3DB4832ACA1D9FD5"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "5D9A483032CF9657"
+				item: "immersiveengineering:rs_engineering"
+				type: "item"
+			}]
+			x: 42.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6EB3215E93DB6376"
+				"75F41FE08B65E390"
+			]
+			description: ["你需要更多设备以完善你的生产"]
+			hide_until_deps_complete: true
+			id: "276DC6A36372593E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 你需要更多设备以完善你的生产。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "3F4E0AAD48898038"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "554CEF59C00E85B9"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "29A805091F8177A5"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "58BD80FAF5F3DB45"
+				title: "进阶结构"
+				type: "checkmark"
+			}]
+			x: 50.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7CB3BB20A95DCE4F"
+				"16E719A0E6EF1CD2"
+			]
+			description: ["这个巨大的电弧熔炉是你目前为止所有科技的结晶，它以你想象不到的速度熔炼物品，同时还有机会产出额外的副产品，但是需要消耗石墨电极"]
+			hide_until_deps_complete: true
+			id: "3557E18196B016DB"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "这个巨大的电弧熔炉是你目前为止所有科技的结晶，它以你想象不到的速度熔炼物品，同时还有机会产出额外的副产品，但需要消耗石墨电极。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "6DD7E7F3A696C65E"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "08A41492BF064917"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "6E67271D38DFEAD4"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
+				criterion: ""
+				id: "1A1B4F06F94B564F"
+				type: "advancement"
+			}]
+			title: "搭建电弧炉"
+			x: 58.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D2ABA917ECFB494"]
+			description: ["发电总量不断提高，耗电量也在不停上升，你需要一种更高效的传输方式，不要变成电线杆上的鸟儿了！"]
+			hide_until_deps_complete: true
+			icon: "immersiveengineering:wirecoil_electrum"
+			id: "75F41FE08B65E390"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 发电总量不断提高，耗电量也在不停上升，你需要一种更高效的传输方式，不要变成电线杆上的鸟儿了！。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "3AE6AA49E7CDDCFF"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "24F7A280735B2F63"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "54BAC3B4A30D9239"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "54F863A07DA3444F"
+				item: "immersiveengineering:wirecoil_electrum"
+				type: "item"
+			}]
+			x: 43.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["142DC18F616793BC"]
+			hide_until_deps_complete: true
+			id: "57EB4A0B0BD5C87D"
+			rewards: [
+				{
+					id: "49E0DD452766DD30"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "344775CECEB9B0E0"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "538A5CC9A6154A47"
+				item: "immersiveengineering:connector_lv"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["57EB4A0B0BD5C87D"]
+			description: ["低压蓄电池，适合小型机器使用"]
+			hide_until_deps_complete: true
+			id: "32133284DDE6F3DA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 低压蓄电池，适合小型机器使用。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "345A874F4FB931B5"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "2DA4EE9DF4BF6C26"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "6869749FB13FBEF0"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "4DEF863728F948EC"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2C173C49B70D85E6"]
+			description: ["这种铜线圈可以用来替代应力时代昂贵的线圈，需要配合连接器使用"]
+			hide_until_deps_complete: true
+			id: "142DC18F616793BC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 这种铜线圈可以用来替代应力时代昂贵的线圈，需要配合连接器使用。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "5D45D0F0131159F2"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "151BBD894A4F894E"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "07F94993226C3E47"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "0BF32DE2B2E3935F"
+				item: "immersiveengineering:wirecoil_copper"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["75F41FE08B65E390"]
+			hide_until_deps_complete: true
+			id: "4507686957158734"
+			rewards: [
+				{
+					id: "75C57A7E1B195AEC"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "0D37C2CEC1B0E843"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "324CDB30409989F2"
+				item: "immersiveengineering:connector_mv"
+				type: "item"
+			}]
+			x: 43.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4507686957158734"]
+			hide_until_deps_complete: true
+			id: "0952B2A863B76E60"
+			rewards: [
+				{
+					id: "001C9B6CBCA82AED"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "3B579A183C70A85C"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "7D8053BE45E13008"
+				item: "immersiveengineering:capacitor_mv"
+				type: "item"
+			}]
+			x: 43.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4507686957158734"]
+			description: ["注意：高压电致命！！但你可以拿他来构建防御工事。不过不能断电就是了。"]
+			hide_until_deps_complete: true
+			id: "2BDFD0581B56F79D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 注意：高压电致命！！但你可以拿他来构建防御工事。不过不能断电就是了。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "074B33DB0C850D8A"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "6FB9D86554800502"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "7B282D83A8FDB1FB"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "6E12A859F07F04EC"
+				item: "immersiveengineering:wirecoil_steel"
+				type: "item"
+			}]
+			x: 46.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2BDFD0581B56F79D"]
+			description: ["注意：高压电致命！！"]
+			hide_until_deps_complete: true
+			id: "267CF80D9F48D828"
+			rewards: [
+				{
+					id: "054AACDAB8832AB6"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "4147704E77625DC0"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "5051A40D64859B9F"
+				item: "immersiveengineering:connector_hv"
+				type: "item"
+			}]
+			x: 46.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["07910D43B0F6CE9E"]
+			hide_until_deps_complete: true
+			id: "245CE8A20B3E4383"
+			rewards: [
+				{
+					id: "4EB1E4918F3E4841"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "178B01B53201199C"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "4BD29A9E71E4F8AD"
+				item: "immersiveengineering:capacitor_hv"
+				type: "item"
+			}]
+			x: 46.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0952B2A863B76E60"]
+			description: ["变压器可以让低压电跟中压电互相转化"]
+			hide_until_deps_complete: true
+			id: "2CF9E2B301CE4589"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 变压器可以让低压电跟中压电互相转化。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "2EF18372F175BBF8"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "07C71A66D98EFD11"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "60888287745E7E04"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "5A56FD623AA933AB"
+				item: "immersiveengineering:transformer"
+				type: "item"
+			}]
+			x: 43.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2CF9E2B301CE4589"]
+			description: ["高压变压器可以让中压电跟高压电互相转化"]
+			hide_until_deps_complete: true
+			id: "07910D43B0F6CE9E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 高压变压器可以让中压电跟高压电互相转化。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "73268DB0BAA732D5"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "6A7FE0DACB71DB2D"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "51611A77D8EC4D27"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "22A69E42EDC64637"
+				item: "immersiveengineering:transformer_hv"
+				type: "item"
+			}]
+			x: 43.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"568C5599DCC0897E"
+				"3557E18196B016DB"
+			]
+			description: ["这个机器通过将一根很长的铁管直接捅到基岩层，并抽出一根岩芯，便可分析当地的地质组成"]
+			hide_until_deps_complete: true
+			id: "78813A3040399DCC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/say Hi, @p!"
+					elevate_perms: true
+					id: "483B8E4C68770A97"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "70E4B04429F36511"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "5E09E27D97A9567A"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "7D0740F8FD736386"
+				item: "immersiveengineering:sample_drill"
+				type: "item"
+			}]
+			x: 65.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3557E18196B016DB"]
+			description: ["石墨电极是电弧炉的炉芯，为了使熔炉持续工作，请保证电极供给。"]
+			hide_until_deps_complete: true
+			id: "2BF108E14D825A02"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 石墨电极是电弧炉的炉芯，为了使熔炉持续工作，请保证电极供给。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "2919FF97BA5CB8A9"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "2F68EC0E4C12F0EC"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "48F90C137614C2CB"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "2D211195C118F5CB"
+				item: {
+					Count: 1
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 58.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A072AED8BE352D2"]
+			description: ["流体泵是无需应力的电动泵，效率更高。"]
+			hide_until_deps_complete: true
+			id: "6552853A3BB94DD3"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 流体泵是无需应力的电动泵，效率更高。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "18ACF053B1665194"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "38107373DAA8F491"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "00A5FADEC05B18A9"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "7BD5908CCF0633E2"
+				item: "immersiveengineering:fluid_pump"
+				type: "item"
+			}]
+			x: 48.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A928CE64872B79C"]
+			description: ["沉浸工程的储罐是需要连接管道的多方块液体储罐，可储存512桶液体。"]
+			id: "098252028691F8E6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 沉浸工程的储罐是需要连接管道的多方块液体储罐，可储存512桶液体。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "6D0480D0EB9BC06F"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "56745810FF2F21E2"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "042189858480E437"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_tank"
+				criterion: ""
+				id: "4E6D6B706518197F"
+				type: "advancement"
+			}]
+			title: "水塔"
+			x: 48.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["276DC6A36372593E"]
+			description: ["金属冲压机会按模板塑造经过的物品。"]
+			hide_until_deps_complete: true
+			id: "4A072AED8BE352D2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 金属冲压机会按模板塑造经过的物品。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "591C162023C781A4"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "0F7203FE621AA044"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "0E11FD171A2B84C5"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
+				criterion: ""
+				id: "77F0B15323B1E275"
+				type: "advancement"
+			}]
+			title: "金属冲压机"
+			x: 50.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A072AED8BE352D2"]
+			description: ["过剩的种子太烦人了，你把他们放在碾压机里之后发现会产出种子油，所以你造了一台工业挤压机。"]
+			hide_until_deps_complete: true
+			id: "5289567F6358B96A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 工业挤压机是一种用于制作种子油或石墨粉的机器。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "442399933668056D"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "0FCB000797689B82"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "50B38884F3BB475E"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_squeezer"
+				criterion: ""
+				id: "6D0FA7EE88170463"
+				type: "advancement"
+			}]
+			title: "工业挤压机"
+			x: 50.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2413AB8B79E81A4E"
+				"4A072AED8BE352D2"
+			]
+			description: ["更高效但不节省空间的粉碎机，它可以跟粉碎轮一样碾碎从上方进入机器的物品，包括生物。"]
+			hide_until_deps_complete: true
+			id: "03C9FD86A9DAF33E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 更高效但不节省空间的粉碎机，它可以跟粉碎轮一样碾碎从上方进入机器的物品，包括生物。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "738248F8C1449443"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "060A112600CC93DA"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "66D3D78E29A8D635"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_crusher"
+				criterion: ""
+				id: "3AB1EF81D207DE1F"
+				type: "advancement"
+			}]
+			title: "粉碎机"
+			x: 52.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"352ED6A260FA8A8B"
+				"41158D0A56E7BE45"
+			]
+			description: ["将肥料，种子，土，放入园艺玻璃罩，连上电源，便可自行产出产物，需要连接物流设备来自动化产物输出。（注意，不同作物需要的土可能不同，详情请查询jei）"]
+			hide_until_deps_complete: true
+			id: "238F93E18658BD13"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 将肥料，种子，土，放入园艺玻璃罩，连上电源，便可自行产出产物，需要连接物流设备来自动化产物输出。（注意，不同作物需要的土可能不同，详情请查询jei）\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "3F2844A263670D21"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "422C177A9FDAF213"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "3D3E3CB05732B4F1"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "7F11E25F10FD6DC4"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: 50.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["276DC6A36372593E"]
+			description: ["随着产物不断迭代，你需要更多处理方式"]
+			hide_until_deps_complete: true
+			id: "16E719A0E6EF1CD2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 随着产物不断迭代，你需要更多处理方式。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "7EC2DE8BB103C568"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "56501B7CE97585DB"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "261C0D0D42391ABA"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "68D7FBCBF374F7C7"
+				title: "进阶加工"
+				type: "checkmark"
+			}]
+			x: 55.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6552853A3BB94DD3"]
+			hide_until_deps_complete: true
+			id: "2A928CE64872B79C"
+			rewards: [
+				{
+					id: "0CA67967923B727F"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "71CF74B13A51BEC8"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "7E4B492CA1668B48"
+				item: "immersiveengineering:fluid_pipe"
+				type: "item"
+			}]
+			x: 48.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["098252028691F8E6"]
+			hide_until_deps_complete: true
+			id: "41158D0A56E7BE45"
+			rewards: [
+				{
+					id: "3CB5782383EB68E4"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "26E0874B3E5AA503"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "004AB69EFC510856"
+				item: "immersiveengineering:fluid_placer"
+				type: "item"
+			}]
+			x: 48.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["322F9D263D0312CE"]
+			description: ["精炼厂可以将两种液体混合精炼成一种液体。"]
+			hide_until_deps_complete: true
+			icon: "immersiveengineering:refinery"
+			id: "151298D98CBD8DF0"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 精炼厂可以将两种液体混合精炼成一种液体。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "62080360C66B17D0"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "5FB49EEC65C62658"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "4CBDEFAFF4C1763A"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_refinery"
+				criterion: ""
+				id: "6119DE6AD5AB0765"
+				type: "advancement"
+			}]
+			title: "精炼厂"
+			x: 53.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["16E719A0E6EF1CD2"]
+			description: ["有了搅拌机!工业化炼药不再是梦想！"]
+			id: "322F9D263D0312CE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 有了搅拌机!工业化炼药不再是梦想！\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "03F81D4FB5F25EF2"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "26592BF1875C3BD0"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "259B7DC639D0613D"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_mixer"
+				criterion: ""
+				id: "664A355513CB141A"
+				type: "advancement"
+			}]
+			title: "搅拌机"
+			x: 55.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["322F9D263D0312CE"]
+			description: ["你突然想起，酒是用粮食酿造而成，然而酒里面含有乙醇，所以你制造了工业发酵剂，用于从过剩的食物中发酵产出乙醇"]
+			hide_until_deps_complete: true
+			id: "4B1B9979AD994E2F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 工业发酵机可高效的发酵作物产生乙醇，需要通电。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "369F71B96133696A"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "28569CF835D592BD"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "06C4E77915FB0842"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_fermenter"
+				criterion: ""
+				id: "249C37B0293CB819"
+				type: "advancement"
+			}]
+			title: "工业发酵机"
+			x: 57.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0D028FAB9B213426"
+				"78813A3040399DCC"
+			]
+			description: ["岩芯并不能精准探测出地下的液体池，但震波探测仪可以，这种装置可以用来定位地下水，岩浆，甚至原油。"]
+			hide_until_deps_complete: true
+			id: "65999E5A8298BB31"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 岩芯并不能精准探测出地下的液体池，但震波探测仪可以，这种装置可以用来定位地下水，岩浆，甚至原油。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "59EEC591D9680DBB"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "0C1148B1D7BD1AEF"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "495747A18517192E"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersivepetroleum:main/root"
+				criterion: ""
+				id: "113ADF20106E1FFC"
+				type: "advancement"
+			}]
+			title: "震波探测器"
+			x: 65.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["65999E5A8298BB31"]
+			description: ["找到一处原油矿藏后，布设一台井架以做好开采准备"]
+			hide_until_deps_complete: true
+			id: "4895F540A0927FEA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 井架只能钻探和抽出一部分原油，因此后续需要布设抽油机。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "5C373619CBD0C1DF"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "681EB03BF47712F9"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "36AB7EE4E0F68589"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_derrick"
+				criterion: ""
+				id: "334231B662BC046E"
+				type: "advancement"
+			}]
+			title: "井架"
+			x: 65.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4895F540A0927FEA"]
+			description: ["有了这个抽油机之后，你可以正式开采原油了！"]
+			hide_until_deps_complete: true
+			id: "23D9D929F5046477"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 有了这个抽油机之后，你可以正式开采原油了！。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "2925D922C0410D87"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "73F20C214C639E8E"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "5986B05CCA1CBE47"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_pumpjack"
+				criterion: ""
+				id: "2177911DF364094B"
+				type: "advancement"
+			}]
+			title: "抽油机"
+			x: 65.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["23D9D929F5046477"]
+			description: ["小心滋生霉军"]
+			hide_until_deps_complete: true
+			id: "7EFF9324379CC77E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> America！ fuck you！\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "5A5B5E5EB5922213"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "4C41ED6EE8415F0D"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "3D497CEAECE2A588"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "410845657248D313"
+				item: "immersivepetroleum:crudeoil_bucket"
+				type: "item"
+			}]
+			x: 65.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7EFF9324379CC77E"]
+			description: ["这个大储罐可以用来存储原油，容量比一般的溶液储罐更高"]
+			hide_until_deps_complete: true
+			id: "77E9902F810160F2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 这个大储罐可以用来存储原油，容量比一般的液体储罐更高。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "7CCBFA4C27E06AA9"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "2EDC5AC60FD41D9A"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "21820D47007702B8"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "0B59B90F0838A793"
+				item: "immersivepetroleum:oiltank"
+				type: "item"
+			}]
+			x: 65.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"6F933FF35C646650"
+				"78813A3040399DCC"
+			]
+			hide_until_deps_complete: true
+			id: "78D4EE1696553395"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/say Hi, @p!"
+					elevate_perms: true
+					id: "1B8725218DB57926"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "2BF1C196B74353E9"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "616A9324081E2BC5"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "0BEB875FFD4CDFD3"
+				title: "基础电子"
+				type: "checkmark"
+			}]
+			x: 69.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78D4EE1696553395"]
+			description: ["这是电路板最开始的样子，将它跟铜板一起放到工程师装配台中，便可制成一块电路基板"]
+			hide_until_deps_complete: true
+			id: "752D4489E53D199E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 将工程塑胶片跟铜板一起放到工程师装配台中，便可制成一块电路底板。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "613FF267E270BBCE"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "13C88168473316A9"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "3520519C1C4DB199"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "75C88F67FB54258A"
+				item: "immersiveengineering:plate_duroplast"
+				type: "item"
+			}]
+			x: 69.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["752D4489E53D199E"]
+			hide_until_deps_complete: true
+			id: "0146E776CECF455B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 电路板的具体雕刻方法请看科技树\"。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "28D5E7DEEA7541AF"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "1A55B8562D20B449"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "5B266F59C95DB724"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "49E9878D78923248"
+				item: "immersiveengineering:circuit_board"
+				type: "item"
+			}]
+			x: 69.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["16E719A0E6EF1CD2"]
+			description: ["灌装机可以更快捷的将液体装罐"]
+			hide_until_deps_complete: true
+			id: "30BB7C7F9342885A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪>灌装机可以更快捷的将液体装罐。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "634BB52BA4476B87"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "1DB4C361D282D00B"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "28DEAD63E8A4802C"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "1D506A3EC8E507D5"
+				item: "immersiveengineering:bottling_machine"
+				type: "item"
+			}]
+			x: 55.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0146E776CECF455B"]
+			description: ["电路板的具体雕刻方法请看科技树"]
+			hide_until_deps_complete: true
+			id: "42B5501BCA131793"
+			rewards: [
+				{
+					id: "4F0D77E99DA631EA"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "7F1B776A2D9A4E65"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "6C51D6349AE37CD2"
+				item: "immersiveengineering:logic_circuit"
+				type: "item"
+			}]
+			x: 69.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["752D4489E53D199E"]
+			description: ["工程师电路台可用于雕刻电路板"]
+			hide_until_deps_complete: true
+			id: "45CDC9ED7ECF439D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 工程师电路台可用于雕刻电路板。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "033A907CA551C72D"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "7F6F962B88E01B0C"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "1D95D0D0F0D7E92D"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "43CF8C8989C67406"
+				item: "immersiveengineering:circuit_table"
+				type: "item"
+			}]
+			x: 70.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"59B1CEACD96D9B43"
+				"1D2ABA917ECFB494"
+			]
+			description: ["你获取的蓝图可以在这工程师装配台上检视并使用"]
+			hide_until_deps_complete: true
+			id: "65AC3FEF6EA74483"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 你获取的蓝图可以在工程师装配台上检视并使用。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "6CA818F843BA4A87"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "4C0657E8C6FDD2B3"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "73103BD0CCB8342B"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "1F0787184B09DADD"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 40.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["303D69100CB44D53"]
+			description: ["通过蒸馏塔的原油可以产出一种固体，沥青，它可以跟水在这个焦炭塔里制成石油焦和含煤柴油"]
+			hide_until_deps_complete: true
+			id: "136D0F433D945B86"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 通过蒸馏塔的原油可以产出一种固体，沥青，它可以跟水在这个焦炭塔里制成石油焦和含煤柴油。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "125F954D95C45669"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "06C25211F6EC60A8"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "1D013ABF615B4A21"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_cokerunit"
+				criterion: ""
+				id: "578505FA314C9B3F"
+				type: "advancement"
+			}]
+			title: "焦炭塔"
+			x: 68.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"2A4A5B020404FABB"
+				"77E9902F810160F2"
+			]
+			description: ["原油可以经过处理来得到更多副产物，这个蒸馏塔分离出原油中的各种物质，同时也能处理其他复合液体"]
+			hide_until_deps_complete: true
+			id: "303D69100CB44D53"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 原油可以经过处理来得到更多副产物，这个蒸馏塔分离出原油中的各种物质，同时也能处理其他复合液体。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "24D0F3977A7C94A1"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "1E49667B430BA70D"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "1C1B40AB40321296"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_distillationtower"
+				criterion: ""
+				id: "656BA61774C3933F"
+				type: "advancement"
+			}]
+			title: "蒸馏塔"
+			x: 67.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["136D0F433D945B86"]
+			description: ["高压精炼装置可以提纯各种复合油，并产出相应油和固体副产物"]
+			hide_until_deps_complete: true
+			id: "0704CF49B894A990"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 高压精炼装置可以提纯各种复合油，并产出相应油和固体副产物。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "6175BB29FC3A6CF4"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "67371D9D025F763E"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "1D5BA44B34C129CF"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_hydrotreater"
+				criterion: ""
+				id: "39DB7858DB6E0C8E"
+				type: "advancement"
+			}]
+			title: "高压精炼装置"
+			x: 70.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["42B5501BCA131793"]
+			description: ["通过光刻机，你可以将晶棒切割成晶圆，以适配更多高效配方"]
+			hide_until_deps_complete: true
+			id: "029987E236610AA2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 通过光刻机，你可以将晶棒切割成晶圆，以适配更多高效配方。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "7CDDEC6DA1BDDC79"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "3F30F1A506446D18"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "6C9FE9F34AE7990C"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "62BDCAACE4F677ED"
+				item: "fallout:stepper_core"
+				type: "item"
+			}]
+			x: 73.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["029987E236610AA2"]
+			description: ["一个晶圆，你可以用它来制作一种小型的逻辑电路"]
+			hide_until_deps_complete: true
+			id: "2901934FD7CEE609"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 一个晶圆，你可以用它来制作一种小型的逻辑电路。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "782D7F2A1FDDD48C"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "38F27755A8827812"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "047093E8F67277CB"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "36A6BF0FE081066E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:wafer"
+					}
+				}
+				title: "Any #forge:wafer"
+				type: "item"
+			}]
+			title: "晶圆"
+			x: 73.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"006982EF73DBCA57"
+				"2BF108E14D825A02"
+			]
+			description: ["这种只能从怪物身上找到的金属已经被你解明，你只需要一点小小的爱寻思之力便可自行制造这种金属"]
+			hide_until_deps_complete: true
+			id: "5B9931A435F0603E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show teca_blacksteel_reward"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "1CE20E25EAE1C19C"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "3D687AF91B0ABD48"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "430EA6A585937279"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "1C60F95CC23E87BC"
+				item: "cataclysm:black_steel_ingot"
+				type: "item"
+			}]
+			x: 58.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B9931A435F0603E"]
+			description: ["这种史诗金属在自然界中的生产量比钻石还小！你或许需要好好规划一下该将其用在什么地方"]
+			hide_until_deps_complete: true
+			id: "787C45E39063456F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 山岳之铜。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "090FD960825ECBC3"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "321EC580C4F89F68"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "1C71B3BD3709A972"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "170DBB1D0FCC1251"
+				item: "fallout:orichalcum_ingot"
+				type: "item"
+			}]
+			x: 61.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["787C45E39063456F"]
+			description: ["这种史诗金属在自然界中的生产量比钻石还小！你或许需要好好规划一下该将其用在什么地方"]
+			hide_until_deps_complete: true
+			id: "4D1C891D784FEB05"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 奥秘之银。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "63A213A0220A0242"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "52954E1F4764FC10"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "7073B61AA8B420C6"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "485754320105B3E4"
+				item: "fallout:mithril_ingot"
+				type: "item"
+			}]
+			x: 63.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["07910D43B0F6CE9E"]
+			description: ["工业大麻可以提供良好的布来源，或许可以用它们来隔绝电流..."]
+			id: "6E5123BFC0AB58B7"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 工业大麻可以提供良好的布来源，或许可以用它们来隔绝电流...\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "1070E8FEDC404124"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "4FA656ED910198A0"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "77948B1F96AE94DE"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				id: "44AA86FDBF4F064E"
+				item: "immersiveengineering:seed"
+				type: "item"
+			}]
+			x: 43.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["78D4EE1696553395"]
+			description: ["通过石油的开采，你找到了一种很合适的火力发电机的燃料，你发明了柴油发电机。一种先进的火力发电机，它的消耗量奇大无比，同时也能产出巨大的电力"]
+			id: "179208B4625D9077"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 采油发电机是一种先进的火力发电机，它的消耗量奇大无比，同时也能产出巨大的电力。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "60971F813BEF05B3"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "31E5D016BB58945C"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "7044D76806DC46F7"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_dieselgen"
+				criterion: ""
+				id: "0861778ECFE98D33"
+				type: "advancement"
+			}]
+			title: "柴油发电机"
+			x: 69.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["179208B4625D9077"]
+			description: ["你发现你挖穿地底也找不到你在岩芯中看到的矿物，因此你推测这是一种矿脉，需要特殊的矿机来处理采到的石料才能获得资源"]
+			id: "73E7581E9E022E58"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 需要斗轮式挖矿机在岩芯的指定位置开采才能获得岩芯里的资源。\",\"color\":\"aqua\"}]"
+					elevate_perms: true
+					id: "16855509B295BCBB"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "73C6350A5998DD29"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "0F7B442DD1A22EF5"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_excavator"
+				criterion: ""
+				id: "2C30B24B844B04D7"
+				type: "advancement"
+			}]
+			title: "斗轮式挖掘机"
+			x: 69.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D20A0F4B7B1564B"]
+			description: ["筒仓可以存储 41,472 个同种物品"]
+			id: "715D8A9B86F18C36"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/say Hi, @p!"
+					elevate_perms: true
+					id: "3294569C28982808"
+					silent: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					id: "119A573D5F89011F"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "55E7EB2947CA02AD"
+					type: "xp"
+					xp: 4
+				}
+			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_silo"
+				criterion: ""
+				id: "720AEF0EEE21086E"
+				type: "advancement"
+			}]
+			title: "筒仓"
+			x: 34.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"19CEBE446C34ADA4"
+				"4A9DD2F81DBAA2F5"
+				"2F637F5559A63C6A"
+			]
+			description: [
+				"&bTECA电气时代任务已开启"
+				"科研任务：&9化石燃料与特种钢研究 "
+				"科技增援等级：&b电气时代"
+				"科研经费补贴：&b高级"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "2C173C49B70D85E6"
+			rewards: [
+				{
+					id: "6465EC98D871F7F3"
+					item: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show teca_electric_stage"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "mekanism:energy_tablet"
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "1000000"
+								}]
+							}
+						}
+					}
+					id: "331CF17E0D075D69"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					count: 98
+					id: "45CBB6C149E0F1F0"
+					item: "fallout:power"
+					only_one: true
+					type: "item"
+				}
+				{
+					id: "79EB056B6DEB81DE"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "7FCBDA7AB113AF44"
+					type: "xp"
+					xp: 4
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "56BB8C1784C726CD"
+				title: "&bTECA电气时代任务已开启"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B9931A435F0603E"]
+			description: [
+				"干得漂亮！&bTECA&f不会忘记你们的贡献。这是你们的&b32x电气研究点&f和高强度零件奖励"
+				"根据第&70-27541号决议&f，&bTECA&f将向你们开放该&c绝密计划&f的部分内容。"
+				"冶炼黑钢的技术，使我们与&9AGIRT&f合作的&e相位钻机项目&f成为可能。"
+				"所谓&e相位钻机&f，是通过现有科技建造巨型维度钻机，在&c母世界&f边界凿出一个小孔，制造一个&a80x80米&f的稳定空间裂口"
+				"如果计划成功，你们就可以&a回家&f，与亲人团聚。"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "fallout:power"
+			id: "28A858C94977C83B"
+			rewards: [
+				{
+					auto: "enabled"
+					count: 72
+					id: "6E13AEBD6B2C6A9E"
+					item: "fallout:power"
+					only_one: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 32
+					id: "2298FBC1A93CEDAD"
+					item: "fallout:black_steel_parts"
+					only_one: true
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show teca_phase_drill_reveal"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "28970BC25D548049"
+					silent: true
+					title: "相位钻机"
+					type: "command"
+				}
+				{
+					id: "16F0E867D4954291"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "4AA6D712A3BDF0F4"
+					type: "xp"
+					xp: 4
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "5C4EA8F33BC21B9C"
+				item: { Count: 64, id: "cataclysm:black_steel_ingot" }
+				type: "item"
+			}]
+			title: "&bTECA黑钢任务"
+			x: 61.0d
+			y: 3.0d
+		}
+	]
+	title: "&b电气时代"
+}
