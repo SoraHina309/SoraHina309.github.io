@@ -1,0 +1,1556 @@
+{
+	autofocus_id: "15D55082C7D0B260"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "03FD9EBDF3922793"
+	group: "26ECC210722E17B2"
+	hide_quest_details_until_startable: true
+	icon: {
+		Count: 1
+		id: "fallout:champion_domination"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "03FD9EBDF3922793"
+	images: [
+		{
+			height: 1.0d
+			image: "cataclysm:textures/gui/boss_bar/leviathan_bar_overlay.png"
+			order: 1
+			rotation: 0.0d
+			width: 16.0d
+			x: 10.811966604823745d
+			y: 0.010204081632657847d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/gui/boss_bar/ender_guardian_bar_base.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 10.771150278293135d
+			y: 0.13265306122449516d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/gui/boss_bar/ender_guardian_bar_base.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 11.021490414347575d
+			y: 2.5340136054421976d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/gui/boss_bar/leviathan_meltdown_bar_overlay.png"
+			order: 1
+			rotation: 0.0d
+			width: 16.0d
+			x: 10.899041434755738d
+			y: 2.4931972789115875d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["563C4EDA7FC9C34A"]
+			description: ["&d你需要找到紫水晶祭坛。利维坦才会告知你更多知识&r"]
+			icon: "cataclysm:altar_of_amethyst"
+			id: "63C6802A135A35E6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion8"
+					elevate_perms: true
+					id: "22DEE138E25A3EFF"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "fallout:champion_chunk_fragments"
+					id: "7F57325D3769C685"
+					ignore_reward_blocking: true
+					stage: "container"
+					title: "&d解锁未完成的冠军容器配方"
+					type: "gamestage"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: "cataclysm:altar_of_amethyst"
+				id: "648DCF5C69D6F319"
+				observe_type: 0
+				timer: 0L
+				title: "发现紫水晶祭坛"
+				to_observe: "cataclysm:altar_of_amethyst"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63C6802A135A35E6"]
+			id: "565A35761075262C"
+			tasks: [{
+				id: "03119C0B732D45DB"
+				item: "legendarysurvivaloverhaul:shield_container"
+				type: "item"
+			}]
+			title: "&e将金苹果转化为护卫容器"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63C6802A135A35E6"]
+			dependency_requirement: "one_completed"
+			description: [""]
+			id: "4D298520FBE21CE8"
+			size: 1.0d
+			tasks: [{
+				id: "0B36A3A41DBE7346"
+				item: "legendarysurvivaloverhaul:heart_container"
+				type: "item"
+			}]
+			title: "&c获取一个心之容器"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4D298520FBE21CE8"
+				"565A35761075262C"
+				"4F39C7E0062B68CC"
+			]
+			description: [
+				"&7以&c心之容器&7为基底"
+				"&7熔铸&b七枚冠军碎片&7作为核心"
+				"&7再以&e护卫容器&7为外壳"
+			]
+			id: "3EF6E1253E09E970"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion9"
+					elevate_perms: true
+					id: "4787ED8059CE1AEE"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "fallout:champion_complete_fragments"
+					id: "76547C2B25A178C5"
+					ignore_reward_blocking: true
+					stage: "complete"
+					title: "&e解锁冠军容器配方"
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "14CFFE99955DDC35"
+				item: "fallout:champion_chunk_fragments"
+				type: "item"
+			}]
+			title: "&d制造一个未完成的冠军容器"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A786E3B7A9F6BBF"]
+			description: [
+				"&d「冠军计划」面板已开启。"
+				" 调查任务：&d调查冠军之力"
+				" 认证等级：&2行动组干员"
+				" 军备补贴：&6标准"
+			]
+			icon: "ftbquests:book"
+			id: "15D55082C7D0B260"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion1"
+					elevate_perms: true
+					id: "6235D1C8E6550E0A"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "4D2709014576D884"
+					item: "mbd2:t3_investigate"
+					only_one: true
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6B53EEB20A8B7B30"
+				title: "&d「冠军计划」面板已开启"
+				type: "checkmark"
+			}]
+			title: "&d「冠军计划」面板已开启"
+			x: -0.7295918367346985d
+			y: 1.0000000000000142d
+		}
+		{
+			dependencies: ["37B4228AF8995975"]
+			description: ["&c提示：抵达目的地后会触发一场怪物入侵&r"]
+			icon: "minecraft:piglin_head"
+			id: "717F2D04B75B0BC6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion3"
+					elevate_perms: true
+					id: "236BEE67CCA168E2"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "215CAD7F8DB9C13E"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "45833DB53D8D482F"
+				title: "&6进入位于下界的灵魂锻造厂"
+				type: "advancement"
+			}]
+			title: "&e旧日野望"
+			x: 1.7806122448979593d
+			y: 1.0408163265306172d
+		}
+		{
+			dependencies: ["79AB70FA8204D490"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&3AGIRT&f向我们发布了寻找古代生物幼体的任务"
+				"也许用&7粗糙的方式&r研磨灵魂沙便可获取任务目标"
+			]
+			id: "5FF298210224F739"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion6"
+					elevate_perms: true
+					id: "231E0B208D29A28F"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					id: "34BCCE9339B9C24C"
+					item: "cataclysm:abyss_eye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "49583D5E564B808E"
+				item: "fallout:dried_parasite_skin"
+				type: "item"
+			}]
+			title: "&e验证猜测"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FF298210224F739"]
+			description: [
+				"&d沉沦之城的信号屏蔽区，暂时屏蔽了你与外界的联系。"
+				"&d但有一位未知的存在似乎愿意施舍你冠军之魂的知识&r，"
+				"&d前提是你能找到那座被遗忘的&5紫水晶祭坛&r。"
+			]
+			id: "563C4EDA7FC9C34A"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_champion7"
+				elevate_perms: true
+				id: "72A6A7199DDCE367"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			size: 1.5d
+			tasks: [{
+				icon: "cataclysm:abyss_eye"
+				id: "7DE883A03AC03A88"
+				structure: "cataclysm:sunken_city"
+				title: "&d发现沉沦之城"
+				type: "structure"
+			}]
+			title: "&d利维坦的低语"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["717F2D04B75B0BC6"]
+			description: ["提示:也许击败趴在&6蓝火里的大块头&r能让&3AGIRT&r惊掉下巴？&e（↓默认任务↓）"]
+			icon: "cataclysm:lava_power_cell"
+			id: "377BD2ABCEBF83BF"
+			incompatible: ["033D72281D6485FA"]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion5"
+					elevate_perms: true
+					id: "350CB1CC8CCC8535"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					count: 64
+					id: "748F6C4ACC147E8A"
+					item: "fallout:adaptation"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:kill_monstrosity"
+					criterion: ""
+					id: "729D08E948F06E16"
+					title: "&6击败下界合金巨兽"
+					type: "advancement"
+				}
+				{
+					consume_items: true
+					id: "6C74F4AE37B27DF8"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					title: "&6向AGIRT提供样本"
+					type: "item"
+				}
+			]
+			title: "&6老旧的战争机器"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["717F2D04B75B0BC6"]
+			description: ["提示:也许击败趴在&6蓝火里的大块头&r能让&3AGIRT&r惊掉下巴？&a（↑分支任务↑）&r"]
+			icon: "minecraft:netherite_upgrade_smithing_template"
+			id: "7DAB07DB602F49BD"
+			incompatible: ["6C74F4AE37B27DF8"]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion4"
+					elevate_perms: true
+					id: "4F3B2C35E331096B"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					count: 64
+					id: "47F742571C3C6BA8"
+					item: "fallout:adaptation"
+					type: "item"
+				}
+				{
+					id: "4F08343BC6DD5DDC"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					elapsedTime: 300L
+					id: "22F824A61B18E7FB"
+					title: "&e在猪灵暴动中幸存"
+					type: "questsadditions:time"
+				}
+				{
+					consume_items: true
+					id: "033D72281D6485FA"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					title: "&3向AGIRT提供样本"
+					type: "item"
+				}
+			]
+			title: "&e狱髓之谜"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["15D55082C7D0B260"]
+			description: [
+				"&3AGIRT&f命令我们前往下界调查&d「灵魂锻造厂」&r"
+				"并提供了能够确认&d「灵魂锻造厂」&r方位的&e恶兽之眼&r"
+				"但下界是&6非常炎热&r的位面，建议&9副手手持冰块&r并备好足够的&b饮用水&r后再出发"
+			]
+			icon: "cataclysm:monstrous_eye"
+			id: "37B4228AF8995975"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "3B80269DD02859AD"
+					item: "cataclysm:monstrous_eye"
+					only_one: true
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion2"
+					elevate_perms: true
+					id: "2E8DCDDE374368CB"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "49F5A7504DA7D570"
+				title: "&e猪灵之谜"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["377BD2ABCEBF83BF"]
+			icon: {
+				Count: 1
+				id: "cataclysm:infernal_forge"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4225F600F5713A5D"
+			rewards: [{
+				id: "5A43A304FC6EA4EF"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						AttributeModifiers: [{
+							Amount: -0.75d
+							AttributeName: "forge:entity_gravity"
+							Operation: 1
+							Slot: "mainhand"
+							UUID: [I;
+								-257781247
+								1055735950
+								-1863163673
+								79852108
+							]
+						}]
+						Damage: 0
+						Enchantments: [{
+							id: "trials:density"
+							lvl: 4
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "1931ADAD2B4D6419"
+					item: {
+						Count: 1
+						id: "cataclysm:infernal_forge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					elapsedTime: 1200L
+					id: "5981D8D9A23A9EF9"
+					title: "&e升级时间"
+					type: "questsadditions:time"
+				}
+			]
+			title: "&3让AGIRT升级你的装备"
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"377BD2ABCEBF83BF"
+				"7DAB07DB602F49BD"
+			]
+			icon: "supplementaries:hourglass"
+			id: "79AB70FA8204D490"
+			rewards: [{
+				command: "/execute at @s run dialog show agirt_champion6"
+				elevate_perms: true
+				id: "535CC88AE5308E95"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "77FAE5B7D702C467"
+					title: "&e解析完成与后续"
+					type: "checkmark"
+				}
+				{
+					elapsedTime: 300L
+					id: "040B6B86ACFF5B60"
+					title: "&e等待解析完毕"
+					type: "questsadditions:time"
+				}
+			]
+			title: "&e等待解析完毕"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3EF6E1253E09E970"]
+			description: [
+				"&d你成功在利维坦的帮助下，做出了未完成的护卫容器&r"
+				"&d不过现在仍需要将容器放入紫水晶祭坛进行充能，&b并击退来犯之敌&r"
+				"&d才可一劳永逸的完成容器的制造"
+			]
+			id: "0464B6900CDED4C5"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_champion10"
+				elevate_perms: true
+				id: "24B571FDB44A405A"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "27CC73B6A46EA3B4"
+				item: "fallout:champion_complete_fragments"
+				type: "item"
+			}]
+			title: "&e淬炼一个冠军容器"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32E0E4A21D458E84"]
+			description: [
+				"根据&d利维坦&r提供的知识，在雪地的&8苦寒监牢&r之中封印着一位&3受诅之骸，&r"
+				"我们需要击败此地的守卫后，用钥匙破开封印击败这位暴君，来获取&3急速之魂&r的配方"
+			]
+			id: "4D1505FC33AF3868"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "fallout:champion_haste"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "21CDEE47330B00BA"
+				ignore_reward_blocking: true
+				stage: "haste"
+				title: "&d解锁急速之魂配方"
+				type: "gamestage"
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_maledictus"
+				criterion: ""
+				id: "3BFAD9E5D9C1F1C7"
+				title: "&3讨伐咒翼灵骸"
+				type: "advancement"
+			}]
+			title: "&3受诅之骸"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"377BD2ABCEBF83BF"
+				"3181D9B50A005210"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"根据&d利维坦&r提供的知识，在下界的&3灵魂锻造厂&r之中存在古代猪灵的&6战争机器，&r"
+				"我们需要击败这台机械，来获取&5抑制之魂&r的配方"
+			]
+			icon: "cataclysm:lava_power_cell"
+			id: "58F311D0E25B3033"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "fallout:champion_suppression"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7072C09C7E77C017"
+				ignore_reward_blocking: true
+				stage: "suppression"
+				title: "&d解锁抑制之魂配方"
+				type: "gamestage"
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				id: "588A2C21586C6C31"
+				title: "&6击败下界合金巨兽"
+				type: "advancement"
+			}]
+			title: "&6老旧的战争机器"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63C6802A135A35E6"]
+			id: "4F39C7E0062B68CC"
+			tasks: [{
+				count: 7L
+				id: "5B97115BB0B2EB18"
+				item: "fallout:champion_fragment"
+				type: "item"
+			}]
+			title: "&b收集七个冠军碎片"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0464B6900CDED4C5"]
+			description: [
+				"在离开了信号屏蔽区后"
+				"是时候重新与&3AGIRT&r建立联系了"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:book"
+				tag: {
+					display: {
+						Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"aqua\",\"text\":\"被设计用来跨世界交流的实验型个人终端\"}],\"text\":\"\"}"]
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"aqua\",\"text\":\"相位仪\"}],\"text\":\"\"}"
+					}
+				}
+			}
+			id: "19537315FF7B2EC5"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_champion11"
+				elevate_perms: true
+				id: "016D6E6DE1C9844B"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1BCEF1F4ED67117E"
+				item: "fallout:champion_complete_fragments"
+				type: "item"
+			}]
+			title: "&3向AGIRT汇报并提交成果"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19537315FF7B2EC5"]
+			description: [
+				"&3AGIRT&r在发放报酬并返还成果后"
+				"向我们委派了&e讨伐四大boss&r解锁&d冠军之魂&r的新任务"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:acupuncture"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "1CA810B51BE518AB"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion12"
+					elevate_perms: true
+					id: "0BAE8BFF9D56D657"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "0EFDAB94A400D6D2"
+					item: "fallout:champion_complete_fragments"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "3227664B0D4A11E0"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 9999
+							GunFireMode: "AUTO"
+							GunId: "tacz:minigun"
+							HasBulletInBarrel: 1b
+							HeatAmount: 0.0f
+							OverHeated: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 48
+					id: "696D7BE360FEC21A"
+					item: "fallout:assimilation"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EE679FF2F1339DB"
+				title: "&3AGIRT的后续命令"
+				type: "checkmark"
+			}]
+			title: "&d超凡之路始于足下"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FB2DF4AACF06C87"]
+			description: [
+				"根据&d利维坦&r提供的知识，在地底的&7远古工厂&r之中存在远古文明的&c对凋零战争机器，&r"
+				"我们需要用&d下界之星&r使其唤醒后将其摧毁，来获取&c活力之魂&r的配方"
+			]
+			icon: "cataclysm:witherite_ingot"
+			id: "4131505E8DA9706C"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "fallout:champion_vitality"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6E6BEA2C5CDC278D"
+				ignore_reward_blocking: true
+				stage: "vitality"
+				title: "&d解锁活力之魂配方"
+				type: "gamestage"
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				id: "3EF7DB80B268C6B5"
+				title: "&c讨伐先驱者"
+				type: "advancement"
+			}]
+			title: "&c那是凋零吗"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57B3A856D594477E"]
+			description: [
+				"根据&d利维坦&r提供的知识，在地狱的&6烈焰竞技场&r之中居住着&e传说中的火元素之王，&r"
+				"我们需要用燃魂的掉落物对其发起挑战，来获取&e融毁之魂&r的配方"
+			]
+			icon: "cataclysm:bulwark_of_the_flame"
+			id: "1A1A03AAD88686AE"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "fallout:champion_destruction"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "52E7E404E66D6F61"
+				ignore_reward_blocking: true
+				stage: "destruction"
+				title: "&d解锁融毁之魂配方"
+				type: "gamestage"
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				id: "629956CF3210ED89"
+				title: "&e讨伐焰魔"
+				type: "advancement"
+			}]
+			title: "&e绝对强者"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1CA810B51BE518AB"]
+			description: [
+				"根据&3AGIRT&r所说，他们会提供相应的装备"
+				"&a只要给他们说一声就好&r"
+			]
+			icon: "cataclysm:cursed_eye"
+			id: "32E0E4A21D458E84"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "292768CD68C04459"
+					item: "cataclysm:cursed_eye"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 4
+					id: "662018C3BA67EF1E"
+					item: "trials:wind_charge"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "045CE5417780274C"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							AttributeModifiers: [{
+								Amount: 210.0d
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-1833576045
+									-167359006
+									-1953284341
+									-510300970
+								]
+							}]
+							Damage: 59
+							HideFlags: 253
+							RepairCost: 1048575
+							display: {
+								Lore: [
+									"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"使用了冠军之力制作的木剑。威力极大但使用后会立刻破碎\"}],\"text\":\"\"}"
+									"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"我知道你想要干什么，这个东西不能被附魔\"}],\"text\":\"\"}"
+								]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_aqua\",\"text\":\"AGIRT实验型悖论木剑\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AF08418AC52FE2B"
+				title: "&3通知AGIRT"
+				type: "checkmark"
+			}]
+			title: "&e准备讨伐咒翼灵骸"
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1CA810B51BE518AB"]
+			description: [
+				"根据&3AGIRT&r所说，他们会提供相应的装备"
+				"&a只要给他们说一声就好&r"
+			]
+			icon: "cataclysm:flame_eye"
+			id: "57B3A856D594477E"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "7BA81E803968C41B"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "63C53F02E3920718"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "56B1845755006E01"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							AttributeModifiers: [{
+								Amount: 210.0d
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-1833576045
+									-167359006
+									-1953284341
+									-510300970
+								]
+							}]
+							Damage: 59
+							HideFlags: 253
+							RepairCost: 1048575
+							display: {
+								Lore: [
+									"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"使用了冠军之力制作的木剑。威力极大但使用后会立刻破碎\"}],\"text\":\"\"}"
+									"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"我知道你想要干什么，这个东西不能被附魔\"}],\"text\":\"\"}"
+								]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_aqua\",\"text\":\"AGIRT实验型悖论木剑\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38EDB30604C3BF39"
+				title: "&3通知AGIRT"
+				type: "checkmark"
+			}]
+			title: "&e准备讨伐焰魔"
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1CA810B51BE518AB"]
+			description: [
+				"根据&3AGIRT&r所说，他们会提供相应的装备"
+				"&a只要给他们说一声就好&r"
+			]
+			icon: "cataclysm:mech_eye"
+			id: "3FB2DF4AACF06C87"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "6E631D258D5E49DA"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							AttributeModifiers: [{
+								Amount: 210.0d
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-1833576045
+									-167359006
+									-1953284341
+									-510300970
+								]
+							}]
+							Damage: 59
+							HideFlags: 253
+							RepairCost: 1048575
+							display: {
+								Lore: [
+									"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"使用了冠军之力制作的木剑。威力极大但使用后会立刻破碎\"}],\"text\":\"\"}"
+									"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"我知道你想要干什么，这个东西不能被附魔\"}],\"text\":\"\"}"
+								]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_aqua\",\"text\":\"AGIRT实验型悖论木剑\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "14AEF599083AF272"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "0A93B134F67979B2"
+					item: "cataclysm:emp"
+					type: "item"
+				}
+				{
+					id: "39740A0E4731FF92"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67FDF0A53FB5AB98"
+				title: "&3通知AGIRT"
+				type: "checkmark"
+			}]
+			title: "&e准备讨伐先驱者"
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1CA810B51BE518AB"]
+			description: [
+				"根据&3AGIRT&r所说，他们会提供相应的装备"
+				"&a只要给他们说一声就好&r"
+			]
+			icon: "cataclysm:monstrous_eye"
+			id: "3181D9B50A005210"
+			incompatible: ["377BD2ABCEBF83BF"]
+			rewards: [
+				{
+					auto: "enabled"
+					id: "67B54579B3D1C978"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "793D6875FBF6657A"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "3C6EC9AD639EF405"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							AttributeModifiers: [{
+								Amount: 210.0d
+								AttributeName: "minecraft:generic.attack_damage"
+								Operation: 0
+								Slot: "mainhand"
+								UUID: [I;
+									-1833576045
+									-167359006
+									-1953284341
+									-510300970
+								]
+							}]
+							Damage: 59
+							HideFlags: 253
+							RepairCost: 1048575
+							display: {
+								Lore: [
+									"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"red\",\"text\":\"使用了冠军之力制作的木剑。威力极大但使用后会立刻破碎\"}],\"text\":\"\"}"
+									"{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"gray\",\"text\":\"我知道你想要干什么，这个东西不能被附魔\"}],\"text\":\"\"}"
+								]
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_aqua\",\"text\":\"AGIRT实验型悖论木剑\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "298ABBEE041BE7B6"
+				title: "&3通知AGIRT"
+				type: "checkmark"
+			}]
+			title: "&e准备讨伐下界合金巨兽"
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A1A03AAD88686AE"]
+			icon: "cataclysm:the_incinerator"
+			id: "7C10E061680E7219"
+			rewards: [{
+				id: "31F78C1EDF098A4F"
+				item: {
+					Count: 1
+					id: "cataclysm:the_incinerator"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 10
+							}
+							{
+								id: "minecraft:smite"
+								lvl: 10
+							}
+							{
+								id: "minecraft:bane_of_arthropods"
+								lvl: 5
+							}
+							{
+								id: "deeperdarker:sculk_smite"
+								lvl: 5
+							}
+							{
+								id: "minecraft:sweeping"
+								lvl: 3
+							}
+							{
+								id: ""
+								lvl: 0
+							}
+						]
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"gold\",\"text\":\"炎葬·改\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "2704251CAF96ABAA"
+					item: "cataclysm:the_incinerator"
+					type: "item"
+				}
+				{
+					elapsedTime: 1200L
+					id: "166F09A5E6A2B81B"
+					title: "&e升级时间"
+					type: "questsadditions:time"
+				}
+				{
+					consume_items: true
+					id: "293770E08A260930"
+					item: "cataclysm:ignitium_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "&3让AGIRT升级你的装备"
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D1505FC33AF3868"]
+			icon: "cataclysm:the_annihilator"
+			id: "3B3B3994C6B8A27E"
+			rewards: [{
+				id: "2AE0B3AEBF822C07"
+				item: {
+					Count: 1
+					id: "cataclysm:the_annihilator"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 10
+							}
+							{
+								id: "minecraft:smite"
+								lvl: 10
+							}
+							{
+								id: "minecraft:bane_of_arthropods"
+								lvl: 5
+							}
+							{
+								id: "deeperdarker:sculk_smite"
+								lvl: 5
+							}
+							{
+								id: "minecraft:sweeping"
+								lvl: 3
+							}
+							{
+								id: ""
+								lvl: 0
+							}
+						]
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"歼灭战锤·改\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "731A14BFC95F8CF0"
+					item: "cataclysm:the_annihilator"
+					type: "item"
+				}
+				{
+					elapsedTime: 1200L
+					id: "7CDF0EC632BA4592"
+					title: "&e升级时间"
+					type: "questsadditions:time"
+				}
+				{
+					consume_items: true
+					id: "7D945153F2D7DA66"
+					item: "cataclysm:cursium_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "&3让AGIRT升级你的装备"
+			x: 20.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D1505FC33AF3868"]
+			icon: "cataclysm:soul_render"
+			id: "49E9D84495083913"
+			rewards: [{
+				id: "206234554CF1C129"
+				item: {
+					Count: 1
+					id: "cataclysm:soul_render"
+					tag: {
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"light_purple\",\"text\":\"断魂战戟·改\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "235A0EFA7AAF6A3D"
+					item: "cataclysm:soul_render"
+					type: "item"
+				}
+				{
+					elapsedTime: 1200L
+					id: "71B097572E67F538"
+					title: "&e升级时间"
+					type: "questsadditions:time"
+				}
+				{
+					consume_items: true
+					id: "1F3B3F4D313EA269"
+					item: "cataclysm:cursium_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "&3让AGIRT升级你的装备"
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1CA810B51BE518AB"
+				"4D1505FC33AF3868"
+				"58F311D0E25B3033"
+				"1A1A03AAD88686AE"
+				"4131505E8DA9706C"
+			]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "ftbquests:book"
+				tag: {
+					display: {
+						Lore: ["{\"italic\":false,\"color\":\"white\",\"extra\":[{\"text\":\"\"},{\"color\":\"aqua\",\"text\":\"被设计用来跨世界交流的实验型个人终端\"}],\"text\":\"\"}"]
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"bold\":true,\"color\":\"aqua\",\"text\":\"相位仪\"}],\"text\":\"\"}"
+					}
+				}
+			}
+			id: "2BE600D3D6DA84D5"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion13"
+					elevate_perms: true
+					id: "3B553BC76B5C955B"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					count: 48
+					id: "2DDD112BEF594432"
+					item: "fallout:assimilation"
+					type: "item"
+				}
+			]
+			tasks: [{
+				elapsedTime: 60L
+				id: "579C39C543EF882C"
+				type: "questsadditions:time"
+			}]
+			title: "&3AGIRT的奖励与后续指示"
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BE600D3D6DA84D5"]
+			description: ["在我们讨伐&e四大boss&r后&3AGIRT&r向我们发布了制造&c活力之魂&r的任务,来验证他们的猜测"]
+			icon: {
+				Count: 1
+				id: "fallout:champion_vitality"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2E6D725BCE133748"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion14"
+					elevate_perms: true
+					id: "7284EBA5459DD68E"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "3B94089331527EA6"
+					item: "fallout:assimilation"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57C9F2976D693B81"
+				item: {
+					Count: 1
+					id: "fallout:champion_vitality"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&c制造活力之魂"
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E6D725BCE133748"]
+			description: [
+				"&c活力之魂&r的成功制造让&3AGIRT&r很兴奋"
+				"他们马不停蹄的向我们发布了新的任务"
+			]
+			icon: "irons_spellbooks:ruined_book"
+			id: "2727A75F0EBA9E10"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion15"
+					elevate_perms: true
+					id: "20062DF12A497035"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					count: 48
+					id: "223ABF3C496A4C82"
+					item: "fallout:assimilation"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "398C87ADFC235ACE"
+				item: "irons_spellbooks:ruined_book"
+				type: "item"
+			}]
+			title: "&3收集远古文献"
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2727A75F0EBA9E10"]
+			description: [
+				"&3AGIRT&r总算消停了下来，他们再心急也得等待对&3远古文献&r的解析"
+				"不过有一位&a植物学家&r借此机会找上了我们，向我们发布了寻找&b远古树苗&r的委托"
+			]
+			icon: "quark:ancient_sapling"
+			id: "1E649E0041D9F791"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion16"
+					elevate_perms: true
+					id: "2C62015EEE3E4AF0"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					count: 48
+					id: "33BB3F46B4F232A0"
+					item: "fallout:assimilation"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5315B24AAB74F907"
+				item: "quark:ancient_sapling"
+				type: "item"
+			}]
+			title: "&b收集远古树苗"
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E649E0041D9F791"]
+			description: [
+				"在完成&a植物学家&r的委托之后，那位&eK先生&r找到了我们"
+				"用很傻逼的语气，向我们透露了制造&6冠军之魂·统御&r的方法。"
+				"不过我们首先....得养一只虫子?"
+			]
+			icon: {
+				Count: 1
+				id: "fallout:parasite_skin"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "008A084418DC9B41"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_champion18"
+				elevate_perms: true
+				id: "249CB326D2F8E727"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5C30188D31744E0F"
+				item: {
+					Count: 1
+					id: "fallout:parasite_skin"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&e老朋友与统御之魂"
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["008A084418DC9B41"]
+			description: [
+				"&d我们的举动惊动了利维坦，利维坦坦白了自己的目的并正式向我们递交了战书"
+				"&d不过祂对仪式感脾胃讲究，还需要&5深渊祭品&d才肯现身与我们决一死战"
+			]
+			hide_dependent_lines: true
+			icon: "cataclysm:abyssal_sacrifice"
+			id: "1113AA8462466605"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_champion18"
+				elevate_perms: true
+				id: "58C9886314AB5CC1"
+				silent: true
+				title: "对话框"
+				type: "command"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "3FC489789C97326D"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			title: "&d利维坦的战书"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1113AA8462466605"
+				"3C2EE84E8FAF74A8"
+			]
+			description: [
+				"在制造出&6冠军之魂·统御&r后。&eK先生&r还是露出了他的獠牙"
+				"我就知道这人是个疯子，他成功释放出了名为&d凋零风格&r的灾厄"
+				"而这个灾厄将在三天后把&6母世界&r基建毁坏殆尽然后&5抵达我们所在的世界&r"
+				"好在半死不活的&3AGIRT&r还算靠谱，带来了能够杀死凋零风暴的情报和大家伙"
+			]
+			icon: {
+				Count: 1
+				id: "fallout:champion_domination"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "423060729B28C9AD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show agirt_champion19"
+					elevate_perms: true
+					id: "3B22842EABEEBC6A"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "07192C8FF95AEA8B"
+					item: {
+						Count: 1
+						id: "witherstormmod:formidibomb"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "0CC345C459A7B1B4"
+				item: {
+					Count: 1
+					id: "fallout:champion_domination"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&d弱者愈强&5而强者起床"
+			x: 4.5d
+			y: 2.5d
+		}
+	]
+	title: "&d「冠军之路」"
+}

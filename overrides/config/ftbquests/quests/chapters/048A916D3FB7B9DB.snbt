@@ -1,0 +1,472 @@
+{
+	autofocus_id: "2C6D57916E997A90"
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "048A916D3FB7B9DB"
+	group: "322CE16C03558B65"
+	icon: "witherstormmod:withered_nether_star"
+	id: "048A916D3FB7B9DB"
+	images: [
+		{
+			height: 12.0d
+			image: "enhanced_boss_bars:textures/gui/boss_bars/wither_storm.png"
+			order: 1
+			rotation: 0.0d
+			width: 42.654545454545456d
+			x: -0.4999999999999929d
+			y: -4.142857142857146d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/gui/boss_bar/leviathan_bar_base.png"
+			rotation: 0.0d
+			width: 42.0d
+			x: 5.0d
+			y: -6.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C6D57916E997A90"]
+			description: [
+				"根据典籍记载，该世界的古代文明曾举族对抗过&5凋零风暴"
+				"但他们发现无论是哪种武器，对这头巨兽造成的伤害依然有限"
+				"因此这些先行者们，选择杀死会在&5凋零风暴&f附近出现的&5凋零共生体&f，"
+				"通过&5共生体&f死后凝聚出来的&e附魔书——&f使武器真正能对&5凋零风暴&f造成伤害。"
+				"因此我们只需要在我们的大炸弹上安装一个特殊的附魔小炸弹。"
+				"但这一切，必须等到那个庞然巨物现身才能实施，根据计算您还需要一件备用武器——不是用来击退，而是为了彻底终结&5凋零风暴&f"
+			]
+			icon: "irons_spellbooks:ruined_book"
+			id: "4582A307E06FCED7"
+			min_required_tasks: 1
+			rewards: [{
+				auto: "enabled"
+				command: "/execute at @s run dialog show ancient_bomb_clue"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "2D705D71690CE039"
+				silent: true
+				team_reward: true
+				title: "远古典籍的线索"
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "189A8419BF144BD0"
+					item: "irons_spellbooks:ruined_book"
+					type: "item"
+				}
+				{
+					id: "197CDC404A23FF6F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&3远古典籍的线索"
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4582A307E06FCED7"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&c警告！伴生灾害已出现。侦测到异常反应"
+				"&5凋零风暴&r&c预计在10分钟后出现&r"
+			]
+			icon: "trials:wind_charge"
+			icon_scale: 2.0d
+			id: "03501B421441360E"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/execute at @s run dialog show witherstorm_arrival"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "6D72F92F39575F0B"
+					silent: true
+					team_reward: true
+					title: "风暴降临"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/puresuffering add day primary nightmare puresuffering:super_storm max"
+					elevate_perms: true
+					id: "7E6668889E99DC70"
+					silent: true
+					title: "刮风下雨"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/time add 1d"
+					elevate_perms: true
+					id: "0B9BC88EED224533"
+					silent: true
+					title: "随他去吧"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 3000L
+				id: "22CD087A8E94772D"
+				type: "questsadditions:time"
+			}]
+			title: "&9风暴降临"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27C825527A817C22"]
+			description: [
+				"&c警报！&f侦测到维度异常波动，预计72小时后形成&9凋零风暴&f"
+				"更糟的是，&9AGIRT&f提供的炸弹蓝图&8根本没有详细原理&f。"
+				"必须找到更多情报——&bTECA&f的录音显示，&9AGIRT&f关于&5凋零风暴&f的数据，全部来自&3远古城市&f的&3远古遗物&f"
+				"知己知彼方能百战百胜，请在风暴降临之前多多搜集敌人的情报。"
+			]
+			icon: {
+				Count: 1
+				id: "citadel:icon_item"
+				tag: {
+					IconLocation: "alexscavesexemplified:textures/gui/adv_icon/tesla_shock.png"
+				}
+			}
+			id: "2C6D57916E997A90"
+			incompatible: ["3C2EE84E8FAF74A8"]
+			rewards: [{
+				auto: "enabled"
+				command: "/execute at @s run dialog show teca_storm_warning"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "059914E1639AC907"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: true
+				title: "风暴预兆"
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 1L
+				id: "2ABFBB89C26CAA2A"
+				type: "questsadditions:time"
+			}]
+			title: "&9风暴预兆阿尔法"
+			x: -15.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["03501B421441360E"]
+			description: [
+				"&5那流亡的灾厄，终归故土，祂俯身咀嚼大地。将山峦化为齑粉，"
+				"&5祂所过之处，万物凋零。生灵皆化为他的利齿与爪牙"
+				""
+				"&5祂咀嚼，于是岁月崩缺一角；祂吞咽，于是永恒开始凋亡。"
+			]
+			icon: "witherstormmod:command_block_book"
+			id: "62AE9C8DE15F22EF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/summon witherstormmod:wither_storm 0 70 0 {Phase:5,ConsumedEntities:3000000}"
+					elevate_perms: true
+					icon: "witherstormmod:tainted_dust_block"
+					id: "59E38B23EF9306D5"
+					silent: true
+					title: "凋零风暴"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw @s [{\"text\":\"<相位仪>\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"警告！凋零风暴已出现在X0 Y70 Z0\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "3C2215E0E0770B55"
+					silent: true
+					title: "&5警告"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/advancement grant @s only witherstormmod:main/summon_wither_storm"
+					elevate_perms: true
+					icon: "minecraft:command_block"
+					id: "35A559A7272CE474"
+					silent: true
+					team_reward: true
+					title: "永恒不再"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					disable_toast: true
+					elapsedTime: 600L
+					id: "0C3FC5559517D451"
+					type: "questsadditions:time"
+				}
+				{
+					id: "42892093D869257E"
+					title: " 召唤凋零风暴"
+					type: "checkmark"
+				}
+			]
+			title: "&d永&5恒&d不&5再"
+			x: -4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["62AE9C8DE15F22EF"]
+			description: [
+				"              &5祂降下\"凋零\"的赐福，"
+				"             &5蝼蚁却以神骸铸剑。"
+				""
+				"               &5——强者愈弱，"
+				"                 &d而弱者愈强。"
+			]
+			icon: "witherstormmod:infected_flesh_block"
+			id: "5BAA3227D532B70B"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show witherstorm_final_phase"
+				elevate_perms: true
+				id: "11141867D29BAC34"
+				silent: true
+				team_reward: true
+				title: "最后的对话？"
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "witherstormmod:main/strong_grow_weak"
+					criterion: ""
+					id: "79B767919E1CF1E2"
+					type: "advancement"
+				}
+				{
+					advancement: "witherstormmod:main/weakened_arise_stronger"
+					criterion: ""
+					id: "2B5D05AB99E80311"
+					type: "advancement"
+				}
+			]
+			title: "&5强者愈弱...&d而弱者愈强"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5BAA3227D532B70B"]
+			icon: "minecraft:command_block"
+			id: "3B03BFAD020126AD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪>\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"侦测到凋零风暴出现过载性结构损伤，裂口贯穿深度直达核心区\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					elevate_perms: true
+					id: "2EF3517F2C645132"
+					silent: true
+					team_reward: true
+					title: "提示信息"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪>\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"建议立即针对目标核心区实施毁灭打击\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					elevate_perms: true
+					id: "514514135F3C20BE"
+					silent: true
+					team_reward: true
+					title: "命令"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "witherstormmod:main/belly_of_the_beast"
+				criterion: ""
+				id: "0D0F37D4494734BD"
+				type: "advancement"
+			}]
+			title: "&e&l摧毁核心&r"
+			x: -0.44659863945580014d
+			y: -6.178571428571445d
+		}
+		{
+			dependencies: ["62AE9C8DE15F22EF"]
+			description: ["&d注意!凋零共生体已诞生!立刻将其击杀,夺取命令之书"]
+			id: "3619076D6B7C39BF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪>\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"注意!凋零共生体已诞生\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					elevate_perms: true
+					id: "434C2E282949C40D"
+					silent: true
+					team_reward: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪>\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"立刻将其击杀,夺取命令之书\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					elevate_perms: true
+					id: "7A57256E0C9675E6"
+					silent: true
+					team_reward: true
+					title: "命令"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"<???>\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"凡人？为何要抗拒神祇的赐福。不如放弃思考一起变成神明大人的养料吧~\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					elevate_perms: true
+					id: "541077D6B8B4BA93"
+					silent: true
+					team_reward: true
+					title: "狗叫"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				advancement: "witherstormmod:main/harbinger_of_cataclysmic_fates"
+				criterion: ""
+				id: "7E35DB23B0230274"
+				type: "advancement"
+			}]
+			title: "&5凋零之子"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"3B03BFAD020126AD"
+				"2C6D57916E997A90"
+			]
+			description: ["最终&e&l此波平,彼浪起&r"]
+			id: "63C0DA3E0C03EE66"
+			incompatible: ["62872BF807151848"]
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show teca_finale_dialog"
+				elevate_perms: true
+				id: "212604435068882E"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: true
+				title: "END?"
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "witherstormmod:main/wither_storm_defeated"
+				criterion: ""
+				id: "60EF9E53C4963AE2"
+				type: "advancement"
+			}]
+			title: "&e&l此波平，彼浪起&r"
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["03501B421441360E"]
+			description: [
+				"&c警报！&f侦测到维度异常波动，预计72小时后形成&9凋零风暴&f"
+				"更糟的是，&9AGIRT&f提供的炸弹蓝图&8根本没有详细原理&f。"
+				"必须找到更多情报——&bTECA&f的录音显示，&9AGIRT&f关于&5凋零风暴&f的数据，全部来自&3远古城市&f的&3远古遗物&f"
+				"知己知彼方能百战百胜，请在风暴降临之前多多搜集敌人的情报。"
+			]
+			icon: {
+				Count: 1
+				id: "citadel:icon_item"
+				tag: {
+					IconLocation: "alexscavesexemplified:textures/gui/adv_icon/tesla_shock.png"
+				}
+			}
+			id: "3C2EE84E8FAF74A8"
+			incompatible: ["2C6D57916E997A90"]
+			rewards: [{
+				auto: "enabled"
+				command: "/execute at @s run dialog show agirt_storm_warning"
+				elevate_perms: true
+				icon: "ftbquests:book"
+				id: "33815D5B547432C8"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: true
+				title: "风暴预兆"
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 1L
+				id: "4E13CB9515FE8F06"
+				type: "questsadditions:time"
+			}]
+			title: "&9风暴预兆贝塔"
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3B03BFAD020126AD"
+				"3C2EE84E8FAF74A8"
+			]
+			description: ["最终我们成为了&e&l新世界的神明&r"]
+			id: "62872BF807151848"
+			incompatible: ["63C0DA3E0C03EE66"]
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show agirt_champion20"
+				elevate_perms: true
+				id: "086B7BF6D48171C6"
+				ignore_reward_blocking: true
+				silent: true
+				team_reward: true
+				title: "END?"
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "witherstormmod:main/wither_storm_defeated"
+				criterion: ""
+				id: "2903217DC15668FC"
+				type: "advancement"
+			}]
+			title: "&e&l新世界的神明"
+			x: 1.0d
+			y: -10.0d
+		}
+	]
+	title: "&d「逆转灾厄」"
+}

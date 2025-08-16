@@ -1,0 +1,4176 @@
+{
+	autofocus_id: "3CA987FA51E8C0B2"
+	consume_items: true
+	default_hide_dependency_lines: true
+	default_quest_shape: "rsquare"
+	default_quest_size: 2.0d
+	filename: "36811882F7F94BE2"
+	group: "5BC95A684743E876"
+	icon: "fallout:steam"
+	id: "36811882F7F94BE2"
+	images: [
+		{
+			height: 3.0d
+			image: "fallout:item/jiaocheng"
+			rotation: 0.0d
+			width: 8.71206225680934d
+			x: 240.0d
+			y: 5.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 180.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 180.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 180.0d
+			y: 4.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 185.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 185.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 190.0d
+			y: 16.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 190.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 190.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 190.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 195.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 195.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 195.0d
+			y: 16.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 185.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 185.0d
+			y: 4.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 205.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "immersiveengineering:block/stone_decoration/insulating_glass"
+			rotation: 0.0d
+			width: 3.5d
+			x: 215.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "quark:block/iron_plate"
+			rotation: 0.0d
+			width: 3.5d
+			x: 220.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "quark:block/iron_plate"
+			rotation: 0.0d
+			width: 3.5d
+			x: 205.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "quark:block/iron_plate"
+			rotation: 0.0d
+			width: 3.5d
+			x: 200.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "quark:block/iron_plate"
+			rotation: 0.0d
+			width: 3.5d
+			x: 200.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "quark:block/iron_plate"
+			rotation: 0.0d
+			width: 3.5d
+			x: 210.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "quark:block/iron_plate"
+			rotation: 0.0d
+			width: 3.5d
+			x: 200.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "quark:block/iron_plate"
+			rotation: 0.0d
+			width: 3.5d
+			x: 205.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "quark:block/iron_plate"
+			rotation: 0.0d
+			width: 3.5d
+			x: 215.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "quark:block/iron_plate"
+			rotation: 0.0d
+			width: 3.5d
+			x: 220.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 210.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 250.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 255.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 255.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 255.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 260.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 260.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 260.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 260.0d
+			y: 16.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 210.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 200.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 200.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 200.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 205.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 215.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 215.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 220.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 210.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 220.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 220.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 225.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 225.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 225.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 230.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 230.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 230.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 245.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 240.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 240.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 235.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 235.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 205.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 210.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "mekanism:block/steel_casing"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 215.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 215.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 210.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 205.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 220.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 225.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 225.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 225.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 230.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 230.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 230.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 235.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 235.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 240.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 240.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "trials:block/crafter_top_crafting"
+			rotation: 0.0d
+			width: 3.5d
+			x: 245.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 265.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 265.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 265.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 265.0d
+			y: 16.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 270.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 270.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 270.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 270.0d
+			y: 16.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 295.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 290.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 290.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 290.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 285.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 285.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 285.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 280.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 280.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 275.0d
+			y: 7.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 275.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 275.0d
+			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 275.0d
+			y: 16.0d
+		}
+		{
+			height: 3.5d
+			image: "create:block/shadow_steel_casing"
+			rotation: 0.0d
+			width: 3.5d
+			x: 280.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 195.0d
+			y: 4.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 195.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_yellow"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 180.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 185.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 185.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 190.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 195.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 195.0d
+			y: 16.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 190.0d
+			y: 16.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 190.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 195.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 195.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 195.0d
+			y: 4.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 190.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 185.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "create:block/brass_block"
+			rotation: 0.0d
+			width: 3.5d
+			x: 185.0d
+			y: 4.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "minecraft:block/chiseled_stone_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 3.5d
+			x: 175.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "minecraft:block/chiseled_stone_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 3.5d
+			x: 175.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "minecraft:block/chiseled_stone_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 3.5d
+			x: 170.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "minecraft:block/chiseled_stone_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 3.5d
+			x: 170.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "minecraft:block/chiseled_stone_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 3.5d
+			x: 165.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "minecraft:block/chiseled_stone_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 3.5d
+			x: 170.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "minecraft:block/chiseled_stone_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 3.5d
+			x: 175.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 175.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 175.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 175.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 170.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 170.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 170.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 165.0d
+			y: 10.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "minecraft:block/chiseled_stone_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 3.5d
+			x: 180.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "minecraft:block/chiseled_stone_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 3.5d
+			x: 180.0d
+			y: 16.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "minecraft:block/chiseled_stone_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 3.5d
+			x: 180.0d
+			y: 4.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "minecraft:block/chiseled_stone_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 3.5d
+			x: 180.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 180.0d
+			y: 13.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 180.0d
+			y: 16.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 180.0d
+			y: 7.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 180.0d
+			y: 4.0d
+		}
+		{
+			color: 16645629
+			height: 3.0d
+			image: "supplementaries:block/presents/present_bottom_lime"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 185.0d
+			y: 16.0d
+		}
+		{
+			color: 16645629
+			height: 3.5d
+			image: "minecraft:block/chiseled_stone_bricks"
+			order: 1
+			rotation: 0.0d
+			width: 3.5d
+			x: 185.0d
+			y: 16.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3CA987FA51E8C0B2"]
+			description: [
+				"&a解锁：传动杆/齿轮/大齿轮"
+				"&a建立基础的旋转力传递系统，通过齿轮和传动杆实现动力的直线与角度传输。"
+			]
+			icon: "create:cogwheel"
+			id: "520E81352A3E02E7"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "4532AE73B58A9350"
+				ignore_reward_blocking: true
+				stage: "cogwheel"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "64D3BF22BE45A308"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "16x 一阶科技点"
+				type: "item"
+			}]
+			title: "&a基础应力传动"
+			x: 170.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5145C48BC1ECAF62"]
+			description: [
+				"&a解锁：安山合金/安山机壳/扳手"
+				"&a开启机械动力的基础，提供安山合金的合成配方和基础机械外壳，扳手用于调整机械方向。"
+			]
+			hide_until_deps_complete: true
+			icon: "mbd2:t1_research"
+			id: "3CA987FA51E8C0B2"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "5B32D571D222B09F"
+				ignore_reward_blocking: true
+				stage: "revitalize"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "supplementaries:candle_holder"
+				id: "7B9938DEAB45F63D"
+				title: "科技复兴"
+				type: "dimension"
+			}]
+			title: "&a复兴时代"
+			x: 165.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["520E81352A3E02E7"]
+			description: [
+				"&a解锁：置物台/工作盆/动力辊压机/动力搅拌器"
+				"&a提供基础物品处理能力，辊压/混合搅拌，支持手动或自动化操作。"
+			]
+			icon: "create:basin"
+			id: "193DD8C77B0DEB2E"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "2F77EF7242E2F29F"
+				ignore_reward_blocking: true
+				stage: "process"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "1C50669BFD780A10"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "24x 一阶科技点"
+				type: "item"
+			}]
+			title: "&a基础加工"
+			x: 175.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["520E81352A3E02E7"]
+			dependency_requirement: "one_started"
+			description: [
+				"&a解锁：传动杆/齿轮/大齿轮"
+				"&a建立基础的旋转力传递系统，通过齿轮和传动杆实现动力的直线与角度传输。"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: "create:water_wheel"
+			id: "11DC3D7EAA3635E2"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "0CC877AC50A8B925"
+				ignore_reward_blocking: true
+				stage: "water_wheel"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6D958E4344F9F026"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "16x 一阶科技点"
+				type: "item"
+			}]
+			title: "&a基础应力源"
+			x: 170.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"79F85A78968A9088"
+				"7A24491F19300038"
+				"3C43DFE66E0F9621"
+			]
+			dependency_requirement: "all_started"
+			description: [
+				"&e蒸汽与钢铁的新时代已然降临"
+				"&e解锁：蒸汽引擎/蒸汽笛/烈焰人燃烧室"
+				"&e高效动力源，通过蒸汽和烈焰人驱动更强大的机械。"
+			]
+			icon: "create:steam_engine"
+			id: "7213C3A9610DADA9"
+			require_sequential_tasks: false
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "02FA5DB11574725E"
+				ignore_reward_blocking: true
+				stage: "steam"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 48L
+				id: "185965B127E647FB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "48x 一阶科技点"
+				type: "item"
+			}]
+			title: "&e蒸汽时代"
+			x: 185.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["193DD8C77B0DEB2E"]
+			description: [
+				"&e解锁：黄铜锭/黄铜机壳/青铜锭tachment"
+				"&e合成多种铜合金，用于制造耐用的机械组件"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "create:brass_ingot"
+			id: "79F85A78968A9088"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "6A670E3FF81AA4AE"
+				ignore_reward_blocking: true
+				stage: "brass"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "61C6D6ED59968540"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "32x 一阶科技点"
+				type: "item"
+			}]
+			title: "&e基础合金冶炼"
+			x: 180.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7213C3A9610DADA9"]
+			description: [
+				"&e解锁：玫瑰石英/抛光玫瑰石英/辉光管"
+				"&e装饰性方块与电子元件，支持红石信号显示。"
+			]
+			icon: "create:polished_rose_quartz"
+			id: "5C88B2DA5CD3157D"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "137E27AA4F09FF1F"
+				ignore_reward_blocking: true
+				stage: "tube"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5E64A77BE8CBFCED"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "64x 一阶科技点"
+				type: "item"
+			}]
+			title: "&e粉钻"
+			x: 190.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6F472D3C81755BD5"]
+			description: [
+				"&a解锁：流体管道/动力泵/注液器/流体阀门/软管滑轮/流体储罐"
+				"&a建立流体传输系统，支持抽取/填充和存储液体。"
+			]
+			icon: "create:fluid_pipe"
+			id: "34E394C8DFAD57FC"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "55A4380B0546B26D"
+				ignore_reward_blocking: true
+				stage: "pipe"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "388DEBDBC4A8E247"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "24x 一阶科技点"
+				type: "item"
+			}]
+			title: "&a基础流体物流"
+			x: 180.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5C88B2DA5CD3157D"
+				"5327231F6BF983A7"
+			]
+			description: [
+				"&e解锁：动力臂/机械手"
+				"&e模拟玩家操作，实现精确的物品放置/使用或采集。"
+			]
+			icon: "create:brass_hand"
+			id: "74389BB588EDFFC8"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "3CB64903B1E9D7CC"
+				ignore_reward_blocking: true
+				stage: "deployer"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1433931FEC8931E1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "64x 一阶科技点"
+				type: "item"
+			}]
+			title: "&e基础精密装配"
+			x: 195.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["11DC3D7EAA3635E2"]
+			description: [
+				"&a解锁：风帆/风帆框架/风车轴承"
+				"&a组装风车结构，将风力转化为旋转动力。"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: "create:white_sail"
+			id: "2AE4C261BDFB0C0F"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "0D44CADBDA86D04F"
+				ignore_reward_blocking: true
+				stage: "sail"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "69F65500AD0D05F4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "24x 一阶科技点"
+				type: "item"
+			}]
+			title: "&a基础动态结构"
+			x: 180.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6CF83E7348927C39"]
+			description: [
+				"&e解锁：动力锯/动力钻头/动力收割机/动力犁/动力压路机"
+				"&e自动化破坏或采集方块，适用于伐木/采矿和农耕。"
+			]
+			icon: "create:mechanical_drill"
+			id: "7A24491F19300038"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "5314F98C2937551F"
+				ignore_reward_blocking: true
+				stage: "drill"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "343065ADC0BF087B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "32x 一阶科技点"
+				type: "item"
+			}]
+			title: "&e自动化采集"
+			x: 185.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7213C3A9610DADA9"
+				"4EE894B752469775"
+			]
+			description: [
+				"&e解锁：粉碎轮"
+				"&e高效粉碎物品或矿石，适合大规模资源处理。"
+			]
+			icon: "create:crushing_wheel"
+			id: "325119E5C39A1CE9"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "2335A198092A472B"
+				ignore_reward_blocking: true
+				stage: "crushing"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				icon: "fallout:steam"
+				id: "58952525D3EC0708"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "64x 一阶科技点"
+				type: "item"
+			}]
+			title: "&e基础矿物研磨"
+			x: 195.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6F472D3C81755BD5"]
+			dependency_requirement: "one_completed"
+			description: [
+				"解锁：石磨"
+				"研磨柔软的材料与农作物，将原料转化为更精细的材料。"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: "create:millstone"
+			id: "4F9221945ABF169F"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "5656847EC1FA3F37"
+				ignore_reward_blocking: true
+				stage: "millstone"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "21818DD2A89E6000"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "24x 一阶科技点"
+				type: "item"
+			}]
+			title: "磨坊"
+			x: 180.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5C88B2DA5CD3157D"
+				"5327231F6BF983A7"
+				"74389BB588EDFFC8"
+			]
+			description: [
+				"&e解锁 动力合成器，合成槽盖板"
+				"&e用于合成大型配方物品和自动化工作台合成"
+			]
+			icon: "create:mechanical_crafter"
+			id: "4EE894B752469775"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "34EE728F975C0E6D"
+				ignore_reward_blocking: true
+				stage: "crafter"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "12DEEAB875BAC906"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "64x 一阶科技点"
+				type: "item"
+			}]
+			title: "&e应力合成"
+			x: 195.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"74389BB588EDFFC8"
+				"4EE894B752469775"
+				"5C88B2DA5CD3157D"
+				"325119E5C39A1CE9"
+			]
+			description: [
+				"&e解锁：交流发电机/电动马达/特斯拉线圈/蓄电池/连接器（小型/大型/发光型）"
+				"&e建立初级电力系统，实现机械动力与能源的转换，支持低/高电流传输与能量存储。"
+			]
+			icon: "createaddition:electric_motor"
+			id: "62A6B520E089A02D"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "4A4C060433C90DD8"
+				ignore_reward_blocking: true
+				stage: "basicelcity"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "013D5706DF7FB604"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "128x 一阶科技点"
+				type: "item"
+			}]
+			title: "&e基础电学"
+			x: 195.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4F9221945ABF169F"]
+			description: [
+				"&a解锁：鼓风机/分散网"
+				"&a利用气流加热/冷却或清洗物品，配合热源可冶炼材料。"
+			]
+			icon: "create:encased_fan"
+			id: "5BA49DF7DDFD0155"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "715D1AC9B6CAC99B"
+				ignore_reward_blocking: true
+				stage: "fan"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "0F45BFD191443EF3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "32x 一阶科技点"
+				type: "item"
+			}]
+			title: "&a风力加工"
+			x: 185.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CA987FA51E8C0B2"]
+			description: [
+				"&a解锁：长刀/长剑/长戟"
+				"&a以大量的核心材料，制造杀伤范围更大的近战兵器"
+			]
+			icon: {
+				Count: 1
+				id: "fallout:stone_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "330693FF7FA974A4"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "640C4C2FBA95D951"
+				ignore_reward_blocking: true
+				stage: "heavy"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "06FF3A1C26B9B112"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "24x 一阶科技点"
+				type: "item"
+			}]
+			title: "&a重型武器制造"
+			x: 175.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["330693FF7FA974A4"]
+			description: [
+				"&a解锁：fk-15燧发枪/原始子弹/黑火药"
+				"&a解锁以黑火药作为发射药，手动装填的简易前膛枪械。"
+			]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 1
+					GunFireMode: "SEMI"
+					GunId: "qkl:fk15"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "2255111A5D9334F2"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "0158BDDC216BBD49"
+				ignore_reward_blocking: true
+				stage: "ballistics"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "3FE714E7CD2C948A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "32x 一阶科技点"
+				type: "item"
+			}]
+			title: "&a基础弹道学"
+			x: 185.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7213C3A9610DADA9"]
+			description: [
+				"&e解锁：钢锭"
+				"&e通过动力辊压机反复压制生铁，精炼成高强度钢材，废料产出少量铁锭。"
+			]
+			icon: "immersiveengineering:ingot_steel"
+			id: "5327231F6BF983A7"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "03032C8AF262883B"
+				ignore_reward_blocking: true
+				stage: "steel"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 48L
+				id: "7A763B0A769F4A9A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "48x 一阶科技点"
+				type: "item"
+			}]
+			title: "&e锻钢"
+			x: 190.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"7213C3A9610DADA9"
+				"2255111A5D9334F2"
+			]
+			description: [
+				"&e解锁: 枪械/弹药/配件制作台，制造机动军械的优秀材料。"
+				"&e将黄铜发条装置与武器结合，实现自动射击"
+				"&e代表装备："
+				"&e飞轮通用机枪/发条狙击枪/曲柄冲锋枪"
+			]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 32
+					GunFireMode: "SEMI"
+					GunId: "create_armorer:pistol_auto_stress"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "2139EB58CB224519"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "4FC090A05457DC1A"
+				ignore_reward_blocking: true
+				stage: "steamgun"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 48L
+				id: "5A6A1CD43A8E55AA"
+				item: "fallout:steam"
+				type: "item"
+			}]
+			title: "&e[蒸汽弹道学]"
+			x: 190.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["62A6B520E089A02D"]
+			dependency_requirement: "all_started"
+			description: [
+				"&b解锁：工程师锤/工程师手册/剪线钳/螺丝刀/钢机械零件/铁机械零件/低压线圈/低压连接器/低压继电器/低压电容"
+				"&b解锁基础电力工具与设备，迈入工业电气化时代"
+			]
+			icon: "mbd2:t2_research"
+			id: "4A9DD2F81DBAA2F5"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "monobank:replacement_lock"
+					id: "144C3BC7E56BBCC1"
+					ignore_reward_blocking: true
+					stage: "engineer"
+					team_reward: true
+					title: "解锁科技"
+					type: "gamestage"
+				}
+				{
+					id: "66E90AD92F80BEB5"
+					item: "fallout:power"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "2259F3D3650F14DF"
+				title: "&b迈入电气时代！"
+				type: "checkmark"
+			}]
+			title: "&b电气时代"
+			x: 200.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4A9DD2F81DBAA2F5"]
+			description: [
+				"&b解锁：焦炉砖/防腐木板/焦煤"
+				"&b用于炼钢和木料处理的煤炭焦化处理与木材防腐技术."
+			]
+			icon: "immersiveengineering:coke_oven"
+			id: "0D549FA8352FDE99"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "04C230A8224AEEFF"
+				ignore_reward_blocking: true
+				stage: "coking"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "7CCDB271D62B4FF5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "32x 二阶研究点"
+				type: "item"
+			}]
+			title: "&b焦化工艺"
+			x: 200.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5327231F6BF983A7"
+				"0D549FA8352FDE99"
+			]
+			description: [
+				"&b解锁：高炉砖 土高炉 土高炉炼钢配方"
+				"&b掌握高炉建造技术，实现工业化钢铁冶炼的基础"
+			]
+			icon: "immersiveengineering:blast_furnace"
+			id: "2DB4D90C0BF1BD93"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "23C9239EBAF91724"
+				ignore_reward_blocking: true
+				stage: "basicsteel"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 48L
+				id: "5A1003FF72844598"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "48x 二阶研究点"
+				type: "item"
+			}]
+			title: "&b基础冶钢术"
+			x: 205.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["520E81352A3E02E7"]
+			description: [
+				"&a解锁：十字齿轮箱/反转齿轮箱/离合器/链式传动箱/可调节链式传动箱"
+				"&a实现复杂动力传递，支持轴向转换/方向反转和动态调速。"
+			]
+			icon: "create:clutch"
+			id: "6F472D3C81755BD5"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "228B03C91154615D"
+				ignore_reward_blocking: true
+				stage: "clutch"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "727C9A87CC69AF6F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "16x 一阶科技点"
+				type: "item"
+			}]
+			title: "&a进阶应力传动"
+			x: 170.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6F472D3C81755BD5"]
+			description: [
+				"&a解锁：传送带/溜槽/安山隧道/安山漏斗/弹射置物台"
+				"&a构建初级物品运输网络，实现物品的水平和垂直传输。"
+			]
+			icon: "create:belt_connector"
+			id: "6CF83E7348927C39"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "026329A2641D2120"
+				ignore_reward_blocking: true
+				stage: "belt"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "2EC1D079CB563E59"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "24x 一阶科技点"
+				type: "item"
+			}]
+			title: "&a基础物品物流"
+			x: 175.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"2AE4C261BDFB0C0F"
+				"11DC3D7EAA3635E2"
+			]
+			description: [
+				"&a解锁：动力轴承/矿车装配站/轴向底盘/移动式存储接口/强力胶"
+				"&a创建可移动的复杂结构，支持方块黏附与物品交互。"
+			]
+			icon: "create:mechanical_bearing"
+			id: "3C43DFE66E0F9621"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "5D9E0FC5720FA570"
+				ignore_reward_blocking: true
+				stage: "mechanical"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "50EE09C510F99EE6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "24x 一阶科技点"
+				type: "item"
+			}]
+			title: "&a进阶动态结构"
+			x: 180.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3C43DFE66E0F9621"]
+			description: [
+				"&a解锁：绳索滑轮/起重机取物器/起重机杆/活塞杆/黏性动力活塞"
+				"&a实现多轴向的精确方块移动，用于大型机械组装。"
+			]
+			icon: "create:gantry_carriage"
+			id: "12AEC3F3D3E8B3C0"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "449CDFAB24AEEAE3"
+				ignore_reward_blocking: true
+				stage: "carriage"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "2881FBF276A4E4CF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "32x 一阶科技点"
+				type: "item"
+			}]
+			title: "&a起重机"
+			x: 185.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"7213C3A9610DADA9"
+				"6CF83E7348927C39"
+			]
+			description: [
+				"&e解锁：存量转信器/智能侦测器/黄铜隧道/黄铜漏斗/智能溜槽"
+				"&e实现物品的智能过滤/分配和库存监控。"
+			]
+			icon: "create:brass_tunnel"
+			id: "2347554A87D8D122"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "4C0E54089EC7FDEE"
+				ignore_reward_blocking: true
+				stage: "switch"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 48L
+				id: "1791824BFF137B5B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "48x 一阶科技点"
+				type: "item"
+			}]
+			title: "&e进阶物品物流"
+			x: 190.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4A9DD2F81DBAA2F5"]
+			description: [
+				"&b解锁：钢制脚手架/红石工程块/重型工程块/轻型工程块/电磁铁/发电机模块/散热器模块"
+				"&b用于建立标准化工业建筑与能源设备体系"
+			]
+			icon: "immersiveengineering:light_engineering"
+			id: "58AA56DD681E16EE"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "03CAB811246112ED"
+				ignore_reward_blocking: true
+				stage: "standards"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "6DD581835C40AAF4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "32x 二阶研究点"
+				type: "item"
+			}]
+			title: "&b工业标准"
+			x: 210.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5C88B2DA5CD3157D"
+				"5327231F6BF983A7"
+			]
+			description: [
+				"&e解锁：可编程齿轮箱/升降机滑轮/转速控制器/智能流体管道/飞轮"
+				"&e提供精确的转速控制/时序逻辑和能量缓冲功能。"
+			]
+			icon: "create:rotation_speed_controller"
+			id: "57A64F56F73E13CD"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "25CD9F7B81C76366"
+				ignore_reward_blocking: true
+				stage: "flywheel"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2569053B060A8CE8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t1"
+					}
+				}
+				title: "64x 一阶科技点"
+				type: "item"
+			}]
+			title: "&e高级应力方块"
+			x: 195.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4A9DD2F81DBAA2F5"
+				"2347554A87D8D122"
+			]
+			description: [
+				"&b解锁：基础传送带/卸货传送带/分流传送带/抽取传送带/垂直传送带/红石控制传送带/计量分配器/物品分拣器"
+				"&b实现复杂物品运输与分拣的自动化网络（有时候先进的产物并不好用）"
+			]
+			icon: "immersiveengineering:conveyor_basic"
+			id: "3164F5030C4A2A0F"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "3FBABDFB4661BB3C"
+				ignore_reward_blocking: true
+				stage: "sesail"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "0CAE553BD9985EA6"
+				item: "fallout:power"
+				type: "item"
+			}]
+			title: "&b工业物品物流"
+			x: 215.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4A9DD2F81DBAA2F5"
+				"34E394C8DFAD57FC"
+			]
+			description: [
+				"&b解锁：流体泵/流体管道/金属桶/流体阀门/流体分拣器"
+				"&b通过电力系统建立高效的自动化流体输送和存储系统"
+			]
+			icon: "immersiveengineering:fluid_pump"
+			id: "6EB3215E93DB6376"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "3FAFE221C536B8DF"
+				ignore_reward_blocking: true
+				stage: "adpipe"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "779E8758A48ED7F5"
+				item: "fallout:power"
+				type: "item"
+			}]
+			title: "&b进阶流体物流"
+			x: 210.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["58AA56DD681E16EE"]
+			description: [
+				"&b解锁：中压连接器/中压继电器/中压电容/变压器"
+				"&b中压电力传输与分配系统，升级至中压电力系统，提高能源传输效率"
+			]
+			icon: "immersiveengineering:wirecoil_electrum"
+			id: "413372F986F7F16E"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "022EE6C13B3BA1D0"
+				ignore_reward_blocking: true
+				stage: "adengineer"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 48L
+				id: "6EFF4E5FC0996E7B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "48x 二阶研究点"
+				type: "item"
+			}]
+			title: "&b进阶电学"
+			x: 215.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["413372F986F7F16E"]
+			description: [
+				"&b解锁：高压连接器/高压继电器/高压电容/高压变压器"
+				"&b掌握高电压电力网络建设技术。构建高压电网，实现远距离大容量电力传输"
+			]
+			icon: "immersiveengineering:wirecoil_steel"
+			id: "1A817A549196184E"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "177D42027C7232F2"
+				ignore_reward_blocking: true
+				stage: "seengineer"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5DA92D253D605C6B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "64x 二阶研究点"
+				type: "item"
+			}]
+			title: "&b高级电学"
+			x: 220.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4A9DD2F81DBAA2F5"]
+			description: [
+				"&b解锁; 用于制造一战/二战枪械的稀有材料，枪械/弹药/配件制作台。"
+				"&b掌握早期火器工程学，解锁经典栓动步枪、半自动步枪与机枪。通过精密机械加工和弹道优化，进行不降低威力的自动射击。"
+				"&b代表枪械："
+				"&bM1911手枪/毛瑟M95步枪/刘易斯轻机枪/M870霰弹枪"
+			]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 4
+					GunFireMode: "SEMI"
+					GunId: "bf1:man_m95"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "1955E1827786CDAA"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "48D2F676B381CFD5"
+				ignore_reward_blocking: true
+				stage: "adballistics"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "07D6DEC4D37F3952"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "24x 二阶研究点"
+				type: "item"
+			}]
+			title: "&b进阶弹道学"
+			x: 200.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7E50B214120B8B02"]
+			description: [
+				"&b解锁：电弧炉 黑钢锭配方"
+				"&b实现通过构建消耗石墨电极的巨型电弧炉，进行高效率合金冶炼，生产高强度钢材"
+			]
+			icon: "immersiveengineering:arc_furnace"
+			id: "7CB3BB20A95DCE4F"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "017A2BD7503B0409"
+				ignore_reward_blocking: true
+				stage: "sesteel"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "0EC194AE2BE40F4E"
+				item: "fallout:power"
+				type: "item"
+			}]
+			title: "&b高级冶钢术"
+			x: 235.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4A9DD2F81DBAA2F5"
+				"79F85A78968A9088"
+			]
+			description: [
+				"&b解锁：康铜锭/琥珀金锭/合金窑/新的黄铜/青铜制取方式"
+				"&b各式各样的合金组成了现代化电气设备的基础"
+			]
+			icon: "immersiveengineering:alloy_smelter"
+			id: "6D1F40CF756D8165"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "0298B0C4A347DF01"
+				ignore_reward_blocking: true
+				stage: "adalloy"
+				team_reward: true
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "23F723265BF8FB27"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "32x 二阶研究点"
+				type: "item"
+			}]
+			title: "&b进阶合金冶炼"
+			x: 205.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["59B1CEACD96D9B43"]
+			description: [
+				"&b解锁：用于制造沉浸军械的史诗材料阿尔法"
+				"&b结合电磁加速技术与电气时代美学，打造属于工程师的高精度实验武器。"
+				"&b代表装备："
+				"&b轨道手枪MK系列/超控磁轨炮/泵动式弹匣霰弹枪"
+			]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 3
+					GunFireMode: "SEMI"
+					GunId: "immersive_armorer:railgun"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "3E83AAAFF1BEF0DA"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "3C8029B316870DC9"
+				ignore_reward_blocking: true
+				stage: "seworkbench"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 48L
+				id: "2821B1A12057E811"
+				item: "fallout:power"
+				type: "item"
+			}]
+			title: "&b高阶工程师装备"
+			x: 210.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4A9DD2F81DBAA2F5"]
+			description: [
+				"&b解锁：工程师装配台/维护工具包/伐木机械锯/左轮手枪/化学喷射器/磁轨炮/矿物探测器/采矿机械钻/蓄电池背包"
+				"&b使其能够给工程师配备全套工业级工具和装备"
+			]
+			icon: "immersiveengineering:craftingtable"
+			id: "59B1CEACD96D9B43"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "1DCD30AC54D0477F"
+				ignore_reward_blocking: true
+				stage: "workbench"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "2281B24DCA15E913"
+				item: "fallout:power"
+				title: "32x 二阶研究点"
+				type: "item"
+			}]
+			title: "&b基础工程师装备"
+			x: 205.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1955E1827786CDAA"]
+			description: [
+				"&b解锁: 制造精英兵装备的史诗材料贝塔"
+				"&b通过神秘的能量核心锻造战场传奇装备，赋予单兵扭转战局的能力。"
+				"&b代表装备："
+				"&bTG1918坦克猎手/MG0815重机枪/WEX火焰喷射器"
+			]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 640
+					GunFireMode: "AUTO"
+					GunId: "bf1:mg0815"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "0305C8773CC6A165"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "6BC834DBEA902411"
+				ignore_reward_blocking: true
+				stage: "elitesoldiers"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6B9E158C6F6780B1"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			title: "&b精英兵武备"
+			x: 215.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["59B1CEACD96D9B43"]
+			description: [
+				"&b解锁：特斯拉线圈/机枪炮塔/化学炮塔"
+				"&b部署自动化防御系统，保护工业设施"
+			]
+			icon: "immersiveengineering:turret_gun"
+			id: "72BCFDFF96B8537D"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "2F82BCAECDB70423"
+				ignore_reward_blocking: true
+				stage: "sentry"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 48L
+				id: "60F81BFC386A4CDD"
+				item: "fallout:power"
+				type: "item"
+			}]
+			title: "&b哨戒炮"
+			x: 225.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"59B1CEACD96D9B43"
+				"58AA56DD681E16EE"
+			]
+			description: [
+				"&b解锁：岩芯钻机 "
+				"&b通过岩芯钻机进行深层矿物勘探，可用于斗轮挖矿机的的大规模采矿。"
+			]
+			icon: "immersiveengineering:sample_drill"
+			id: "568C5599DCC0897E"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "179D0CF9C96F87D5"
+				ignore_reward_blocking: true
+				stage: "geological"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "304D17005B2A2E73"
+				item: "fallout:power"
+				type: "item"
+			}]
+			title: "&b矿石钻探"
+			x: 230.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["568C5599DCC0897E"]
+			description: [
+				"&b解锁：震波探测仪/井架/石油钻机"
+				"&b通过高爆炸药对岩层进行震荡。来探测和开采地下原油资源。随后铺设井架进行钻孔，初步获取石油资源后铺设专用钻机"
+			]
+			icon: "immersivepetroleum:pumpjack"
+			id: "0D028FAB9B213426"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "392B1EA40092215F"
+				ignore_reward_blocking: true
+				stage: "oil"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "27F7EE08C8266863"
+				item: "fallout:power"
+				type: "item"
+			}]
+			title: "&b原油开采"
+			x: 235.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0D028FAB9B213426"]
+			description: [
+				"&b解锁：焦化塔/蒸馏塔/高压精炼器"
+				"&b通过原油蒸馏获得不同馏分，再对馏分进行精炼加工，同时对渣油进行焦化，构建完整的石油化工体系"
+			]
+			icon: "immersivepetroleum:distillation_tower"
+			id: "2A4A5B020404FABB"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "1CE9DC54696C5F5F"
+				ignore_reward_blocking: true
+				stage: "petroleum"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "7123BBC6A63D3757"
+				item: "fallout:power"
+				type: "item"
+			}]
+			title: "&b石油精炼"
+			x: 240.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"2DB4D90C0BF1BD93"
+				"58AA56DD681E16EE"
+			]
+			description: [
+				"&b解锁：强化高炉砖/强化高炉/高炉预热器"
+				"&b通过向高炉砖混入金属和使用鼓风机加快升温速度。优化钢铁冶炼工艺，提高生产效率"
+			]
+			icon: "immersiveengineering:advanced_blast_furnace"
+			id: "7E50B214120B8B02"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "0DF8690FB00A07AD"
+				ignore_reward_blocking: true
+				stage: "adsteel"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "27841FEA63718EB8"
+				item: "fallout:power"
+				type: "item"
+			}]
+			title: "&b进阶冶钢术"
+			x: 230.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2413AB8B79E81A4E"]
+			description: [
+				"&b解锁：精炼厂/发酵机/搅拌机"
+				"&b通过将搅拌挤压得到的种子油和发酵制备得到的乙醇混合。将乙醇精炼成生物柴油后 建立生物燃料生产线，实现能源多元化"
+			]
+			icon: "immersiveengineering:refinery"
+			id: "770C3E0A42C6844B"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "248EB56082235189"
+				ignore_reward_blocking: true
+				stage: "biodiesel"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 48L
+				id: "519D9E0B38EF967B"
+				item: "fallout:power"
+				type: "item"
+			}]
+			title: "&b有机加工"
+			x: 225.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4A9DD2F81DBAA2F5"
+				"58AA56DD681E16EE"
+			]
+			description: [
+				"&b解锁：板材金属模具"
+				"&b通过制造摸具进行辊压,实现金属板材标准化冲压成型。可以批量制作多种零件"
+			]
+			icon: "immersiveengineering:metal_press"
+			id: "558B3AA16A5008E6"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "25EBCD16C61141B8"
+				ignore_reward_blocking: true
+				stage: "press"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 64L
+				id: "6704CC0A89C5CD9E"
+				item: "fallout:power"
+				type: "item"
+			}]
+			title: "&b冲压机床"
+			x: 225.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2A4A5B020404FABB"]
+			description: [
+				"&b解锁：工程塑胶板/逻辑电路板/工程师电路台"
+				"&b通过在酚醛树脂上蚀刻金属电路与焊点掌握基础电子元件制造技术"
+			]
+			icon: "immersiveengineering:logic_circuit"
+			id: "6F933FF35C646650"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "6D033ED7F7D6EE2F"
+				ignore_reward_blocking: true
+				stage: "electronics"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 128L
+					id: "707FA07B891455C6"
+					item: "fallout:power"
+					type: "item"
+				}
+				{
+					id: "338490F5F85D2CC7"
+					title: "&b如果不知道怎么合成电路板请参考上图"
+					type: "checkmark"
+				}
+			]
+			title: "&b基础电子"
+			x: 240.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6F933FF35C646650"]
+			description: [
+				"&b解锁: 全套光刻机方块/单晶硅熔炼/晶圆切割/半导体蚀刻"
+				"&b半导体制造全流程：从熔炼单晶硅到光刻芯片，实现电子工业升级。"
+			]
+			icon: "fallout:silicon_boule"
+			id: "21880619DCB487FA"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "0BD0CD0FF79C7582"
+				ignore_reward_blocking: true
+				stage: "circuit"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 256L
+				id: "1755D8AA94CA8C9E"
+				item: { Count: 256, id: "fallout:power" }
+				type: "item"
+			}]
+			title: "&b硅基电路板"
+			x: 245.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1955E1827786CDAA"]
+			description: [
+				"&b解锁：用于制造现代枪械的史诗材料/传奇材料"
+				"&b引入特种材料与模块化设计，建立完整现代武器体系"
+				"&b代表枪械："
+				"&bHK416D突击步枪/AWP狙击步枪/P90冲锋枪/RPG-7火箭筒"
+			]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "tacz:m4a1"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "46FE447D2234B4C7"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "4913136A354C0BE7"
+				ignore_reward_blocking: true
+				stage: "seballistics"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "514ED0CE43F28E7A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "64x 二阶科技点"
+				type: "item"
+			}]
+			title: "&b高级弹道学"
+			x: 220.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"6EB3215E93DB6376"
+				"58AA56DD681E16EE"
+			]
+			description: [
+				"&b解锁：粉碎机"
+				"&b通过电力推动工业级粉碎机将矿石粉碎加工，提高资源利用率。当然，要注意生产安全"
+			]
+			icon: "immersiveengineering:crusher"
+			id: "2413AB8B79E81A4E"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "0712A2D6B5038597"
+				ignore_reward_blocking: true
+				stage: "grinding"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "2A863F67429E2874"
+				item: "fallout:power"
+				type: "item"
+			}]
+			title: "&b进阶矿物研磨"
+			x: 220.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["770C3E0A42C6844B"]
+			description: [
+				"&b解锁：园艺玻璃罩"
+				"&b使用人造光源,实现环境可控的高效作物栽培"
+			]
+			icon: "immersiveengineering:cloche"
+			id: "352ED6A260FA8A8B"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "238E579FD2CA53EA"
+				ignore_reward_blocking: true
+				stage: "cultivation"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "456AE6B2C281990B"
+				item: "fallout:power"
+				type: "item"
+			}]
+			title: "水培种植"
+			x: 230.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["467EA99235F5476B"]
+			description: [
+				"&d解锁：粉碎机"
+				"&d将矿石破碎为粉末。"
+				"&d解锁：富集仓"
+				"&d富集原材料提升利用率。"
+				"&d解锁：电力熔炼炉"
+				"&d高效熔炼金属锭的能源设备。"
+				"&d解锁：回旋式气液转换机"
+				"&d实现气体与液体的双向转换。"
+				"&d解锁：营养液化器"
+				"&d将生物质转化为富含水分的营养糊剂。"
+				"&d解锁：水壶"
+				"&d便携式营养膏高容器。"
+			]
+			icon: "mekanism:energized_smelter"
+			id: "3DB5EE2A09EB8F92"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "5E0DAF70661C31B1"
+				ignore_reward_blocking: true
+				stage: "bsamt"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 32L
+				id: "41CD75F4F2CE8F62"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d基础先进加工技术"
+			x: 255.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["21880619DCB487FA"]
+			description: [
+				"&d解锁：冶金灌注机"
+				"&d合成金属合金的核心设备，是制造高级机械的基础。"
+				"&d解锁：基础机械管道/通用线缆/加压管道/热导线缆/物流管道/化学品储罐/流体储罐"
+				"&d通过先进的传输系统建立划时代的传输与存储网络。"
+			]
+			icon: "mekanism:basic_control_circuit"
+			id: "7A57EBB31D9B76EA"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "monobank:replacement_lock"
+					id: "1BF9E7CCA1F0F3D1"
+					ignore_reward_blocking: true
+					stage: "mekanism"
+					title: "解锁科技"
+					type: "gamestage"
+				}
+				{
+					id: "4F3E6BFA0CD9077E"
+					item: "fallout:atom"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4A1D53EF0F2BAC8E"
+				title: "&d迈入原子能时代！"
+				type: "checkmark"
+			}]
+			title: "&d原子能时代"
+			x: 250.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3DB5EE2A09EB8F92"]
+			description: [
+				"&d解锁：基础工厂安装器"
+				"&d将基础机械升级为初阶多线程产线。"
+			]
+			icon: "mekanism:basic_tier_installer"
+			id: "6A627DF0A7ED2423"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "11564A0431253FEC"
+				ignore_reward_blocking: true
+				stage: "bsfacroy"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 32L
+				id: "41F0FC39B5C4E212"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d基础工厂"
+			x: 255.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["467EA99235F5476B"]
+			description: [
+				"&d解锁：高级机械管道/通用线缆/加压管道/热导线缆/物流管道/化学品储罐/流体储罐"
+				"&d使用高级灌注合金提升传输效率与容量，适应复杂工业需求。"
+			]
+			icon: "mekanism:advanced_universal_cable"
+			id: "26FD7513ABA74739"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "6CD09477DCF320A5"
+				ignore_reward_blocking: true
+				stage: "bsts"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 48L
+				id: "499459B5503DB21B"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d高级通用传输技术"
+			x: 260.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6A627DF0A7ED2423"
+				"17AF061732BE74D7"
+			]
+			description: [
+				"&d解锁：高级工厂安装器"
+				"&d升级设备为中阶多线程工厂。"
+			]
+			icon: "mekanism:advanced_tier_installer"
+			id: "102C84EEEE783A8A"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "2FD7594A6A353CAA"
+				ignore_reward_blocking: true
+				stage: "alfacroy"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 64L
+				id: "442362007FDBB9A2"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d高级工厂"
+			x: 265.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7A57EBB31D9B76EA"]
+			description: [
+				"&d解锁：灌注合金"
+				"&d通过将红石灌注入康铜制成的高性能合成材料，用于制造耐用的机械组件。"
+				"&d解锁：高级控制电路"
+				"&d更高一级精密设备运作的核心电子元件"
+			]
+			icon: "mekanism:alloy_infused"
+			id: "467EA99235F5476B"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "526E8CEE6DFF219D"
+				ignore_reward_blocking: true
+				stage: "alloyinfused"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 48L
+				id: "028283404AC6E93A"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d高级灌注合金"
+			x: 260.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["26FD7513ABA74739"]
+			description: [
+				"&d解锁：网络读取器"
+				"&d查看物流网络中的物品流向。"
+				"&d解锁：配置器"
+				"&d调整机械设置的多功能工具。"
+				"&d解锁：自由助跑器/装甲自由助跑器"
+				"&d增强移动速度与跳跃的足部装备。"
+				"&d解锁：喷气背包/装甲喷气背包"
+				"&d提供飞行能力的动力装置。"
+				"&d解锁：潜水罐/面罩"
+				"&d水下呼吸与视野保护装备。"
+				"&d解锁：火焰喷射器"
+				"&d喷射火焰的范围武器。"
+				"&d解锁：电动弓"
+				"&d电力驱动的远程武器"
+			]
+			icon: "mekanism:electric_bow"
+			id: "4DF89D49E4CC46C5"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "58F41FECCAE6CCAF"
+				ignore_reward_blocking: true
+				stage: "alequip"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 48L
+				id: "1583A067B83E2403"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d先进电动设备"
+			x: 260.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["26FD7513ABA74739"]
+			description: [
+				"&d解锁：热力发电机"
+				"&d利用熔岩或可燃物热量发电的高级发电机。"
+				"&d解锁：太阳能发电机"
+				"&d日间可再生能源装置，直接转化光能为电力。"
+			]
+			icon: "mekanismgenerators:heat_generator"
+			id: "66DF7BE11A7759EF"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "2273E937E3C16087"
+				ignore_reward_blocking: true
+				stage: "bspower"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 32L
+				id: "7DC05717044D008D"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d微缩发电设施"
+			x: 255.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"66DF7BE11A7759EF"
+				"26FD7513ABA74739"
+			]
+			description: [
+				"&d解锁：生物能发电机"
+				"&d燃烧生物燃料发电。"
+				"&d解锁：高级太阳能发电机"
+				"&d效率更高的光伏发电机"
+				"&d解锁：燃气发电机"
+				"&d燃烧气体（如乙烯）产生能源。"
+			]
+			icon: "mekanismgenerators:advanced_solar_generator"
+			id: "7E24FDDD1F016514"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "4EF3773C67B6E47D"
+				ignore_reward_blocking: true
+				stage: "alpower"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 64L
+				id: "477B3BD9C84D7273"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d精密发电设施"
+			x: 265.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["17AF061732BE74D7"]
+			description: [
+				"&d解锁：强化合金"
+				"&d通过在灌注合金的基础上注入高密度金刚石制造耐极端环境的高级材料。"
+				"&d解锁：精英控制电路"
+				"&d支持复杂系统的精密电路"
+			]
+			icon: "mekanism:alloy_reinforced"
+			id: "76EE7D947402A8D2"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "5120DDD92CB88168"
+				ignore_reward_blocking: true
+				stage: "eliteinfused"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 64L
+				id: "55253CF99046B0A0"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d精英灌注合金"
+			x: 270.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"76EE7D947402A8D2"
+				"26FD7513ABA74739"
+			]
+			description: [
+				"&d解锁：精英机械管道/通用线缆/加压管道/热导线缆/物流管道/化学品储罐/流体储罐"
+				"&d通过高级特种合金构建高效率传输网络。"
+			]
+			icon: "mekanism:elite_universal_cable"
+			id: "0C0CB4FC01ED4B4B"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "1784D70654A106B7"
+				ignore_reward_blocking: true
+				stage: "elts"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 64L
+				id: "586CEF438D749EC7"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d精英通用传输技术"
+			x: 270.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"76EE7D947402A8D2"
+				"0C0CB4FC01ED4B4B"
+			]
+			description: [
+				"&d解锁：化学压射室"
+				"&d注入化学品反应深度处理材料"
+				"&d解锁：融合机"
+				"&d合并物品或材料（如合成双倍矿物）。"
+				"&d解锁：激光"
+				"&d点燃光束内的目标造成伤害。"
+			]
+			icon: "mekanism:solar_neutron_activator"
+			id: "1225B9712F07CEBD"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "0160DF542C47AE88"
+				ignore_reward_blocking: true
+				stage: "elamt"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 128L
+				id: "75E3567E6A6FBA27"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d精英先进加工技术"
+			x: 275.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"2439CFF1C596EF90"
+				"1225B9712F07CEBD"
+			]
+			description: [
+				"&d解锁：强化黑曜石锭"
+				"&d通过将红钢（耐热阳极）与蓝钢（导热阴极）在锇压缩机中高压制取，形成抗爆炸/耐极端温度的终极防护材料"
+			]
+			icon: "mekanism:ingot_refined_obsidian"
+			id: "682CEB75C8DFBEC5"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "0B4DF13D8D59CBAB"
+				ignore_reward_blocking: true
+				stage: "elfacroy"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 128L
+				id: "352F3D65FDD3CF7C"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d先进特种钢"
+			x: 275.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["26FD7513ABA74739"]
+			description: [
+				"&d解锁：电解分离器"
+				"&d分解液体化合物（如分离水为氢氧）。"
+				"&d解锁：电解核心"
+				"&d电解机的核心组件。"
+				"&d解锁：精密锯木机"
+				"&d高效处理材料并产出板材/金属粒/锯末。"
+				"&d解锁：加压反应室"
+				"&d高压环境下的化学反应设备。"
+				"&d解锁：化学灌注器"
+				"&d混合化学品合成新物质。"
+				"&d解锁：化学氧化机"
+				"&d通过氧化反应转化物质。"
+				"&d解锁：提纯仓"
+				"&d提纯矿物原料（\"以少赢得更多！\"）。"
+				"&d解锁：锇压缩机"
+				"&d通过将锇与金属压缩制造高密度金属"
+			]
+			icon: "mekanism:osmium_compressor"
+			id: "17AF061732BE74D7"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "4C7D9D11A15D19D7"
+				ignore_reward_blocking: true
+				stage: "alamt"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 64L
+				id: "30A7027B1B6DF558"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d高级先进加工技术"
+			x: 265.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7CB3BB20A95DCE4F"
+				"76EE7D947402A8D2"
+			]
+			description: [
+				"&d解锁：红钢锭/蓝钢锭"
+				"&d将黑钢与赤钕/青钕在冶金灌注机中融合，生成耐高温的正极红色合金或高导热的负极蓝色合金。"
+			]
+			icon: "fallout:red_steel_ingot"
+			id: "2439CFF1C596EF90"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "34507CC518668771"
+				ignore_reward_blocking: true
+				stage: "blredfused"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 64L
+				id: "2B7E03322780A3A8"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d红蓝钢制取"
+			x: 270.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4DF89D49E4CC46C5"]
+			description: [
+				"&d解锁：赛博军械工作台/悖论材料   "
+				"&d集成神经接口与智能弹药，实现武器-使用者意识直连。"
+				"&d代表装备："
+				"&d马洛里安3516"
+				"&d螳螂刀"
+				"&d萨拉托加冲锋枪"
+				"&d应龙智能冲锋枪"
+			]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 45
+					GunFireMode: "AUTO"
+					GunId: "cyber_armorer:g58_dian_yinglong"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "2F78BC782E8E9A2D"
+			tasks: [{
+				count: 64L
+				id: "4BA80FE56D79EFEA"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d赛博枪械"
+			x: 265.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3DB5EE2A09EB8F92"]
+			description: [
+				"&d解锁：热力蒸馏控制器/阀门/方块"
+				"&d构建大型蒸发设备，浓缩水为盐水后制造大量锂。"
+			]
+			icon: "mekanism:thermal_evaporation_controller"
+			id: "3D2A25B27EB4F8D8"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "20D5755D68AB0D2B"
+				ignore_reward_blocking: true
+				stage: "distillation"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 48L
+				id: "3A4132CF07862626"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d热力蒸馏"
+			x: 260.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"30BF3DD4ABE8CE2F"
+				"5A265058EE77DAB7"
+			]
+			description: [
+				"&d解锁：Meka工具/武士刀/科技弓"
+				"&d模块化超级工具与武器。"
+				"&d解锁：MekaSuit头盔/护甲/护腿/靴子"
+				"&d全功能动力装甲系统。"
+				"&d解锁：改造站"
+				"&d为Meka装备安装升级模块（\"升级你的MekaSuit\"）。"
+			]
+			icon: "mekanism:atomic_disassembler"
+			id: "3A3A716B01289191"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "541C1FE1AD1479A8"
+				ignore_reward_blocking: true
+				stage: "mekarmor"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 128L
+				id: "76375027C96A2D72"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d终极电动设备"
+			x: 275.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"102C84EEEE783A8A"
+				"1225B9712F07CEBD"
+			]
+			description: [
+				"&d解锁：精英工厂安装器"
+				"&d升级机械为高阶多线程工厂。"
+			]
+			icon: "mekanism:elite_tier_installer"
+			id: "4B0C90B2483207D8"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "53B9267B02D523CA"
+				ignore_reward_blocking: true
+				stage: "elfacroy"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 128L
+				id: "341A96FEF7F5BDF6"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d精英工厂"
+			x: 275.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["30BF3DD4ABE8CE2F"]
+			description: [
+				"&d解锁：终极机械管道/通用线缆/加压管道/热导线缆/物流管道/化学品储罐/流体储罐"
+				"&d通过原子合金的高强度与超导特性，我们的传输技术达到了极限"
+			]
+			icon: "mekanism:ultimate_universal_cable"
+			id: "1D613B008D668E95"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "07F1906B65C4B054"
+				ignore_reward_blocking: true
+				stage: "tets"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 128L
+				id: "59B5F5E07BECE60C"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d终极通用传输技术"
+			x: 280.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["682CEB75C8DFBEC5"]
+			description: [
+				"&d解锁：原子合金"
+				"&d通过将黑曜石钢灌注进强化合金制造原子级特种合金。"
+				"&d解锁：终极控制电路"
+				"&d利用原子合金制造驱动高端设备的超密集电路。"
+			]
+			icon: "mekanism:alloy_atomic"
+			id: "30BF3DD4ABE8CE2F"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "7EAF44AE9B731AB0"
+				ignore_reward_blocking: true
+				stage: "teinfused"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 128L
+				id: "2392031F586F0F68"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d终极灌注合金"
+			x: 280.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"1225B9712F07CEBD"
+				"7E24FDDD1F016514"
+			]
+			description: [
+				"&d解锁：锅炉阀门/外壳"
+				"&d构成锅炉的基础结构。"
+				"&d解锁：分压元件"
+				"&d平衡锅炉内部压力。"
+				"&d解锁：过热元件"
+				"&d将水转化为高压蒸汽的核心部件"
+				"&d解锁：涡轮排气口/冷凝器/阀门/外壳"
+				"&d蒸汽处理与能量转换组件。"
+				"&d解锁：电磁线圈"
+				"&d将动能转化为电能（\"类似磁铁的装置\"）。"
+				"&d解锁：复杂旋钮装置"
+				"&d连接转子与线圈的能量转化核心。"
+				"&d解锁：涡轮转子"
+				"&d承受蒸汽推动的旋转部件。"
+			]
+			icon: "mekanism:boiler_casing"
+			id: "46C5DA53BCD46B20"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "0879D68EC06847E3"
+				ignore_reward_blocking: true
+				stage: "boiler"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 128L
+				id: "578F6CCC56D77BC6"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d先进蒸汽发电"
+			x: 280.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2964E8F38F69FC22"]
+			description: [
+				"&d解锁：便携式QIO仪表板"
+				"&d远程访问量子库存系统。"
+				"&d解锁：便携传送器/传送机/框架"
+				"&d实现玩家瞬移。"
+				"&d解锁：量子传送装置"
+				"&d跨维度即时物资传输（\"即时资源运输\"）。"
+				"&d解锁：传送核心"
+				"&d构建传送技术的核心组件。"
+				"&d解锁：维度稳定锚"
+				"&d强大的区块加载装置"
+			]
+			icon: "mekanism:teleportation_core"
+			id: "5ED9248ECF731EB7"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "23C8ABB11891D7D9"
+				ignore_reward_blocking: true
+				stage: "transmit"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 256L
+				id: "48915130B19EA363"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d传送技术"
+			x: 290.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"46C5DA53BCD46B20"
+				"2964E8F38F69FC22"
+				"22E4E3ADAF2D2A76"
+			]
+			description: [
+				"&d解锁：裂变反应堆外壳"
+				"&d防辐射的耐热结构。"
+				"&d解锁：控制棒组件"
+				"&d控制链式反应速度（\"放在燃料组件塔顶\"）。"
+				"&d解锁：裂变反应堆逻辑适配器"
+				"&d红石监控反应堆状态。"
+				"&d解锁：裂变燃料组件"
+				"&d存放放射性燃料的棒状结构。"
+				"&d解锁：裂变反应堆端口"
+				"&d输入冷却剂/输出废料的接口。"
+			]
+			icon: {
+				Count: 1
+				id: "citadel:icon_item"
+				tag: {
+					IconLocation: "alexscaves:textures/misc/advancement/icon/toxic_caves.png"
+				}
+			}
+			id: "7F3AC5847E27B363"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "5BEC6FC257802897"
+				ignore_reward_blocking: true
+				stage: "nuclear"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 256L
+				id: "33F1718093C720F0"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d核裂变"
+			x: 290.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"30BF3DD4ABE8CE2F"
+				"1D613B008D668E95"
+			]
+			description: [
+				"&d解锁：化学清洗机"
+				"&d清除材料杂质。"
+				"&d解锁：化学结晶器"
+				"&d将溶液结晶为固态（如氟石晶体）。"
+				"&d解锁：同位素离心机"
+				"&d分离核燃料同位素（如铀-235）"
+				"&d解锁：太阳能中子活化器"
+				"&d利用中子辐射改变材料性质。"
+			]
+			icon: "mekanism:chemical_washer"
+			id: "2964E8F38F69FC22"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "30E4A31FAB78E261"
+				ignore_reward_blocking: true
+				stage: "teamt"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 256L
+				id: "2A7F9753FE12DD33"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d终极加工技术"
+			x: 285.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2964E8F38F69FC22"]
+			description: [
+				"&d解锁：终极工厂安装器"
+				"&d升级机械为终极多线程工厂。"
+			]
+			icon: "mekanism:ultimate_tier_installer"
+			id: "4F95D0D9865AE050"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "02E15BB18CA3D53B"
+				ignore_reward_blocking: true
+				stage: "tefacroy"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 256L
+				id: "05AA17F0CC60A9E8"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d终极工厂"
+			x: 285.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"4DF89D49E4CC46C5"
+				"76EE7D947402A8D2"
+			]
+			description: [
+				"&d解锁：原子分解机"
+				"&d多功能工具（采矿/伐木/挖掘模式切换）。"
+				"&d解锁：机器人"
+				"&d自动化助手（\"合成并在充电板上放置\"）。"
+			]
+			icon: "mekanism:robit"
+			id: "5A265058EE77DAB7"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "6A51365460DB5FA9"
+				ignore_reward_blocking: true
+				stage: "elequip"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 64L
+				id: "61DAC1E290CE7688"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d精英电动设备"
+			x: 270.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"5ED9248ECF731EB7"
+				"7F3AC5847E27B363"
+				"67C39F125B0EA31D"
+			]
+			description: [
+				"&d解锁：超临界移相器端口/外壳/反质子核合成器"
+				"&d建造控制反物质合成的极端能量设施组件。萃取反物质"
+			]
+			icon: "mekanism:sps_casing"
+			id: "11DD168AF45876A5"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "434AB09E65EB79F1"
+				ignore_reward_blocking: true
+				stage: "antimatter"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 512L
+				id: "4FA31A708A3A2AA5"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d反物质萃取"
+			x: 295.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7F3AC5847E27B363"
+				"5ED9248ECF731EB7"
+			]
+			description: [
+				"&d解锁：聚变堆逻辑适配器"
+				"&d红石监控聚变状态。"
+				"&d解锁：聚变堆控制器"
+				"&d整个聚变结构的控制方块。"
+				"&d解锁：激光聚焦矩阵"
+				"&d吸收光能加热反应堆（\"强化玻璃板\"）。"
+				"&d解锁：聚变反应堆端口"
+				"&d处理气体与能量的接口。"
+				"&d解锁：聚变反应堆框架"
+				"&d支撑反应堆的强化结构。"
+			]
+			icon: {
+				Count: 1
+				id: "mekanismgenerators:hohlraum"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 10L
+								gasName: "mekanismgenerators:fusion_fuel"
+							}
+						}]
+					}
+				}
+			}
+			id: "67C39F125B0EA31D"
+			rewards: [{
+				auto: "invisible"
+				icon: "monobank:replacement_lock"
+				id: "7D16D10335ABF8A1"
+				ignore_reward_blocking: true
+				remove: true
+				stage: "fusion"
+				team_reward: false
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 256L
+				id: "7B3C05D82FCA9248"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d核聚变"
+			x: 290.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["30BF3DD4ABE8CE2F"]
+			description: [
+				"&d解锁：盖革计数器/放射量测定器"
+				"&d检测环境辐射强度。"
+				"&d解锁：防辐射外衣/护腿/靴子/面具"
+				"&d抵御辐射伤害的全身防护套装。"
+			]
+			icon: "mekanism:geiger_counter"
+			id: "22E4E3ADAF2D2A76"
+			rewards: [{
+				auto: "enabled"
+				icon: "monobank:replacement_lock"
+				id: "59B1D0D6925F04B7"
+				ignore_reward_blocking: true
+				stage: "nuclear_pro"
+				title: "解锁科技"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 256L
+				id: "693ABF1F7647D69F"
+				item: "fallout:atom"
+				type: "item"
+			}]
+			title: "&d原子防护"
+			x: 285.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["45675270F9748982"]
+			icon: "ftbquests:book"
+			id: "5145C48BC1ECAF62"
+			tasks: [{
+				elapsedTime: 1L
+				id: "2A8E925A04BBA670"
+				title: "&a科技树已开启"
+				type: "questsadditions:time"
+			}]
+			x: 161.5d
+			y: 10.0d
+		}
+	]
+	title: "&b科技树"
+}

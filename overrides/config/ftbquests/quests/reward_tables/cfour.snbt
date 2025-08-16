@@ -1,0 +1,33 @@
+{
+	icon: {
+		Count: 1
+		id: "superbwarfare:c4_bomb"
+		tag: {
+			Control: 1b
+		}
+	}
+	id: "43AD0EBEAA518785"
+	loot_size: 2
+	order_index: 8
+	rewards: [
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "superbwarfare:c4_bomb"
+				tag: {
+					Control: 1b
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "superbwarfare:c4_bomb"
+				tag: { }
+			}
+		}
+	]
+	title: "Cfour"
+}

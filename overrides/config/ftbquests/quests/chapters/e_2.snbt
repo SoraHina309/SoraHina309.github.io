@@ -1,0 +1,4535 @@
+{
+	autofocus_id: "594FEEE5E8C5C387"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "e_2"
+	group: "5BC95A684743E876"
+	icon: "superbwarfare:small_shell"
+	id: "00A7C37105679783"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["45675270F9748982"]
+			description: [
+				"你可以在此界面使用&e调查点或研究点&r购买强大的&e战术配备&r"
+				"战术配备包含&e枪械&r，&6导弹&r，&b载具&r，&c火炮。"
+				"&7集装箱形式的战备需使用撬棍安装/拆卸"
+				"&7任何放置出来的战备都可以使用撬棍拆卸"
+			]
+			id: "594FEEE5E8C5C387"
+			rewards: [{
+				id: "501580489EB6DEC2"
+				item: {
+					Count: 1
+					id: "superbwarfare:crowbar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F4EE3BF07B00657"
+				title: "&3关于战术配备"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"594FEEE5E8C5C387"
+				"2255111A5D9334F2"
+			]
+			description: [
+				"&a开启标准战术配备的购买"
+				"&7需要解锁&a基础弹道学&7科技解锁"
+			]
+			id: "2512F4C6641EA755"
+			tasks: [{
+				id: "39086B88BBFD3424"
+				title: "&a基础战术配备"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"594FEEE5E8C5C387"
+				"1955E1827786CDAA"
+			]
+			description: [
+				"&b开启标准战术配备的购买"
+				"&7需要解锁&6进阶弹道学&7科技解锁"
+			]
+			id: "0A6E88258F546139"
+			tasks: [{
+				id: "5D73BA692135A3D8"
+				title: "&b标准战术配备"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"594FEEE5E8C5C387"
+				"46FE447D2234B4C7"
+			]
+			description: [
+				"&d开启高级战术配备的购买"
+				"&7需要解锁&b高级弹道学&7科技解锁"
+			]
+			id: "26BB876E0A6A07CA"
+			tasks: [{
+				id: "53D72801F7653EFE"
+				title: "&d高级战术配备"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"594FEEE5E8C5C387"
+				"2F78BC782E8E9A2D"
+			]
+			description: [
+				"&6开启高级战术配备的购买"
+				"&7需解锁&d赛博枪械&7科技解锁"
+			]
+			id: "0E1D4C7AF72F64C5"
+			tasks: [{
+				id: "405094BF1DFD59F2"
+				title: "&6终极战术配备"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"26BB876E0A6A07CA"
+				"137625C335B9830E"
+			]
+			description: [
+				"&b购买LAV-150轮式步战车&r&r"
+				"主武器："
+				"M242 Bushmaster 25mm链式机炮"
+				"副武器；"
+				"M240 7.62mm 同轴机枪"
+				"备弹量："
+				"机炮弹：&6 210发25mm炮弹&r"
+				"机枪弹：&e 800发7.62mm机枪弹&r"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:container"
+				tag: {
+					BlockEntityTag: {
+						Entity: {
+							Air: 300s
+							CanUpdate: 1b
+							DecoyCount: 1
+							Energy: 5000000
+							Engine1Damaged: 0b
+							Engine2Damaged: 0b
+							EngineHealth: 50.0f
+							FallDistance: 0.0f
+							Fire: -1s
+							GearRot: 0
+							GearUp: 0b
+							Health: 270.0f
+							Invulnerable: 0b
+							Items: [
+								{
+									Count: 64b
+									Slot: 0b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 1b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 2b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 3b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 4b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 5b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 6b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 7b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 32b
+									Slot: 8b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 17b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 18b
+									Slot: 18b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 19b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 20b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 21b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 22b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 23b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 24b
+									id: "superbwarfare:rifle_ammo"
+								}
+							]
+							LastAttacker: "undefined"
+							LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+							LeftEngineHealth: 50.0f
+							LeftWheelDamaged: 0b
+							LeftWheelHealth: 50.0f
+							Motion: [
+								4.731748743037875E-147d
+								0.0d
+								9.556923053861135E-138d
+							]
+							OnGround: 1b
+							PortalCooldown: 0
+							Pos: [
+								2143.4811771210343d
+								79.0d
+								-462.44406313850186d
+							]
+							Power: 0.0f
+							RightWheelDamaged: 0b
+							RightWheelHealth: 50.0f
+							Rotation: [
+								180.0f
+								-4.3907985E-32f
+							]
+							SelectedWeapon: [I;
+								0
+								-1
+								-1
+								-1
+								-1
+							]
+							TurretDamaged: 0b
+							TurretHealth: 50.0f
+							UUID: [I;
+								-558794250
+								-1362737151
+								-1738502421
+								672594375
+							]
+							id: "superbwarfare:lav_150"
+						}
+						EntityType: "superbwarfare:lav_150"
+						id: "superbwarfare:container"
+					}
+				}
+			}
+			id: "3100EEF4DE89D142"
+			min_required_tasks: 1
+			rewards: [{
+				id: "2059DC085F3930BD"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							Entity: {
+								Air: 300s
+								CanUpdate: 1b
+								DecoyCount: 1
+								Energy: 5000000
+								Engine1Damaged: 0b
+								Engine2Damaged: 0b
+								EngineHealth: 50.0f
+								FallDistance: 0.0f
+								Fire: -1s
+								GearRot: 0
+								GearUp: 0b
+								Health: 270.0f
+								Invulnerable: 0b
+								Items: [
+									{
+										Count: 64b
+										Slot: 0b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 1b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 2b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 3b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 4b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 5b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 6b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 7b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 32b
+										Slot: 8b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 17b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 18b
+										Slot: 18b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 19b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 20b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 21b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 22b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 23b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 24b
+										id: "superbwarfare:rifle_ammo"
+									}
+								]
+								LastAttacker: "undefined"
+								LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+								LeftEngineHealth: 50.0f
+								LeftWheelDamaged: 0b
+								LeftWheelHealth: 50.0f
+								Motion: [
+									4.731748743037875E-147d
+									0.0d
+									9.556923053861135E-138d
+								]
+								OnGround: 1b
+								PortalCooldown: 0
+								Pos: [
+									2143.4811771210343d
+									79.0d
+									-462.44406313850186d
+								]
+								Power: 0.0f
+								RightWheelDamaged: 0b
+								RightWheelHealth: 50.0f
+								Rotation: [
+									180.0f
+									-4.3907985E-32f
+								]
+								SelectedWeapon: [I;
+									0
+									-1
+									-1
+									-1
+									-1
+								]
+								TurretDamaged: 0b
+								TurretHealth: 50.0f
+								UUID: [I;
+									-558794250
+									-1362737151
+									-1738502421
+									672594375
+								]
+								id: "superbwarfare:lav_150"
+							}
+							EntityType: "superbwarfare:lav_150"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [
+				{
+					consume_items: true
+					count: 200L
+					id: "64182A4FE9423929"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用200x 二阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "5595203650B4C899"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t3"
+						}
+					}
+					title: "使用100x 三阶点数购买"
+					type: "item"
+				}
+			]
+			title: "&e购买LAV-150轮式步战车礼包"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"26BB876E0A6A07CA"
+				"137625C335B9830E"
+			]
+			description: [
+				"&2购买BMP-2轮式步战车&r"
+				"主武器："
+				"2A42 30mm链式机炮"
+				"副武器："
+				"7.62mm PKT同轴机枪"
+				"导弹："
+				"9M113 Konkurs 线控导弹"
+				"备弹量："
+				"&6机炮弹： 500发30mm炮弹&r"
+				"&e机枪弹： 1000发7.62mm机枪弹&r"
+				"&c导弹: 4枚 Konkurs 线控导弹&r"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:container"
+				tag: {
+					BlockEntityTag: {
+						Entity: {
+							Air: 300s
+							CanUpdate: 1b
+							DecoyCount: 1
+							Energy: 5000000
+							Engine1Damaged: 0b
+							Engine2Damaged: 0b
+							EngineHealth: 50.0f
+							FallDistance: 0.0f
+							Fire: -1s
+							GearRot: 0
+							GearUp: 0b
+							Health: 270.0f
+							Invulnerable: 0b
+							Items: [
+								{
+									Count: 64b
+									Slot: 0b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 1b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 2b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 3b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 4b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 5b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 6b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 7b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 32b
+									Slot: 8b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 17b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 18b
+									Slot: 18b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 19b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 20b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 21b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 22b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 23b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 24b
+									id: "superbwarfare:rifle_ammo"
+								}
+							]
+							LastAttacker: "undefined"
+							LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+							LeftEngineHealth: 50.0f
+							LeftWheelDamaged: 0b
+							LeftWheelHealth: 50.0f
+							Motion: [
+								4.731748743037875E-147d
+								0.0d
+								9.556923053861135E-138d
+							]
+							OnGround: 1b
+							PortalCooldown: 0
+							Pos: [
+								2143.4811771210343d
+								79.0d
+								-462.44406313850186d
+							]
+							Power: 0.0f
+							RightWheelDamaged: 0b
+							RightWheelHealth: 50.0f
+							Rotation: [
+								180.0f
+								-4.3907985E-32f
+							]
+							SelectedWeapon: [I;
+								0
+								-1
+								-1
+								-1
+								-1
+							]
+							TurretDamaged: 0b
+							TurretHealth: 50.0f
+							UUID: [I;
+								-558794250
+								-1362737151
+								-1738502421
+								672594375
+							]
+							id: "superbwarfare:lav_150"
+						}
+						EntityType: "superbwarfare:lav_150"
+						id: "superbwarfare:container"
+					}
+				}
+			}
+			id: "287AB94117313517"
+			min_required_tasks: 1
+			rewards: [{
+				id: "4B683B0E90978992"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							Entity: {
+								Air: 300s
+								CanUpdate: 1b
+								DecoyCount: 1
+								Energy: 4942656
+								Engine1Damaged: 0b
+								Engine2Damaged: 0b
+								EngineHealth: 50.0f
+								FallDistance: 0.0f
+								Fire: -1s
+								GearRot: 0
+								GearUp: 0b
+								Health: 300.0f
+								Invulnerable: 0b
+								Items: [
+									{
+										Count: 64b
+										Slot: 0b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 1b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 2b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 3b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 4b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 5b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 6b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 7b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 8b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 9b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 10b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 36b
+										Slot: 11b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 3b
+										Slot: 12b
+										id: "superbwarfare:wire_guide_missile"
+									}
+									{
+										Count: 64b
+										Slot: 17b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 18b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 19b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 52b
+										Slot: 20b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 21b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 22b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 23b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 24b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 25b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 26b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 27b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 28b
+										id: "superbwarfare:rifle_ammo"
+									}
+									{
+										Count: 4b
+										Slot: 29b
+										id: "superbwarfare:rifle_ammo"
+									}
+								]
+								LastAttacker: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+								LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+								LeftEngineHealth: 50.0f
+								LeftWheelDamaged: 0b
+								LeftWheelHealth: 50.0f
+								LoadedMissile: 1
+								Motion: [
+									-1.4248452327735675E-48d
+									4.356141342256393E-50d
+									-1.002876277125325E-48d
+								]
+								OnGround: 1b
+								PortalCooldown: 0
+								Pos: [
+									2195.868168526004d
+									71.0d
+									-511.90923511185525d
+								]
+								Power: 0.0f
+								RightWheelDamaged: 0b
+								RightWheelHealth: 50.0f
+								Rotation: [
+									125.14038f
+									-28.008194f
+								]
+								SelectedWeapon: [I;
+									0
+									-1
+									-1
+									-1
+									-1
+									-1
+									-1
+								]
+								TurretDamaged: 0b
+								TurretHealth: 50.0f
+								UUID: [I;
+									982969673
+									1484868731
+									-1388103170
+									879323079
+								]
+								id: "superbwarfare:bmp_2"
+							}
+							EntityType: "superbwarfare:bmp_2"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [
+				{
+					consume_items: true
+					count: 250L
+					id: "46A5FB9C891DEA8F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用250x 二阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 122L
+					id: "7266F08554306B2E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t3"
+						}
+					}
+					title: "使用152x 三阶点数购买"
+					type: "item"
+				}
+			]
+			title: "&e购买BMP-2履带式步战车礼包"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0A6E88258F546139"]
+			description: ["你可以在这里购买适用于载具的&2机炮弹药&r"]
+			disable_toast: true
+			icon: "superbwarfare:small_shell"
+			id: "41568EAF8ADE6080"
+			min_required_tasks: 1
+			rewards: [{
+				count: 40
+				id: "40E2675880C8538D"
+				item: "superbwarfare:small_shell"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2EAA285DCE11AECB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "使用64x 二阶点数购买"
+				type: "item"
+			}]
+			title: "&2购买40发小口径炮弹"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0A6E88258F546139"]
+			description: ["你可以在这里购买适用于载具的&a机枪弹药&r"]
+			disable_toast: true
+			icon: "superbwarfare:rifle_ammo"
+			id: "687474686950B721"
+			min_required_tasks: 1
+			rewards: [{
+				count: 100
+				id: "0BD3264BC93459DE"
+				item: "superbwarfare:rifle_ammo"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 40L
+				id: "7C5703A6CD8F144E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "使用40x 二阶点数购买"
+				type: "item"
+			}]
+			title: "&2购买100发车载机枪弹"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26BB876E0A6A07CA"]
+			description: ["你可以在这里购买适用于BMP-2的&6线控导弹&r"]
+			disable_toast: true
+			icon: "superbwarfare:wire_guide_missile"
+			id: "1A0E754AC4FA3760"
+			min_required_tasks: 1
+			rewards: [{
+				id: "52155C69807267BA"
+				item: "superbwarfare:wire_guide_missile"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 40L
+				id: "54F479856A26A300"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t3"
+					}
+				}
+				title: "使用35x 三阶点数购买"
+				type: "item"
+			}]
+			title: "购买&6线控导弹"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2512F4C6641EA755"]
+			description: ["你可以在这里购买&2M67手榴弹，RGO手榴弹，M18烟雾弹&r"]
+			disable_toast: true
+			icon: "superbwarfare:hand_grenade"
+			id: "49FABFB31274FB08"
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FD0F74760505ECC"
+				table_id: 8543241458152289887L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "18D4ED3A88339BD7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t1"
+						}
+					}
+					title: "使用64x 一阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "21B34DCA11D689E2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用16x 二阶点数购买"
+					type: "item"
+				}
+			]
+			title: "购买投掷物"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A6E88258F546139"
+				"11892A16D850BA9C"
+			]
+			description: ["你可以在这里购买适用于FGM-148的导弹"]
+			icon: "superbwarfare:javelin_missile"
+			id: "3E8EA4B0C5D4D4BD"
+			min_required_tasks: 1
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "73A382FCB3F412E4"
+				item: "superbwarfare:javelin_missile"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 122L
+				id: "52A91CC4DD4C173A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "使用122x 二阶点数购买"
+				type: "item"
+			}]
+			title: "购买标枪导弹"
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A6E88258F546139"
+				"11892A16D850BA9C"
+			]
+			description: ["你可以在这里购买购买一具FGM-148发射器"]
+			icon: {
+				Count: 1
+				id: "superbwarfare:javelin"
+				tag: {
+					Attachments: { }
+					GeckoLibID: 8L
+					GuideType: 0
+					GunData: {
+						Ammo: 1
+						Exp: 141.85668965615332d
+						Level: 1
+						UUID: [I;
+							-1940266007
+							1472087887
+							-1968617022
+							110415263
+						]
+						UpgradePoint: 0.5d
+					}
+					Perks: {
+						Ammo: { }
+						Damage: { }
+						Functional: { }
+					}
+					SeekTime: 0
+					Seeking: 0b
+					TargetEntity: "none"
+					TargetPosX: -526.788213823612d
+					TargetPosY: 106.26307578488044d
+					TargetPosZ: 262.6358818583358d
+					TopMode: 0b
+				}
+			}
+			id: "215CAFCB7F5DDC88"
+			min_required_tasks: 1
+			rewards: [{
+				id: "41D778642F73F114"
+				item: {
+					Count: 1
+					id: "superbwarfare:javelin"
+					tag: {
+						Attachments: { }
+						GeckoLibID: 8L
+						GuideType: 0
+						GunData: {
+							Ammo: 1
+							Exp: 141.85668965615332d
+							Level: 1
+							UUID: [I;
+								-1940266007
+								1472087887
+								-1968617022
+								110415263
+							]
+							UpgradePoint: 0.5d
+						}
+						Perks: {
+							Ammo: { }
+							Damage: { }
+							Functional: { }
+						}
+						SeekTime: 0
+						Seeking: 0b
+						TargetEntity: "none"
+						TargetPosX: -526.788213823612d
+						TargetPosY: 106.26307578488044d
+						TargetPosZ: 262.6358818583358d
+						TopMode: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 122L
+				id: "770FF5A60E918509"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "使用122x 二阶点数购买"
+				type: "item"
+			}]
+			title: "购买FGM-148"
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2512F4C6641EA755"]
+			description: ["你可以在这里购买&c臭名昭著的蝴蝶雷&r，经典的&2阔剑地雷&r和&2反坦克地雷&r"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:tm_62"
+				tag: { }
+			}
+			id: "0E2E23B59D7CBAD6"
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CEAB36251ADDC73"
+				table_id: 2176640101491326926L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "4D56242E995D2545"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t1"
+						}
+					}
+					title: "使用64x 一阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "191129D07EA75CFC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用16x 二阶点数购买"
+					type: "item"
+				}
+			]
+			title: "购买地雷"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"2512F4C6641EA755"
+				"473EA7B4A4FF7881"
+			]
+			description: ["你可以在这里购买适用&2迫击炮&r的炮弹"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:mortar_shell"
+				tag: { }
+			}
+			id: "28D422CEDB3C5C64"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "1802349BDCBD3FE9"
+				item: {
+					Count: 1
+					id: "superbwarfare:mortar_shell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "3FF55C1A94ED41C6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t1"
+						}
+					}
+					title: "使用64x 一阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "4749C8581B524600"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用16x 二阶点数购买"
+					type: "item"
+				}
+			]
+			title: "购买迫击炮炮弹"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2512F4C6641EA755"]
+			description: [
+				"你可以在这里购买&2迫击炮&r礼包"
+				"&6内含射击诸元，迫击炮炮弹，迫击炮&r"
+				"&7迫击炮手动调整方法：&2Shift+滚轮调整俯仰，Shift+右键调整朝向&r"
+				"&7射击诸元设定方法：前往目标地点右键标记，再返回迫击炮处右键开火"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:firing_parameters"
+				tag: { }
+			}
+			id: "473EA7B4A4FF7881"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "enabled"
+					count: 6
+					id: "26701809BDF5D764"
+					item: {
+						Count: 1
+						id: "superbwarfare:mortar_shell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "09129BCEA6DDD0D8"
+					item: "superbwarfare:mortar_deployer"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "457E74D66D5611CB"
+					item: {
+						Count: 1
+						id: "superbwarfare:firing_parameters"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			tasks: [
+				{
+					consume_items: true
+					count: 80L
+					id: "467F417DE9112938"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t1"
+						}
+					}
+					title: "使用80x 一阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 24L
+					id: "39AF384209523EF1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用24x 二阶点数购买"
+					type: "item"
+				}
+			]
+			title: "&e购买迫击炮礼包"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"2512F4C6641EA755"
+				"473EA7B4A4FF7881"
+			]
+			description: ["你可以在这里购买&2迫击炮&r"]
+			disable_toast: true
+			icon: "superbwarfare:mortar_deployer"
+			id: "66E1378EFEBF39F9"
+			min_required_tasks: 1
+			rewards: [{
+				id: "58C3839530E3C388"
+				item: "superbwarfare:mortar_deployer"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "3E108E87D2B03C85"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t1"
+						}
+					}
+					title: "使用64x 一阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "7F3EDE979AAFB607"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用16x 二阶点数购买"
+					type: "item"
+				}
+			]
+			title: "购买迫击炮"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A6E88258F546139"]
+			description: [
+				"你可以在这里购买&e标枪&r礼包"
+				"&6内含FGM-148发射器，标枪导弹。"
+			]
+			icon: "superbwarfare:javelin_blueprint"
+			id: "11892A16D850BA9C"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "enabled"
+					count: 6
+					id: "0B35F44CF09FEC48"
+					item: "superbwarfare:javelin_missile"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "5BF4871F903AAEF4"
+					item: {
+						Count: 1
+						id: "superbwarfare:javelin"
+						tag: {
+							Attachments: { }
+							GunData: { }
+							Perks: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				consume_items: true
+				count: 155L
+				id: "5AD8DB526A04612E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "使用155x 二阶点数购买"
+				type: "item"
+			}]
+			title: "&e购买标枪礼包"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A6E88258F546139"]
+			description: [
+				"你可以在这里购买&6爆破专家&r礼包"
+				"&6内含起爆器，拆弹器，遥控C4，定时C4。"
+				"&7&m我丢好C four 了！&r"
+			]
+			icon: "superbwarfare:detonator"
+			id: "6E62E3DDF1184EC3"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "enabled"
+					id: "39FE0838AB37231D"
+					item: "superbwarfare:detonator"
+					type: "item"
+				}
+				{
+					id: "347D6EBAB56F537D"
+					item: {
+						Count: 1
+						id: "superbwarfare:defuser"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 2
+					id: "17ED4DF92A601B2A"
+					item: {
+						Count: 1
+						id: "superbwarfare:c4_bomb"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 2
+					id: "16E37962EF821BC1"
+					item: {
+						Count: 1
+						id: "superbwarfare:c4_bomb"
+						tag: {
+							Control: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				consume_items: true
+				count: 72L
+				id: "166E62F6B67D265A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "使用72x 二阶点数购买"
+				type: "item"
+			}]
+			title: "&e购买爆破专家礼包"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A6E88258F546139"
+				"6E62E3DDF1184EC3"
+			]
+			description: ["你可以在这里购买适用于爆炸的&2C4炸药&r"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:c4_bomb"
+				tag: {
+					Control: 1b
+				}
+			}
+			id: "27C6B0DBE1940273"
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FAA948B9FC3F386"
+				table_id: 4876570183576160133L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "238F930000E75081"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "使用64x 二阶点数购买"
+				type: "item"
+			}]
+			title: "购买C4炸药"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A6E88258F546139"]
+			description: [
+				"你可以在这里购买&b单兵信息化&r礼包，"
+				"&c火炮指示器需依赖&6中键标记&f获取射击诸元，跟火炮指示器绑定的智能迫击炮将自动朝向标记标记目标的方位"
+				"&6内含火炮指示器，无人机，迫击炮，C4，迫击炮弹。"
+				"&7可将诸元记事本置于副手，通过&b火炮指示器&f标记自动获取火炮参数"
+				"&7无人机需用&e遥控器右键绑定&7方可操控，手持&c迫击炮弹/C4&7右键无人机可将其转换为&4自爆无人机"
+			]
+			icon: "superbwarfare:artillery_indicator"
+			id: "06EA153F0B825D2F"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "enabled"
+					id: "29C625DFB660CC95"
+					item: "superbwarfare:artillery_indicator"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 3
+					id: "37B413D338104DEA"
+					item: "superbwarfare:drone"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 2
+					id: "106B08B54DD4DAF0"
+					item: {
+						Count: 1
+						id: "superbwarfare:c4_bomb"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "622C3423FC7CE6F3"
+					item: "superbwarfare:mortar_deployer"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 2
+					id: "4D8A61E7718FF42A"
+					item: "superbwarfare:mortar_shell"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "75B4E78101F231C6"
+					item: "superbwarfare:superb_item_interface"
+					type: "item"
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				consume_items: true
+				count: 72L
+				id: "4FC84FE0691C3EDF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "使用72x 二阶点数购买"
+				type: "item"
+			}]
+			title: "&e购买单兵信息化礼包"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0A6E88258F546139"
+				"06EA153F0B825D2F"
+			]
+			description: ["你可以在这里购买适用与侦察/破坏的&b无人机&r"]
+			disable_toast: true
+			icon: "superbwarfare:drone"
+			id: "6CE56E1E840FF4AF"
+			min_required_tasks: 1
+			rewards: [{
+				count: 3
+				id: "71A6FBBFFB5C7C17"
+				item: "superbwarfare:drone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2A38C7C67BCF2330"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "使用64x 二阶点数购买"
+				type: "item"
+			}]
+			title: "购买三台无人机"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2512F4C6641EA755"]
+			description: ["你可以在这里购买&c恶臭拔粪宝啊啊啊啊&r"]
+			disable_toast: true
+			icon: "superbwarfare:lunge_mine"
+			id: "32BA9B699F62B6D1"
+			min_required_tasks: 1
+			rewards: [{
+				id: "743DC4BBA63FB6ED"
+				item: "superbwarfare:lunge_mine"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "524257CFADCDB64B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t1"
+						}
+					}
+					title: "使用64x 一阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "55F5F58CFD1CC11E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用16x 二阶点数购买"
+					type: "item"
+				}
+			]
+			title: "购买刺雷"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"购买&263式107mm火箭炮&r，"
+				"&6这是一种需要从尾部手动装填的老式火箭炮。他不像是迫击炮那样手持诸元右键就会自动调整开炮，"
+				"&c手持诸元右键后需右键左侧的大把手和后方的把手，来调整俯仰和朝向后手持撬棍右键炮弹尾部开炮（把手反向旋转需按住Shift）"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:container"
+				tag: {
+					BlockEntityTag: {
+						EntityType: "superbwarfare:type_63"
+						id: "superbwarfare:container"
+					}
+				}
+			}
+			id: "21375B9B508EF802"
+			rewards: [{
+				auto: "enabled"
+				id: "6AE51F7AF6C1867D"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:type_63"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 72L
+				id: "6436C443CC6AA80B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "使用72x 二阶点数购买"
+				type: "item"
+			}]
+			title: "购买63式107mm火箭炮"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0A6E88258F546139"]
+			description: ["购买&6中口径火箭炮&r，"]
+			disable_toast: true
+			icon: "superbwarfare:medium_rocket_ap"
+			id: "6EDE0CC4B12314A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BB1E49370830EA7"
+				table_id: 4505944444946815945L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 72L
+				id: "791891D886FBF18E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "使用72x 二阶点数购买"
+				type: "item"
+			}]
+			title: "&e购买中口径火箭炮"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2512F4C6641EA755"]
+			description: ["你可以在这里购买&9轮椅&r"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:container"
+				tag: {
+					BlockEntityTag: {
+						EntityType: "superbwarfare:wheel_chair"
+						id: "superbwarfare:container"
+					}
+				}
+			}
+			id: "468224C712794126"
+			min_required_tasks: 1
+			rewards: [{
+				id: "3C80251F0D4184B5"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							Entity: {
+								Air: 300s
+								CanUpdate: 1b
+								DecoyCount: 0
+								Energy: 24000
+								Engine1Damaged: 0b
+								Engine2Damaged: 0b
+								EngineHealth: 50.0f
+								FallDistance: 0.0f
+								Fire: -1s
+								GearRot: 0
+								GearUp: 0b
+								Health: 30.0f
+								Invulnerable: 0b
+								LastAttacker: "undefined"
+								LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+								LeftEngineHealth: 50.0f
+								LeftWheelDamaged: 0b
+								LeftWheelHealth: 50.0f
+								Motion: [
+									-0.03451173698960551d
+									0.0d
+									-0.028932967086153744d
+								]
+								OnGround: 1b
+								PortalCooldown: 0
+								Pos: [
+									-704.7717794283271d
+									66.0d
+									-253.83961358935562d
+								]
+								Power: 1.8827758E-6f
+								RightWheelDamaged: 0b
+								RightWheelHealth: 50.0f
+								Rotation: [
+									109.503876f
+									-1.3649305f
+								]
+								TurretDamaged: 0b
+								TurretHealth: 50.0f
+								UUID: [I;
+									26181440
+									-1158004116
+									-1362108411
+									-878615895
+								]
+								id: "superbwarfare:wheel_chair"
+							}
+							EntityType: "superbwarfare:wheel_chair"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "3B70FF457982F9E6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t1"
+						}
+					}
+					title: "使用64x 一阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "5EC3DF24C96609EB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用16x 二阶点数购买"
+					type: "item"
+				}
+			]
+			title: "购买轮椅"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"26BB876E0A6A07CA"
+				"137625C335B9830E"
+			]
+			description: [
+				"&b购买AH-6小鸟直升机&r"
+				"主武器："
+				"Cannon 2Omm 机炮"
+				"火箭巢："
+				"Hydra 70mm 火箭弹"
+				"备弹量："
+				"&e机炮弹：210发20mm炮弹&r"
+				"&6火箭弹:  28枚70mm火箭弹"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:container"
+				tag: {
+					BlockEntityTag: {
+						Entity: {
+							Air: 300s
+							CanUpdate: 1b
+							DecoyCount: 1
+							Energy: 5000000
+							Engine1Damaged: 0b
+							Engine2Damaged: 0b
+							EngineHealth: 50.0f
+							FallDistance: 0.0f
+							Fire: -1s
+							GearRot: 0
+							GearUp: 0b
+							Health: 270.0f
+							Invulnerable: 0b
+							Items: [
+								{
+									Count: 64b
+									Slot: 0b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 1b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 2b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 3b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 4b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 5b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 6b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 7b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 32b
+									Slot: 8b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 17b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 18b
+									Slot: 18b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 19b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 20b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 21b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 22b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 23b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 24b
+									id: "superbwarfare:rifle_ammo"
+								}
+							]
+							LastAttacker: "undefined"
+							LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+							LeftEngineHealth: 50.0f
+							LeftWheelDamaged: 0b
+							LeftWheelHealth: 50.0f
+							Motion: [
+								4.731748743037875E-147d
+								0.0d
+								9.556923053861135E-138d
+							]
+							OnGround: 1b
+							PortalCooldown: 0
+							Pos: [
+								2143.4811771210343d
+								79.0d
+								-462.44406313850186d
+							]
+							Power: 0.0f
+							RightWheelDamaged: 0b
+							RightWheelHealth: 50.0f
+							Rotation: [
+								180.0f
+								-4.3907985E-32f
+							]
+							SelectedWeapon: [I;
+								0
+								-1
+								-1
+								-1
+								-1
+							]
+							TurretDamaged: 0b
+							TurretHealth: 50.0f
+							UUID: [I;
+								-558794250
+								-1362737151
+								-1738502421
+								672594375
+							]
+							id: "superbwarfare:lav_150"
+						}
+						EntityType: "superbwarfare:lav_150"
+						id: "superbwarfare:container"
+					}
+				}
+			}
+			id: "748E2515950CF08E"
+			min_required_tasks: 1
+			rewards: [{
+				id: "289C66C9C1337252"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							Entity: {
+								Air: 300s
+								CanUpdate: 1b
+								DecoyCount: 4
+								Energy: 5000000
+								Engine1Damaged: 0b
+								Engine2Damaged: 0b
+								EngineHealth: 50.0f
+								FallDistance: 0.0f
+								Fire: -1s
+								GearRot: 0
+								GearUp: 0b
+								Health: 250.0f
+								Invulnerable: 0b
+								Items: [
+									{
+										Count: 64b
+										Slot: 0b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 1b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 2b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 18b
+										Slot: 3b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 14b
+										Slot: 17b
+										id: "superbwarfare:small_rocket"
+									}
+								]
+								LastAttacker: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+								LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+								LeftEngineHealth: 50.0f
+								LeftWheelDamaged: 0b
+								LeftWheelHealth: 50.0f
+								LoadedRocket: 14
+								Motion: [
+									-1.0E-323d
+									0.0d
+									-1.0E-323d
+								]
+								OnGround: 1b
+								PortalCooldown: 0
+								Pos: [
+									54.5713054141162d
+									65.0d
+									-372.5400053762367d
+								]
+								Power: 0.0f
+								PropellerRot: 0.0f
+								RightWheelDamaged: 0b
+								RightWheelHealth: 50.0f
+								Rotation: [
+									180.0f
+									0.0f
+								]
+								SelectedWeapon: [I;
+									1
+									-1
+									-1
+									-1
+								]
+								TurretDamaged: 0b
+								TurretHealth: 50.0f
+								UUID: [I;
+									-1784682230
+									1695825927
+									-1846965572
+									45454470
+								]
+								id: "superbwarfare:ah_6"
+							}
+							EntityType: "superbwarfare:ah_6"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [
+				{
+					consume_items: true
+					count: 350L
+					id: "2883A6C851B6895E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用350x 二阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 152L
+					id: "36DA3E175C051DD8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t3"
+						}
+					}
+					title: "使用152x 三阶点数购买"
+					type: "item"
+				}
+			]
+			title: "&e购买AH-6小鸟直升机礼包"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["137625C335B9830E"]
+			description: [
+				"&9购买138.6mm/50 Mle 1934 R1938"
+				"弹种：&b穿甲弹（AP）&r、&6高爆弹（HE）"
+				"&7跟火炮指示器绑定后能够自动校准标记目标的方位"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:container"
+				tag: {
+					BlockEntityTag: {
+						EntityType: "superbwarfare:mle_1934"
+						id: "superbwarfare:container"
+					}
+				}
+			}
+			id: "2E3FE4E3C7681A53"
+			min_required_tasks: 1
+			rewards: [{
+				id: "6AFCEE782CB08A1A"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:mle_1934"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [
+				{
+					consume_items: true
+					count: 240L
+					id: "0068DABA8AA3F746"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用240x 二阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 120L
+					id: "2D5C3B01C8654199"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t3"
+						}
+					}
+					title: "使用120x 三阶点数购买"
+					type: "item"
+				}
+			]
+			title: "&e购买138.6mm/50 Mle 1934 R1938舰炮"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			description: ["购买适用于飞行载具的&e小口径火箭弹&r，"]
+			disable_toast: true
+			icon: "superbwarfare:small_rocket"
+			id: "501C945E4A68FBBA"
+			rewards: [{
+				count: 7
+				id: "730CD9FEAA1225EE"
+				item: "superbwarfare:small_rocket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 72L
+				id: "0F97011C841BE615"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "使用72x 二阶点数购买"
+				type: "item"
+			}]
+			title: "购买小口径火箭弹药"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26BB876E0A6A07CA"]
+			description: ["购买适用于舰炮的&b穿甲弹&r/&6高爆弹，"]
+			disable_toast: true
+			icon: "superbwarfare:he_5_inches"
+			id: "0A2AEAE348679EAF"
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F17F1145F3271F1"
+				table_id: 767376235093720671L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 152L
+					id: "0460274C4A6F462A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用152x 二阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 76L
+					id: "72A9BBC8FE48A54D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t3"
+						}
+					}
+					title: "使用76x 二阶点数购买"
+					type: "item"
+				}
+			]
+			title: "购买&b穿甲弹&r/&6高爆弹"
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"26BB876E0A6A07CA"
+				"137625C335B9830E"
+			]
+			description: [
+				"&9购买Mark 42型舰炮"
+				"弹种：&b穿甲弹（AP）&r、&6高爆弹（HE）"
+				"&7跟火炮指示器绑定后能够自动校准标记目标的方位"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:container"
+				tag: {
+					BlockEntityTag: {
+						Entity: {
+							Air: 300s
+							CanUpdate: 1b
+							DecoyCount: 1
+							Energy: 5000000
+							Engine1Damaged: 0b
+							Engine2Damaged: 0b
+							EngineHealth: 50.0f
+							FallDistance: 0.0f
+							Fire: -1s
+							GearRot: 0
+							GearUp: 0b
+							Health: 270.0f
+							Invulnerable: 0b
+							Items: [
+								{
+									Count: 64b
+									Slot: 0b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 1b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 2b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 3b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 4b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 5b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 6b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 7b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 32b
+									Slot: 8b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 17b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 18b
+									Slot: 18b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 19b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 20b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 21b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 22b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 23b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 24b
+									id: "superbwarfare:rifle_ammo"
+								}
+							]
+							LastAttacker: "undefined"
+							LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+							LeftEngineHealth: 50.0f
+							LeftWheelDamaged: 0b
+							LeftWheelHealth: 50.0f
+							Motion: [
+								4.731748743037875E-147d
+								0.0d
+								9.556923053861135E-138d
+							]
+							OnGround: 1b
+							PortalCooldown: 0
+							Pos: [
+								2143.4811771210343d
+								79.0d
+								-462.44406313850186d
+							]
+							Power: 0.0f
+							RightWheelDamaged: 0b
+							RightWheelHealth: 50.0f
+							Rotation: [
+								180.0f
+								-4.3907985E-32f
+							]
+							SelectedWeapon: [I;
+								0
+								-1
+								-1
+								-1
+								-1
+							]
+							TurretDamaged: 0b
+							TurretHealth: 50.0f
+							UUID: [I;
+								-558794250
+								-1362737151
+								-1738502421
+								672594375
+							]
+							id: "superbwarfare:lav_150"
+						}
+						EntityType: "superbwarfare:lav_150"
+						id: "superbwarfare:container"
+					}
+				}
+			}
+			id: "2D38C9D4643AD387"
+			min_required_tasks: 1
+			rewards: [{
+				id: "56A5C4ED843D12A9"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:mk_42"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [
+				{
+					consume_items: true
+					count: 350L
+					id: "1449181EE0B2AF69"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用350x 二阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 152L
+					id: "6F901942AA2F9072"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t3"
+						}
+					}
+					title: "使用152x 三阶点数购买"
+					type: "item"
+				}
+			]
+			title: "&e购买Mark 42型舰炮"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"26BB876E0A6A07CA"
+				"137625C335B9830E"
+			]
+			description: [
+				"&c购买A-10 雷霆II 攻击机 "
+				"主武器："
+				"GAU-8/A 复仇者 30mm 机炮"
+				"火箭巢："
+				"Hydra 70mm 火箭弹"
+				"航空炸弹；"
+				"Mk82 500磅 炸弹"
+				"导弹；"
+				"AGM-65 小牛 空对地导弹"
+				"备弹量："
+				"&e机炮弹：1000发20mm炮弹&r"
+				"&6火箭弹:  74枚70mm火箭弹"
+				"&c航弹：12枚500磅炸弹"
+				"&d导弹：6枚AGM-65 "
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:container"
+				tag: {
+					BlockEntityTag: {
+						Entity: {
+							Air: 300s
+							CanUpdate: 1b
+							DecoyCount: 1
+							Energy: 5000000
+							Engine1Damaged: 0b
+							Engine2Damaged: 0b
+							EngineHealth: 50.0f
+							FallDistance: 0.0f
+							Fire: -1s
+							GearRot: 0
+							GearUp: 0b
+							Health: 270.0f
+							Invulnerable: 0b
+							Items: [
+								{
+									Count: 64b
+									Slot: 0b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 1b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 2b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 3b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 4b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 5b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 6b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 7b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 32b
+									Slot: 8b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 17b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 18b
+									Slot: 18b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 19b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 20b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 21b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 22b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 23b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 24b
+									id: "superbwarfare:rifle_ammo"
+								}
+							]
+							LastAttacker: "undefined"
+							LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+							LeftEngineHealth: 50.0f
+							LeftWheelDamaged: 0b
+							LeftWheelHealth: 50.0f
+							Motion: [
+								4.731748743037875E-147d
+								0.0d
+								9.556923053861135E-138d
+							]
+							OnGround: 1b
+							PortalCooldown: 0
+							Pos: [
+								2143.4811771210343d
+								79.0d
+								-462.44406313850186d
+							]
+							Power: 0.0f
+							RightWheelDamaged: 0b
+							RightWheelHealth: 50.0f
+							Rotation: [
+								180.0f
+								-4.3907985E-32f
+							]
+							SelectedWeapon: [I;
+								0
+								-1
+								-1
+								-1
+								-1
+							]
+							TurretDamaged: 0b
+							TurretHealth: 50.0f
+							UUID: [I;
+								-558794250
+								-1362737151
+								-1738502421
+								672594375
+							]
+							id: "superbwarfare:lav_150"
+						}
+						EntityType: "superbwarfare:lav_150"
+						id: "superbwarfare:container"
+					}
+				}
+			}
+			id: "25A9F7D1E1F995B4"
+			min_required_tasks: 1
+			rewards: [{
+				id: "3014E15528B4C114"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							Entity: {
+								Air: 300s
+								CanUpdate: 1b
+								DecoyCount: 4
+								Energy: 10000000
+								Engine1Damaged: 0b
+								Engine2Damaged: 0b
+								EngineHealth: 50.0f
+								FallDistance: 0.0f
+								Fire: -1s
+								GearRot: 0
+								GearUp: 0b
+								Health: 350.0f
+								Invulnerable: 0b
+								Items: [
+									{
+										Count: 64b
+										Slot: 0b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 1b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 2b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 3b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 4b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 5b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 2b
+										Slot: 7b
+										id: "superbwarfare:medium_aerial_bomb"
+									}
+									{
+										Count: 2b
+										Slot: 8b
+										id: "superbwarfare:medium_aerial_bomb"
+									}
+									{
+										Count: 2b
+										Slot: 9b
+										id: "superbwarfare:medium_aerial_bomb"
+									}
+									{
+										Count: 1b
+										Slot: 10b
+										id: "superbwarfare:medium_aerial_bomb"
+									}
+									{
+										Count: 2b
+										Slot: 11b
+										id: "superbwarfare:medium_aerial_bomb"
+									}
+									{
+										Count: 64b
+										Slot: 17b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 18b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 19b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 20b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 21b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 22b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 35b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 36b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 40b
+										Slot: 37b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 38b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 2b
+										Slot: 40b
+										id: "superbwarfare:agm"
+									}
+									{
+										Count: 46b
+										Slot: 55b
+										id: "superbwarfare:small_rocket"
+									}
+								]
+								LastAttacker: "undefined"
+								LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+								LeftEngineHealth: 50.0f
+								LeftWheelDamaged: 0b
+								LeftWheelHealth: 50.0f
+								LoadedBomb: 3
+								LoadedMissile: 4
+								LoadedRocket: 28
+								Motion: [
+									-4.957679316104651E-69d
+									0.0d
+									4.0482522007379064E-53d
+								]
+								OnGround: 1b
+								PortalCooldown: 0
+								Pos: [
+									62.632718640660926d
+									63.0d
+									0.8709941585633706d
+								]
+								Power: 0.0f
+								RightWheelDamaged: 0b
+								RightWheelHealth: 50.0f
+								Rotation: [
+									180.0f
+									1.3E-44f
+								]
+								SelectedWeapon: [I;2]
+								TurretDamaged: 0b
+								TurretHealth: 50.0f
+								UUID: [I;
+									703801024
+									1601130107
+									-1550711066
+									-1196729110
+								]
+								id: "superbwarfare:a_10a"
+							}
+							EntityType: "superbwarfare:a_10a"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				consume_items: true
+				count: 452L
+				id: "7FDE7402218F1A8D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t3"
+					}
+				}
+				title: "使用452x 三阶点数购买"
+				type: "item"
+			}]
+			title: "&e购买A-10攻击机礼包"
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26BB876E0A6A07CA"]
+			description: ["购买适用于飞行载具的&c500磅航弹"]
+			disable_toast: true
+			icon: "superbwarfare:medium_aerial_bomb"
+			id: "12EE2504D17E7899"
+			min_required_tasks: 1
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "1A3A622F4612031D"
+				item: "superbwarfare:medium_aerial_bomb"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 76L
+				id: "61081FCE1839B915"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t3"
+					}
+				}
+				title: "使用76x 二阶点数购买"
+				type: "item"
+			}]
+			title: "购买&c500磅航弹"
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26BB876E0A6A07CA"]
+			description: ["购买适用于飞行载具的&d空对地导弹"]
+			disable_toast: true
+			icon: "superbwarfare:agm"
+			id: "15C0ACE56935B8B1"
+			min_required_tasks: 1
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "4E813F964DE01F84"
+				item: "superbwarfare:agm"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 158L
+				id: "74F16A26C2253570"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t3"
+					}
+				}
+				title: "使用158x 二阶点数购买"
+				type: "item"
+			}]
+			title: "购买&dAGM-65 小牛导弹"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"26BB876E0A6A07CA"
+				"137625C335B9830E"
+			]
+			description: [
+				"&c购买H/PJ11近防炮"
+				"弹种：&b穿甲爆破弹（APDS）"
+				"&c&l注意！潜行右键后会开始攻击一切敌对生物和载具"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:container"
+				tag: {
+					BlockEntityTag: {
+						Entity: {
+							Air: 300s
+							CanUpdate: 1b
+							DecoyCount: 1
+							Energy: 5000000
+							Engine1Damaged: 0b
+							Engine2Damaged: 0b
+							EngineHealth: 50.0f
+							FallDistance: 0.0f
+							Fire: -1s
+							GearRot: 0
+							GearUp: 0b
+							Health: 270.0f
+							Invulnerable: 0b
+							Items: [
+								{
+									Count: 64b
+									Slot: 0b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 1b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 2b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 3b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 4b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 5b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 6b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 7b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 32b
+									Slot: 8b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 17b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 18b
+									Slot: 18b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 19b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 20b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 21b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 22b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 23b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 24b
+									id: "superbwarfare:rifle_ammo"
+								}
+							]
+							LastAttacker: "undefined"
+							LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+							LeftEngineHealth: 50.0f
+							LeftWheelDamaged: 0b
+							LeftWheelHealth: 50.0f
+							Motion: [
+								4.731748743037875E-147d
+								0.0d
+								9.556923053861135E-138d
+							]
+							OnGround: 1b
+							PortalCooldown: 0
+							Pos: [
+								2143.4811771210343d
+								79.0d
+								-462.44406313850186d
+							]
+							Power: 0.0f
+							RightWheelDamaged: 0b
+							RightWheelHealth: 50.0f
+							Rotation: [
+								180.0f
+								-4.3907985E-32f
+							]
+							SelectedWeapon: [I;
+								0
+								-1
+								-1
+								-1
+								-1
+							]
+							TurretDamaged: 0b
+							TurretHealth: 50.0f
+							UUID: [I;
+								-558794250
+								-1362737151
+								-1738502421
+								672594375
+							]
+							id: "superbwarfare:lav_150"
+						}
+						EntityType: "superbwarfare:lav_150"
+						id: "superbwarfare:container"
+					}
+				}
+			}
+			id: "4AA0CB11D56DD280"
+			min_required_tasks: 1
+			rewards: [{
+				id: "044E51DE8F87626D"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							Entity: {
+								Active: 0b
+								Air: 300s
+								AnimTime: 0
+								CanUpdate: 1b
+								DecoyCount: 0
+								Energy: 5000000
+								Engine1Damaged: 0b
+								Engine2Damaged: 0b
+								EngineHealth: 50.0f
+								FallDistance: 0.0f
+								Fire: -1s
+								GearRot: 0
+								GearUp: 0b
+								Health: 350.0f
+								Invulnerable: 0b
+								Items: [
+									{
+										Count: 64b
+										Slot: 0b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 1b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 2b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 3b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 4b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 5b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 6b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 7b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 17b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 18b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 19b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 20b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 21b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 22b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 23b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 24b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 48b
+										Slot: 75b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 91b
+										id: "superbwarfare:small_shell"
+									}
+									{
+										Count: 64b
+										Slot: 93b
+										id: "superbwarfare:small_shell"
+									}
+								]
+								LastAttacker: "undefined"
+								LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+								LeftEngineHealth: 50.0f
+								LeftWheelDamaged: 0b
+								LeftWheelHealth: 50.0f
+								Motion: [
+									0.0d
+									-0.04d
+									0.0d
+								]
+								OnGround: 0b
+								PortalCooldown: 0
+								Pos: [
+									-527.5206560406789d
+									63.0d
+									76.44949790761686d
+								]
+								Power: 0.0f
+								RightWheelDamaged: 0b
+								RightWheelHealth: 50.0f
+								Rotation: [
+									0.0f
+									-0.42121014f
+								]
+								SelectedWeapon: [I;0]
+								TurretDamaged: 0b
+								TurretHealth: 50.0f
+								UUID: [I;
+									2121488835
+									632111838
+									-1487912779
+									134891236
+								]
+								id: "superbwarfare:hpj_11"
+							}
+							EntityType: "superbwarfare:hpj_11"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [
+				{
+					consume_items: true
+					count: 350L
+					id: "232C1F02338E0222"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用350x 二阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 152L
+					id: "1BC6C15155B44BD6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t3"
+						}
+					}
+					title: "使用152x 三阶点数购买"
+					type: "item"
+				}
+			]
+			title: "&e购买H/PJ11近防炮礼包"
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"26BB876E0A6A07CA"
+				"2E3FE4E3C7681A53"
+			]
+			description: ["购买适用于多种场景的&bFuMO25火控雷达"]
+			disable_toast: true
+			icon: "superbwarfare:fumo_25"
+			id: "7CF0462F1AC8D0BF"
+			min_required_tasks: 1
+			rewards: [{
+				id: "561D0D3F48A5BF97"
+				item: "superbwarfare:fumo_25"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 152L
+					id: "3D692E2CA2E61C93"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t2"
+						}
+					}
+					title: "使用152x 二阶点数购买"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 76L
+					id: "6560AD7107C445BF"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:t3"
+						}
+					}
+					title: "使用76x 二阶点数购买"
+					type: "item"
+				}
+			]
+			title: "购买&bFUMO雷达"
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26BB876E0A6A07CA"]
+			description: ["购买适用于载具的&d多种设备&r"]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "superbwarfare:vehicle_deployer"
+			id: "5C379A41D26FA161"
+			min_required_dependencies: 2
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E927FB625C715FC"
+				table_id: 3971574932858541788L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 158L
+				id: "22A8BEDDC9FD96F6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t3"
+					}
+				}
+				title: "使用158x 二阶点数购买"
+				type: "item"
+			}]
+			title: "购买&d载具支持设备"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0E1D4C7AF72F64C5"
+				"137625C335B9830E"
+			]
+			description: [
+				"&c购买激光防御塔&r。一种只需要电量就可以运作的自律炮塔"
+				"弹种：电量"
+				"&c&l注意！潜行右键后会开始攻击一切敌对生物"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:container"
+				tag: {
+					BlockEntityTag: {
+						Entity: {
+							Air: 300s
+							CanUpdate: 1b
+							DecoyCount: 1
+							Energy: 5000000
+							Engine1Damaged: 0b
+							Engine2Damaged: 0b
+							EngineHealth: 50.0f
+							FallDistance: 0.0f
+							Fire: -1s
+							GearRot: 0
+							GearUp: 0b
+							Health: 270.0f
+							Invulnerable: 0b
+							Items: [
+								{
+									Count: 64b
+									Slot: 0b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 1b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 2b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 3b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 4b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 5b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 6b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 7b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 32b
+									Slot: 8b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 17b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 18b
+									Slot: 18b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 19b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 20b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 21b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 22b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 23b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 24b
+									id: "superbwarfare:rifle_ammo"
+								}
+							]
+							LastAttacker: "undefined"
+							LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+							LeftEngineHealth: 50.0f
+							LeftWheelDamaged: 0b
+							LeftWheelHealth: 50.0f
+							Motion: [
+								4.731748743037875E-147d
+								0.0d
+								9.556923053861135E-138d
+							]
+							OnGround: 1b
+							PortalCooldown: 0
+							Pos: [
+								2143.4811771210343d
+								79.0d
+								-462.44406313850186d
+							]
+							Power: 0.0f
+							RightWheelDamaged: 0b
+							RightWheelHealth: 50.0f
+							Rotation: [
+								180.0f
+								-4.3907985E-32f
+							]
+							SelectedWeapon: [I;
+								0
+								-1
+								-1
+								-1
+								-1
+							]
+							TurretDamaged: 0b
+							TurretHealth: 50.0f
+							UUID: [I;
+								-558794250
+								-1362737151
+								-1738502421
+								672594375
+							]
+							id: "superbwarfare:lav_150"
+						}
+						EntityType: "superbwarfare:lav_150"
+						id: "superbwarfare:container"
+					}
+				}
+			}
+			id: "40DAA7E19B5DE2C4"
+			min_required_tasks: 1
+			rewards: [{
+				id: "037DE0C7290C8396"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:laser_tower"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				consume_items: true
+				count: 250L
+				id: "324FA99671764FA4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t3"
+					}
+				}
+				title: "使用250x 三阶点数购买"
+				type: "item"
+			}]
+			title: "&e购买激光防御塔 "
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["137625C335B9830E"]
+			description: [
+				"&9购买光棱坦克&r。一种只需要电量就可移动和开火的战车"
+				"弹种：电量"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:container"
+				tag: {
+					BlockEntityTag: {
+						Entity: {
+							Air: 300s
+							CanUpdate: 1b
+							DecoyCount: 1
+							Energy: 5000000
+							Engine1Damaged: 0b
+							Engine2Damaged: 0b
+							EngineHealth: 50.0f
+							FallDistance: 0.0f
+							Fire: -1s
+							GearRot: 0
+							GearUp: 0b
+							Health: 270.0f
+							Invulnerable: 0b
+							Items: [
+								{
+									Count: 64b
+									Slot: 0b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 1b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 2b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 3b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 4b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 5b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 6b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 7b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 32b
+									Slot: 8b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 17b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 18b
+									Slot: 18b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 19b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 20b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 21b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 22b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 23b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 24b
+									id: "superbwarfare:rifle_ammo"
+								}
+							]
+							LastAttacker: "undefined"
+							LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+							LeftEngineHealth: 50.0f
+							LeftWheelDamaged: 0b
+							LeftWheelHealth: 50.0f
+							Motion: [
+								4.731748743037875E-147d
+								0.0d
+								9.556923053861135E-138d
+							]
+							OnGround: 1b
+							PortalCooldown: 0
+							Pos: [
+								2143.4811771210343d
+								79.0d
+								-462.44406313850186d
+							]
+							Power: 0.0f
+							RightWheelDamaged: 0b
+							RightWheelHealth: 50.0f
+							Rotation: [
+								180.0f
+								-4.3907985E-32f
+							]
+							SelectedWeapon: [I;
+								0
+								-1
+								-1
+								-1
+								-1
+							]
+							TurretDamaged: 0b
+							TurretHealth: 50.0f
+							UUID: [I;
+								-558794250
+								-1362737151
+								-1738502421
+								672594375
+							]
+							id: "superbwarfare:lav_150"
+						}
+						EntityType: "superbwarfare:lav_150"
+						id: "superbwarfare:container"
+					}
+				}
+			}
+			id: "60817581D9E31496"
+			min_required_tasks: 1
+			rewards: [{
+				id: "3E4028CD7666E757"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:prism_tank"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				consume_items: true
+				count: 850L
+				id: "7D369BBCE79D2897"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t3"
+					}
+				}
+				title: "使用850x 三阶点数购买"
+				type: "item"
+			}]
+			title: "&e购买光棱坦克礼包"
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["137625C335B9830E"]
+			description: [
+				"&b购买YX-1000。一种千年科技最新研制的实验型坦克"
+				"主武器：千年科技电磁加速炮"
+				"副武器：12.7 bmg 重机枪"
+				"备弹量；"
+				"穿甲弹：&b24发穿甲弹"
+				"高爆弹：&614发高爆弹"
+				"机枪弹：&e1200发12.7mm机枪弹"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:container"
+				tag: {
+					BlockEntityTag: {
+						Entity: {
+							Air: 300s
+							CanUpdate: 1b
+							DecoyCount: 1
+							Energy: 5000000
+							Engine1Damaged: 0b
+							Engine2Damaged: 0b
+							EngineHealth: 50.0f
+							FallDistance: 0.0f
+							Fire: -1s
+							GearRot: 0
+							GearUp: 0b
+							Health: 270.0f
+							Invulnerable: 0b
+							Items: [
+								{
+									Count: 64b
+									Slot: 0b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 1b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 2b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 3b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 4b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 5b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 6b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 7b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 32b
+									Slot: 8b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 17b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 18b
+									Slot: 18b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 19b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 20b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 21b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 22b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 23b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 24b
+									id: "superbwarfare:rifle_ammo"
+								}
+							]
+							LastAttacker: "undefined"
+							LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+							LeftEngineHealth: 50.0f
+							LeftWheelDamaged: 0b
+							LeftWheelHealth: 50.0f
+							Motion: [
+								4.731748743037875E-147d
+								0.0d
+								9.556923053861135E-138d
+							]
+							OnGround: 1b
+							PortalCooldown: 0
+							Pos: [
+								2143.4811771210343d
+								79.0d
+								-462.44406313850186d
+							]
+							Power: 0.0f
+							RightWheelDamaged: 0b
+							RightWheelHealth: 50.0f
+							Rotation: [
+								180.0f
+								-4.3907985E-32f
+							]
+							SelectedWeapon: [I;
+								0
+								-1
+								-1
+								-1
+								-1
+							]
+							TurretDamaged: 0b
+							TurretHealth: 50.0f
+							UUID: [I;
+								-558794250
+								-1362737151
+								-1738502421
+								672594375
+							]
+							id: "superbwarfare:lav_150"
+						}
+						EntityType: "superbwarfare:lav_150"
+						id: "superbwarfare:container"
+					}
+				}
+			}
+			id: "182E063F28BF1105"
+			min_required_tasks: 1
+			rewards: [{
+				id: "715C0FBE05877DDD"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							Entity: {
+								Air: 300s
+								CanUpdate: 1b
+								DecoyCount: 1
+								Energy: 20000000
+								Engine1Damaged: 0b
+								Engine2Damaged: 0b
+								EngineHealth: 150.0f
+								FallDistance: 0.0f
+								Fire: -1s
+								GearRot: 0
+								GearUp: 0b
+								Health: 500.0f
+								Invulnerable: 0b
+								Items: [
+									{
+										Count: 23b
+										Slot: 0b
+										id: "superbwarfare:ap_5_inches"
+									}
+									{
+										Count: 14b
+										Slot: 1b
+										id: "superbwarfare:he_5_inches"
+									}
+									{
+										Count: 64b
+										Slot: 2b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 3b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 4b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 5b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 6b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 7b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 8b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 9b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 10b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 11b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 12b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 13b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 14b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 15b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 16b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 16b
+										Slot: 29b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 31b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 32b
+										id: "superbwarfare:heavy_ammo"
+									}
+									{
+										Count: 64b
+										Slot: 33b
+										id: "superbwarfare:heavy_ammo"
+									}
+								]
+								LastAttacker: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+								LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+								LeftEngineHealth: 150.0f
+								LeftWheelDamaged: 0b
+								LeftWheelHealth: 100.0f
+								LoadedAP: 1
+								LoadedAmmoType: 0
+								LoadedDrone: 0
+								LoadedHE: 0
+								Motion: [
+									1.103051881821327E-34d
+									0.0d
+									-7.396865384786012E-35d
+								]
+								OnGround: 1b
+								PassengerWeaponType: 0
+								PortalCooldown: 0
+								Pos: [
+									-513.612739615968d
+									63.0d
+									78.12018457803121d
+								]
+								Power: 0.0f
+								RightWheelDamaged: 0b
+								RightWheelHealth: 100.0f
+								Rotation: [
+									56.15528f
+									-4.3625286E-29f
+								]
+								SelectedWeapon: [I;
+									0
+									0
+									0
+								]
+								ThirdPassengerWeaponType: 0
+								TurretDamaged: 0b
+								TurretHealth: 100.0f
+								UUID: [I;
+									1527698981
+									1093226104
+									-1444767544
+									-1402223369
+								]
+								WeaponType: 0
+								id: "superbwarfare:yx_100"
+							}
+							EntityType: "superbwarfare:yx_100"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "6AABAC5404F332CD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t3"
+					}
+				}
+				title: "使用1024x 三阶点数购买"
+				type: "item"
+			}]
+			title: "&e购买YX-1000主战坦克"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0E1D4C7AF72F64C5"]
+			description: ["你可以在这里购买适用于重型载具的&d重型弹药&r"]
+			disable_toast: true
+			icon: "superbwarfare:heavy_ammo"
+			id: "0104B0535A6A76B1"
+			min_required_tasks: 1
+			rewards: [{
+				count: 192
+				id: "718E286CB3B19CE5"
+				item: "superbwarfare:heavy_ammo"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "1B5F25258D055398"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t3"
+					}
+				}
+				title: "使用128x 三阶点数购买"
+				type: "item"
+			}]
+			title: "&d购买45发重型弹药"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0E1D4C7AF72F64C5"
+				"137625C335B9830E"
+			]
+			description: [
+				"&d购买歼灭者能量炮。一种只需要电量就可开火的星舰舰炮"
+				"弹种：电量"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:container"
+				tag: {
+					BlockEntityTag: {
+						Entity: {
+							Air: 300s
+							CanUpdate: 1b
+							DecoyCount: 1
+							Energy: 5000000
+							Engine1Damaged: 0b
+							Engine2Damaged: 0b
+							EngineHealth: 50.0f
+							FallDistance: 0.0f
+							Fire: -1s
+							GearRot: 0
+							GearUp: 0b
+							Health: 270.0f
+							Invulnerable: 0b
+							Items: [
+								{
+									Count: 64b
+									Slot: 0b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 1b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 2b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 3b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 4b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 5b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 6b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 7b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 32b
+									Slot: 8b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 17b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 18b
+									Slot: 18b
+									id: "superbwarfare:small_shell"
+								}
+								{
+									Count: 64b
+									Slot: 19b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 20b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 21b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 22b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 23b
+									id: "superbwarfare:rifle_ammo"
+								}
+								{
+									Count: 64b
+									Slot: 24b
+									id: "superbwarfare:rifle_ammo"
+								}
+							]
+							LastAttacker: "undefined"
+							LastDriver: "7e9ed856-6926-4a55-96bc-2efb9c83c235"
+							LeftEngineHealth: 50.0f
+							LeftWheelDamaged: 0b
+							LeftWheelHealth: 50.0f
+							Motion: [
+								4.731748743037875E-147d
+								0.0d
+								9.556923053861135E-138d
+							]
+							OnGround: 1b
+							PortalCooldown: 0
+							Pos: [
+								2143.4811771210343d
+								79.0d
+								-462.44406313850186d
+							]
+							Power: 0.0f
+							RightWheelDamaged: 0b
+							RightWheelHealth: 50.0f
+							Rotation: [
+								180.0f
+								-4.3907985E-32f
+							]
+							SelectedWeapon: [I;
+								0
+								-1
+								-1
+								-1
+								-1
+							]
+							TurretDamaged: 0b
+							TurretHealth: 50.0f
+							UUID: [I;
+								-558794250
+								-1362737151
+								-1738502421
+								672594375
+							]
+							id: "superbwarfare:lav_150"
+						}
+						EntityType: "superbwarfare:lav_150"
+						id: "superbwarfare:container"
+					}
+				}
+			}
+			id: "3DD591E6679A5FF4"
+			min_required_tasks: 1
+			rewards: [{
+				id: "503373D07679F779"
+				item: {
+					Count: 1
+					id: "superbwarfare:container"
+					tag: {
+						BlockEntityTag: {
+							EntityType: "superbwarfare:annihilator"
+							id: "superbwarfare:container"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				consume_items: true
+				count: 2048L
+				id: "63B3E689C3E420EA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t3"
+					}
+				}
+				title: "使用2048x 三阶点数购买"
+				type: "item"
+			}]
+			title: "&e购买歼灭者能量炮"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0A6E88258F546139"]
+			description: ["你可以在这里&2批量购买车载机枪和机炮弹药"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "superbwarfare:ammo_box"
+				tag: { }
+			}
+			id: "525C16A7A62C8658"
+			min_required_tasks: 1
+			rewards: [
+				{
+					count: 200
+					id: "6A6301D2F5215BFF"
+					item: "superbwarfare:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 80
+					id: "5CDDEF2DAD4507D5"
+					item: "superbwarfare:small_shell"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 196L
+				id: "291A309102CD1332"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:t2"
+					}
+				}
+				title: "使用196x 二阶点数购买"
+				type: "item"
+			}]
+			title: "&2批量购买车载机枪和机炮弹药"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&2地面载具:   &r           &b空中载具:&r"
+				"&a鼠标&r控制炮塔          &a鼠标&r控制方向"
+				"&a左键&r开火              &a左键&r开火 "
+				"&a数字键/滚轮&r切弹      &a数字键/滚轮&r切弹"
+				"&aw键前进&r/加速         &aw键前进&r/加速"
+				"&as键&r减速/后退         &as键&r减速/后退"
+				"&aa键/d键&r控制方向     &aa键/d键&r侧转"
+				"&a空格&r刹车              &a空格&r垂直起降/起落架"
+				"&aalt&r下车               &aalt&r下机"
+			]
+			hide_dependent_lines: true
+			id: "137625C335B9830E"
+			tasks: [{
+				id: "3A06B5F6358F219A"
+				title: "&6关于载具的控制"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+	]
+	title: "&e战术配备中心"
+}

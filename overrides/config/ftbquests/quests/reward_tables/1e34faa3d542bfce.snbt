@@ -1,0 +1,35 @@
+{
+	icon: {
+		Count: 1
+		id: "superbwarfare:tm_62"
+		tag: { }
+	}
+	id: "1E34FAA3D542BFCE"
+	loot_size: 3
+	order_index: 7
+	rewards: [
+		{
+			count: 6
+			item: {
+				Count: 1
+				id: "superbwarfare:blu_43_mine"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "superbwarfare:claymore_mine"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "superbwarfare:tm_62"
+				tag: { }
+			}
+		}
+	]
+	title: "我踩到地雷了"
+}

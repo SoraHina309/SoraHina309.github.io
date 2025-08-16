@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = D:/ModPack/究极神兵/.minecraft/versions/mc2025/saves/新的世界 (1)
+}
+

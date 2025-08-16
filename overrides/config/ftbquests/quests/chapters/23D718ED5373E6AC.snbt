@@ -1,0 +1,980 @@
+{
+	autofocus_id: "1880AA0A19B3B9F3"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "23D718ED5373E6AC"
+	group: "5BC95A684743E876"
+	icon: {
+		Count: 1
+		id: "supplementaries:wrench"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "23D718ED5373E6AC"
+	images: [
+		{
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/shield.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/teleport.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/lob_creeper.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "alexscaves:textures/misc/mod_logo.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/black_hole.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 2.25d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.25d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			height: 2.25d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.25d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 2.25d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.25d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			height: 2.25d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.25d
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			height: 2.25d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.25d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 2.25d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.25d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 2.25d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.25d
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/devour.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/greater_heal.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			height: 2.25d
+			image: "cataclysm:block/ancient_metal_block"
+			rotation: 0.0d
+			width: 2.25d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/command_block_back"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1880AA0A19B3B9F3"]
+			description: ["           切换回&a普通&f难度&4【仅限一次】"]
+			icon: "majruszsdifficulty:advancement_normal"
+			id: "4B1354105BDBE569"
+			rewards: [{
+				auto: "invisible"
+				command: "/gamestage normal"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								2124339286
+								1764117077
+								-1766052101
+								-1669086667
+							]
+							Name: "xanyuovo"
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1MTQ0NTA0MjI1NSwKICAicHJvZmlsZUlkIiA6ICI3ZTllZDg1NjY5MjY0YTU1OTZiYzJlZmI5YzgzYzIzNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4YW55dW92byIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85NjBkMDY5MzAyMWE4OTY4Yjg4M2E0YWQxZTcxYzFiMGIwY2QxYmNiYTM4M2I2Mjc3NWNjYjNkNTE3ZGM3MzY5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+					}
+				}
+				id: "34BD287FCB1F0974"
+				silent: true
+				title: "普通难度"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "634B34EF6DBAF1FF"
+				title: "切换回普通难度"
+				type: "checkmark"
+			}]
+			title: "切换回普通难度"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1880AA0A19B3B9F3"]
+			description: ["           切换到&b专家&f难度&4【仅限一次】"]
+			icon: "majruszsdifficulty:advancement_expert"
+			id: "203E698321C32269"
+			rewards: [{
+				auto: "invisible"
+				command: "/gamestage expert"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1778768251
+								1848854556
+								-1394447460
+								-1352366441
+							]
+							Name: "Hatsune_Mikuo"
+							Properties: {
+								textures: [{
+									Signature: "A2Th2lqPDQjNqP9Sa2HFfxh9FW+sumEXC2CzmW7/PZHsAZ/e30NOjCC4dCJ5fHZMs8MXokWnC0O1wkMhnoFgxF5rnRpNnsxjVhuKgEhkO/Bo6mu/um9QSIWH2jmULPjlTW+EYwJM7jTdTwGxZywYU6jKWobqTJeSzn9MOVzWoA3kD1Avin8yv0AqPj8VMwzTcHtK/K7A61DYEjntN0o6l8PSo1WXNjBgPmWdhfgI+KxADrhD94gjJLcsN0dD3bNB1RL4DkfH1J6nz4hg+KWgBV0mUYvea0+fe9Ad+LgyW1TQPO9YnhVx//vjN4Dntt8wHv9YaScxgFWW+hWA5h1rD8DX6En+BMQLTFefW4dTLWZWBwbAkU1gZApHrAzXyV5NfHWlNKoc0TJo4bo1YvmM0l/qWysS+PuJ1X5jNtYUdnKBpuLuN8CdibptnUNR5csJBeBeSeLA5Lk0NkrJx7uJ1NLBPZpU91nZTI1kyWO8MJ7rwsD+n2LWi1uEwgiynAuFq74ZcqwNgcl0mbH1X6+YF4yOPN6gksuVEzFP2yHZmNIkbYIeZzumDgif9HoLjZtwwskUfObYj6iL4uvO4Tdpf2fQEkeSa2M5zboCcKUy62E3tN68oOZqm1HCfnoy44gEOlD1wJmaKgdBkm4IY3/+iG9VXBbiKPn3PEnRVSykOpY="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1MTUyMTEwMjE3NiwKICAicHJvZmlsZUlkIiA6ICI5NWZhMjY4NTZlMzM0ODFjYWNlMjZiOWNhZjY0ODY5NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYXRzdW5lX01pa3VvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkNDJmY2ZkZmFlY2ZjNDg5NzdjZDczMDY5ODkzNjkzN2UyNTA0MDMzNmQ5MjljNmQxZmVhY2Q2NTY3ZGFhNiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+								}]
+							}
+						}
+					}
+				}
+				id: "65672F2FB93B0122"
+				silent: true
+				title: "专家模式"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7EA90EC018A648BD"
+				type: "checkmark"
+			}]
+			title: "切换到专家难度"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1880AA0A19B3B9F3"]
+			description: ["           切换到&5大师&f难度&4【无限次数】"]
+			icon: "majruszsdifficulty:advancement_master"
+			id: "6F42C7BFCD6EA0CF"
+			rewards: [{
+				auto: "invisible"
+				command: "/gamestage master"
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								480333689
+								-2027337522
+								-1434106860
+								1980118509
+							]
+							Name: "FlandreScart"
+							Properties: {
+								textures: [{
+									Signature: "AoriifS0sf6HRpsOKz3YeLe2rDenwTmdGoAySUhbm3tChD0TG60NxeTwdBRwpiTXOZ0BFnKGKj9YzJEAovVnx5jAuGIh7oSNZ38ZBs8AFWZnJ24XnMLBAu5nwvhFLXxRrVFcdHmPbRR1vdryKlGFV9cF4mzpjHW7j6fXY2s+ixY5jVTmATneSajzRIPA9pp+iVuFWMne/LPUnxv+a9Vlcn7jSYDcAdqNObZS2BjH7tAyykS5YHsq6dluXr2D4wW+WvwGO9h37GWaV3i+c4KWXIPWnJY2UexcGsag1wBaUcts/Ox3k/XEFTrLFHRUu0MnW8FWN+ZpXNLZ4LwjtnRpSVb7K9uApdkjUFD7m9d7Ph43Kn4btOMrZg5i1aUldekWS8cpUqG5epcrS1VMQzAdZezghlKBmuLW48HLJv/jduucH6gD3MeQLw3rYlyjnNtvhLUpC83Gzlb9MWCmL6IBg5FcyiRqvRKam2KyBHFu/uhKsUeLJ9vh5iEJYnPhpJdesUqn1/LhvYVYV6A4FeCEjgEqxyCICN6+OwdXZDWHFuM9U6zcv8YFhjrVGSzuPXTYxQzgMztLo1QWQ8QXTTR1L10rd1lYCLGVCAwm7rGibddwo9ePryV3X/+hbhXPoRZUMzBvXRjf72YgGt93SF1YbzbmqsGoXmetGYIzY9VDAJo="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1MTQ1MDg3ODg4MCwKICAicHJvZmlsZUlkIiA6ICIxY2ExNGY3OTg3Mjk0OGNlYWE4NTQ0MTQ3NjA2MzVlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGbGFuZHJlU2NhcnQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM5NGY5YzJiOGZkODI4MWM3MmU4MTUyNDE3OGNmMDZjNTk0ZjQ3NzJjYTg4ZTE3MjdkNWRmYzZjMjQwMTM3NSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+								}]
+							}
+						}
+					}
+				}
+				id: "2941979C0D3BF86E"
+				title: "大师难度"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4E6E1AAB98C0D2FC"
+				title: "切换到大师难度"
+				type: "checkmark"
+			}]
+			title: "切换到大师难度"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1880AA0A19B3B9F3"]
+			description: ["开启后阻止&a苦力怕,&c火龙,&b冰龙,&d电龙,&2撼地斯拉&f对地形造成的破坏"]
+			icon: "minecraft:creeper_head"
+			id: "2443DDD01DDCDB9A"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mobgriefing minecraft:creeper false"
+					elevate_perms: true
+					icon: "graveyard:creeper_skeleton"
+					id: "32CA86C2F38F3D25"
+					silent: true
+					team_reward: true
+					title: "&a苦力怕/撼地斯拉/飞龙不再破坏方块了"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing alexscaves:tremorzilla false"
+					elevate_perms: true
+					id: "424652D0AC9EF002"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing iceandfire:fire_dragon false"
+					elevate_perms: true
+					id: "2E01F1E729142551"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing iceandfire:ice_dragon false"
+					elevate_perms: true
+					id: "782E1F1ABEF24877"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing iceandfire:lightning_dragon false"
+					elevate_perms: true
+					id: "6F98F012415E387B"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing mekanismadditions:baby_creeper false"
+					elevate_perms: true
+					id: "7EF398E67FA621D3"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing dungeonsmobs:icy_creeper false"
+					elevate_perms: true
+					id: "5CCB9381D3F85E64"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing witherstormmod:withered_symbiont false"
+					elevate_perms: true
+					id: "47E12EA85AA98D67"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "13EF856C0E925151"
+				title: "防止常规生物破坏&a【阻止苦力怕和\"小宠物拆家\"】"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1880AA0A19B3B9F3"]
+			description: ["开启后 在基础防爆的基础上阻止&e非原版&fboss对地形造成的破坏"]
+			icon: "cataclysm:monstrous_eye"
+			id: "0027DA0D701C5696"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mobgriefing minecraft:creeper false"
+					elevate_perms: true
+					icon: "cataclysm:remnant_skull"
+					id: "6802EC5605C12ED2"
+					silent: true
+					team_reward: true
+					title: "&6灾变/A洞boss也不能破坏方块了"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing alexscaves:tremorzilla false"
+					elevate_perms: true
+					id: "6A52E5FCBA6642B7"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing iceandfire:fire_dragon false"
+					elevate_perms: true
+					id: "63F255CF852F0716"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing iceandfire:ice_dragon false"
+					elevate_perms: true
+					id: "7F8C41288AC6557E"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing iceandfire:lightning_dragon false"
+					elevate_perms: true
+					id: "78E0E16AA9372431"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:the_harbinger false"
+					elevate_perms: true
+					id: "675202E03F8738AC"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:netherite_monstrosity false"
+					elevate_perms: true
+					id: "26B80BAD52EF462A"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:ignis false"
+					elevate_perms: true
+					id: "0A66D97698FF1F75"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:ender_guardian false"
+					elevate_perms: true
+					id: "12265672E1A492D0"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:the_leviathan false"
+					elevate_perms: true
+					id: "43030052C6118CA3"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:ancient_remnant false"
+					elevate_perms: true
+					id: "3F32848C2F2B27C9"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:scylla false"
+					elevate_perms: true
+					id: "6E158F8F1F380556"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing alexscaves:luxtructosaurus false"
+					elevate_perms: true
+					id: "04AD912606B82C46"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing dungeonsmobs:icy_creeper false"
+					elevate_perms: true
+					id: "1769E87B16DED54B"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing mekanismadditions:baby_creeper false"
+					elevate_perms: true
+					id: "15528C71DE5CD56A"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing witherstormmod:withered_symbiont false"
+					elevate_perms: true
+					id: "3789F69E123D4701"
+					silent: true
+					team_reward: true
+					title: "no!"
+					type: "command"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "25AFD12074841FFB"
+				title: "防止boss级别生物破坏&6【可能会影响游戏体验】"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1880AA0A19B3B9F3"]
+			description: ["&6关闭所有类型的生物破坏&c（不包括tnt和核爆）"]
+			icon: "minecraft:barrier"
+			id: "3D3A62373CC1B0ED"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mobgriefing minecraft:creeper false"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-431141636
+									542461402
+									-1536699383
+									335501215
+								]
+								Name: "klxy_fish"
+								Properties: {
+									textures: [{
+										Signature: "ojziBq+6NhSkVXXg04kFr24b2S7K7E8ifYASYI8jttkYN617jnH7E/iEfNMplcWFjcSYD3tK+ZfDmsecgKb5ukc0rZJSLOsU/dVCu4MeBT1jCp8kjeIGjSsUO5YAe9EFdp7ISI/wJ9s209RSdqVwFDswVcqCLaBfiMkkyP1DZkbXj3MWluEXCbk8L+3mpxWFv2ReEbCbeDM9v1tVj2oholWKogvcW2C665W5eigXa//vgwdtkCSYcjf3zwtjk407RFAFMWhsHHOt92qWH0GsqwlnLMA6oO9LYd07iVNnqNfo4OF7DcLoiWu9DGn38YemCciwxYip68KSOBMeucZ6FswY9jMQ92hwhm7wXXXnq0JA+kj4KeTIDIz5lpitqDtLjc6OcazkIAx51P5ac73yVrM2RMTWEOePKNqU69kL01i5RVzSekZvNEPXOxLgb7lxcUe37/GHM+tZgawTHZ4MdJ7vWGPeAhkJAoMt23wPa+V44H7jahX83Ie6niwkuD6LF4115fwgQSuhf219Rd31jrwz1J2UevtzT6yKEvWC0fXAEloSgjXc13JtGHcUT25G8/21vn+WE8h4IGwwenx0AUdeXuyagANw1rMPcEkKaUitwOL4XWf8bAO5sCc8teujf3sf50+LII3cOqPc7dqFWMwBGcygOnKfNX7Y/r/IbAQ="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc1MjA1NjAxNjM4NiwKICAicHJvZmlsZUlkIiA6ICJlNjRkNGNmYzIwNTU0ZGRhYTQ2N2Q0MDkxM2ZmNTc5ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrbHh5X2Zpc2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYwZDA2OTMwMjFhODk2OGI4ODNhNGFkMWU3MWMxYjBiMGNkMWJjYmEzODNiNjI3NzVjY2IzZDUxN2RjNzM2OSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					id: "45FB0BD5E372BB25"
+					silent: true
+					team_reward: true
+					title: "&c除了玩家没有任何东西可以破坏方块了"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing alexscaves:tremorzilla false"
+					elevate_perms: true
+					id: "46C1F22291BB47AE"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing iceandfire:fire_dragon false"
+					elevate_perms: true
+					id: "02E88963863FC757"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing iceandfire:ice_dragon false"
+					elevate_perms: true
+					id: "16B466D1E0CC9306"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing iceandfire:lightning_dragon false"
+					elevate_perms: true
+					id: "4743A226E3059B4E"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:the_harbinger false"
+					elevate_perms: true
+					id: "477E091029F79C06"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:netherite_monstrosity false"
+					elevate_perms: true
+					id: "5D7819FF00A60F8E"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:ignis false"
+					elevate_perms: true
+					id: "7B935B737316C1CE"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:ender_guardian false"
+					elevate_perms: true
+					id: "2FBD2B2CD27B747B"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:the_leviathan false"
+					elevate_perms: true
+					id: "6BDA144618986F21"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:ancient_remnant false"
+					elevate_perms: true
+					id: "548CD6BD8CA2FDE6"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:scylla false"
+					elevate_perms: true
+					id: "63E88C9DEB59ECAB"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamerule mobGriefing false"
+					elevate_perms: true
+					id: "2696072F49CEAF14"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing alexscaves:luxtructosaurus false"
+					elevate_perms: true
+					id: "7261493A49B65A9B"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing mekanismadditions:baby_creeper false"
+					elevate_perms: true
+					id: "6FAA0B8E390982D4"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing dungeonsmobs:icy_creeper false"
+					elevate_perms: true
+					id: "493372EF4C4A8699"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing witherstormmod:withered_symbiont false"
+					elevate_perms: true
+					id: "4F47DEE6F4A70DD2"
+					silent: true
+					team_reward: true
+					title: "no!!!"
+					type: "command"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3AC14A5F695A87FE"
+				title: "关闭生物破坏&4【警告！会导致生电佬红温】"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1880AA0A19B3B9F3"]
+			description: ["                    &4 没有奖励"]
+			icon: "alexscaves:nuclear_bomb"
+			id: "5736E3FD1D9E96FE"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mobgriefing minecraft:creeper true"
+					elevate_perms: true
+					icon: "alexscaves:nuclear_bomb"
+					id: "473307B8E4422283"
+					silent: true
+					team_reward: true
+					title: "&4我成了死神 世界的毁灭者"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing alexscaves:tremorzilla true"
+					elevate_perms: true
+					id: "20C829F864D84CD0"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing iceandfire:fire_dragon true"
+					elevate_perms: true
+					id: "178AD16D2557EAC4"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing iceandfire:ice_dragon true"
+					elevate_perms: true
+					id: "2347B0547264C0FC"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing iceandfire:lightning_dragon true"
+					elevate_perms: true
+					id: "29462F92A89DC39C"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:the_harbinger true"
+					elevate_perms: true
+					id: "35FEB0855E7F2574"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:netherite_monstrosity true"
+					elevate_perms: true
+					id: "0E36589B6821E9B1"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:ignis true"
+					elevate_perms: true
+					id: "348A798663DB3696"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:ender_guardian true"
+					elevate_perms: true
+					id: "40F02D9B3AE2279D"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:the_leviathan true"
+					elevate_perms: true
+					id: "70A5B246CA092426"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:ancient_remnant true"
+					elevate_perms: true
+					id: "3B438D61F95EBB69"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing cataclysm:scylla true"
+					elevate_perms: true
+					id: "5217D0028B3F3918"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamerule mobGriefing true"
+					elevate_perms: true
+					id: "36F1560CB9F356D0"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing mekanismadditions:baby_creeper true"
+					elevate_perms: true
+					id: "290A730C12436691"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing dungeonsmobs:icy_creeper true"
+					elevate_perms: true
+					id: "4A4836DB69EF5BFA"
+					silent: true
+					team_reward: true
+					title: "no"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing alexscaves:luxtructosaurus true"
+					elevate_perms: true
+					id: "70962395D5DEAA2D"
+					silent: true
+					team_reward: true
+					title: "NO"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/mobgriefing witherstormmod:withered_symbiont true"
+					elevate_perms: true
+					id: "38B17DE5D50F65E0"
+					silent: true
+					team_reward: true
+					title: "no!"
+					type: "command"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "41E20F9D08141F42"
+				title: "完全解锁生物破坏&4【住手！你在干什么】"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B6EC7BF338A1E99"]
+			description: ["这里是一些&a游戏内&f的配置选项。默认情况下&c怪物破坏方块没有任何限制&f且难度是&a普通&f难度。如有需要请调整详细设置"]
+			id: "1880AA0A19B3B9F3"
+			rewards: [{
+				id: "49234D581ACE237E"
+				team_reward: true
+				type: "xp"
+				xp: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6B972FC7B6565AFB"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	title: "&e配置"
+}

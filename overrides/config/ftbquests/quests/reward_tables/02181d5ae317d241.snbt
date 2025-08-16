@@ -1,0 +1,51 @@
+{
+	id: "02181D5AE317D241"
+	loot_size: 100
+	order_index: 0
+	rewards: [
+		{
+			auto: "invisible"
+			command: "/mobgriefing minecraft:creeper false"
+			elevate_perms: true
+			silent: true
+			team_reward: true
+			title: "苦力怕不准爆"
+			type: "command"
+		}
+		{
+			auto: "invisible"
+			command: "/mobgriefing alexscaves:tremorzilla false"
+			elevate_perms: true
+			silent: true
+			team_reward: true
+			title: "哥斯拉你冷静点"
+			type: "command"
+			weight: 100.0f
+		}
+		{
+			auto: "invisible"
+			command: "/mobgriefing iceandfire:fire_dragon false"
+			elevate_perms: true
+			silent: true
+			team_reward: true
+			title: "哈基火龙你这家伙"
+			type: "command"
+			weight: 100.0f
+		}
+		{
+			auto: "invisible"
+			command: "/mobgriefing iceandfire:ice_dragon false"
+			elevate_perms: true
+			silent: true
+			team_reward: true
+			title: "哈基冰龙你这家伙"
+			type: "command"
+		}
+		{
+			command: "/mobgriefing iceandfire:lightning_dragon false"
+			title: "哈基电龙你这家伙"
+			type: "command"
+		}
+	]
+	title: "苦力怕与小宠物"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "mob": [
+      "dungeonsmobs:wavewhisperer",
+      "dungeonsmobs:whisperer",
+      "friendsandfoes:mauler",
+      "friendsandfoes:wildfire",
+      "friendsandfoes:crab",
+      "friendsandfoes:rascal"
+    ],
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "alexsmobs:cockroach",
+      "alexsmobs:tarantula_hawk",
+      "alexsmobs:crimson_mosquito",
+      "alexsmobs:warped_mosco",
+      "alexsmobs:fly",
+      "alexsmobs:centipede_head",
+      "alexsmobs:centipede_body",
+      "alexsmobs:leafcutter_ant",
+      "iceandfire:myrmex_worker",
+      "iceandfire:myrmex_soldier",
+      "iceandfire:myrmex_sentinel",
+      "iceandfire:myrmex_royal",
+      "iceandfire:myrmex_queen",
+      "alexscaves:gammaroach"
+    ],
+    "gamestage": "nobug",
+    "when": "onjoin",
+    "result": "deny"
+  }
+]

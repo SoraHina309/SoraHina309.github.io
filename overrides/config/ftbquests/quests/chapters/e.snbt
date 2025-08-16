@@ -1,0 +1,1363 @@
+{
+	autofocus_id: "5603B15340CBCC10"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "e"
+	group: "59DFC4C99E69DB7C"
+	icon: {
+		Count: 1
+		id: "kaleidoscope_cookery:iron_kitchen_knife"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "36FBCB2954AEA8F0"
+	images: [{
+		height: 48.0d
+		image: "kaleidoscope_doll:item/doll_icon"
+		rotation: 0.0d
+		width: 48.0d
+		x: -0.5d
+		y: 2.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B6EC7BF338A1E99"]
+			description: [
+				"本整合包添加了&e森罗物语&r这款烹饪mod。"
+				"跟&2农夫乐食&r相比更加偏向&c中式烹饪&r"
+				"&e←模组食品图鉴&6→模组物品介绍"
+			]
+			id: "5603B15340CBCC10"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "0B23AB011B2F3413"
+				title: "&e森罗物语"
+				type: "checkmark"
+			}]
+			x: -0.4035714285714249d
+			y: 2.043877551020408d
+		}
+		{
+			dependencies: ["355C31C2ED0D6F66"]
+			description: [
+				"&e森罗物语有自己的炉灶&r，但是出于整合考量最终用&2农夫乐食炉灶&r进行了&6替换&r"
+				"不过你也可以用&6岩浆，火焰，篝火，岩浆块&r来对炒锅和汤锅进行加热。"
+			]
+			id: "72D6D56FD7CAFA35"
+			tasks: [{
+				id: "515003C6CDFDF52F"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "&6关于炉灶"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"06F0193FC1C91616"
+				"686A97EA6A6C2AEA"
+			]
+			description: [
+				"在森罗物语中，炒菜需要用菜刀击杀所有名字里带&2猪&r的生物获取&6油脂&r"
+				"没错！就是&2猪油&r，该模组目前并没有加入菜籽油。"
+				"&2油脂&r可以以很浪漫的形式被存放在&6搪瓷缸&r里&7&m（请不要在厨师烹饪的时候乱拿木棍敲搪瓷缸）&r"
+			]
+			id: "1308BDF3F851DD73"
+			tasks: [{
+				id: "00C18AACD4841988"
+				item: "kaleidoscope_cookery:oil"
+				type: "item"
+			}]
+			title: "&2这不清真"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72D6D56FD7CAFA35"]
+			description: ["有了这些东西你还是做不了饭"]
+			icon: {
+				Count: 1
+				id: "kaleidoscope_cookery:gold_kitchen_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "06F0193FC1C91616"
+			tasks: [
+				{
+					id: "60D3C266A2847922"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "kaleidoscope_cookery:kitchen_knife"
+						}
+					}
+					title: "&e获得一把任意森罗物语菜刀"
+					type: "item"
+				}
+				{
+					id: "7AECAB1ED85DF691"
+					item: {
+						Count: 1
+						id: "kaleidoscope_cookery:kitchen_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "锅铲"
+					type: "item"
+				}
+				{
+					id: "3048CC29DDA4FBE3"
+					item: {
+						Count: 1
+						id: "kaleidoscope_cookery:stockpot_lid"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58D411C002AEA57A"
+					item: "kaleidoscope_cookery:chopping_board"
+					type: "item"
+				}
+			]
+			title: "&e厨房四宝"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["72D6D56FD7CAFA35"]
+			description: ["因为你没有准备锅"]
+			id: "686A97EA6A6C2AEA"
+			tasks: [
+				{
+					id: "1120C90DB33A7F03"
+					item: "kaleidoscope_cookery:stockpot"
+					type: "item"
+				}
+				{
+					id: "33D29EBB4060DD71"
+					item: "kaleidoscope_cookery:pot"
+					type: "item"
+				}
+			]
+			title: "&6获得炊具"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1308BDF3F851DD73"]
+			description: [
+				"在森罗物语中炒菜需要&e油脂&r，且不同的菜有不同的翻炒次数要求&7（手持锅铲右键两次视作一次翻炒）&r"
+				"&e油脂&r可以手动右键放入也可以用锅铲右键盛起&6搪瓷杠内的油脂&r后右键放入"
+			]
+			id: "04CA0D4D5D6A13C2"
+			tasks: [{
+				id: "7AEE13AEB68F811E"
+				title: "&6关于炒菜"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1308BDF3F851DD73"]
+			description: [
+				"在&e森罗物语&r中你可以用&6汤锅&r煲汤"
+				"按配方加入流体和物品后&a手持汤锅盖右键汤锅盖上汤锅盖&r。即可开始煲汤"
+				"可随时取下锅盖查看烹饪进度，如果变为&6暖褐色&r即可用碗盛出"
+				"&7&m请不要将桶塞入汤锅&r"
+			]
+			id: "6C82AB86CFDD2ED2"
+			tasks: [{
+				id: "65CFA05ECC91A69B"
+				title: "&e关于煲汤"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1308BDF3F851DD73"]
+			description: [
+				"&c旋风烤肉塔&f是一种接收到&c红石信号&f后可以&6旋转并烤制其上生食的机器"
+				"也可以跟其他方块搭在一起用于装饰"
+			]
+			id: "4DE95BDDC1C5F50D"
+			tasks: [{
+				id: "5090985F211FBE01"
+				item: "kaleidoscope_cookery:shawarma_spit"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04CA0D4D5D6A13C2"]
+			description: ["&7烈焰人の神秘小吃&r（炒锅内容物变黑后盛出获得）"]
+			id: "593A06141B3B5BBD"
+			tasks: [{
+				id: "62D72789D9A1285B"
+				item: "kaleidoscope_cookery:dark_cuisine"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04CA0D4D5D6A13C2"]
+			description: ["&7粘腻焦糊&r（炒菜配方错误后盛出获得）"]
+			id: "0A6A3B3A4C288936"
+			tasks: [{
+				id: "15F27EF11C8A01AD"
+				item: "kaleidoscope_cookery:suspicious_stir_fry"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C82AB86CFDD2ED2"]
+			description: [
+				"&6汤锅&r还可以蒸饭，按照配方放入&b水&r和米后"
+				"等待内容物变白即可盛出"
+				"&7手持米饭右键盛出炒好的菜即可获得盖浇饭&r"
+			]
+			id: "6A2CB710C2BCBC64"
+			tasks: [{
+				id: "328C253FBDD96A83"
+				item: "kaleidoscope_cookery:cooked_rice"
+				type: "item"
+			}]
+			title: "&e巧妇难做无米之炊"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C82AB86CFDD2ED2"]
+			id: "3D5A799AED6B2866"
+			tasks: [{
+				id: "22F86D6D78C99ADC"
+				item: {
+					Count: 1
+					id: "minecraft:suspicious_stew"
+					tag: {
+						Effects: [{
+							EffectDuration: 7
+							EffectId: 23
+							"forge:effect_id": "minecraft:saturation"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1308BDF3F851DD73"]
+			description: [
+				"&e森罗物语&r的切肉板，可以将&c肉&r切割成&e森罗物语&r独有的食材"
+				"只需要放上&c肉&r后拿菜刀右键切肉板即可"
+			]
+			id: "17AF321DEEDF6D02"
+			tasks: [{
+				id: "461F08C361EC88D2"
+				item: "kaleidoscope_cookery:raw_pork_belly"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5603B15340CBCC10"]
+			description: [
+				"&e森罗物语&r的作物种子，需要穿戴&6草帽&r后&2破坏草&r才可获取。"
+				"&7（本整合包统一了番茄种子）&r"
+			]
+			icon: {
+				Count: 1
+				id: "kaleidoscope_cookery:straw_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "355C31C2ED0D6F66"
+			tasks: [{
+				id: "68957DC373B3343B"
+				title: "&6关于草帽"
+				type: "checkmark"
+			}]
+			title: "&6关于草帽"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72D6D56FD7CAFA35"]
+			description: [
+				"森罗物语添加了&c辣椒作物&r，收获辣椒有&620%概率&r会获得&2青辣椒&r"
+				"直接食用辣椒会受到两点伤害，可将其制成&c辣椒串&r悬挂储存"
+				"&7辣椒串会对贴近自身的亡灵生物造成伤害&r"
+			]
+			id: "6474647F76226209"
+			tasks: [{
+				id: "6E1EF78307FCBC21"
+				item: "kaleidoscope_cookery:red_chili"
+				type: "item"
+			}]
+			title: "&c驱邪避寒"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5603B15340CBCC10"]
+			description: ["每做过一种食物会获得&a调查点奖励&r"]
+			id: "4F0E5378A1E5905E"
+			tasks: [{
+				id: "5D76992EDA948821"
+				title: "饭类图鉴"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["72D6D56FD7CAFA35"]
+			description: ["如果你觉得炉灶太高，可以制作这个"]
+			id: "7BD7B1663140083A"
+			tasks: [{
+				id: "4A674EC2BCDFFD20"
+				item: "kaleidoscope_cookery:cook_stool_oak"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7BD7B1663140083A"]
+			description: ["吃饭的必要仪式感(可以使用地毯进行装饰)"]
+			id: "6C9CEAF99275B0CB"
+			tasks: [
+				{
+					id: "0ADD6D02C69C4071"
+					item: "kaleidoscope_cookery:table_oak"
+					type: "item"
+				}
+				{
+					id: "5217E34AD26E27FC"
+					item: "kaleidoscope_cookery:chair_oak"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1308BDF3F851DD73"]
+			description: [
+				"&e森罗物语&r添加了可以用&b钻石&r抽出礼盒的&3玩偶抽奖机&r"
+				"&7将礼盒放置在地上左键即可取出玩偶&r"
+			]
+			id: "0E42D94C29921571"
+			tasks: [{
+				id: "3644E91BE0C9F5A2"
+				item: "kaleidoscope_doll:doll_machine"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F0E5378A1E5905E"]
+			id: "4DD056E5FA4C2EE5"
+			rewards: [{
+				count: 5
+				id: "15D8918BE3EB8C99"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C0059B851D20911"
+				item: "kaleidoscope_cookery:egg_fried_rice"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4F0E5378A1E5905E"]
+			id: "4FD9F9816650118B"
+			rewards: [{
+				count: 5
+				id: "61D3C1E53226BC7F"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "430B822B6FFA2027"
+				item: "kaleidoscope_cookery:stir_fried_beef_offal_rice_bowl"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4F0E5378A1E5905E"]
+			id: "628BB665C146AAD1"
+			rewards: [{
+				count: 5
+				id: "2D79F460748DB25E"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37A217C82AD69267"
+				item: "kaleidoscope_cookery:delicious_egg_fried_rice"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4F0E5378A1E5905E"]
+			id: "5EAC3C6AF86083D8"
+			rewards: [{
+				count: 5
+				id: "37DC8EF5AF83BA59"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44C1A4D57229F1CF"
+				item: "kaleidoscope_cookery:scramble_egg_with_tomatoes_rice_bowl"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4F0E5378A1E5905E"]
+			id: "2BA00983B4A9F6FA"
+			rewards: [{
+				count: 5
+				id: "26224ADF88AE5C01"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72D086A603D40F12"
+				item: "kaleidoscope_cookery:braised_beef_rice_bowl"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4F0E5378A1E5905E"]
+			id: "1B450677B29785AE"
+			rewards: [{
+				count: 5
+				id: "56FFC683731DD8E5"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "204020666B5F5371"
+				item: "kaleidoscope_cookery:sweet_and_sour_pork_rice_bowl"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4F0E5378A1E5905E"]
+			id: "2E5B55C00040C991"
+			rewards: [{
+				count: 5
+				id: "168AC8F53609B063"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E0BB95782BA63FB"
+				item: "kaleidoscope_cookery:stir_fried_pork_with_peppers_rice_bowl"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4F0E5378A1E5905E"]
+			id: "4A12B86EEBE40D0F"
+			rewards: [{
+				count: 5
+				id: "0CE7749E4FC70DF8"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "203DD4ADBDF4EB8B"
+				item: "kaleidoscope_cookery:fish_flavored_shredded_pork_rice_bowl"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4F0E5378A1E5905E"]
+			id: "6C6CB2D50B75B503"
+			rewards: [{
+				count: 5
+				id: "7CA87D21407BD73F"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63577EAFA52E0A83"
+				item: "kaleidoscope_cookery:braised_fish_rice_bowl"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4F0E5378A1E5905E"]
+			id: "33C171B5F742EC48"
+			rewards: [{
+				count: 5
+				id: "20871253A5813724"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24EE497C9592CE14"
+				item: "kaleidoscope_cookery:spicy_chicken_rice_bowl"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4F0E5378A1E5905E"]
+			id: "26B06211395F2EC0"
+			rewards: [{
+				count: 5
+				id: "69A270EDF1AC53C0"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "463D533CFDAC1BDC"
+				item: "kaleidoscope_cookery:suspicious_stir_fry_rice_bowl"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4F0E5378A1E5905E"]
+			id: "0100B4A001997659"
+			rewards: [{
+				count: 5
+				id: "70F446E194BC3A16"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56CAD8C33D161B89"
+				item: "kaleidoscope_cookery:slime_ball_meal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5603B15340CBCC10"]
+			description: ["每做过一种食物会获得&a调查点奖励&r"]
+			id: "679F9099A5064AF7"
+			tasks: [{
+				id: "77D8FB6CF528D1E0"
+				title: "炒菜图鉴"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["355C31C2ED0D6F66"]
+			description: [
+				"稻草人能够防止周围的耕地被踩坏"
+				"可以用头颅，灯笼，工具对其进行装饰"
+			]
+			id: "6993655EE41465DA"
+			tasks: [{
+				advancement: "kaleidoscope_cookery:scarecrow"
+				criterion: ""
+				id: "6AD2434AE907240C"
+				title: "稻草人"
+				type: "advancement"
+			}]
+			title: "&6麦田守望者"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["355C31C2ED0D6F66"]
+			description: [
+				"&e水稻&r需要在上方有一格&b水&r的&6耕地&r上种植"
+				"如果水里有&3鱼&r或&d美西螈&r可以加快&e水稻&r的成长"
+				"&7穿戴全套农夫装备时，可在稻田持续获得游泳速度加成&r"
+			]
+			icon: "kaleidoscope_cookery:wild_rice"
+			id: "13BE58D45E9B2208"
+			tasks: [{
+				id: "51B67927B29678EF"
+				item: "kaleidoscope_cookery:wild_rice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72D6D56FD7CAFA35"]
+			description: ["&6厨具架&r可以存放&e厨具&r，&e果篮&r可以像潜影盒一样存放&6食物&r"]
+			id: "6772F62D05843A2C"
+			tasks: [
+				{
+					id: "4A293B7DCAD475FE"
+					item: "kaleidoscope_cookery:fruit_basket"
+					type: "item"
+				}
+				{
+					id: "36FE433EA14F38B5"
+					item: "kaleidoscope_cookery:kitchenware_racks"
+					type: "item"
+				}
+			]
+			title: "&e厨房储存"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5603B15340CBCC10"]
+			description: ["每做过一种食物会获得&a调查点奖励&r"]
+			id: "3574D6303C278FDB"
+			tasks: [{
+				id: "20AFE39C56FF3EC6"
+				title: "魔物菜品"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5603B15340CBCC10"]
+			description: ["每做过一种食物会获得&a调查点奖励&r"]
+			id: "65FDDE79B31A481D"
+			tasks: [{
+				id: "74462A04FE132AEC"
+				title: "汤类图鉴"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["679F9099A5064AF7"]
+			id: "61D8529817B8E23A"
+			rewards: [{
+				count: 5
+				id: "4C53AF97C321EC51"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31862BA9ED3C18C2"
+				item: "kaleidoscope_cookery:country_style_mixed_vegetables"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["679F9099A5064AF7"]
+			id: "62C23B3CFB78188C"
+			rewards: [{
+				count: 5
+				id: "699AC719D240C01A"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "741267999B055F9D"
+				item: "kaleidoscope_cookery:stir_fried_beef_offal"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["679F9099A5064AF7"]
+			id: "4CE4A8DAD0EBAAC3"
+			rewards: [{
+				count: 5
+				id: "57F28CEAF38AFCF2"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AC6412A2A2D9D92"
+				item: "kaleidoscope_cookery:braised_beef"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["679F9099A5064AF7"]
+			id: "7AE666EBBCDFC981"
+			rewards: [{
+				count: 5
+				id: "58B5CAC991C9637B"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "335F959E50275A77"
+				item: "kaleidoscope_cookery:scramble_egg_with_tomatoes"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["679F9099A5064AF7"]
+			id: "1B17831E6BEBF157"
+			rewards: [{
+				count: 5
+				id: "1476471C2B14A5CC"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "047B6E9EEE5F7CA1"
+				item: "kaleidoscope_cookery:stir_fried_pork_with_peppers"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["679F9099A5064AF7"]
+			id: "28A93D0661915302"
+			rewards: [{
+				count: 5
+				id: "63E4C680D2D8D1B6"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54A1ADA28AC22E23"
+				item: "kaleidoscope_cookery:sweet_and_sour_pork"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["679F9099A5064AF7"]
+			id: "1D800B78E6DAFDA7"
+			rewards: [{
+				count: 5
+				id: "6EA2FC059A04C008"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "273D2F7CB8DE93A6"
+				item: "kaleidoscope_cookery:fish_flavored_shredded_pork"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["679F9099A5064AF7"]
+			id: "23A24A8E377C596B"
+			rewards: [{
+				count: 5
+				id: "3F7C0C98FEB5E283"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B1356289E42543E"
+				item: "kaleidoscope_cookery:dongpo_pork"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["679F9099A5064AF7"]
+			id: "175F5D5276213581"
+			rewards: [{
+				count: 5
+				id: "1D763C71DD632F0D"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "176FF05D4AD4D3A1"
+				item: "kaleidoscope_cookery:braised_fish"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["679F9099A5064AF7"]
+			id: "1B43B56DD6C2B25B"
+			rewards: [{
+				count: 5
+				id: "1EE9378E2A68A076"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CC32C805410D9F7"
+				item: "kaleidoscope_cookery:stargazy_pie"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["679F9099A5064AF7"]
+			id: "7E762539C0D323E5"
+			rewards: [{
+				count: 5
+				id: "4E86504440852092"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FD303D1A25D2D8A"
+				item: "kaleidoscope_cookery:spicy_chicken"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["679F9099A5064AF7"]
+			id: "7E5CA9CACC7BF484"
+			rewards: [{
+				count: 5
+				id: "103644AB824779E3"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67380FEB915CC14C"
+				item: "kaleidoscope_cookery:yakitori"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["679F9099A5064AF7"]
+			id: "3D7FA9E16EE56BEB"
+			rewards: [{
+				count: 5
+				id: "5675A2F470392740"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57A88F6F233B6254"
+				item: "kaleidoscope_cookery:fondant_pie"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65FDDE79B31A481D"]
+			id: "16BDB494DA64FDCA"
+			rewards: [{
+				count: 5
+				id: "558E59858C82CD42"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "130823ECFE424CD8"
+				item: "kaleidoscope_cookery:chicken_and_mushroom_stew"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65FDDE79B31A481D"]
+			id: "445EAB62441C75FC"
+			rewards: [{
+				count: 5
+				id: "4CD068B77CBBEB85"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F932E0AFF073DDA"
+				item: "kaleidoscope_cookery:pork_bone_soup"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65FDDE79B31A481D"]
+			id: "23429895587EB6F5"
+			rewards: [{
+				count: 5
+				id: "61B4752F8AA21192"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "076FD3D109786C04"
+				item: "kaleidoscope_cookery:lamb_and_radish_soup"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65FDDE79B31A481D"]
+			id: "3075D574247D2841"
+			rewards: [{
+				count: 5
+				id: "39203527DA248F07"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64D9C87C07C2C16D"
+				item: "kaleidoscope_cookery:tomato_beef_brisket_soup"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["65FDDE79B31A481D"]
+			id: "266294CFA8EBD659"
+			rewards: [{
+				count: 5
+				id: "51C3421C47EB405A"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BECED670E6CE1EE"
+				item: "kaleidoscope_cookery:wild_mushroom_rabbit_soup"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65FDDE79B31A481D"]
+			id: "3F41AAD6469DD2CE"
+			rewards: [{
+				count: 5
+				id: "691D014C76DBFFB3"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EFE05B8AEF77F38"
+				item: "kaleidoscope_cookery:pufferfish_soup"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65FDDE79B31A481D"]
+			id: "2475300624108556"
+			rewards: [{
+				count: 5
+				id: "6BE8A455682310F2"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E8EA507AD5B9CF9"
+				item: "kaleidoscope_cookery:borscht"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65FDDE79B31A481D"]
+			id: "1E1CDAB2BE4B2D9E"
+			rewards: [{
+				count: 5
+				id: "7FD03ABC45B28D45"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A445C625D71D52D"
+				item: "kaleidoscope_cookery:beef_meatball_soup"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["65FDDE79B31A481D"]
+			id: "4E74F4359BF135D5"
+			rewards: [{
+				count: 5
+				id: "03F0BE0C7D698D15"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "047D5CF2B1EAFBFB"
+				item: "kaleidoscope_cookery:braised_beef_with_potatoes"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65FDDE79B31A481D"]
+			id: "158A1A0ABDD45E0C"
+			rewards: [{
+				count: 5
+				id: "597CEE161D771C35"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DE94895DE0DFA03"
+				item: "kaleidoscope_cookery:seafood_miso_soup"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "6B5053FC75DAC423"
+			rewards: [{
+				count: 5
+				id: "0D5B7065B0D9D057"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14B78FBA78DC9B0A"
+				item: "kaleidoscope_cookery:frost_lamb_chop"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "6B87249EF77D1EC7"
+			rewards: [{
+				count: 5
+				id: "34ABF64568305454"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FE305D5D933A06B"
+				item: "kaleidoscope_cookery:crystal_lamb_chop"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "4EB7C1BCC715484E"
+			rewards: [{
+				count: 5
+				id: "3727B0740A26791E"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EA72E3F779F2B91"
+				item: "kaleidoscope_cookery:blaze_lamb_chop"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "15D16C7E0694C74D"
+			rewards: [{
+				count: 5
+				id: "7A3D5D6AE2A99720"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C8C900F26FEE8A1"
+				item: "kaleidoscope_cookery:dark_cuisine"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "62495C70F9F34067"
+			rewards: [{
+				count: 5
+				id: "060F3FCE87F057C9"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6544F330E8458782"
+				item: "kaleidoscope_cookery:fearsome_thick_soup"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "58CF9BA158994C7B"
+			rewards: [{
+				count: 5
+				id: "47AAA7679765C3BF"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A7FF4D3ED59F75B"
+				item: "kaleidoscope_cookery:desert_style_sashimi"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "4112743ABD1AA6FD"
+			rewards: [{
+				count: 5
+				id: "66BF94DE5F3B28FB"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6109821B4AF8276E"
+				item: "kaleidoscope_cookery:nether_style_sashimi"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "705FE74D80596286"
+			rewards: [{
+				count: 5
+				id: "4B5A391FE8452421"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D6E8020C9342BB3"
+				item: "kaleidoscope_cookery:end_style_sashimi"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "2F30F33A8973822D"
+			rewards: [{
+				count: 5
+				id: "638F89078A3C052C"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17879D1EB17E9EDE"
+				item: "kaleidoscope_cookery:cold_style_sashimi"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "14796293B030E2FC"
+			rewards: [{
+				count: 5
+				id: "7CFF25064CC9E055"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50B535564A8DD255"
+				item: "kaleidoscope_cookery:tundra_style_sashimi"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "2099A416E2FA5B3F"
+			rewards: [{
+				count: 5
+				id: "0F6B35D875E63B1B"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ED12847E3773BFD"
+				item: "kaleidoscope_cookery:sweet_and_sour_ender_pearls"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "0605EB5176F3A64C"
+			rewards: [{
+				count: 5
+				id: "0D362B2A1CA23E84"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63B7D52B26522F16"
+				item: "kaleidoscope_cookery:pan_seared_knight_steak"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "58F0868E753C1F15"
+			rewards: [{
+				count: 5
+				id: "5A36441205AC7537"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F0E82EEEA7E5413"
+				item: "kaleidoscope_cookery:fondant_spider_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "367DDAB8E7DEF5F8"
+			rewards: [{
+				count: 5
+				id: "1F687EADA03DFE88"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72A89891CB0778B3"
+				item: "kaleidoscope_cookery:chorus_fried_egg"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "56862F1C40CAC84E"
+			rewards: [{
+				count: 5
+				id: "143E9856C2A19CF0"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A44D3877F748EEF"
+				item: "kaleidoscope_cookery:golden_salad"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3574D6303C278FDB"]
+			id: "5C6B39523027D90A"
+			rewards: [{
+				count: 5
+				id: "68AA6A5073ABD772"
+				item: "fallout:adaptation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E286BB47E4C5F53"
+				item: "kaleidoscope_cookery:slime_ball_meal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["355C31C2ED0D6F66"]
+			description: ["&e森罗物语&r增加了&a生菜&r，一种普通的&2蔬菜&r"]
+			id: "1DD5779886C7F9B0"
+			tasks: [{
+				id: "45CE6090D173376C"
+				item: "kaleidoscope_cookery:lettuce"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["355C31C2ED0D6F66"]
+			description: ["&e森罗物语&r增加了&c番茄&r，一种多汁的&c果实&r"]
+			id: "4D101B41BB92CE48"
+			tasks: [{
+				id: "4A5C04672CCEDB06"
+				item: "kaleidoscope_cookery:tomato"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+	]
+	title: "&e森罗万象"
+}

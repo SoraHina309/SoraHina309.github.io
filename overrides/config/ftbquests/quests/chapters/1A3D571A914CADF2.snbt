@@ -1,0 +1,219 @@
+{
+	autofocus_id: "4726F92C0419B9EE"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "1A3D571A914CADF2"
+	group: "5AEC04CE2B55D87F"
+	icon: "cataclysm:kobolediator_skull"
+	id: "1A3D571A914CADF2"
+	images: [{
+		height: 12.0d
+		image: "majruszsdifficulty:item/advancement_master"
+		rotation: 0.0d
+		width: 12.0d
+		x: 1.0d
+		y: -7.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75B3835B9BEACCA5"]
+			description: [
+				"在本整合包中，存在名为&4入侵&f的特殊事件。"
+				"首次进入游戏后，你将享有&a7天（游戏内时间）的安全期&f，此期间不会触发任何入侵。"
+				"入侵事件分为三个难度等级：&6普通/&f&c超级/&f&5噩梦&f 高难度袭击会影响游戏亮度，准备好你的照明手段！"
+				"&4日间入侵&f比&5夜间入侵&f更稀有且困难。"
+				"触发规律："
+				"安全期结束后每天都可能发生袭击,袭击皆可通过&c击杀150个入侵实体&f提前终止。"
+				"平均四天发生一次&6低难度入侵&f。平均七天可能发生一次&c高难度入侵&f。"
+			]
+			icon: "tacz:statue"
+			id: "4726F92C0419B9EE"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "4610DE335E0CF674"
+					team_reward: true
+					type: "xp"
+					xp: 20
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show invasion_info"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "6B21F333AACB2C46"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7FF211C66182713B"
+				type: "checkmark"
+			}]
+			title: "关于&4日间入侵/&5夜间入侵"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["75B3835B9BEACCA5"]
+			description: [
+				"在本整合包中&5不死军团&f会在一名玩家击杀1000只亡灵后出现，&c它会随着时间的推移和而玩家参与进来的多少而增加难度。"
+				"在杀死最后的亡灵后，每个在亡灵军队区域内的玩家都将获得 &e亡灵军团宝藏袋。"
+				"在普通难度下;会有骷髅/僵尸/尸壳/凋零骷髅/&6tank/&c地狱犬出现。"
+				"在专家难度下:会有&6骷髅先锋/&f&c巨人&f出现。关底boss是击杀后会进入&4大师难度的凋零"
+				"在大.师难度下;普通的亡灵会被替换成&c骷髅先锋/再行魂尸/精英魂尸/皇家魂尸/&f 小boss则是&4地狱犬/巨人/冥行武弁。关底boss是&3咒翼灵骸"
+			]
+			icon: "majruszsdifficulty:undead_battle_standard"
+			id: "171FE8398773C5C7"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "5FD31B8E91A4B6BD"
+					type: "xp"
+					xp: 20
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show undead_army_intro"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "27B39905A67B05B0"
+					silent: true
+					title: "对话框"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "08AB5463D13A2BED"
+				title: "悚怖亡灵军团"
+				type: "checkmark"
+			}]
+			title: "关于亡灵军团"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["75B3835B9BEACCA5"]
+			description: [
+				"冠军怪物是一种比普通怪物更加强大的个体"
+				"冠军分为&7稀有/&e精英/&6大师/&b传奇/&d神话&f五个等级"
+				"每一级会获得一种&d词条"
+				"往下翻页以查看词条对应的效果"
+				"{@pagebreak}"
+				"适应：连击伤害递减  "
+				"极寒：发射冰弹减速目标  "
+				"灰烬：发射火球引发爆炸  "
+				"抑制：减免远程伤害  "
+				"{@pagebreak}"
+				"亵渎：生成持续伤害区域  "
+				"急速：大幅提升移速  "
+				"感染：受击召唤蠹虫  "
+				"瘫痪：概率定身目标  "
+				"{@pagebreak}"
+				"爆震：增强击退效果  "
+				"活力：自动回血（静止时更快）  "
+				"熔融：提升破甲能力  "
+				"瘟疫：传播凋零效果  "
+				"{@pagebreak}"
+				"反射：反弹部分伤害  "
+				"创伤：概率降低目标恢复力  "
+				"防护：周期性无敌  "
+				"磁力：定期牵引目标  "
+				"监禁：概率禁锢敌人  "
+			]
+			icon: "royalvariations:spiritual_crown"
+			id: "14D97AC0130DA23A"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute at @s run dialog show champion_affix_info"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "mekanism:energy_tablet"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "1000000"
+							}]
+						}
+					}
+				}
+				id: "41EA09FF9CD56E3B"
+				silent: true
+				title: "提示信息"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5554652597C00F04"
+				type: "checkmark"
+			}]
+			title: "关于冠军"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["75B3835B9BEACCA5"]
+			description: [
+				"在本整合包中枪械和近战武器命中实体会使实体&c流血，可以使用绷带包扎。"
+				"剑/斧/镐/锹/锄/造成的&c流血&f可以被护甲减免。"
+				"长剑/长刀/长戟和部分武器造成的&c流血无法被护甲减免。"
+				"传奇武器和枪械命中敌人会引起&4出血&f，&4出血无法使用绷带止血，会造成快速掉血且无法被护甲减免"
+			]
+			icon: "majruszsdifficulty:advancement_bleeding"
+			id: "7EA57B70A31BE1BD"
+			min_required_tasks: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute at @s run dialog show bleeding_info"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "783C3B0A83939BBE"
+					silent: true
+					title: "提示信息"
+					type: "command"
+				}
+				{
+					count: 4
+					id: "371D68C9172C0BF5"
+					item: "majruszsdifficulty:bandage"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DA75125BB7E2369"
+				type: "checkmark"
+			}]
+			title: "&c关于流血与出血"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B6EC7BF338A1E99"]
+			description: ["在本章节，将会着重讲述整合包的难度机制。&a有部分奖励"]
+			id: "75B3835B9BEACCA5"
+			rewards: [{
+				auto: "invisible"
+				id: "3EB0A515159FDDEE"
+				team_reward: true
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "31C40A06E1680105"
+				title: "嘟嘟哒嘟嘟达"
+				type: "checkmark"
+			}]
+			title: "章节介绍"
+			x: 1.5d
+			y: -8.25d
+		}
+	]
+	title: "&c入侵与防御"
+}

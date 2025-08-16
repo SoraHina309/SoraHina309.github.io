@@ -1,0 +1,11 @@
+{
+	icon: "superbwarfare:ap_5_inches"
+	id: "0AA6449EBDD67E5F"
+	loot_size: 2
+	order_index: 10
+	rewards: [
+		{ item: "superbwarfare:ap_5_inches" }
+		{ item: "superbwarfare:he_5_inches" }
+	]
+	title: "战舰世界"
+}

@@ -1,0 +1,16 @@
+{
+  "mobs": [
+    {
+      "name": "graveyard:ghoul",
+      "weight": 10
+    },
+    {
+      "name": "graveyard:nightmare",
+      "weight": 5
+    },
+    {
+      "name": "graveyard:wraith",
+      "weight": 5
+    }
+  ]
+}

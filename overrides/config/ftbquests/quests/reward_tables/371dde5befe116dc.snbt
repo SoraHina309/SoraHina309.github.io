@@ -1,0 +1,12 @@
+{
+	icon: "superbwarfare:vehicle_deployer"
+	id: "371DDE5BEFE116DC"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ item: "superbwarfare:vehicle_deployer" }
+		{ item: "superbwarfare:charging_station" }
+		{ item: "superbwarfare:aircraft_catapult" }
+	]
+	title: "载具大保健"
+}

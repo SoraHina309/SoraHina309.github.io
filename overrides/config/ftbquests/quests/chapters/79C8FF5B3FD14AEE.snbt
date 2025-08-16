@@ -1,0 +1,1607 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "79C8FF5B3FD14AEE"
+	group: "5AEC04CE2B55D87F"
+	icon: "minecraft:campfire"
+	id: "79C8FF5B3FD14AEE"
+	images: [
+		{
+			color: 7780891
+			height: 1.2d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			color: 43520
+			height: 1.2d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			color: 12213793
+			height: 1.2d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			color: 7780891
+			height: 1.2d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			color: 7780891
+			height: 1.2d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			color: 7631988
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			color: 11119017
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			color: 7631988
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/furnace_front_on"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			color: 9671571
+			height: 1.2d
+			image: "minecraft:block/coal_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			color: 9671571
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			color: 9671571
+			height: 1.2d
+			image: "minecraft:block/copper_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			color: 11119017
+			height: 1.2d
+			image: "minecraft:block/copper_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			color: 15461355
+			height: 1.2d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			color: 10724259
+			height: 1.2d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			color: 10724259
+			height: 1.2d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			color: 15461355
+			height: 1.2d
+			image: "minecraft:block/oak_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			color: 10592673
+			height: 1.2d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			color: 15461355
+			height: 1.2d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			color: 15461355
+			height: 1.2d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			color: 10592673
+			height: 1.2d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "create:block/zinc_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/copper_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			color: 11119017
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			color: 10592673
+			height: 1.2d
+			image: "minecraft:block/crafting_table_front"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/iron_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/iron_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/iron_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			color: 7631988
+			height: 1.2d
+			image: "minecraft:block/coal_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			color: 9671571
+			height: 1.2d
+			image: "minecraft:block/coal_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			color: 7631988
+			height: 1.2d
+			image: "minecraft:block/coal_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate_diamond_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			color: 10592673
+			height: 1.2d
+			image: "minecraft:block/ladder"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			color: 10592673
+			height: 1.2d
+			image: "minecraft:block/ladder"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			color: 10592673
+			height: 1.2d
+			image: "minecraft:block/ladder"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			color: 10592673
+			height: 1.2d
+			image: "minecraft:block/ladder"
+			order: 1
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			color: 11119017
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate_diamond_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate_diamond_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 14.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 15.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate_lapis_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate_lapis_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate_redstone_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate_gold_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate_redstone_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate_redstone_ore"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			color: 12232744
+			height: 1.2d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			color: 12232744
+			height: 1.2d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			color: 12227617
+			height: 1.2d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			color: 12213793
+			height: 1.2d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			color: 12213793
+			height: 1.2d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			color: 43520
+			height: 1.2d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			color: 43520
+			height: 1.2d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			color: 43520
+			height: 1.2d
+			image: "minecraft:block/oak_leaves"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:textures/misc/underwater.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:textures/misc/underwater.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:textures/misc/underwater.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:textures/misc/underwater.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			color: 13487565
+			height: 1.2d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			color: 15461355
+			height: 1.2d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			color: 15461355
+			height: 1.2d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			color: 15461355
+			height: 1.2d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			color: 15461355
+			height: 1.2d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			color: 7631988
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			color: 9671571
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			color: 9671571
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			color: 9671571
+			height: 1.2d
+			image: "minecraft:block/stone"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.5d
+			y: 14.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 15.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 16.0d
+		}
+		{
+			color: 13750737
+			height: 1.2d
+			image: "minecraft:block/deepslate"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.5d
+			y: 17.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["09CE54A789E7ACBC"]
+			description: [
+				"                  想致富,先撸树!"
+				"(这是一篇几乎没人看的章节，毕竟内容全是mc原版嘛。只是给玩家赛点小奖励凑数章节罢了)"
+			]
+			icon: "minecraft:oak_log"
+			id: "71455329F6724249"
+			rewards: [
+				{
+					count: 4
+					id: "44C9DC00B87F19CA"
+					item: "minecraft:oak_log"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3615F9DB4D941114"
+					item: "minecraft:campfire"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "6A073F5CB28C07D6"
+					team_reward: true
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				block: "minecraft:oak_log"
+				block_type: 0
+				checkItem: false
+				id: "315B91E7DDD9BF52"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "获得木头"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71455329F6724249"]
+			description: ["                 方块原始人！ 起洞"]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73B64A0849EF8655"
+			rewards: [
+				{
+					count: 11
+					id: "6D7878675465B009"
+					item: "minecraft:cobblestone"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "1A953E74B2259103"
+					team_reward: true
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/mine_stone"
+					criterion: ""
+					id: "03666378B22229F5"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:story/upgrade_tools"
+					criterion: ""
+					id: "1CE2C5698EA446B6"
+					type: "advancement"
+				}
+			]
+			title: "石器时代"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["02CDD57D3FEBF571"]
+			description: ["钻石恒久远可惜不耐烧"]
+			id: "0D63A1A0D4F06957"
+			rewards: [
+				{
+					id: "2F6BC46A0CC8ACB5"
+					item: "quark:diamond_heart"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "56A70ADA40690A8C"
+					item: {
+						Count: 1
+						id: "mekanismtools:diamond_paxel"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/mine_diamond"
+					criterion: ""
+					id: "3AA86EFA44AFF21C"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:story/shiny_gear"
+					criterion: ""
+					id: "34945740FF200BF2"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["73B64A0849EF8655"]
+			description: ["                     开凿！"]
+			id: "02CDD57D3FEBF571"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "711CC360130A7B15"
+					team_reward: true
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 15
+					id: "1BA46BA73D2DF4D2"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 选择精灵和女妖的起源的玩家。建议在获得轻便附魔前制造锁链套装。如果你选择这些种族后不慎制造了铁套。建议把铁套交给队友\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "4D7A04E8A9D43557"
+					silent: true
+					team_reward: true
+					title: "提示信息"
+					type: "command"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecraft:story/smelt_iron"
+					criterion: ""
+					id: "6B3AE9957145FA95"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:story/iron_tools"
+					criterion: ""
+					id: "704A4C7583028D6A"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:story/obtain_armor"
+					criterion: ""
+					id: "341E98E2C01392F2"
+					type: "advancement"
+				}
+			]
+			title: "铁器时代"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["02CDD57D3FEBF571"]
+			description: ["&c红石&f是一种性质特殊的&c红色粉末&f。有传闻说有人特别擅长用&c红石&f搭建所谓的&c“赤石科技”"]
+			id: "3A93B7602EC9ABAF"
+			rewards: [
+				{
+					count: 3
+					id: "77391B37DA17BB02"
+					item: "minecraft:redstone_block"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 6
+					exclude_from_claim_all: true
+					id: "3F4F0CB732C98B20"
+					item: "minecraft:redstone_torch"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					exclude_from_claim_all: true
+					id: "28B14EFC09B1B03C"
+					item: "minecraft:repeater"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					exclude_from_claim_all: true
+					id: "1F2831996D58EA7B"
+					item: "minecraft:comparator"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 20L
+				id: "18C85A15D9E4FA95"
+				item: { Count: 20, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			title: "赤石科技"
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0D63A1A0D4F06957"]
+			description: [
+				"恭喜你通过各种方式获得了一个附魔台"
+				"因此你获得了一个&2小石头！"
+			]
+			id: "15998419A5624A64"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0E4056323CE35CD0"
+					team_reward: true
+					type: "xp_levels"
+					xp_levels: 9
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> funky！\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					elevate_perms: true
+					icon: "iceandfire:summoning_crystal_ice"
+					id: "23D3800777CE5C34"
+					silent: true
+					team_reward: true
+					title: "⑨"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "4A935F585B4EF4D8"
+					item: {
+						Count: 1
+						id: "kaleidoscope_doll:doll_entity_item"
+						tag: {
+							doll_entity: {
+								doll_block_state: {
+									Name: "kaleidoscope_doll:doll_241"
+									Properties: {
+										facing: "south"
+										waterlogged: "false"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1E92D6F18BDBFF17"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["09CE54A789E7ACBC"]
+			description: [
+				"在本整合包里缺&b水&f不会导致你受到伤害，但会导致你不能奔跑和视线模糊"
+				"所以请多喝&b热水"
+			]
+			icon: "legendarysurvivaloverhaul:water_purifier"
+			id: "7930666AFD75411F"
+			rewards: [
+				{
+					id: "5265F82AF93A06F0"
+					item: "legendarysurvivaloverhaul:purified_water_bottle"
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "0D864366664BFDB8"
+					team_reward: true
+					type: "xp"
+					xp: 20
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪>作为方块人，你可以忍受干渴。反正只是眼有点昏..对吧..?\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "5AD8877CC466BB02"
+					silent: true
+					team_reward: true
+					title: "提示信息"
+					type: "command"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2D9776E0D1E2745C"
+				title: "多喝热水"
+				type: "checkmark"
+			}]
+			title: "多喝热水"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09CE54A789E7ACBC"]
+			description: [
+				"作为史蒂夫，你并不惧怕什么&6极端&b温度&f。他们不能对你造成什么&c伤害&f。"
+				"但&b太冷&f会让你更容易&2饥饿&f。&6太热&f会导致你更容易&b干渴。"
+			]
+			icon: "legendarysurvivaloverhaul:seasonal_calendar"
+			id: "4C62F99343486374"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E959D0D2D5E617A"
+					table_id: 9115470507369648878L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "069362513704B519"
+					team_reward: true
+					type: "xp"
+					xp: 20
+				}
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 作为方块人，你当然不惧寒暑。你只会热的口渴和冷的饿肚子\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "6608554678307810"
+					silent: true
+					team_reward: true
+					title: "提示信息"
+					type: "command"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5593DA07A1D9B691"
+				title: "不惧寒暑"
+				type: "checkmark"
+			}]
+			title: "不惧寒暑"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3A93B7602EC9ABAF"]
+			description: ["C"]
+			id: "3D824A870BBD3EC2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw @s [{\"text\":\"<相位仪> 你应该不会把铁傀儡做成奇怪的机器吧 哪怕把铁用掉了也不要制造奇奇怪怪的赤石机器啊喂\",\"color\":\"aqua\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+					elevate_perms: true
+					icon: "ftbquests:book"
+					id: "5FDEF33832719578"
+					silent: true
+					team_reward: true
+					title: "提示信息"
+					type: "command"
+				}
+				{
+					id: "3D4DAD42AD6E83FA"
+					item: "minecraft:iron_golem_spawn_egg"
+					type: "item"
+				}
+			]
+			secret: true
+			tasks: [
+				{
+					count: 3L
+					id: "6231C8A255384FEE"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "5D15BDC5E28E2C43"
+					item: "minecraft:carved_pumpkin"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4B6EC7BF338A1E99"]
+			description: ["在本章节，会有一些非常mc新手向的任务。&a当然小奖励也是会有的"]
+			id: "09CE54A789E7ACBC"
+			rewards: [{
+				auto: "invisible"
+				id: "399890EB6B66F173"
+				team_reward: true
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5D7F52D1868ABFF2"
+				type: "checkmark"
+			}]
+			title: "章节介绍"
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	title: "&6新手任务"
+}
